@@ -372,7 +372,7 @@ function ibus792EastHam(){
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "792 to East Ham, Central Park";
   BackDestination.setAttribute( "onClick", "BusTerminatesHereW3();" );
-  NextDestination.setAttribute( "onClick", "ClaptonPond792);" );
+  NextDestination.setAttribute( "onClick", "ClaptonPond792();" );
 }
 function ClaptonPond792(){
   topTextYes.style.display ="none";
@@ -443,4 +443,18 @@ function AdleyStreet792(){
   topTextNo.innerHTML = "Adley Street";
   BackDestination.setAttribute( "onClick", "GlynRoad792();" );
   NextDestination.setAttribute( "onClick", "KingsmeadEstate792();" );
+}
+function KingsmeadEstate792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Kingsmead Estate";
+  BackDestination.setAttribute( "onClick", "AdleyStreet792();" );
+  NextDestination.setAttribute( "onClick", "HackneyMarshPlayingFields792();" );
+}
+function KingsmeadEstate792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Kingsmead Estate";
+  BackDestination.setAttribute( "onClick", "AdleyStreet792();" );
+  NextDestination.setAttribute( "onClick", "HackneyMarshPlayingFields792();" );
 }
