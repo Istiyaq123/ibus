@@ -14,6 +14,14 @@ function NorthcumberlandParkW3(){
   ibusW3NorthcumberlandPark()
   showDestination.setAttribute( "onClick", "NorthcumberlandParkW3ibus();" );
 }
+function EastHam792(){
+  ibus792EastHam()
+  showDestination.setAttribute( "onClick", "EastHam792ibus();" );
+}
+function Clapton792(){
+  ibus792Clapton()
+  showDestination.setAttribute( "onClick", "Clapton792ibus();" );
+}
 
 function FinsburyParkW3ibus(){
   topTextYes.style.display ="none";
@@ -24,6 +32,16 @@ function NorthcumberlandParkW3ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "W3 to Northcumberland Park";
+}
+function EastHam792ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "792 to East Ham, Central Park";
+}
+function Clapton792ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "792 to Clapton Pond";
 }
 
 function ibusW3FinsburyPark(){
@@ -347,4 +365,75 @@ function ibusW3NorthcumberlandPark(){
   topTextNo.innerHTML = "W3 to Northumberland Park";
   BackDestination.setAttribute( "onClick", "BusTerminatesHereW3();" );
   NextDestination.setAttribute( "onClick", "TollingtonParkW3();" );
+}
+
+function ibus792EastHam(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "792 to East Ham, Central Park";
+//   BackDestination.setAttribute( "onClick", "BusTerminatesHereW3();" );
+  NextDestination.setAttribute( "onClick", "ClaptonPond792);" );
+}
+function ClaptonPond792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Clapton Pond";
+  BackDestination.setAttribute( "onClick", "ibus792EastHam();" );
+  NextDestination.setAttribute( "onClick", "MillfieldsRoad792();" );
+}
+function MillfieldsRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Millfields Road";
+  BackDestination.setAttribute( "onClick", "ClaptonPond792();" );
+  NextDestination.setAttribute( "onClick", "ClaptonGirlsTechCollege792();" );
+}
+function ClaptonGirlsTechCollege792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Clapton Girls' Tech College";
+  BackDestination.setAttribute( "onClick", "MillfieldsRoad792();" );
+  NextDestination.setAttribute( "onClick", "JackDunningEstate792();" );
+}
+function JackDunningEstate792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Jack Dunning Estate";
+  BackDestination.setAttribute( "onClick", "ClaptonGirlsTechCollege792();" );
+  NextDestination.setAttribute( "onClick", "TheCityAcademy792();" );
+}
+function TheCityAcademy792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "The City Academy";
+  BackDestination.setAttribute( "onClick", "JackDunningEstate792();" );
+  NextDestination.setAttribute( "onClick", "FennStreet792();" );
+}
+function FennStreet792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Fenn Street";
+  BackDestination.setAttribute( "onClick", "TheCityAcademy792();" );
+  NextDestination.setAttribute( "onClick", "HomertonHospitalHomertonRow792();" );
+}
+function HomertonHospitalHomertonRow792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Homerton Hospital / Homerton Row";
+  BackDestination.setAttribute( "onClick", "FennStreet792();" );
+  NextDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet792();" );
+}
+function HomertonHospitalWardleStreet792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Homerton Hospital / Wardle Street";
+  BackDestination.setAttribute( "onClick", "HomertonHospitalHomertonRow792();" );
+  NextDestination.setAttribute( "onClick", "GlynRoad792();" );
+}
+function GlynRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Glyn Road";
+  BackDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet792();" );
+  NextDestination.setAttribute( "onClick", "GlynRoad792();" );
 }
