@@ -496,7 +496,7 @@ function CarpentersPrimarySchool792(){
 function StratfordHighStStnCarpentersRd792(){
   topTextYes.style.display ="block";
   topTextNo.style.display ="none";
-  topTextYes.innerHTML = "Carpenters Primary School";
+  topTextYes.innerHTML = "Stratford High St Stn / CarpentersRd";
   BackDestination.setAttribute( "onClick", "CarpentersPrimarySchool792();" );
   NextDestination.setAttribute( "onClick", "StratfordBusStation792();" );
   topTextYes.style.animationName = "StratfordHighStStnCarpentersRd";
