@@ -374,11 +374,18 @@ function ibus792EastHam(){
   BackDestination.setAttribute( "onClick", "BusTerminatesHereW3();" );
   NextDestination.setAttribute( "onClick", "ClaptonPond792();" );
 }
+function LeaBridgeRoundabout792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Lea Bridge Roundabout";
+  BackDestination.setAttribute( "onClick", "BusTerminatesHere792();" );
+  NextDestination.setAttribute( "onClick", "ClaptonPond792();" );
+}
 function ClaptonPond792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Clapton Pond";
-  BackDestination.setAttribute( "onClick", "ibus792EastHam();" );
+  BackDestination.setAttribute( "onClick", "LeaBridgeRoundabout792();" );
   NextDestination.setAttribute( "onClick", "MillfieldsRoad792();" );
 }
 function MillfieldsRoad792(){
@@ -386,20 +393,27 @@ function MillfieldsRoad792(){
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Millfields Road";
   BackDestination.setAttribute( "onClick", "ClaptonPond792();" );
-  NextDestination.setAttribute( "onClick", "ClaptonGirlsTechCollege792();" );
+  NextDestination.setAttribute( "onClick", "ClaptonGirlsAcademy792();" );
 }
-function ClaptonGirlsTechCollege792(){
+function ClaptonGirlsAcademy792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Clapton Girls' Tech College";
-  BackDestination.setAttribute( "onClick", "MillfieldsRoad792();" );
+  topTextNo.innerHTML = "Clapton Girls' Academy";
+  BackDestination.setAttribute( "onClick", "ClaptonPond792();" );
+  NextDestination.setAttribute( "onClick", "JackDunningEstate792();" );
+}
+function GlenarmRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Glenarm Road";
+  BackDestination.setAttribute( "onClick", "ClaptonGirlsAcademy792();" );
   NextDestination.setAttribute( "onClick", "JackDunningEstate792();" );
 }
 function JackDunningEstate792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Jack Dunning Estate";
-  BackDestination.setAttribute( "onClick", "ClaptonGirlsTechCollege792();" );
+  BackDestination.setAttribute( "onClick", "GlenarmRoad792();" );
   NextDestination.setAttribute( "onClick", "TheCityAcademy792();" );
 }
 function TheCityAcademy792(){
@@ -430,11 +444,33 @@ function HomertonHospitalWardleStreet792(){
   BackDestination.setAttribute( "onClick", "HomertonHospitalHomertonRow792();" );
   NextDestination.setAttribute( "onClick", "GlynRoad792();" );
 }
+function BanisterHouse792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Banister House";
+  BackDestination.setAttribute( "onClick", "TheCityAcademy792();" );
+  NextDestination.setAttribute( "onClick", "HomertonHospital792();" );
+}
+function HomertonHospital792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Homerton Hospital";
+  BackDestination.setAttribute( "onClick", "BanisterHouse792();" );
+  NextDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation792();" );
+}
+function BrooksbysWalkHomertonStation792(){
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Brooksby's Walk / Homerton Station";
+  BackDestination.setAttribute( "onClick", "HomertonHospital792();" );
+  NextDestination.setAttribute( "onClick", "GlynRoad792();" );
+  topTextYes.style.animationName = "BrooksbyWalkHomertonStation";
+}
 function GlynRoad792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Glyn Road";
-  BackDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet792();" );
+  BackDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation792();" );
   NextDestination.setAttribute( "onClick", "AdleyStreet792();" );
 }
 function AdleyStreet792(){
@@ -444,11 +480,18 @@ function AdleyStreet792(){
   BackDestination.setAttribute( "onClick", "GlynRoad792();" );
   NextDestination.setAttribute( "onClick", "KingsmeadEstate792();" );
 }
+function MarshHill792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Marsh Hill";
+  BackDestination.setAttribute( "onClick", "GlynRoad792();" );
+  NextDestination.setAttribute( "onClick", "KingsmeadEstate792();" );
+}
 function KingsmeadEstate792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Kingsmead Estate";
-  BackDestination.setAttribute( "onClick", "AdleyStreet792();" );
+  BackDestination.setAttribute( "onClick", "MarshHill792();" );
   NextDestination.setAttribute( "onClick", "HackneyMarshPlayingFields792();" );
 }
 function HackneyMarshPlayingFields792(){
@@ -501,11 +544,26 @@ function StratfordHighStStnCarpentersRd792(){
   NextDestination.setAttribute( "onClick", "StratfordBusStation792();" );
   topTextYes.style.animationName = "StratfordHighStStnCarpentersRd";
 }
+function GibbinsRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Gibbins Road";
+  BackDestination.setAttribute( "onClick", "LondonAquaticsCentre792();" );
+  NextDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad792();" );
+}
+function StratfordHighStCarpentersRoad792(){
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Stratford High St / Carpenters Road";
+  BackDestination.setAttribute( "onClick", "GibbinsRoad792();" );
+  NextDestination.setAttribute( "onClick", "StratfordBusStation792();" );
+  topTextYes.style.animationName = "StratfordHighStCarpentersRoad";
+}
 function StratfordBusStation792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Stratford Bus Station";
-  BackDestination.setAttribute( "onClick", "StratfordHighStStnCarpentersRd792();" );
+  BackDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad792();" );
   NextDestination.setAttribute( "onClick", "LitchfieldAvenue792();" );
 }
 function LitchfieldAvenue792(){
@@ -515,11 +573,18 @@ function LitchfieldAvenue792(){
   BackDestination.setAttribute( "onClick", "StratfordBusStation792();" );
   NextDestination.setAttribute( "onClick", "WaterLaneUniversityOfEastLondon792();" );
 }
+function StratfordCentre792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Stratford Centre";
+  BackDestination.setAttribute( "onClick", "StratfordBusStation792();" );
+  NextDestination.setAttribute( "onClick", "WaterLaneUniversityOfEastLondon792();" );
+}
 function WaterLaneUniversityOfEastLondon792(){
   topTextYes.style.display ="block";
   topTextNo.style.display ="none";
   topTextYes.innerHTML = "Water Lane / University Of East London";
-  BackDestination.setAttribute( "onClick", "LitchfieldAvenue792();" );
+  BackDestination.setAttribute( "onClick", "StratfordCentre792();" );
   NextDestination.setAttribute( "onClick", "AthertonLeisureCentre792();" );
   topTextYes.style.animationName = "WaterLaneUniversityOfEastLondon";
 }
@@ -537,11 +602,18 @@ function MargeryParkRoad792(){
   BackDestination.setAttribute( "onClick", "AthertonLeisureCentre792();" );
   NextDestination.setAttribute( "onClick", "WoodgrangeRoad792();" );
 }
+function SprowstonRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Sprowston Road";
+  BackDestination.setAttribute( "onClick", "MargeryParkRoad792();" );
+  NextDestination.setAttribute( "onClick", "WoodgrangeRoad792();" );
+}
 function WoodgrangeRoad792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Woodgrange Road";
-  BackDestination.setAttribute( "onClick", "MargeryParkRoad792();" );
+  BackDestination.setAttribute( "onClick", "SprowstonRoad792();" );
   NextDestination.setAttribute( "onClick", "GreenStreet792();" );
 }
 function GreenStreet792(){
@@ -586,11 +658,18 @@ function CranbourneRoad792(){
   BackDestination.setAttribute( "onClick", "HighStreetNorth792();" );
   NextDestination.setAttribute( "onClick", "BerkeleyRoad792();" );
 }
+function RomfordRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Romford Road";
+  BackDestination.setAttribute( "onClick", "WoodgrangeParkStation792();" );
+  NextDestination.setAttribute( "onClick", "BerkeleyRoad792();" );
+}
 function BerkeleyRoad792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Berkeley Road";
-  BackDestination.setAttribute( "onClick", "CranbourneRoad792();" );
+  BackDestination.setAttribute( "onClick", "RomfordRoad792();" );
   NextDestination.setAttribute( "onClick", "RuskinAvenue792();" );
 }
 function RuskinAvenue792(){
@@ -642,11 +721,25 @@ function HighStreetNorth2nd792(){
   BackDestination.setAttribute( "onClick", "RonLeightonWay792();" );
   NextDestination.setAttribute( "onClick", "NewhamTownHall792();" );
 }
+function CaledonRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Caledon Road";
+  BackDestination.setAttribute( "onClick", "BendishRoad792();" );
+  NextDestination.setAttribute( "onClick", "KemptonRoad792();" );
+}
+function KemptonRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Kempton Road";
+  BackDestination.setAttribute( "onClick", "CaledonRoad792();" );
+  NextDestination.setAttribute( "onClick", "NewhamTownHall792();" );
+}
 function NewhamTownHall792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Newham Town Hall";
-  BackDestination.setAttribute( "onClick", "HighStreetNorth2nd792();" );
+  BackDestination.setAttribute( "onClick", "KemptonRoad792();" );
   NextDestination.setAttribute( "onClick", "MarketStreet792();" );
 }
 function MarketStreet792(){
@@ -656,11 +749,18 @@ function MarketStreet792(){
   BackDestination.setAttribute( "onClick", "NewhamTownHall792();" );
   NextDestination.setAttribute( "onClick", "EastHamCentralPark792();" );
 }
+function TilburyRoad792(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Tilbury Road";
+  BackDestination.setAttribute( "onClick", "NewhamTownHall792();" );
+  NextDestination.setAttribute( "onClick", "EastHamCentralPark792();" );
+}
 function EastHamCentralPark792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "East Ham / Central Park";
-  BackDestination.setAttribute( "onClick", "MarketStreet792();" );
+  BackDestination.setAttribute( "onClick", "TilburyRoad792();" );
   NextDestination.setAttribute( "onClick", "BusTerminatesHere792();" );
 }
 function BusTerminatesHere792(){
@@ -668,5 +768,12 @@ function BusTerminatesHere792(){
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Bus Terminates Here";
   BackDestination.setAttribute( "onClick", "EastHamCentralPark792();" );
-  NextDestination.setAttribute( "onClick", "BusTerminatesHere792();" );
+  NextDestination.setAttribute( "onClick", "ibus792Clapton();" );
+}
+function ibus792Clapton(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "792 to Clapton";
+  BackDestination.setAttribute( "onClick", "BusTerminatesHere792();" );
+  NextDestination.setAttribute( "onClick", "EastHamCentralPark792();" );
 }
