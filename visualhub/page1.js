@@ -633,9 +633,9 @@ function RonLeightonWay792(){
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Ron Leighton Way";
   BackDestination.setAttribute( "onClick", "BendishRoad792();" );
-  NextDestination.setAttribute( "onClick", "HighStreetNorth792();" );
+  NextDestination.setAttribute( "onClick", "HighStreetNorth2nd792();" );
 }
-function HighStreetNorth792(){
+function HighStreetNorth2nd792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "High Street North";
@@ -646,7 +646,7 @@ function NewhamTownHall792(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Newham Town Hall";
-  BackDestination.setAttribute( "onClick", "HighStreetNorth792();" );
+  BackDestination.setAttribute( "onClick", "HighStreetNorth2nd792();" );
   NextDestination.setAttribute( "onClick", "MarketStreet792();" );
 }
 function MarketStreet792(){
