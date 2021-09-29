@@ -22,6 +22,14 @@ function Clapton792(){
   ibus792Clapton()
   showDestination.setAttribute( "onClick", "Clapton792ibus();" );
 }
+function TurnpikeLaneStation232(){
+  ibus232TurnpikeLaneStation()
+  showDestination.setAttribute( "onClick", "TurnpikeLaneStation232ibus();" );
+}
+function StRaphael232(){
+  ibus232StRaphael()
+  showDestination.setAttribute( "onClick", "StRaphael232ibus();" );
+}
 
 function FinsburyParkW3ibus(){
   topTextYes.style.display ="none";
@@ -42,6 +50,16 @@ function Clapton792ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "792 to Clapton Pond";
+}
+function TurnpikeLaneStation232ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "232 to Turnpike Lane Station";
+}
+function StRaphael232ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "232 to St Raphael's";
 }
 
 function ibusW3FinsburyPark(){
