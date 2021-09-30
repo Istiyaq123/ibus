@@ -1129,5 +1129,47 @@ function HaringeyCivicCentre232(){
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Haringey Civic Centre";
   BackDestination.setAttribute( "onClick", "CanningCrescent232();" );
-  NextDestination.setAttribute( "onClick", "HaringeyCivicCentre232();" );
+  NextDestination.setAttribute( "onClick", "WoodGreenStation232();" );
+}
+function WoodGreenStation232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Wood Green Station";
+  BackDestination.setAttribute( "onClick", "HaringeyCivicCentre232();" );
+  NextDestination.setAttribute( "onClick", "WoodGreenShoppingCity232();" );
+}
+function WoodGreenShoppingCity232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Wood Green Shopping City";
+  BackDestination.setAttribute( "onClick", "WoodGreenStation232();" );
+  NextDestination.setAttribute( "onClick", "BramptonParkRoad232();" );
+}
+function BramptonParkRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Brampton Park Road";
+  BackDestination.setAttribute( "onClick", "WoodGreenShoppingCity232();" );
+  NextDestination.setAttribute( "onClick", "ColeraineRoad232();" );
+}
+function ColeraineRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Coleraine Road";
+  BackDestination.setAttribute( "onClick", "BramptonParkRoad232();" );
+  NextDestination.setAttribute( "onClick", "TurnpikeLaneStation232();" );
+}
+function TurnpikeLaneStation232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Turnpike Lane Station";
+  BackDestination.setAttribute( "onClick", "ColeraineRoad232();" );
+  NextDestination.setAttribute( "onClick", "BusTerminatesHere232();" );
+}
+function BusTerminatesHere232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bus Terminates Here";
+  BackDestination.setAttribute( "onClick", "TurnpikeLaneStation232();" );
+  NextDestination.setAttribute( "onClick", "BusTerminatesHere232();" );
 }
