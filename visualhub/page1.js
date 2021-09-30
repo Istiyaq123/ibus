@@ -912,5 +912,222 @@ function StaplesCorner232(){
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Staples Corner";
   BackDestination.setAttribute( "onClick", "OxgateLane232();" );
-  NextDestination.setAttribute( "onClick", "StaplesCorner232();" );
+  NextDestination.setAttribute( "onClick", "EtheridgeRoad232();" );
+}
+function EtheridgeRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Etheridge Road";
+  BackDestination.setAttribute( "onClick", "StaplesCorner232();" );
+  NextDestination.setAttribute( "onClick", "BrentCrossShoppingCentre232();" );
+}
+function BrentCrossShoppingCentre232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Brent Cross Shopping Centre";
+  BackDestination.setAttribute( "onClick", "EtheridgeRoad232();" );
+  NextDestination.setAttribute( "onClick", "HeathfieldGardens232();" );
+}
+function HeathfieldGardens232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Heathfield Gardens";
+  BackDestination.setAttribute( "onClick", "BrentCrossShoppingCentre232();" );
+  NextDestination.setAttribute( "onClick", "GoldersGreenRoad232();" );
+}
+function GoldersGreenRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Golders Green Road";
+  BackDestination.setAttribute( "onClick", "HeathfieldGardens232();" );
+  NextDestination.setAttribute( "onClick", "BridgeLane232();" );
+}
+function BridgeLane232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bridge Lane";
+  BackDestination.setAttribute( "onClick", "GoldersGreenRoad232();" );
+  NextDestination.setAttribute( "onClick", "SouthbourneCrescent232();" );
+}
+function SouthbourneCrescent232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Southbourne Crescent";
+  BackDestination.setAttribute( "onClick", "BridgeLane232();" );
+  NextDestination.setAttribute( "onClick", "HenlysCorner232();" );
+}
+function HenlysCorner232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Henlys Corner";
+  BackDestination.setAttribute( "onClick", "SouthbourneCrescent232();" );
+  NextDestination.setAttribute( "onClick", "BeechwoodAvenue232();" );
+}
+function BeechwoodAvenue232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Beechwood Avenue";
+  BackDestination.setAttribute( "onClick", "HenlysCorner232();" );
+  NextDestination.setAttribute( "onClick", "AmberdenAvenue232();" );
+}
+function AmberdenAvenue232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Amberden Avenue";
+  BackDestination.setAttribute( "onClick", "BeechwoodAvenue232();" );
+  NextDestination.setAttribute( "onClick", "EastEndRoad232();" );
+}
+function EastEndRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "East End Road";
+  BackDestination.setAttribute( "onClick", "AmberdenAvenue232();" );
+  NextDestination.setAttribute( "onClick", "LongLane232();" );
+}
+function LongLane232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Long Lane";
+  BackDestination.setAttribute( "onClick", "EastEndRoad232();" );
+  NextDestination.setAttribute( "onClick", "FinchleyHighRoad232();" );
+}
+function FinchleyHighRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Finchley High Road";
+  BackDestination.setAttribute( "onClick", "LongLane232();" );
+  NextDestination.setAttribute( "onClick", "CoppettsClose232();" );
+}
+function CoppettsClose232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Coppetts Close";
+  BackDestination.setAttribute( "onClick", "FinchleyHighRoad232();" );
+  NextDestination.setAttribute( "onClick", "ColneyHatchLane232();" );
+}
+function ColneyHatchLane232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Colney Hatch Lane";
+  BackDestination.setAttribute( "onClick", "CoppettsClose232();" );
+  NextDestination.setAttribute( "onClick", "AlexandraRoad232();" );
+}
+function AlexandraRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Alexandra Road";
+  BackDestination.setAttribute( "onClick", "ColneyHatchLane232();" );
+  NextDestination.setAttribute( "onClick", "BoundsGreenRoad232();" );
+}
+function BoundsGreenRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bounds Green Road";
+  BackDestination.setAttribute( "onClick", "AlexandraRoad232();" );
+  NextDestination.setAttribute( "onClick", "HobartCorner232();" );
+}
+function HobartCorner232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hobart Corner";
+  BackDestination.setAttribute( "onClick", "BoundsGreenRoad232();" );
+  NextDestination.setAttribute( "onClick", "LowerParkRoad232();" );
+}
+function LowerParkRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Lower Park Road";
+  BackDestination.setAttribute( "onClick", "HobartCorner232();" );
+  NextDestination.setAttribute( "onClick", "WhitmoreClose232();" );
+}
+function WhitmoreClose232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Whitmore Close";
+  BackDestination.setAttribute( "onClick", "LowerParkRoad232();" );
+  NextDestination.setAttribute( "onClick", "NewSouthgateStation232();" );
+}
+function NewSouthgateStation232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "New Southgate Station";
+  BackDestination.setAttribute( "onClick", "WhitmoreClose232();" );
+  NextDestination.setAttribute( "onClick", "BetstyleRoad232();" );
+}
+function BetstyleRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Betstyle Road";
+  BackDestination.setAttribute( "onClick", "NewSouthgateStation232();" );
+  NextDestination.setAttribute( "onClick", "ArnosGroveStation232();" );
+}
+function ArnosGroveStation232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Arnos Grove Station";
+  BackDestination.setAttribute( "onClick", "BetstyleRoad232();" );
+  NextDestination.setAttribute( "onClick", "TelfordRoad232();" );
+}
+function TelfordRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Telford Road";
+  BackDestination.setAttribute( "onClick", "ArnosGroveStation232();" );
+  NextDestination.setAttribute( "onClick", "BrownlowRoad232();" );
+}
+function BrownlowRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Brownlow Road";
+  BackDestination.setAttribute( "onClick", "TelfordRoad232();" );
+  NextDestination.setAttribute( "onClick", "PymmesRoad232();" );
+}
+function PymmesRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Pymmes Road";
+  BackDestination.setAttribute( "onClick", "BrownlowRoad232();" );
+  NextDestination.setAttribute( "onClick", "TottenhallRoad232();" );
+}
+function TottenhallRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Tottenhall Road";
+  BackDestination.setAttribute( "onClick", "PymmesRoad232();" );
+  NextDestination.setAttribute( "onClick", "BerkshireGardens232();" );
+}
+function BerkshireGardens232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Berkshire Gardens";
+  BackDestination.setAttribute( "onClick", "TottenhallRoad232();" );
+  NextDestination.setAttribute( "onClick", "ArcadianGardens232();" );
+}
+function ArcadianGardens232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Arcadian Gardens";
+  BackDestination.setAttribute( "onClick", "BerkshireGardens232();" );
+  NextDestination.setAttribute( "onClick", "NightingaleRoad232();" );
+}
+function NightingaleRoad232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Nightingale Road";
+  BackDestination.setAttribute( "onClick", "ArcadianGardens232();" );
+  NextDestination.setAttribute( "onClick", "CanningCrescent232();" );
+}
+function CanningCrescent232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Canning Crescent";
+  BackDestination.setAttribute( "onClick", "NightingaleRoad232();" );
+  NextDestination.setAttribute( "onClick", "HaringeyCivicCentre232();" );
+}
+function HaringeyCivicCentre232(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Haringey Civic Centre";
+  BackDestination.setAttribute( "onClick", "CanningCrescent232();" );
+  NextDestination.setAttribute( "onClick", "HaringeyCivicCentre232();" );
 }
