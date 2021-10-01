@@ -23,7 +23,7 @@ function Clapton792(){
   showDestination.setAttribute( "onClick", "Clapton792ibus();" );
 }
 function TurnpikeLaneStation232(){
-  ibus232TurnpikeLaneStation232()
+  ibus232TurnpikeLaneStation()
   showDestination.setAttribute( "onClick", "TurnpikeLaneStation232ibus();" );
 }
 function StRaphael232(){
@@ -796,7 +796,7 @@ function ibus792Clapton(){
   NextDestination.setAttribute( "onClick", "EastHamCentralPark792();" );
 }
 
-function ibus232TurnpikeLaneStation232(){
+function ibus232TurnpikeLaneStation(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "232 to Turnpike Lane Station";
