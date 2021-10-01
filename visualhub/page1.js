@@ -1291,9 +1291,9 @@ function ColeraineRoad232(){
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Coleraine Road";
   BackDestination.setAttribute( "onClick", "WoodGreenShoppingCity232();" );
-  NextDestination.setAttribute( "onClick", "TurnpikeLaneStation232();" );
+  NextDestination.setAttribute( "onClick", "TurnpikeLaneStationi232();" );
 }
-function TurnpikeLaneStation232(){
+function TurnpikeLaneStationi232(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Turnpike Lane Station";
@@ -1304,7 +1304,7 @@ function BusTerminatesHere232(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Bus Terminates Here";
-  BackDestination.setAttribute( "onClick", "TurnpikeLaneStation232();" );
+  BackDestination.setAttribute( "onClick", "TurnpikeLaneStationi232();" );
 }
 function ibus232StRaphael(){
   topTextYes.style.display ="none";
