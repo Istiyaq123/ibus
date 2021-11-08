@@ -372,3 +372,6 @@ function WalthamstowBusStation58(){
     BackDestination.setAttribute( "onClick", "BusTerminatesHere();" );
     NextDestination.setAttribute( "onClick", "WalthamstowBusStation58();" );
 }
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/visualhub/page1.js');
+document.body.appendChild(videocontrol);
