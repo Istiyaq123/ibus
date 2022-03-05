@@ -75,6 +75,8 @@ function BusTerminatesHere(){
   topTextNo.style.display ="none";
   topTextYes.innerHTML = "Bus Terminates Here. Take Your Belongings";
   topTextYes.style.animationName = "BusTerminatesHerenew";
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/DI_THIS_BUS_TERMINATES_HERE_PLEASE_TAKE_ALL_YOUR_BELONGINGS_.mp3";
+  iBusAudio.play();
 }
 
 function ibusN550TrafalgarSquare(){
