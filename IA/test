@@ -1,0 +1,268 @@
+var smallSpace = '<span class="invisible">.</span>'
+var bigSpace = '<span class="invisible">...</span>'
+var sSpace = '<span class="invisible">.</span>'
+var bSpace = '<span class="invisible">...</span>'
+
+var topTextYes = document.getElementById("topTextYes");
+var topTextNo = document.getElementById("topTextNo");
+
+
+function BethnalGreen702btn(){
+  MileEndStationBowRoad702()
+  showDestination.setAttribute( "onClick", "BethnalGreen702ibus();" );
+}
+function MileEnd702btn(){
+  WestCroydonBusStation250()
+  showDestination.setAttribute( "onClick", "MileEnd702ibus();" );
+}
+
+function BethnalGreen702ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "702 to Bethnal Green, Bonner Road";
+  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/702.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BONNER_ROAD_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+
+function MileEndStationBowRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Mile End Station / Bow Road";
+//   BackDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  NextDestination.setAttribute( "onClick", "MileEndStationBowRoad702Audio();" );
+}
+function MileEndStationBowRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MILE_END_STATION_BOW_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "MileEndStationBowRoad702();" );
+  NextDestination.setAttribute( "onClick", "MileEndStation702();" );
+}
+function MileEndStation702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Mile End Station";
+  BackDestination.setAttribute( "onClick", "MileEndStationBowRoad702();" );
+  NextDestination.setAttribute( "onClick", "MileEndStation702Audio();" );
+}
+function MileEndStation702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MILE_END_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "MileEndStation702();" );
+  NextDestination.setAttribute( "onClick", "CobornRoad702();" );
+}
+function CobornRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Coborn Road";
+  BackDestination.setAttribute( "onClick", "MileEndStation702();" );
+  NextDestination.setAttribute( "onClick", "CobornRoad702Audio();" );
+}
+function CobornRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_COBORN_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "CobornRoad702();" );
+  NextDestination.setAttribute( "onClick", "BowRoadStation702();" );
+}
+function BowRoadStation702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bow Road Station";
+  BackDestination.setAttribute( "onClick", "CobornRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "BowRoadStation702Audio();" );
+}
+function BowRoadStation702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BOW_ROAD_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BowRoadStation702();" );
+  NextDestination.setAttribute( "onClick", "BowChurchStation702();" );
+}
+function BowChurchStation702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bow Church station";
+  BackDestination.setAttribute( "onClick", "BowRoadStation702Audio();" );
+  NextDestination.setAttribute( "onClick", "BowChurchStation702Audio();" );
+}
+function BowChurchStation702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BOW_CHURCH_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BowChurchStation702();" );
+  NextDestination.setAttribute( "onClick", "BowBusGarage702();" );
+}
+function BowBusGarage702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bow Bus Garage";
+  BackDestination.setAttribute( "onClick", "BowChurchStation702Audio();" );
+  NextDestination.setAttribute( "onClick", "BowBusGarage702Audio();" );
+}
+function BowBusGarage702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_BOW_BUS_GARAGE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BowBusGarage702();" );
+  NextDestination.setAttribute( "onClick", "TredegarRoad702();" );
+}
+function TredegarRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Tredegar Road";
+  BackDestination.setAttribute( "onClick", "BowBusGarage702Audio();" );
+  NextDestination.setAttribute( "onClick", "TredegarRoad702Audio();" );
+}
+function TredegarRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_TREDEGAR_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "TredegarRoad702();" );
+  NextDestination.setAttribute( "onClick", "RomanRoadMarket702();" );
+}
+function RomanRoadMarket702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Roman Road Market";
+  BackDestination.setAttribute( "onClick", "TredegarRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "RomanRoadMarket702Audio();" );
+}
+function RomanRoadMarket702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ROMAN_ROAD_MARKET_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "RomanRoadMarket702();" );
+  NextDestination.setAttribute( "onClick", "OldFordRoad702();" );
+}
+function OldFordRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Old Ford Road";
+  BackDestination.setAttribute( "onClick", "RomanRoadMarket702Audio();" );
+  NextDestination.setAttribute( "onClick", "OldFordRoad702Audio();" );
+}
+function OldFordRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_OLD_FORD_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "OldFordRoad702();" );
+  NextDestination.setAttribute( "onClick", "ParnellRoad702();" );
+}
+function ParnellRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Parnell Road";
+  BackDestination.setAttribute( "onClick", "OldFordRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "ParnellRoad702Audio();" );
+}
+function ParnellRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_PARNELL_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "ParnellRoad702();" );
+  NextDestination.setAttribute( "onClick", "AliceLane702();" );
+}
+function AliceLane702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Alice Lane";
+  BackDestination.setAttribute( "onClick", "ParnellRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "AliceLane702Audio();" );
+}
+function AliceLane702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ALICE_LANE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "AliceLane702();" );
+  NextDestination.setAttribute( "onClick", "FordRoad702();" );
+}
+function FordRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Ford Road";
+  BackDestination.setAttribute( "onClick", "AliceLane702Audio();" );
+  NextDestination.setAttribute( "onClick", "FordRoad702Audio();" );
+}
+function FordRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_FORD_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "FordRoad702();" );
+  NextDestination.setAttribute( "onClick", "MedwayRoad702();" );
+}
+function MedwayRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Medway Road";
+  BackDestination.setAttribute( "onClick", "FordRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "MedwayRoad702Audio();" );
+}
+function MedwayRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MEDWAY_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "MedwayRoad702();" );
+  NextDestination.setAttribute( "onClick", "HaverfieldGreenGroveRoad702();" );
+}
+function HaverfieldGreenGroveRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Haverfield Green / Grove Road";
+  BackDestination.setAttribute( "onClick", "MedwayRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "HaverfieldGreenGroveRoad702Audio();" );
+}
+function HaverfieldGreenGroveRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HAVERFIELD_GREEN_GROVE_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HaverfieldGreenGroveRoad702();" );
+  NextDestination.setAttribute( "onClick", "BonnerStreet702();" );
+}
+function BonnerStreet702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bonner Street";
+  BackDestination.setAttribute( "onClick", "HaverfieldGreenGroveRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "BonnerStreet702Audio();" );
+}
+function BonnerStreet702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BONNER_STREET_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BonnerStreet702();" );
+  NextDestination.setAttribute( "onClick", "BonnerRoad702();" );
+}
+function BonnerRoad702(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bonner Road";
+  BackDestination.setAttribute( "onClick", "BonnerRoad702Audio();" );
+  NextDestination.setAttribute( "onClick", "BonnerRoad702Audio();" );
+}
+function BonnerRoad702Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BONNER_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BonnerRoad702();" );
+  NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+}
+
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page1.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page2.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page3.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page4.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page5.js');
+document.body.appendChild(videocontrol);

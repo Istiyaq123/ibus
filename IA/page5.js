@@ -2446,3 +2446,19 @@ function WestCroydonBusStation250(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WEST_CROYDON_BUS_STATION_001.mp3";
   iBusAudio.play();
 }
+
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page1.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page2.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page3.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page4.js');
+document.body.appendChild(videocontrol);
+var videocontrol = document.createElement('script');
+videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page5.js');
+document.body.appendChild(videocontrol);

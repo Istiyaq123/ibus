@@ -23,14 +23,6 @@ function Wait(){
   topTextNo.innerHTML = "Bus will wait for a short time";
 }
 
-function BethnalGreen702btn(){
-  ibus702BethnalGreen()
-  showDestination.setAttribute( "onClick", "BethnalGreen702ibus();" );
-}
-function MileEnd702btn(){
-  ibus702MileEnd()
-  showDestination.setAttribute( "onClick", "MileEnd702ibus();" );
-}
 function Ilford648btn(){
   ibus648Ilford()
   showDestination.setAttribute( "onClick", "Ilford648ibus();" );
