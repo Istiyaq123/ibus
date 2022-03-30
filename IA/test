@@ -10,7 +10,7 @@ function BusTerminatesHereAudio(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Bus Terminates Here";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/702.mp3";
+  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/new end ibus.mp3";
   iBusAudio.play();
 }
 
