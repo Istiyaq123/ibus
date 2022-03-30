@@ -1262,7 +1262,7 @@ function HighStreetGreenLane197Audio(){
 function PengePawleyneArms197(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
-  topTextNo.innerHTML = "High Street / Green Lane";
+  topTextNo.innerHTML = "Penge / Pawleyne Arms";
   BackDestination.setAttribute( "onClick", "PengePawleyneArms197Audio();" );
   NextDestination.setAttribute( "onClick", "PengePawleyneArms197Audio();" );
 }
@@ -1496,7 +1496,7 @@ function WoodsideGreen197Audio(){
 function BlackhorseLane197(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Woodside Green";
+  topTextNo.innerHTML = "Blackhorse Lane";
   BackDestination.setAttribute( "onClick", "BlackhorseLane197Audio();" );
   NextDestination.setAttribute( "onClick", "BlackhorseLane197Audio();" );
 }
@@ -1613,7 +1613,7 @@ function EastCroydonStation197Audio(){
 function FairfieldHalls197(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
-  topTextNo.innerHTML = "East Croydon Station";
+  topTextNo.innerHTML = "Fairfield Halls";
   BackDestination.setAttribute( "onClick", "FairfieldHalls197Audio();" );
   NextDestination.setAttribute( "onClick", "FairfieldHalls197Audio();" );
 }
