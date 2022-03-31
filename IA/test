@@ -544,11 +544,12 @@ function BrigstockRoadLondonRoad663Audio(){
   NextDestination.setAttribute( "onClick", "ThorntonHeathPondFairlandsAvenue663();" );
 }
 function ThorntonHeathPondFairlandsAvenue663(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Thornton Heath Pond / Fairlands Avenue";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Thornton Heath Pond / Fairlands Avenue";
   BackDestination.setAttribute( "onClick", "ThorntonHeathPondFairlandsAvenue663Audio();" );
   NextDestination.setAttribute( "onClick", "ThorntonHeathPondFairlandsAvenue663Audio();" );
+  topTextYes.style.animationName = "ThorntonHeathPondFairlandsAvenue";
 }
 function ThorntonHeathPondFairlandsAvenue663Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_THORNTON_HEATH_POND_FAIRLANDS_AVENUE_001.mp3";
@@ -635,11 +636,12 @@ function NewmanRoad663Audio(){
   NextDestination.setAttribute( "onClick", "PurleyWayBeddingtonFarmRoad663();" );
 }
 function PurleyWayBeddingtonFarmRoad663(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Purley Way / Beddington Farm Road";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Purley Way / Beddington Farm Road";
   BackDestination.setAttribute( "onClick", "PurleyWayBeddingtonFarmRoad663Audio();" );
   NextDestination.setAttribute( "onClick", "PurleyWayBeddingtonFarmRoad663Audio();" );
+  topTextYes.style.animationName = "PurleyWayBeddingtonFarmRoad";
 }
 function PurleyWayBeddingtonFarmRoad663Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_PURLEY_WAY_BEDDINGTON_FARM_ROAD_001.mp3";
@@ -1091,11 +1093,12 @@ function ForestHillPools197Audio(){
   NextDestination.setAttribute( "onClick", "DartmouthRoadThorpewoodAvenue197();" );
 }
 function DartmouthRoadThorpewoodAvenue197(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Dartmouth Road / Thorpewood Avenue";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Dartmouth Road / Thorpewood Avenue";
   BackDestination.setAttribute( "onClick", "DartmouthRoadThorpewoodAvenue197Audio();" );
   NextDestination.setAttribute( "onClick", "DartmouthRoadThorpewoodAvenue197Audio();" );
+  topTextYes.style.animationName = "DartmouthRoadThorpewoodAvenue";
 }
 function DartmouthRoadThorpewoodAvenue197Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_DARTMOUTH_ROAD_THORPEWOOD_AVENUE_001.mp3";
@@ -1390,11 +1393,12 @@ function Sunnybank197Audio(){
   NextDestination.setAttribute( "onClick", "PortlandRoadNorwoodJctStation197();" );
 }
 function PortlandRoadNorwoodJctStation197(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Portland Road / Norwood Jct Station";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Portland Road / Norwood Jct Station";
   BackDestination.setAttribute( "onClick", "Sunnybank197Audio();" );
   NextDestination.setAttribute( "onClick", "PortlandRoadNorwoodJctStation197Audio();" );
+  topTextYes.style.animationName = "PortlandRoadNorwoodJctStation";
 }
 function PortlandRoadNorwoodJctStation197Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_PORTLAN_ROAD_NORWOOD_JUNCTION_STATION_001.mp3";
@@ -1624,11 +1628,12 @@ function CherryOrchardRdEastCroydonStn197Audio(){
   NextDestination.setAttribute( "onClick", "CherryOrchardRdEastCroydonStn197();" );
 }
 function CherryOrchardRdEastCroydonStn197(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Cherry Orchard Rd / East Croydon Stn";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Cherry Orchard Rd / East Croydon Stn";
   BackDestination.setAttribute( "onClick", "CherryOrchardRdEastCroydonStn197Audio();" );
   NextDestination.setAttribute( "onClick", "FairfieldHalls197Audio();" );
+  topTextYes.style.animationName = "CherryOrchardRdEastCroydonStn";
 }
 function FairfieldHalls197Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_Fairfield_Halls_001.mp3";
