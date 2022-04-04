@@ -6,11 +6,6 @@ var bSpace = '<span class="invisible">...</span>'
 var topTextYes = document.getElementById("topTextYes");
 var topTextNo = document.getElementById("topTextNo");
 
-function DriverChange(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="Block";
-  topTextNo.innerHTML = "Driver Change";
-}
 
 function TrafalgarSquareN550btn(){
   ibusN550TrafalgarSquare()

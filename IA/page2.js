@@ -16,11 +16,15 @@ function Diversion(){
   topTextNo.style.display ="none";
   topTextYes.innerHTML = "Bus on diversion. Please listen for further announcements";
   topTextYes.style.animationName = "Diversion";
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/DI_THIS_BUS_IS_ON_DIVERSION_%20PLEASE_LISTEN_FOR_FUTHER_ANNOUNCEMENTS_001.mp3";
+  iBusAudio.play();
 }
 function Wait(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   topTextNo.innerHTML = "Bus will wait for a short time";
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/DI_THE_DRIVER_HAS_BEEN_INSTRUCTED_TO_WAIT_AT_THIS_BUS_STOP_F.mp3";
+  iBusAudio.play();
 }
 
 function Ilford648btn(){
