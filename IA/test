@@ -201,7 +201,7 @@ function Peckham197ibus(){
 function StIgnatiusCollege629ibus(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
-    topTextNo.innerHTML = "629 to Peckham";
+    topTextNo.innerHTML = "629 to St Ignatius College";
     iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_629_001.mp3";
     iBusAudio.play();
     iBusAudio.onended = function() {
