@@ -2003,7 +2003,7 @@ function SolnaRoad629Audio(){
 function GreenDragonLane629(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Solna Road";
+  topTextNo.innerHTML = "Green Dragon Lane";
   BackDestination.setAttribute( "onClick", "GreenDragonLane629Audio();" );
   NextDestination.setAttribute( "onClick", "GreenDragonLane629Audio();" );
 }
