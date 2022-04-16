@@ -257,9 +257,10 @@ function WoodGreen629ibus(){
     };
 }
 function CityThameslink25ibus(){
-    topTextYes.style.display ="none";
-    topTextNo.style.display ="block";
-    topTextNo.innerHTML = "25 to to City Thameslink, Holborn Viaduct";
+    topTextYes.style.display ="block";
+    topTextNo.style.display ="none";
+    topTextYes.innerHTML = "25 to to City Thameslink, Holborn Viaduct";
+    topTextYes.style.animationName = "CityThameslinkHolbornViaduct25";
     iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_25_002.mp3";
     iBusAudio.play();
     iBusAudio.onended = function() {
@@ -2896,7 +2897,7 @@ function SidneyStreet25Audio(){
 function WhitechapelStnRoyalLondonHosp25(){
   topTextYes.style.display ="block";
   topTextNo.style.display ="none";
-  topTextyes.innerHTML = "Whitechapel Stn / Royal London Hosp";
+  topTextYes.innerHTML = "Whitechapel Stn / Royal London Hosp";
   BackDestination.setAttribute( "onClick", "WhitechapelStnRoyalLondonHosp25Audio();" );
   NextDestination.setAttribute( "onClick", "WhitechapelStnRoyalLondonHosp25Audio();" );
   topTextYes.style.animationName = "WhitechapelStnRoyalLondonHosp";
