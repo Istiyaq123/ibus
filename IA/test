@@ -2580,11 +2580,12 @@ function AthertonLeisureCentre25Audio(){
   NextDestination.setAttribute( "onClick", "WaterLaneUniversityOfEastLondon25();" );
 }
 function WaterLaneUniversityOfEastLondon25(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Water Lane / University Of East London";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Water Lane / University Of East London";
   BackDestination.setAttribute( "onClick", "WaterLaneUniversityOfEastLondon25Audio();" );
   NextDestination.setAttribute( "onClick", "WaterLaneUniversityOfEastLondon25Audio();" );
+  topTextYes.style.animationName = "WaterLaneUniversityOfEastLondon";
 }
 function WaterLaneUniversityOfEastLondon25Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_Water_Lane_University_Of_East_London_001.mp3";
@@ -2645,11 +2646,12 @@ function StratfordBusStation25Audio(){
   NextDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad25();" );
 }
 function StratfordHighStCarpentersRoad25(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Stratford High St / Carpenters Road";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Stratford High St / Carpenters Road";
   BackDestination.setAttribute( "onClick", "StratfordBusStation25Audio();" );
   NextDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad25Audio();" );
+  topTextYes.style.animationName = "StratfordHighStCarpentersRoad";
 }
 function StratfordHighStCarpentersRoad25Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_Stratford_High_St_Carpenters_Road_001.mp3";
@@ -2892,11 +2894,12 @@ function SidneyStreet25Audio(){
   NextDestination.setAttribute( "onClick", "WhitechapelStnRoyalLondonHosp25();" );
 }
 function WhitechapelStnRoyalLondonHosp25(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Whitechapel Stn / Royal London Hosp";
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextyes.innerHTML = "Whitechapel Stn / Royal London Hosp";
   BackDestination.setAttribute( "onClick", "WhitechapelStnRoyalLondonHosp25Audio();" );
   NextDestination.setAttribute( "onClick", "WhitechapelStnRoyalLondonHosp25Audio();" );
+  topTextYes.style.animationName = "WhitechapelStnRoyalLondonHosp";
 }
 function WhitechapelStnRoyalLondonHosp25Audio(){
   iBusAudio.src="https://istiyaq123.github.io/ibus/audio/Whitechapel_Stn_Royal_London_Hosp.mp3";
@@ -3099,19 +3102,3 @@ function HolbornCircus25(){
   BackDestination.setAttribute( "onClick", "HolbornCircus25Audio();" );
   // NextDestination.setAttribute( "onClick", "CityThameslinkStation25Audio();" );
 }
-
-var videocontrol = document.createElement('script');
-videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page1.js');
-document.body.appendChild(videocontrol);
-var videocontrol = document.createElement('script');
-videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page2.js');
-document.body.appendChild(videocontrol);
-var videocontrol = document.createElement('script');
-videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page3.js');
-document.body.appendChild(videocontrol);
-var videocontrol = document.createElement('script');
-videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page4.js');
-document.body.appendChild(videocontrol);
-var videocontrol = document.createElement('script');
-videocontrol.setAttribute('src','https://istiyaq123.github.io/ibus/IA/page5.js');
-document.body.appendChild(videocontrol);
