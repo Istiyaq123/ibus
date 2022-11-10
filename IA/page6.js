@@ -6,7 +6,7 @@ var bSpace = '<span class="invisible">...</span>'
 var topTextYes = document.getElementById("topTextYes");
 var topTextNo = document.getElementById("topTextNo");
 
-function BrentfordCountyCourt195(){
+function BrentfordCountyCourt195btn(){
   RomneyRoad195()
   showDestination.setAttribute( "onClick", "BrentfordCountyCourt195ibus();" );
 }
