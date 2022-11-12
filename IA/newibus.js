@@ -648,7 +648,7 @@ function newLowellStreet135(){
   elizabeth_line_Roundel.style.display = "none";
   National_Rail_logo.style.display = "none";
   DLR_Roundel.style.display = "none";
-  National_Rail_logo.style.display = "none":
+  National_Rail_logo.style.display = "none";
   BackDestination.setAttribute( "onClick", "newLowellStreet135Audio();" );
   NextDestination.setAttribute( "onClick", "newLowellStreet135Audio();" );
 }
@@ -659,8 +659,8 @@ function newSalmonLane135(){
   DLR_Roundel.style.display = "none";
   elizabeth_line_Roundel.style.display = "none";
   National_Rail_logo.style.display = "none";
-  DLR_Roundel.style.display = "none":
-  National_Rail_logo.style.display = "none":
+  DLR_Roundel.style.display = "none";
+  National_Rail_logo.style.display = "none";
   BackDestination.setAttribute( "onClick", "newSalmonLane135Audio();" );
   NextDestination.setAttribute( "onClick", "newLowellStreet135Audio();" );
 }
@@ -671,8 +671,8 @@ function newBurdettRoad135(){
   DLR_Roundel.style.display = "none";
   elizabeth_line_Roundel.style.display = "none";
   National_Rail_logo.style.display = "none";
-  DLR_Roundel.style.display = "none":
-  National_Rail_logo.style.display = "none":
+  DLR_Roundel.style.display = "none";
+  National_Rail_logo.style.display = "none";
   BackDestination.setAttribute( "onClick", "newBurdettRoad135Audio();" );
   NextDestination.setAttribute( "onClick", "newLowellStreet135Audio();" );
 }
