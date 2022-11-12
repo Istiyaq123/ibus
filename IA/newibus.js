@@ -1,7 +1,3 @@
-function BusTerminatesHerenewIbus(){
-  newIbusdisplayDes.innerHTML = topDestination+"Bus Terminates Here"+topDestination2;
-}
-
 function mewCrossharbourASDA135(){
   newIbusdisplayDes.innerHTML = topDestination+"Crossharbour ASDA"+topDestination2;
   underground_Roundel.style.display = "none";
