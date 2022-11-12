@@ -647,7 +647,7 @@ function newLowellStreet135(){
   DLR_Roundel.style.display = "none";
   elizabeth_line_Roundel.style.display = "none";
   National_Rail_logo.style.display = "none";
-  DLR_Roundel.style.display = "none":
+  DLR_Roundel.style.display = "none";
   National_Rail_logo.style.display = "none":
   BackDestination.setAttribute( "onClick", "newLowellStreet135Audio();" );
   NextDestination.setAttribute( "onClick", "newLowellStreet135Audio();" );
