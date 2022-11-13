@@ -72,6 +72,14 @@ function HayesByPass207btn(){
   WhiteCityBusStation207()
   showDestination.setAttribute( "onClick", "HayesByPass207ibus();" );
 }
+function ActonHighStreet427btn(){
+  YorkRoad427()
+  showDestination.setAttribute( "onClick", "ActonHighStreet427ibus();" );
+}
+function Uxbridge427btn(){
+  DenehurstGardens427()
+  showDestination.setAttribute( "onClick", "Uxbridge427ibus();" );
+}
 
 
 function BrentfordCountyCourt195ibus(){
@@ -168,6 +176,32 @@ function HayesByPass207ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_HAYES_BY_PASS_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  }
+}
+function ActonHighStreet427ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "427 to Acton, High Street";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_427_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_ACTON_HIGH_STREET_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -1884,5 +1918,1015 @@ function WhiteCityBusStation207Audio(){
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_WHITE_CITY_BUS_STATION_001.mp3";
   iBusAudio.play();
   BackDestination.setAttribute( "onClick", "ShepherdsBushStation207();" );
+  NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+}
+
+
+function YorkRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "York Road";
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function YorkRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_YORK_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  NextDestination.setAttribute( "onClick", "UxbridgeStation427();" );
+}
+function UxbridgeStation427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Uxbridge Station";
+  BackDestination.setAttribute( "onClick", "UxbridgeStation427Audio();" );
+  NextDestination.setAttribute( "onClick", "UxbridgeStation427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function UxbridgeStation427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_UXBRIDGE_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "UxbridgeHighStreet427();" );
+}
+function UxbridgeHighStreet427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Uxbridge High Street";
+  BackDestination.setAttribute( "onClick", "UxbridgeHighStreet427Audio();" );
+  NextDestination.setAttribute( "onClick", "UxbridgeHighStreet427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function UxbridgeHighStreet427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_UXBRIDGE_HIGH_STREET_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "CrownWalk427();" );
+}
+function CrownWalk427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Crown Walk";
+  BackDestination.setAttribute( "onClick", "CrownWalk427Audio();" );
+  NextDestination.setAttribute( "onClick", "CrownWalk427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function BelmontRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Belmont Road";
+  BackDestination.setAttribute( "onClick", "BelmontRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "CrownWalk427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function BelmontRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BELMONT_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427();" );
+  NextDestination.setAttribute( "onClick", "VineStreet427();" );
+}
+function CrownWalk427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CROWN_WALK_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BelmontRoad427();" );
+  NextDestination.setAttribute( "onClick", "VineStreet427();" );
+}
+function VineStreet427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Vine Street";
+  BackDestination.setAttribute( "onClick", "VineStreet427Audio();" );
+  NextDestination.setAttribute( "onClick", "VineStreet427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function VineStreet427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_VINE_STREET_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "StAndrewsChurch427();" );
+}
+function StAndrewsChurch427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "St Andrew's Church";
+  BackDestination.setAttribute( "onClick", "StAndrewsChurch427Audio();" );
+  NextDestination.setAttribute( "onClick", "StAndrewsChurch427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function CivicCentre427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Civic Centre";
+  BackDestination.setAttribute( "onClick", "CivicCentre427Audio();" );
+  NextDestination.setAttribute( "onClick", "StAndrewsChurch427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function CivicCentre427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CIVIC_CENTRE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "CrownWalk427();" );
+  NextDestination.setAttribute( "onClick", "ManorWaye427();" );
+}
+function StAndrewsChurch427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_ANDREWS_CHURCH_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "CivicCentre427();" );
+  NextDestination.setAttribute( "onClick", "ManorWaye427();" );
+}
+function ManorWaye427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Manor Waye";
+  BackDestination.setAttribute( "onClick", "ManorWaye427Audio();" );
+  NextDestination.setAttribute( "onClick", "ManorWaye427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function ManorWaye427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MANOR_WAYNE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "StAndrewsChurch427();" );
+  NextDestination.setAttribute( "onClick", "TheGreenway427();" );
+}
+function TheGreenway427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "The Greenway";
+  BackDestination.setAttribute( "onClick", "TheGreenway427Audio();" );
+  NextDestination.setAttribute( "onClick", "TheGreenway427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function TheGreenway427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_THE_GREENWAY_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "ManorWaye427();" );
+  NextDestination.setAttribute( "onClick", "HillingdonCemetery427();" );
+}
+function HillingdonCemetery427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hillingdon Cemetery";
+  BackDestination.setAttribute( "onClick", "HillingdonCemetery427Audio();" );
+  NextDestination.setAttribute( "onClick", "HillingdonCemetery427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function HillingdonCemetery427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HILLINGDON_CEMETERY_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "TheGreenway427();" );
+  NextDestination.setAttribute( "onClick", "StJohnsChurch427();" );
+}
+function StJohnsChurch427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "St John's Church";
+  BackDestination.setAttribute( "onClick", "StJohnsChurch427Audio();" );
+  NextDestination.setAttribute( "onClick", "StJohnsChurch427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function StJohnsChurch427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_JOHNS_CHURCH_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HillingdonCemetery427();" );
+  NextDestination.setAttribute( "onClick", "HarlingtonRoad427();" );
+}
+function HarlingtonRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Harlington Road";
+  BackDestination.setAttribute( "onClick", "HarlingtonRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HarlingtonRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function HarlingtonRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HARLINGTON_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "LongLane427();" );
+}
+function LongLane427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Long Lane";
+  BackDestination.setAttribute( "onClick", "LongLane427Audio();" );
+  NextDestination.setAttribute( "onClick", "LongLane427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function ConeyGreen427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Coney Green";
+  BackDestination.setAttribute( "onClick", "ConeyGreen427Audio();" );
+  NextDestination.setAttribute( "onClick", "LongLane427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function ConeyGreen427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CONEY_GREEN_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "StJohnsChurch427();" );
+  NextDestination.setAttribute( "onClick", "HillingdonPrimarySchool427();" );
+}
+function LongLane427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LONG_LANE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "ConeyGreen427();" );
+  NextDestination.setAttribute( "onClick", "HillingdonPrimarySchool427();" );
+}
+function HillingdonPrimarySchool427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hillingdon Primary School";
+  BackDestination.setAttribute( "onClick", "HillingdonPrimarySchool427Audio();" );
+  NextDestination.setAttribute( "onClick", "HillingdonPrimarySchool427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function HillingdonPrimarySchool427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HALLINDON_PRIMARY_SCHOOL_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "LongLane427();" );
+  NextDestination.setAttribute( "onClick", "LeesRoad427();" );
+}
+function LeesRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Lees Road";
+  BackDestination.setAttribute( "onClick", "LeesRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "LeesRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function LeesRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LEES_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HillingdonPrimarySchool427();" );
+  NextDestination.setAttribute( "onClick", "HeathRoad427();" );
+}
+function HeathRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Heath Road";
+  BackDestination.setAttribute( "onClick", "HeathRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HeathRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function HeathRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HEATH_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HewensRoad427();" );
+}
+function HewensRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hewens Road";
+  BackDestination.setAttribute( "onClick", "HewensRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HewensRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function HewensRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HEWENS_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesPoliceStation427();" );
+}
+function HayesPoliceStation427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hayes Police Station";
+  BackDestination.setAttribute( "onClick", "HayesPoliceStation427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesPoliceStation427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function HayesPoliceStation427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HAYES_POLICE_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesEnd427();" );
+}
+function HayesEnd427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hayes End";
+  BackDestination.setAttribute( "onClick", "HayesEnd427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesEnd427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function MorgansLane427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Morgans Lane";
+  BackDestination.setAttribute( "onClick", "MorgansLane427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesEnd427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function WestDraytonRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "West Drayton Road";
+  BackDestination.setAttribute( "onClick", "WestDraytonRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesEnd427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function NewRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "New Road";
+  BackDestination.setAttribute( "onClick", "NewRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesEnd427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function NewRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_NEW_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "LeesRoad427();" );
+  NextDestination.setAttribute( "onClick", "ParkRoad427();" );
+}
+function WestDraytonRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WEST_DRAYTON_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "NewRoad427();" );
+  NextDestination.setAttribute( "onClick", "ParkRoad427();" );
+}
+function MorgansLane427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MORGANS_LANE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "WestDraytonRoad427();" );
+  NextDestination.setAttribute( "onClick", "ParkRoad427();" );
+}
+function HayesEnd427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HAYES_END_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "MorgansLane427();" );
+  NextDestination.setAttribute( "onClick", "ParkRoad427();" );
+}
+function ParkRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Park Road";
+  BackDestination.setAttribute( "onClick", "ParkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "ParkRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function ParkRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_PARK_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HayesEnd427();" );
+  NextDestination.setAttribute( "onClick", "RosedalePark427();" );
+}
+function RosedalePark427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Rosedale Park";
+  BackDestination.setAttribute( "onClick", "RosedalePark427Audio();" );
+  NextDestination.setAttribute( "onClick", "RosedalePark427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function RosedalePark427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ROSEDALE_PARK_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "ParkRoad427();" );
+  NextDestination.setAttribute( "onClick", "UxbridgeCountyCourt427();" );
+}
+function UxbridgeCountyCourt427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Uxbridge County Court";
+  BackDestination.setAttribute( "onClick", "UxbridgeCountyCourt427Audio();" );
+  NextDestination.setAttribute( "onClick", "UxbridgeCountyCourt427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function UxbridgeCountyCourt427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_UXBRIDGE_COUNTY_COURT_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "RosedalePark427();" );
+  NextDestination.setAttribute( "onClick", "ChurchRoad427();" );
+}
+function ChurchRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Church Road";
+  BackDestination.setAttribute( "onClick", "ChurchRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "ChurchRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function ChurchRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CHURCH_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "UxbridgeCountyCourt427();" );
+  NextDestination.setAttribute( "onClick", "BelmoreParade427();" );
+}
+function BelmoreParade427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Belmore Parade";
+  BackDestination.setAttribute( "onClick", "BelmoreParade427Audio();" );
+  NextDestination.setAttribute( "onClick", "BelmoreParade427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function BelmoreParade427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BELMORE_PARADE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "ChurchRoad427();" );
+  NextDestination.setAttribute( "onClick", "CravenClose427();" );
+}
+function CravenClose427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Craven Close";
+  BackDestination.setAttribute( "onClick", "CravenClose427Audio();" );
+  NextDestination.setAttribute( "onClick", "CravenClose427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function CravenClose427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CRAVEN_CLOSE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "TheGrapes427();" );
+}
+function TheGrapes427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "The Grapes";
+  BackDestination.setAttribute( "onClick", "TheGrapes427Audio();" );
+  NextDestination.setAttribute( "onClick", "TheGrapes427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function CentralAvenue427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Central Avenue";
+  BackDestination.setAttribute( "onClick", "CentralAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "TheGrapes427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function CentralAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CENTRAL_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BelmoreParade427();" );
+  NextDestination.setAttribute( "onClick", "HayesByPass427();" );
+}
+function TheGrapes427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_THE_GRAPES_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "CentralAvenue427();" );
+  NextDestination.setAttribute( "onClick", "HayesByPass427();" );
+}
+function HayesByPass427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hayes By-Pass";
+  BackDestination.setAttribute( "onClick", "HayesByPass427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesByPass427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function HayesByPass427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HAYES_BY_PASS_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "TheGrapes427();" );
+  NextDestination.setAttribute( "onClick", "BrooksideRoad427();" );
+}
+function BrooksideRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Brookside Road";
+  BackDestination.setAttribute( "onClick", "BrooksideRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "BrooksideRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function BrooksideRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BROOKSIDE_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesBridge427();" );
+}
+function HayesBridge427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hayes Bridge";
+  BackDestination.setAttribute( "onClick", "HayesBridge427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesBridge427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function DelamereRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Delamere Road";
+  BackDestination.setAttribute( "onClick", "DelamereRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesBridge427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function SpringfieldRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Springfield Road";
+  BackDestination.setAttribute( "onClick", "SpringfieldRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HayesBridge427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function SpringfieldRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_SPRINGFIELD_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HayesByPass427();" );
+  NextDestination.setAttribute( "onClick", "TrinityRoad427();" );
+}
+function DelamereRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_DELAMERE_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "SpringfieldRoad427();" );
+  NextDestination.setAttribute( "onClick", "TrinityRoad427();" );
+}
+function HayesBridge427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HAYES_BRIDGE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "DelamereRoad427();" );
+  NextDestination.setAttribute( "onClick", "TrinityRoad427();" );
+}
+function TrinityRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Trinity Road";
+  BackDestination.setAttribute( "onClick", "TrinityRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "TrinityRoad427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function TrinityRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_TRINITY_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HayesBridge427();" );
+  NextDestination.setAttribute( "onClick", "NorthcoteAvenue427();" );
+}
+function NorthcoteAvenue427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Northcote Avenue";
+  BackDestination.setAttribute( "onClick", "NorthcoteAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "NorthcoteAvenue427Audio();" );
+  // topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function NorthcoteAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_NORTHCOTE_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "SouthallBroadwayStGeorgesAvenue427();" );
+}
+function SouthallBroadwayStGeorgesAvenue427(){
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Southall Broadway / St Georges Avenue";
+  BackDestination.setAttribute( "onClick", "SouthallBroadwayStGeorgesAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "SouthallBroadwayStGeorgesAvenue427Audio();" );
+  topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function SouthallBroadwayStGeorgesAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_SOUTHALL_BROADWAY_ST_GEORGES_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "SouthallPoliceStation427();" );
+}
+function SouthallPoliceStation427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Southall Police Station";
+  BackDestination.setAttribute( "onClick", "SouthallPoliceStation427Audio();" );
+  NextDestination.setAttribute( "onClick", "SouthallPoliceStation427Audio();" );
+  // topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function AlexandraAvenue427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Alexandra Avenue";
+  BackDestination.setAttribute( "onClick", "AlexandraAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "SouthallPoliceStation427Audio();" );
+  // topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function AbbottsRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Abbotts Road";
+  BackDestination.setAttribute( "onClick", "AbbottsRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "SouthallPoliceStation427Audio();" );
+  // topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function AbbottsRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ABBOTT_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "TrinityRoad427();" );
+  NextDestination.setAttribute( "onClick", "SouthallPark427();" );
+}
+function AlexandraAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ALEXANDRA_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "AbbottsRoad427();" );
+  NextDestination.setAttribute( "onClick", "SouthallPark427();" );
+}
+function SouthallPoliceStation427(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_SOUTHALL_POLICE_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "AlexandraAvenue427();" );
+  NextDestination.setAttribute( "onClick", "SouthallPark427();" );
+}
+function SouthallPark427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Southall Park";
+  BackDestination.setAttribute( "onClick", "SouthallPark427Audio();" );
+  NextDestination.setAttribute( "onClick", "SouthallPark427Audio();" );
+  // topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function SouthallPark427(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_SOUTHALL_PARK_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "SouthallPoliceStation427();" );
+  NextDestination.setAttribute( "onClick", "DormersWellsLane427();" );
+}
+function DormersWellsLane427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Dormer's Wells Lane";
+  BackDestination.setAttribute( "onClick", "DormersWellsLane427Audio();" );
+  NextDestination.setAttribute( "onClick", "DormersWellsLane427Audio();" );
+  // topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function DormersWellsLane427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_DORMERS_WELLS_LANE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "SouthallPark427();" );
+  NextDestination.setAttribute( "onClick", "LyndhurstAvenue427();" );
+}
+function LyndhurstAvenue427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Lyndhurst Avenue";
+  BackDestination.setAttribute( "onClick", "LyndhurstAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "LyndhurstAvenue427Audio();" );
+  // topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function LyndhurstAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LYNDHURST_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "DormersWellsLane427();" );
+  NextDestination.setAttribute( "onClick", "IronBridge427();" );
+}
+function IronBridge427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Iron Bridge";
+  BackDestination.setAttribute( "onClick", "IronBridge427Audio();" );
+  NextDestination.setAttribute( "onClick", "IronBridge427Audio();" );
+  // topTextYes.style.animationName = "SouthallBroadwayStGeorgesAvenue";
+}
+function IronBridge427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_IRON_BRIDGE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "LyndhurstAvenue427();" );
+  NextDestination.setAttribute( "onClick", "StBernardsGatehouseWindmillPark427();" );
+}
+function StBernardsGatehouseWindmillPark427(){
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "St Bernard's Gatehouse / Windmill Park";
+  BackDestination.setAttribute( "onClick", "StBernardsGatehouseWindmillPark427Audio();" );
+  NextDestination.setAttribute( "onClick", "StBernardsGatehouseWindmillPark427Audio();" );
+  topTextYes.style.animationName = "StBernardsGatehouseWindmillPark";
+}
+function StBernardsGatehouseWindmillPark427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_BERNARDS_GATEHOUSE_WINDMILL_PARK_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "IronBridge427();" );
+  NextDestination.setAttribute( "onClick", "EalingHospitalWharncliffeDrive427();" );
+}
+function EalingHospitalWharncliffeDrive427(){
+  topTextYes.style.display ="block";
+  topTextNo.style.display ="none";
+  topTextYes.innerHTML = "Ealing Hospital / Wharncliffe Drive";
+  BackDestination.setAttribute( "onClick", "EalingHospitalWharncliffeDrive427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingHospitalWharncliffeDrive427Audio();" );
+  topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function EalingHospitalWharncliffeDrive427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_EALING_HOSPITAL_WHARNCLIFFE_DRIVE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HalfAcreRoad427();" );
+}
+function HalfAcreRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Half Acre Road";
+  BackDestination.setAttribute( "onClick", "HalfAcreRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HalfAcreRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function EalingHospital427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "EalingHospital427";
+  BackDestination.setAttribute( "onClick", "EalingHospital427Audio();" );
+  NextDestination.setAttribute( "onClick", "HalfAcreRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function EalingHospital427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_EALING_HOSPITAL_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "StBernardsGatehouseWindmillPark427();" );
+  NextDestination.setAttribute( "onClick", "HanwellBroadway427();" );
+}
+function HalfAcreRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HALF_ACRE_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "EalingHospital427();" );
+  NextDestination.setAttribute( "onClick", "HanwellBroadway427();" );
+}
+function HanwellBroadway427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hanwell Broadway";
+  BackDestination.setAttribute( "onClick", "HanwellBroadway427Audio();" );
+  NextDestination.setAttribute( "onClick", "HanwellBroadway427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function HanwellBroadway427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HANWELL_BROADWAY_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HalfAcreRoad427();" );
+  NextDestination.setAttribute( "onClick", "GrosvenorRoad427();" );
+}
+function GrosvenorRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Grosvenor Road";
+  BackDestination.setAttribute( "onClick", "GrosvenorRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "GrosvenorRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function ChurchRoadtwo427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Church Road";
+  BackDestination.setAttribute( "onClick", "ChurchRoadtwo427Audio();" );
+  NextDestination.setAttribute( "onClick", "GrosvenorRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function ChurchRoadtwo427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CHURCH_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HanwellBroadway427();" );
+  NextDestination.setAttribute( "onClick", "WestEalingBroadway427();" );
+}
+function GrosvenorRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_GROSVENOR_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "ChurchRoadtwo427();" );
+  NextDestination.setAttribute( "onClick", "WestEalingBroadway427();" );
+}
+function WestEalingBroadway427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "West Ealing Broadway";
+  BackDestination.setAttribute( "onClick", "WestEalingBroadway427Audio();" );
+  NextDestination.setAttribute( "onClick", "WestEalingBroadway427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function WestEalingBroadway427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WEST_EALING_BROADWAY_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "GrosvenorRoad427();" );
+  NextDestination.setAttribute( "onClick", "DeanGardensBedfordRoad427();" );
+}
+function DeanGardensBedfordRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Dean Gardens / Bedford Road";
+  BackDestination.setAttribute( "onClick", "DeanGardensBedfordRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "DeanGardensBedfordRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function DeanGardensBedfordRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_DEAN_GARDENS_BEDFORD_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "WestEalingBroadway427();" );
+  NextDestination.setAttribute( "onClick", "BroughtonRoad427();" );
+}
+function BroughtonRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Broughton Road";
+  BackDestination.setAttribute( "onClick", "BroughtonRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "BroughtonRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function BroughtonRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BROUGHTON_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "StLeonardsRoad427();" );
+}
+function StLeonardsRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "St Leonard's Road";
+  BackDestination.setAttribute( "onClick", "StLeonardsRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "StLeonardsRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function StLeonardsRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_LEONARDS_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "LongfieldAvenue427();" );
+}
+function LongfieldAvenue427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Longfield Avenue";
+  BackDestination.setAttribute( "onClick", "LongfieldAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "LongfieldAvenue427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function LongfieldAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LONGFIELD_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "BondStreet427();" );
+}
+function BondStreet427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Bond Street";
+  BackDestination.setAttribute( "onClick", "BondStreet427Audio();" );
+  NextDestination.setAttribute( "onClick", "BondStreet427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function BondStreet427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BOND_STREET_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStation427();" );
+}
+function EalingBroadwayStation427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Ealing Broadway Station";
+  BackDestination.setAttribute( "onClick", "EalingBroadwayStation427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStation427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function Christchurch427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Christchurch";
+  BackDestination.setAttribute( "onClick", "Christchurch427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStation427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function EalingPoliceStation427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Ealing Police Station";
+  BackDestination.setAttribute( "onClick", "EalingPoliceStation427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStation427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function DaneRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Dane Road";
+  BackDestination.setAttribute( "onClick", "DaneRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStation427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function NorthfieldAvenue427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Northfield Avenue";
+  BackDestination.setAttribute( "onClick", "NorthfieldAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStation427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function NorthfieldAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_NORTHFIELD_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "DeanGardensBedfordRoad427();" );
+  NextDestination.setAttribute( "onClick", "NorthCommonRoad427();" );
+}
+function DaneRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_DANE_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "NorthfieldAvenue427();" );
+  NextDestination.setAttribute( "onClick", "NorthCommonRoad427();" );
+}
+function EalingPoliceStation427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_EALING_POLICE_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "DaneRoad427();" );
+  NextDestination.setAttribute( "onClick", "NorthCommonRoad427();" );
+}
+function Christchurch427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CHRISTCHURCH_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "EalingPoliceStation427();" );
+  NextDestination.setAttribute( "onClick", "NorthCommonRoad427();" );
+}
+function EalingBroadwayStation427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_EALING_BROADWAY_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "Christchurch427();" );
+  NextDestination.setAttribute( "onClick", "NorthCommonRoad427();" );
+}
+function NorthCommonRoad427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "North Common Road";
+  BackDestination.setAttribute( "onClick", "NorthCommonRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "NorthCommonRoad427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function NorthCommonRoad427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_NORTH_COMMON_ROAD_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
+  NextDestination.setAttribute( "onClick", "HangerLane427();" );
+}
+function HangerLane427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Hanger Lane";
+  BackDestination.setAttribute( "onClick", "HangerLane427Audio();" );
+  NextDestination.setAttribute( "onClick", "HangerLane427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function HangerLane427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HANGER_LANE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "EalingBroadwayStation427();" );
+  NextDestination.setAttribute( "onClick", "EalingCommonStation427();" );
+}
+function EalingCommonStation427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Ealing Common Station";
+  BackDestination.setAttribute( "onClick", "EalingCommonStation427Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingCommonStation427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function EalingCommonStation427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_EALING_COMMON_STATION_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "HangerLane427();" );
+  NextDestination.setAttribute( "onClick", "BirchGrove427();" );
+}
+function BirchGrove427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Birch Grove";
+  BackDestination.setAttribute( "onClick", "BirchGrove427Audio();" );
+  NextDestination.setAttribute( "onClick", "BirchGrove427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function BirchGrove427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BIRCH_GROVE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "EalingCommonStation427();" );
+  NextDestination.setAttribute( "onClick", "TwyfordAvenue427();" );
+}
+function TwyfordAvenue427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Twyford Avenue";
+  BackDestination.setAttribute( "onClick", "TwyfordAvenue427Audio();" );
+  NextDestination.setAttribute( "onClick", "TwyfordAvenue427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function TwyfordAvenue427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_TWYFORD_AVENUE_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "BirchGrove427();" );
+  NextDestination.setAttribute( "onClick", "DenehurstGardens427();" );
+}
+function DenehurstGardens427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "Denehurst Gardens";
+  BackDestination.setAttribute( "onClick", "DenehurstGardens427Audio();" );
+  NextDestination.setAttribute( "onClick", "DenehurstGardens427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function DenehurstGardens427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_Denehurst_Gardens_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "TwyfordAvenue427();" );
+  NextDestination.setAttribute( "onClick", "KingStreet427();" );
+}
+function KingStreet427(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "King Street";
+  BackDestination.setAttribute( "onClick", "KingStreet427Audio();" );
+  NextDestination.setAttribute( "onClick", "KingStreet427Audio();" );
+  // topTextYes.style.animationName = "EalingHospitalWharncliffeDrive";
+}
+function KingStreet427Audio(){
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_KING_STREET_001.mp3";
+  iBusAudio.play();
+  BackDestination.setAttribute( "onClick", "YorkRoad427Audio();" );
   NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
 }
