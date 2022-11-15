@@ -332,7 +332,6 @@ function EalingBroadwayE7ibus(){
     } 
   }
 }
-}
 function RuislipE7ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
