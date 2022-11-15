@@ -96,7 +96,10 @@ function RuislipE7btn(){
   EalingBroadwayStationE7()
   showDestination.setAttribute( "onClick", "RuislipE7ibus();" );
 }
-
+function EalingBroadwayE10btn(){
+  IslipManorRoadE10()
+  showDestination.setAttribute( "onClick", "EalingBroadwayE10ibus();" );
+}
 
 function BrentfordCountyCourt195ibus(){
   topTextYes.style.display ="none";
@@ -348,6 +351,32 @@ function RuislipE7ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_RUISLIP.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  }
+}
+function EalingBroadwayE10ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "E5 to Ealing Broadway";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_E10_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_EALING_BROADWAY_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -4296,4 +4325,335 @@ function EalingBroadwayStationE7Audio(){
   iBusAudio.play();
   BackDestination.setAttribute( "onClick", "EalingTownHallE7();" );
   NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+}
+
+function IslipManorRoadE10(){
+  IslipManorRoad()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+}
+function IslipManorRoadE10Audio(){
+  IslipManorRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ManorGateE10();" );
+}
+function ManorGateE10(){
+  ManorGate()
+  BackDestination.setAttribute( "onClick", "ManorGateE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ManorGateE10Audio();" );
+}
+function ManorGateE10Audio(){
+  ManorGateAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ArnoldRoadE10();" );
+}
+function ArnoldRoadE10(){
+  ArnoldRoad()
+  BackDestination.setAttribute( "onClick", "ArnoldRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ArnoldRoadE10Audio();" );
+}
+function ArnoldRoadE10Audio(){
+  ArnoldRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "IslipManorParkE10();" );
+}
+function IslipManorParkE10(){
+  IslipManorPark()
+  BackDestination.setAttribute( "onClick", "IslipManorParkE10Audio();" );
+  NextDestination.setAttribute( "onClick", "IslipManorParkE10Audio();" );
+}
+function IslipManorParkE10Audio(){
+  IslipManorParkAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "MoatFarmRoadE10();" );
+}
+function MoatFarmRoadE10(){
+  MoatFarmRoad()
+  BackDestination.setAttribute( "onClick", "MoatFarmRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "MoatFarmRoadE10Audio();" );
+}
+function MoatFarmRoadE10Audio(){
+  MoatFarmRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "BelvueRoadE10();" );
+}
+function BelvueRoadE10(){
+  BelvueRoad()
+  BackDestination.setAttribute( "onClick", "BelvueRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "BelvueRoadE10Audio();" );
+}
+function BelvueRoadE10Audio(){
+  BelvueRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "FortRoadE10();" );
+}
+function FortRoadE10(){
+  FortRoad()
+  BackDestination.setAttribute( "onClick", "FortRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "FortRoadE10Audio();" );
+}
+function FortRoadE10Audio(){
+  FortRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "BelvueSchoolE10();" );
+}
+function BelvueSchoolE10(){
+  BelvueSchool()
+  BackDestination.setAttribute( "onClick", "BelvueSchoolE10Audio();" );
+  NextDestination.setAttribute( "onClick", "BelvueSchoolE10Audio();" );
+}
+function BelvueSchoolE10Audio(){
+  BelvueSchoolAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "HorseshoeCrescentE10();" );
+}
+function HorseshoeCrescentE10(){
+  HorseshoeCrescent()
+  BackDestination.setAttribute( "onClick", "HorseshoeCrescentE10Audio();" );
+  NextDestination.setAttribute( "onClick", "HorseshoeCrescentE10Audio();" );
+}
+function HorseshoeCrescentE10Audio(){
+  HorseshoeCrescentAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "HotspurRoadE10();" );
+}
+function HotspurRoadE10(){
+  HotspurRoad()
+  BackDestination.setAttribute( "onClick", "HotspurRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "HotspurRoadE10Audio();" );
+}
+function HotspurRoadE10Audio(){
+  HotspurRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ElmTreeCloseE10();" );
+}
+function ElmTreeCloseE10(){
+  ElmTreeClose()
+  BackDestination.setAttribute( "onClick", "ElmTreeCloseE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ElmTreeCloseE10Audio();" );
+}
+function ElmTreeCloseE10Audio(){
+  ElmTreeCloseAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "KensingtonRoadRuislipRoadE10();" );
+}
+function KensingtonRoadRuislipE10Road(){
+  KensingtonRoadRuislipRoad()
+  BackDestination.setAttribute( "onClick", "KensingtonRoadRuislipRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "KensingtonRoadRuislipRoadE10Audio();" );
+}
+function KensingtonRoadRuislipRoadE10Audio(){
+  KensingtonRoadRuislipRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GoslingCloseE10();" );
+}
+function GoslingCloseE10Road(){
+  GoslingClose()
+  BackDestination.setAttribute( "onClick", "GoslingCloseE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GoslingCloseE10Audio();" );
+}
+function GoslingCloseE10Audio(){
+  GoslingCloseAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "MarleyCloseE10();" );
+}
+function MarleyCloseE10(){
+  MarleyClose()
+  BackDestination.setAttribute( "onClick", "MarleyCloseE10Audio();" );
+  NextDestination.setAttribute( "onClick", "MarleyCloseE10Audio();" );
+}
+function MarleyCloseE10Audio(){
+  MarleyCloseAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "RosedeneAvenueE10();" );
+}
+function RosedeneAvenueE10(){
+  RosedeneAvenue()
+  BackDestination.setAttribute( "onClick", "RosedeneAvenueE10Audio();" );
+  NextDestination.setAttribute( "onClick", "RosedeneAvenueE10Audio();" );
+}
+function MarleyCloseE10Audio(){
+  RosedeneAvenueAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "MarnhamCrescentE10();" );
+}
+function MarnhamCrescentE10(){
+  MarnhamCrescent()
+  BackDestination.setAttribute( "onClick", "MarnhamCrescentE10Audio();" );
+  NextDestination.setAttribute( "onClick", "MarnhamCrescentE10Audio();" );
+}
+function MarnhamCrescentE10Audio(){
+  MarnhamCrescentAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "WestRidgeGardensE10();" );
+}
+function WestRidgeGardensE10(){
+  WestRidgeGardens()
+  BackDestination.setAttribute( "onClick", "WestRidgeGardensE10Audio();" );
+  NextDestination.setAttribute( "onClick", "WestRidgeGardensE10Audio();" );
+}
+function WestRidgeGardensE10Audio(){
+  WestRidgeGardensAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "EastCloseE10();" );
+}
+function EastCloseE10(){
+  EastClose()
+  BackDestination.setAttribute( "onClick", "EastCloseE10Audio();" );
+  NextDestination.setAttribute( "onClick", "EastCloseE10Audio();" );
+}
+function EastCloseE10Audio(){
+  EastCloseAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "FarndaleCrescentE10();" );
+}
+function FarndaleCrescentE10(){
+  FarndaleCrescent()
+  BackDestination.setAttribute( "onClick", "FarndaleCrescentE10Audio();" );
+  NextDestination.setAttribute( "onClick", "FarndaleCrescentE10Audio();" );
+}
+function EastCloseE10Audio(){
+  FarndaleCrescentAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GreenfordPoliceStationE10();" );
+}
+function GreenfordPoliceStationE10(){
+  GreenfordPoliceStation()
+  BackDestination.setAttribute( "onClick", "GreenfordPoliceStationE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GreenfordPoliceStationE10Audio();" );
+}
+function GreenfordPoliceStationE10Audio(){
+  GreenfordPoliceStationAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GreenfordBroadwayE10();" );
+}
+function GreenfordBroadwayE10(){
+  GreenfordBroadway()
+  BackDestination.setAttribute( "onClick", "GreenfordBroadwayE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GreenfordBroadwayE10Audio();" );
+}
+function GreenfordBroadwayE10Audio(){
+  GreenfordBroadwayAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "CliftonRoadE10();" );
+}
+function CliftonRoadE10(){
+  CliftonRoad()
+  BackDestination.setAttribute( "onClick", "CliftonRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "CliftonRoadE10Audio();" );
+}
+function CliftonRoadE10Audio(){
+  CliftonRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GreenfordAvenueE10();" );
+}
+function GreenfordAvenueE10(){
+  GreenfordAvenue()
+  BackDestination.setAttribute( "onClick", "GreenfordAvenueE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GreenfordAvenueE10Audio();" );
+}
+function GreenfordAvenueE10Audio(){
+  GreenfordAvenueAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "CuckooAvenueE10();" );
+}
+function CuckooAvenueE10(){
+  CuckooAvenue()
+  BackDestination.setAttribute( "onClick", "CuckooAvenueE10Audio();" );
+  NextDestination.setAttribute( "onClick", "CuckooAvenueE10Audio();" );
+}
+function CuckooAvenueE10Audio(){
+  CuckooAvenueAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GurnellLeisureCentreE10();" );
+}
+function GurnellLeisureCentreE10(){
+  GurnellLeisureCentre()
+  BackDestination.setAttribute( "onClick", "GurnellLeisureCentreE10Audio();" );
+  NextDestination.setAttribute( "onClick", "GurnellLeisureCentreE10Audio();" );
+}
+function GurnellLeisureCentreE10Audio(){
+  GurnellLeisureCentreAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "RuislipRoadEastE10();" );
+}
+function RuislipRoadEastE10(){
+  RuislipRoadEast()
+  BackDestination.setAttribute( "onClick", "RuislipRoadEastE10Audio();" );
+  NextDestination.setAttribute( "onClick", "RuislipRoadEastE10Audio();" );
+}
+function RuislipRoadEastE10Audio(){
+  RuislipRoadEastAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ScotchCommonE10();" );
+}
+function ScotchCommonE10(){
+  ScotchCommon()
+  BackDestination.setAttribute( "onClick", "ScotchCommonE10Audio();" );
+  NextDestination.setAttribute( "onClick", "ScotchCommonE10Audio();" );
+}
+function RuislipRoadEastE10Audio(){
+  ScotchCommonAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "HollingbourneGardensE10();" );
+}
+function HollingbourneGardensE10(){
+  HollingbourneGardens()
+  BackDestination.setAttribute( "onClick", "HollingbourneGardensE10Audio();" );
+  NextDestination.setAttribute( "onClick", "HollingbourneGardensE10Audio();" );
+}
+function HollingbourneGardensE10Audio(){
+  HollingbourneGardensAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "KentGardensE10();" );
+}
+function KentGardensE10(){
+  KentGardens()
+  BackDestination.setAttribute( "onClick", "KentGardensE10Audio();" );
+  NextDestination.setAttribute( "onClick", "KentGardensE10Audio();" );
+}
+function KentGardensE10Audio(){
+  KentGardensAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "TheKnollE10();" );
+}
+function TheKnollE10(){
+  TheKnoll()
+  BackDestination.setAttribute( "onClick", "TheKnollE10Audio();" );
+  NextDestination.setAttribute( "onClick", "TheKnollE10Audio();" );
+}
+function TheKnollE10Audio(){
+  TheKnollAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "CharlburyGroveE10();" );
+}
+function CharlburyGroveE10(){
+  CharlburyGrove()
+  BackDestination.setAttribute( "onClick", "CharlburyGroveE10Audio();" );
+  NextDestination.setAttribute( "onClick", "CharlburyGroveE10Audio();" );
+}
+function CharlburyGroveE10Audio(){
+  CharlburyGroveAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "EatonRiseE10();" );
+}
+function EatonRiseE10(){
+  EatonRise()
+  BackDestination.setAttribute( "onClick", "EatonRiseE10Audio();" );
+  NextDestination.setAttribute( "onClick", "EatonRiseE10Audio();" );
+}
+function EatonRiseE10Audio(){
+  EatonRiseAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStationHavenGreenE10();" );
+}
+function EalingBroadwayStationHavenGreenE10(){
+  EalingBroadwayStationHavenGreen()
+  BackDestination.setAttribute( "onClick", "EalingBroadwayStationHavenGreenE10Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStationHavenGreenE10Audio();" );
+}
+function EalingBroadwayStationHavenGreenE10Audio(){
+  EalingBroadwayStationHavenGreenAudio()
+  BackDestination.setAttribute( "onClick", "IslipManorRoadE10Audio();" );
+  NextDestination.setAttribute( "onClick", "EalingBroadwayStationHavenGreenE10();" );
 }
