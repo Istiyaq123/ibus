@@ -10,6 +10,10 @@ function Shadwell339btn(){
   LeytonstoneStnGroveGreenRoad339()
   showDestination.setAttribute( "onClick", "Shadwell339ibus();" );
 }
+function Leytonstone339btn(){
+  ShadwellStation339()
+  showDestination.setAttribute( "onClick", "Leytonstone339ibus();" );
+}
 
 function Shadwell339ibus(){
   topTextYes.style.display ="none";
@@ -27,6 +31,32 @@ function Shadwell339ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_SHADWELL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function Leytonstone339ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "339 to Leytonstone";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_339_002.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_LEYTONSTONE_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
