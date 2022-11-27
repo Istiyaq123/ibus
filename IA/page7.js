@@ -86,7 +86,7 @@ function Leytonstone339ibus(){
 function Shadwell100ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
-  topTextNo.innerHTML = "339 to Leytonstone";
+  topTextNo.innerHTML = "100 to Shadwell";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_100_001.mp3";
   iBusAudio.play();
@@ -112,7 +112,7 @@ function Shadwell100ibus(){
 function StPauls100ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
-  topTextNo.innerHTML = "339 to Leytonstone";
+  topTextNo.innerHTML = "100 to St Paul's";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_100_001.mp3";
   iBusAudio.play();
@@ -873,10 +873,10 @@ function GarnetStreet100(){
   BackDestination.setAttribute( "onClick", "GarnetStreet100Audio();" );
   NextDestination.setAttribute( "onClick", "GarnetStreet100Audio();" );
 }
-function WappingWall1100(){
+function WappingWall100(){
   WappingWall1()
-  BackDestination.setAttribute( "onClick", "WappingWall1100Audio();" );
-  NextDestination.setAttribute( "onClick", "WappingWall1100Audio();" );
+  BackDestination.setAttribute( "onClick", "WappingWall100Audio();" );
+  NextDestination.setAttribute( "onClick", "WappingWall100Audio();" );
 }
 function WappingWall100Audio(){
   WappingWallAudio()

@@ -1182,6 +1182,13 @@ function KingEdwardStreetStPaulsStationAudio(){
         if (audio === 2){
             iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_PAULS_STATION_001.mp3";
             iBusAudio.play();
+            iBusAudio.onended = function() {
+                audio = 3;
+                if (audio === 3){
+                    iBusAudio.src="hhf.mp3";
+                    iBusAudio.play();
+                }
+            }
         }
     }
 }
