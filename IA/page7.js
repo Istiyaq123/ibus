@@ -14,6 +14,22 @@ function Leytonstone339btn(){
   ShadwellStation339()
   showDestination.setAttribute( "onClick", "Leytonstone339ibus();" );
 }
+function Shadwell100btn(){
+  LeytonstoneStnGroveGreenRoad100()
+  showDestination.setAttribute( "onClick", "Shadwell100ibus();" );
+}
+function Leytonstone339btn(){
+  ShadwellStation339()
+  showDestination.setAttribute( "onClick", "Leytonstone339ibus();" );
+}
+function Shadwell100btn(){
+  KingEdwardStreetStPaulsStation100()
+  showDestination.setAttribute( "onClick", "Shadwell100ibus();" );
+}
+function StPauls100btn(){
+  StGeorgesTownHallShadwellStn100()
+  showDestination.setAttribute( "onClick", "StPauls100ibus();" );
+}
 
 function Shadwell339ibus(){
   topTextYes.style.display ="none";
@@ -57,6 +73,58 @@ function Leytonstone339ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_LEYTONSTONE_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function Shadwell100ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "339 to Leytonstone";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_100_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_SHADWELL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function StPauls100ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  topTextNo.innerHTML = "339 to Leytonstone";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_100_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_ST_PAULS_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -547,5 +615,346 @@ function SuttonStreet339Audio(){
 function ShadwellStation339Audio(){
   ShadwellStationAudio()
   BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+}
+
+function KingEdwardStreetStPaulsStation100(){
+  KingEdwardStreetStPaulsStation()
+  BackDestination.setAttribute( "onClick", "KingEdwardStreetStPaulsStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "KingEdwardStreetStPaulsStation100Audio();" );
+}
+function KingEdwardStreetStPaulsStation100Audio(){
+  KingEdwardStreetStPaulsStationAudio()
+  BackDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  NextDestination.setAttribute( "onClick", "LittleBritain100();" );
+}
+function LittleBritain100(){
+  LittleBritain()
+  BackDestination.setAttribute( "onClick", "LittleBritain100Audio();" );
+  NextDestination.setAttribute( "onClick", "LittleBritain100Audio();" );
+}
+function LittleBritain100Audio(){
+  LittleBritainAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "LondonWallMuseumofLondon100();" );
+}
+function LondonWallMuseumofLondon100(){
+  LondonWallMuseumofLondon()
+  BackDestination.setAttribute( "onClick", "LondonWallMuseumofLondon100Audio();" );
+  NextDestination.setAttribute( "onClick", "LondonWallMuseumofLondon100Audio();" );
+}
+function StPaulsStation100(){
+  StPaulsStation()
+  BackDestination.setAttribute( "onClick", "StPaulsStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "StPaulsStation100Audio();" );
+}
+function StPaulsStation100Audio(){
+  StPaulsStationAudio()
+  BackDestination.setAttribute( "onClick", "KingEdwardStreetStPaulsStation100();" );
+  NextDestination.setAttribute( "onClick", "LondonWallMoorgateStation100();" );
+}
+function LondonWallMuseumofLondon100Audio(){
+  LondonWallMuseumofLondonAudio()
+  BackDestination.setAttribute( "onClick", "StPaulsStation100();" );
+  NextDestination.setAttribute( "onClick", "LondonWallMoorgateStation100();" );
+}
+function LondonWallMoorgateStation100(){
+  LondonWallMoorgateStation()
+  BackDestination.setAttribute( "onClick", "LondonWallMoorgateStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "LondonWallMoorgateStation100Audio();" );
+}
+function LondonWallMoorgateStation100Audio(){
+  LondonWallMoorgateStationAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "AllHallowsChurch100();" );
+}
+function AllHallowsChurch100(){
+  AllHallowsChurch()
+  BackDestination.setAttribute( "onClick", "AllHallowsChurch100Audio();" );
+  NextDestination.setAttribute( "onClick", "AllHallowsChurch100Audio();" );
+}
+function AllHallowsChurch100Audio(){
+  AllHallowsChurchAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "WormwoodStreet100();" );
+}
+function WormwoodStreet100(){
+  WormwoodStreet()
+  BackDestination.setAttribute( "onClick", "WormwoodStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "WormwoodStreet100Audio();" );
+}
+function MoorgateStation100(){
+  MoorgateStation()
+  BackDestination.setAttribute( "onClick", "MoorgateStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "MoorgateStation100Audio();" );
+}
+function MoorgateStation100Audio(){
+  MoorgateStationAudio()
+  BackDestination.setAttribute( "onClick", "LondonWallMuseumofLondon100();" );
+  NextDestination.setAttribute( "onClick", "StBotolphStreet100();" );
+}
+function WormwoodStreet100Audio(){
+  WormwoodStreetAudio()
+  BackDestination.setAttribute( "onClick", "MoorgateStation100();" );
+  NextDestination.setAttribute( "onClick", "StBotolphStreet100();" );
+}
+function StBotolphStreet100(){
+  StBotolphStreet()
+  BackDestination.setAttribute( "onClick", "StBotolphStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "StBotolphStreet100Audio();" );
+}
+function StBotolphStreet100Audio(){
+  StBotolphStreetAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "AldgateStation100();" );
+}
+function AldgateStation100(){
+  AldgateStation()
+  BackDestination.setAttribute( "onClick", "AldgateStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "AldgateStation100Audio();" );
+}
+function AldgateStation100Audio(){
+  AldgateStationAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "Minories100();" );
+}
+function Minories100(){
+  Minories()
+  BackDestination.setAttribute( "onClick", "Minories100Audio();" );
+  NextDestination.setAttribute( "onClick", "Minories100Audio();" );
+}
+function Minories100Audio(){
+  MinoriesAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "TowerHillTowerGatewayStation100();" );
+}
+function TowerHillTowerGatewayStation100(){
+  TowerHillTowerGatewayStation()
+  BackDestination.setAttribute( "onClick", "TowerHillTowerGatewayStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "TowerHillTowerGatewayStation100Audio();" );
+}
+function TowerHillTowerGatewayStation100Audio(){
+  TowerHillTowerGatewayStationAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "StKatharineDocks100();" );
+}
+function StKatharineDocks100(){
+  StKatharineDocks()
+  BackDestination.setAttribute( "onClick", "StKatharineDocks100Audio();" );
+  NextDestination.setAttribute( "onClick", "StKatharineDocks100Audio();" );
+}
+function TowerGatewayStation100(){
+  TowerGatewayStation()
+  BackDestination.setAttribute( "onClick", "TowerGatewayStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "TowerGatewayStation100Audio();" );
+}
+function MansellStreet100(){
+  MansellStreet()
+  BackDestination.setAttribute( "onClick", "MansellStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "MansellStreet100Audio();" );
+}
+function DukesPlace100(){
+  DukesPlace()
+  BackDestination.setAttribute( "onClick", "DukesPlace100Audio();" );
+  NextDestination.setAttribute( "onClick", "DukesPlace100Audio();" );
+}
+function Bishopsgate100(){
+  Bishopsgate()
+  BackDestination.setAttribute( "onClick", "Bishopsgate100Audio();" );
+  NextDestination.setAttribute( "onClick", "Bishopsgate100Audio();" );
+}
+function Bishopsgate100Audio(){
+  BishopsgateAudio()
+  BackDestination.setAttribute( "onClick", "WormwoodStreet100();" );
+  NextDestination.setAttribute( "onClick", "TheHighway100();" );
+}
+function DukesPlace100Audio(){
+  DukesPlaceAudio()
+  BackDestination.setAttribute( "onClick", "Bishopsgate100();" );
+  NextDestination.setAttribute( "onClick", "TheHighway100();" );
+}
+function MansellStreet100Audio(){
+  MansellStreetAudio()
+  BackDestination.setAttribute( "onClick", "DukesPlace100();" );
+  NextDestination.setAttribute( "onClick", "TheHighway100();" );
+}
+function TowerGatewayStation100Audio(){
+  TowerGatewayStationAudio()
+  BackDestination.setAttribute( "onClick", "MansellStreet100();" );
+  NextDestination.setAttribute( "onClick", "TheHighway100();" );
+}
+function StKatharineDocks100Audio(){
+  StKatharineDocksAudio()
+  BackDestination.setAttribute( "onClick", "TowerGatewayStation100();" );
+  NextDestination.setAttribute( "onClick", "TheHighway100();" );
+}
+function TheHighway100(){
+  TheHighway()
+  BackDestination.setAttribute( "onClick", "TheHighway100Audio();" );
+  NextDestination.setAttribute( "onClick", "TheHighway100Audio();" );
+}
+function TheHighway100Audio(){
+  TheHighwayAudio()
+  BackDestination.setAttribute( "onClick", "StKatharineDocks100();" );
+  NextDestination.setAttribute( "onClick", "NeshamStreet100();" );
+}
+function NeshamStreet100(){
+  NeshamStreet()
+  BackDestination.setAttribute( "onClick", "NeshamStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "NeshamStreet100Audio();" );
+}
+function NeshamStreet100Audio(){
+  NeshamStreetAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "HermitageWall100();" );
+}
+function HermitageWall100(){
+  HermitageWall()
+  BackDestination.setAttribute( "onClick", "HermitageWall100Audio();" );
+  NextDestination.setAttribute( "onClick", "HermitageWall100Audio();" );
+}
+function StockholmWay100(){
+  StockholmWay()
+  BackDestination.setAttribute( "onClick", "StockholmWay100Audio();" );
+  NextDestination.setAttribute( "onClick", "StockholmWay100Audio();" );
+}
+function StockholmWay100Audio(){
+  StockholmWayAudio()
+  BackDestination.setAttribute( "onClick", "TheHighway100();" );
+  NextDestination.setAttribute( "onClick", "SampsonStreet100();" );
+}
+function HermitageWall100Audio(){
+  HermitageWallAudio()
+  BackDestination.setAttribute( "onClick", "StockholmWay100();" );
+  NextDestination.setAttribute( "onClick", "SampsonStreet100();" );
+}
+function SampsonStreet100(){
+  SampsonStreet()
+  BackDestination.setAttribute( "onClick", "SampsonStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "SampsonStreet100Audio();" );
+}
+function SampsonStreet100Audio(){
+  SampsonStreetAudio()
+  BackDestination.setAttribute( "onClick", "HermitageWall100();" );
+  NextDestination.setAttribute( "onClick", "DundeeStreet100();" );
+}
+function DundeeStreet100(){
+  DundeeStreet()
+  BackDestination.setAttribute( "onClick", "DundeeStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "DundeeStreet100Audio();" );
+}
+function DundeeStreet100Audio(){
+  DundeeStreetAudio()
+  BackDestination.setAttribute( "onClick", "SampsonStreet100();" );
+  NextDestination.setAttribute( "onClick", "WappingStation100();" );
+}
+function WappingStation100(){
+  WappingStation()
+  BackDestination.setAttribute( "onClick", "WappingStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "WappingStation100Audio();" );
+}
+function WappingStation100Audio(){
+  WappingStationAudio()
+  BackDestination.setAttribute( "onClick", "DundeeStreet100();" );
+  NextDestination.setAttribute( "onClick", "WappingHealthCentre100();" );
+}
+function WappingHealthCentre100(){
+  WappingHealthCentre()
+  BackDestination.setAttribute( "onClick", "WappingHealthCentre100Audio();" );
+  NextDestination.setAttribute( "onClick", "WappingHealthCentre100Audio();" );
+}
+function CleggStreet100(){
+  CleggStreet()
+  BackDestination.setAttribute( "onClick", "CleggStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "CleggStreet100Audio();" );
+}
+function GarnetStreet100(){
+  GarnetStreet()
+  BackDestination.setAttribute( "onClick", "GarnetStreet100Audio();" );
+  NextDestination.setAttribute( "onClick", "GarnetStreet100Audio();" );
+}
+function WappingWall1100(){
+  WappingWall1()
+  BackDestination.setAttribute( "onClick", "WappingWall1100Audio();" );
+  NextDestination.setAttribute( "onClick", "WappingWall1100Audio();" );
+}
+function WappingWall100Audio(){
+  WappingWallAudio()
+  BackDestination.setAttribute( "onClick", "WappingStation100();" );
+  NextDestination.setAttribute( "onClick", "TobaccoDock100();" );
+}
+function GarnetStreet100Audio(){
+  GarnetStreetAudio()
+  BackDestination.setAttribute( "onClick", "WappingWall100();" );
+  NextDestination.setAttribute( "onClick", "TobaccoDock100();" );
+}
+function CleggStreet100Audio(){
+  CleggStreetAudio()
+  BackDestination.setAttribute( "onClick", "GarnetStreet100();" );
+  NextDestination.setAttribute( "onClick", "TobaccoDock100();" );
+}
+function WappingHealthCentre100Audio(){
+  WappingHealthCentreAudio()
+  BackDestination.setAttribute( "onClick", "CleggStreet100();" );
+  NextDestination.setAttribute( "onClick", "TobaccoDock100();" );
+}
+function TobaccoDock100(){
+  TobaccoDock()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100Audio();" );
+  NextDestination.setAttribute( "onClick", "TobaccoDock100Audio();" );
+}
+function TobaccoDock100Audio(){
+  TobaccoDockAudio()
+  BackDestination.setAttribute( "onClick", "WappingHealthCentre100();" );
+  NextDestination.setAttribute( "onClick", "StPaulsChurch100();" );
+}
+function StPaulsChurch100(){
+  StPaulsChurch()
+  BackDestination.setAttribute( "onClick", "StPaulsChurch100Audio();" );
+  NextDestination.setAttribute( "onClick", "StPaulsChurch100Audio();" );
+}
+function StPaulsChurch100Audio(){
+  StPaulsChurchAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "GlamisPlace100();" );
+}
+function GlamisPlace100(){
+  GlamisPlace()
+  BackDestination.setAttribute( "onClick", "GlamisPlace100Audio();" );
+  NextDestination.setAttribute( "onClick", "GlamisPlace100Audio();" );
+}
+function GlamisPlace100Audio(){
+  GlamisPlaceAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "KingDavidLane100();" );
+}
+function KingDavidLane100(){
+  KingDavidLane()
+  BackDestination.setAttribute( "onClick", "KingDavidLane100Audio();" );
+  NextDestination.setAttribute( "onClick", "KingDavidLane100Audio();" );
+}
+function KingDavidLane100Audio(){
+  KingDavidLaneAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "ShadwellStation100();" );
+}
+function ShadwellStation100(){
+  ShadwellStation()
+  BackDestination.setAttribute( "onClick", "ShadwellStation100Audio();" );
+  NextDestination.setAttribute( "onClick", "ShadwellStation100Audio();" );
+}
+function ShadwellStation100Audio(){
+  ShadwellStationAudio()
+  BackDestination.setAttribute( "onClick", "SuttonStreet339();" );
+  NextDestination.setAttribute( "onClick", "StGeorgesTownHallShadwellStn100();" );
+}
+function StGeorgesTownHallShadwellStn100(){
+  StGeorgesTownHallShadwellStn()
+  BackDestination.setAttribute( "onClick", "StGeorgesTownHallShadwellStn100Audio();" );
+  NextDestination.setAttribute( "onClick", "StGeorgesTownHallShadwellStn100Audio();" );
+}
+function StGeorgesTownHallShadwellStn100Audio(){
+  StGeorgesTownHallShadwellStnAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
   NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
 }
