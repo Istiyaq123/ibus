@@ -1,6 +1,7 @@
 function IslipManorRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Islip Manor Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -11,6 +12,7 @@ function IslipManorRoadAudio(){
 function ManorGate(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Manor Gate";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -21,6 +23,7 @@ function ManorGateAudio(){
 function ArnoldRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Arnold Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -31,6 +34,7 @@ function ArnoldRoadAudio(){
 function IslipManorPark(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Islip Manor Park";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -41,6 +45,7 @@ function IslipManorParkAudio(){
 function MoatFarmRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Moat Farm Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -51,6 +56,7 @@ function MoatFarmRoadAudio(){
 function BelvueRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Belvue Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -61,6 +67,7 @@ function BelvueRoadAudio(){
 function FortRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Fort Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -71,6 +78,7 @@ function FortRoadAudio(){
 function BelvueSchool(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Belvue School";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -81,6 +89,7 @@ function BelvueSchoolAudio(){
 function HorseshoeCrescent(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Horseshoe Crescent";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -91,6 +100,7 @@ function HorseshoeCrescentAudio(){
 function HotspurRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Hotspur Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -101,6 +111,7 @@ function HotspurRoadAudio(){
 function ElmTreeClose(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Elm Tree Close";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -111,6 +122,7 @@ function ElmTreeCloseAudio(){
 function KensingtonRoadRuislipRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Kensington Road / Ruislip Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -121,6 +133,7 @@ function KensingtonRoadRuislipRoadAudio(){
 function GoslingClose(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Gosling Close";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -131,6 +144,7 @@ function GoslingCloseAudio(){
 function MarleyClose(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Marley Close";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -141,6 +155,7 @@ function MarleyCloseAudio(){
 function RosedeneAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Rosedene Avenue";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -151,6 +166,7 @@ function RosedeneAvenueAudio(){
 function MarnhamCrescent(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Marnham Crescent";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -161,6 +177,7 @@ function MarnhamCrescentAudio(){
 function WestRidgeGardens(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "West Ridge Gardens";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -171,6 +188,7 @@ function WestRidgeGardensAudio(){
 function EastClose(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "East Close";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -181,6 +199,7 @@ function EastCloseAudio(){
 function FarndaleCrescent(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Farndale Crescent";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -191,6 +210,7 @@ function FarndaleCrescentAudio(){
 function GreenfordPoliceStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Greenford Police Station";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -201,6 +221,7 @@ function GreenfordPoliceStationAudio(){
 function GreenfordBroadway(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Greenford Broadway";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -211,6 +232,7 @@ function GreenfordBroadwayAudio(){
 function CliftonRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Clifton Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -221,6 +243,7 @@ function CliftonRoadAudio(){
 function GreenfordAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Greenford Avenue";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -231,6 +254,7 @@ function GreenfordAvenueAudio(){
 function CuckooAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Cuckoo Avenue";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -241,6 +265,7 @@ function CuckooAvenueAudio(){
 function GurnellLeisureCentre(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Gurnell Leisure Centre";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -251,6 +276,7 @@ function GurnellLeisureCentreAudio(){
 function RuislipRoadEast(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ruislip Road East";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -261,6 +287,7 @@ function RuislipRoadEastAudio(){
 function ScotchCommon(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Scotch Common";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -271,6 +298,7 @@ function ScotchCommonAudio(){
 function HollingbourneGardens(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Hollingbourne Gardens";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -281,6 +309,7 @@ function HollingbourneGardensAudio(){
 function KentGardens(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Kent Gardens";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -291,6 +320,7 @@ function KentGardensAudio(){
 function TheKnoll(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "The Knoll";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -301,6 +331,7 @@ function TheKnollAudio(){
 function CharlburyGrove(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Charlbury Grove";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -311,6 +342,7 @@ function CharlburyGroveAudio(){
 function EatonRise(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Eaton Rise";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -331,6 +363,7 @@ function EalingBroadwayStationHavenGreenAudio(){
 function AmherstRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Amherst Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -341,6 +374,7 @@ function AmherstRoadAudio(){
 function MountAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Mount Avenue";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -351,6 +385,7 @@ function AmherstRoadAudio(){
 function EdgehillRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Edgehill Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -361,6 +396,7 @@ function EdgehillRoadAudio(){
 function ClevelandRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Cleveland Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -371,6 +407,7 @@ function ClevelandRoadAudio(){
 function HenleyClose(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Henley Close";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -381,6 +418,7 @@ function HenleyCloseAudio(){
 function FerrymeadDrive(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ferrymead Drive";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -391,6 +429,7 @@ function FerrymeadDriveAudio(){
 function GreenfordHighSchool(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Greenford High School";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -401,6 +440,7 @@ function GreenfordHighSchoolAudio(){
 function SmithsFarm(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Smiths Farm";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -411,6 +451,7 @@ function SmithsFarmAudio(){
 function GreenfordIndustrialEstate(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Greenford Industrial Estate";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -421,6 +462,7 @@ function GreenfordIndustrialEstateAudio(){
 function EastcoteLane(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Eastcote Lane";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -431,6 +473,7 @@ function EastcoteLaneAudio(){
 function TheCommonWarwickDene(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "The Common / Warwick Dene";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -441,6 +484,7 @@ function TheCommonWarwickDeneAudio(){
 function EalingBroadwayStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ealing Broadway Station";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -451,6 +495,7 @@ function EalingBroadwayStationAudio(){
 function EalingTownHall(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ealing Town Hall";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -461,6 +506,7 @@ function EalingTownHallAudio(){
 function StLeonardsRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "St Leonards Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -471,6 +517,7 @@ function StLeonardsRoadAudio(){
 function DaneRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Dane Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -481,6 +528,7 @@ function DaneRoadAudio(){
 function DraytonGreenRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Drayton Green Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -491,6 +539,7 @@ function DraytonGreenRoadAudio(){
 function WestEalingStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "West Ealing Station";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -501,6 +550,7 @@ function WestEalingStationAudio(){
 function ArgyleRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Argyle Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -511,6 +561,7 @@ function ArgyleRoadAudio(){
 function DraytonGreen(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Drayton Green";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -521,6 +572,7 @@ function DraytonGreenAudio(){
 function DraytonBridgeRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Drayton Bridge Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -531,6 +583,7 @@ function DraytonBridgeRoadAudio(){
 function FramfieldRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Framfield Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -541,6 +594,7 @@ function FramfieldRoadAudio(){
 function StaffordCourt(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Stafford Court";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -551,6 +605,7 @@ function StaffordCourtAudio(){
 function RadnorCourt(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Radnor Court";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -561,6 +616,7 @@ function RadnorCourtAudio(){
 function CastleBarParkStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Castle Bar Park Station";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -571,6 +627,7 @@ function CastleBarParkStationAudio(){
 function BordarsWalk(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Bordars Walk";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -581,6 +638,7 @@ function BordarsWalkAudio(){
 function KennedyRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Kennedy Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -591,6 +649,7 @@ function KennedyRoadAudio(){
 function BrentsideHighSchool(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Brentside High School";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -601,6 +660,7 @@ function BrentsideHighSchoolAudio(){
 function CopleyClose(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Copley Close";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -611,6 +671,7 @@ function CopleyCloseAudio(){
 function CastleBarPark(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Castle Bar Park";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -621,6 +682,7 @@ function CastleBarParkAudio(){
 function CheynePath(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Cheyne Path";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -631,6 +693,7 @@ function CheynePathAudio(){
 function BrowningAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Browning Avenue";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -641,6 +704,7 @@ function BrowningAvenueAudio(){
 function SutherlandAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Sutherland Avenue";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -651,6 +715,7 @@ function SutherlandAvenueAudio(){
 function BroughtonRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Broughton Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -661,6 +726,7 @@ function BroughtonRoadAudio(){
 function LongfieldAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Longfield Avenue";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -671,6 +737,7 @@ function LongfieldAvenueAudio(){
 function BondStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Bond Street";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -681,6 +748,7 @@ function BondStreetAudio(){
 function NorthCommonRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "North Common Road";
     // topTextYes.style.animationName = "EalingBroadwayStationHavenGreen";
 }
@@ -701,6 +769,7 @@ function LeytonstoneStnGroveGreenRoadAudio(){
 function HamptonRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Hampton Road";
     // topTextYes.style.animationName = "LeytonstoneStnGroveGreenRoad";
 }
@@ -711,6 +780,7 @@ function HamptonRoadAudio(){
 function AshvilleRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ashville Road";
     // topTextYes.style.animationName = "LeytonstoneStnGroveGreenRoad";
 }
@@ -721,6 +791,7 @@ function AshvilleRoadAudio(){
 function CentralAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Central Avenue";
     // topTextYes.style.animationName = "LeytonstoneStnGroveGreenRoad";
 }
@@ -731,6 +802,7 @@ function CentralAvenueAudio(){
 function CathallLeisureCentre(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Cathall Lesiure Centre";
     // topTextYes.style.animationName = "LeytonstoneStnGroveGreenRoad";
 }
@@ -741,6 +813,7 @@ function CathallLeisureCentreAudio(){
 function HarrowGreen(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Harrow Green";
     // topTextYes.style.animationName = "LeytonstoneStnGroveGreenRoad";
 }
@@ -751,6 +824,7 @@ function HarrowGreenAudio(){
 function RanelaghRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ranelagh Road";
     // topTextYes.style.animationName = "LeytonstoneStnGroveGreenRoad";
 }
@@ -771,6 +845,7 @@ function LeytonstoneHighRoadThatchedHouseAudio(){
 function BurgessRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Burgess Road";
     // topTextYes.style.animationName = "LeytonstoneHighRoadThatchedHouse";
 }
@@ -781,6 +856,7 @@ function BurgessRoadAudio(){
 function EdithRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Edith Road";
     // topTextYes.style.animationName = "LeytonstoneHighRoadThatchedHouse";
 }
@@ -791,6 +867,7 @@ function EdithRoadAudio(){
 function SirLudwigGuttmannHealthCentre(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Sir Ludwig Guttmann Health Centre";
     // topTextYes.style.animationName = "LeytonstoneHighRoadThatchedHouse";
 }
@@ -801,6 +878,7 @@ function SirLudwigGuttmannHealthCentreAudio(){
 function StratfordInternationalStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Stratford International Station";
     // topTextYes.style.animationName = "LeytonstoneHighRoadThatchedHouse";
 }
@@ -811,6 +889,7 @@ function StratfordInternationalStationAudio(){
 function StratfordCityBusStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Stratford City Bus Station";
     // topTextYes.style.animationName = "LeytonstoneHighRoadThatchedHouse";
 }
@@ -821,6 +900,7 @@ function StratfordCityBusStationAudio(){
 function LondonAquaticsCentre(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "London Aquatics Centre";
     // topTextYes.style.animationName = "LeytonstoneHighRoadThatchedHouse";
 }
@@ -831,6 +911,7 @@ function LondonAquaticsCentreAudio(){
 function SidingsStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Sidings Street";
     // topTextYes.style.animationName = "LeytonstoneHighRoadThatchedHouse";
 }
@@ -851,6 +932,7 @@ function BobbyMooreAcademyPrimarySchoolAudio(){
 function WhitePostLane(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "White Post Lane";
     // topTextYes.style.animationName = "BobbyMooreAcademyPrimarySchool";
 }
@@ -871,6 +953,7 @@ function RothburyRoadAudio(){
 function MonierRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Monier Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -881,6 +964,7 @@ function MonierRoadAudio(){
 function FishIsland(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Fish Island";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -891,6 +975,7 @@ function FishIslandAudio(){
 function AutumnStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Autumn Street";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -901,6 +986,7 @@ function AutumnStreetAudio(){
 function UsherRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Usher Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -911,6 +997,7 @@ function UsherRoadAudio(){
 function ShetlandRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Shetland Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -921,6 +1008,7 @@ function ShetlandRoadAudio(){
 function FordRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ford Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -931,6 +1019,7 @@ function FordRoadAudio(){
 function MedwayRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Medway Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -941,6 +1030,7 @@ function MedwayRoadAudio(){
 function StBarnabasChurch(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "St Barnabas Church";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -951,6 +1041,7 @@ function StBarnabasChurchAudio(){
 function ArberyRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Arbery Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -961,6 +1052,7 @@ function ArberyRoadAudio(){
 function LichfieldRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Litchfield Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -971,6 +1063,7 @@ function LichfieldRoadAudio(){
 function MileEndStationBowRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Mile End Station / Bow Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -981,6 +1074,7 @@ function MileEndStationBowRoadAudio(){
 function RegentsCanal(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Regents Canal";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -991,6 +1085,7 @@ function RegentsCanalAudio(){
 function QueenMaryUniversityofLondon(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Queen Mary / University of London";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1001,6 +1096,7 @@ function QueenMaryUniversityofLondonAudio(){
 function ErnestStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Ernest Street";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1011,6 +1107,7 @@ function ErnestStreetAudio(){
 function DongolaRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Dongola Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1021,6 +1118,7 @@ function DongolaRoadAudio(){
 function HarfordStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Harford Street";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1031,6 +1129,7 @@ function HarfordStreetAudio(){
 function StDunstansChurch(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "St Dunstan's Church";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1041,6 +1140,7 @@ function StDunstansChurchAudio(){
 function JamaicaStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Jamaica Street";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1051,6 +1151,7 @@ function JamaicaStreetAudio(){
 function MusburyStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Musbury Street";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1061,6 +1162,7 @@ function MusburyStreetAudio(){
 function MarthaStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Martha Street";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1071,6 +1173,7 @@ function MarthaStreetAudio(){
 function ShadwellStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Shadwell Station";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1081,6 +1184,7 @@ function ShadwellStationAudio(){
 function SuttonStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Sutton Street";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1091,6 +1195,7 @@ function SuttonStreetAudio(){
 function MileEndStationMileEndRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Mile End Station / Mile End Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1101,6 +1206,7 @@ function MileEndStationMileEndRoadAudio(){
 function RomanRoadGroveRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Roman Road / Grove Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1111,6 +1217,7 @@ function RomanRoadGroveRoadAudio(){
 function AntillRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Antill Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1121,6 +1228,7 @@ function AntillRoadAudio(){
 function WansbeckRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Wansbeck Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1131,6 +1239,7 @@ function WansbeckRoadAudio(){
 function ChobhamRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Chobham Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1141,6 +1250,7 @@ function ChobhamRoadAudio(){
 function ApolloPlace(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Apollo Place";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1151,6 +1261,7 @@ function ApolloPlaceAudio(){
 function HollydownWay(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Hollydown Way";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1161,6 +1272,7 @@ function HollydownWayAudio(){
 function DraytonRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Drayton Road";
     // topTextYes.style.animationName = "RothburyRoad";
 }
@@ -1195,6 +1307,7 @@ function KingEdwardStreetStPaulsStationAudio(){
 function LittleBritain(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Little Britain";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1205,6 +1318,7 @@ function LittleBritainAudio(){
 function LondonWallMuseumofLondon(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "London Wall / Museum of London";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1215,6 +1329,7 @@ function LondonWallMuseumofLondonAudio(){
 function LondonWallMoorgateStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "London Wall / Moorgate Station";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1225,6 +1340,7 @@ function LondonWallMoorgateStationAudio(){
 function AllHallowsChurch(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "All Hallows Church";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1235,6 +1351,7 @@ function AllHallowsChurchAudio(){
 function WormwoodStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Wormwood Street";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1245,6 +1362,7 @@ function WormwoodStreetAudio(){
 function StBotolphStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "St Botolph Street";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1255,6 +1373,7 @@ function StBotolphStreetAudio(){
 function AldgateStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Aldgate Station";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1265,6 +1384,7 @@ function AldgateStationAudio(){
 function Minories(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Minories";
     // topTextYes.style.animationName = "KingEdwardStreetStPaulsStation";
 }
@@ -1285,6 +1405,7 @@ function TowerHillTowerGatewayStationAudio(){
 function StKatharineDocks(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "St Katharine Docks";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1295,6 +1416,7 @@ function StKatharineDocksAudio(){
 function TheHighway(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "The Highway";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1305,6 +1427,7 @@ function TheHighwayAudio(){
 function NeshamStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Nesham Street";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1315,6 +1438,7 @@ function NeshamStreetAudio(){
 function HermitageWall(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Hermitage Wall";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1325,6 +1449,7 @@ function HermitageWallAudio(){
 function SampsonStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Sampson Street";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1335,6 +1460,7 @@ function SampsonStreetAudio(){
 function DundeeStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Dundee Street";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1345,6 +1471,7 @@ function DundeeStreetAudio(){
 function WappingStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Wapping Station";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1355,6 +1482,7 @@ function WappingStationAudio(){
 function WappingHealthCentre(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Wapping Health Centre";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1365,6 +1493,7 @@ function WappingHealthCentreAudio(){
 function TobaccoDock(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Tobacco Dock";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1375,6 +1504,7 @@ function TobaccoDockAudio(){
 function StPaulsChurch(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "St Paul's Church";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1385,6 +1515,7 @@ function StPaulsChurchAudio(){
 function GlamisPlace(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Glamis Place";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1395,6 +1526,7 @@ function GlamisPlaceAudio(){
 function KingDavidLane(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "King David Lane";
     // topTextYes.style.animationName = "TowerHillTowerGatewayStation";
 }
@@ -1415,6 +1547,7 @@ function StGeorgesTownHallShadwellStnAudio(){
 function CleggStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Clegg Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1425,6 +1558,7 @@ function CleggStreetAudio(){
 function GarnetStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Garnet Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1435,6 +1569,7 @@ function GarnetStreetAudio(){
 function WappingWall(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Wapping Wall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1445,6 +1580,7 @@ function WappingWallAudio(){
 function StockholmWay(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Stockholm Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1455,6 +1591,7 @@ function StockholmWayAudio(){
 function TowerGatewayStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Tower Gateway Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1465,6 +1602,7 @@ function TowerGatewayStationAudio(){
 function MansellStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Mansell Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1475,6 +1613,7 @@ function MansellStreetAudio(){
 function DukesPlace(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Duke's Place";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1485,6 +1624,7 @@ function DukesPlaceAudio(){
 function Bishopsgate(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Bishopsgate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1495,6 +1635,7 @@ function BishopsgateAudio(){
 function MoorgateStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "Moorgate Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1505,10 +1646,451 @@ function MoorgateStationAudio(){
 function StPaulsStation(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
+    marquee.style.display = "none";
     topTextNo.innerHTML = "St Paul's Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
 function StPaulsStationAudio(){
     iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_PAULS_STATION_001.mp3";
+    iBusAudio.play();
+}
+function PoplarAllSaintsChurch(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Poplar / All Saints Church";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function PoplarAllSaintsChurchAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_POPLAR_ALL_SAINTS_CHURCH_001.mp3";
+    iBusAudio.play();
+}
+function PoplarHighStreetBlackwall(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Poplar High Street / Blackwall";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function PoplarHighStreetBlackwallAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_POPLAR_HIGH_STREET_BLACKWALL_001.mp3";
+    iBusAudio.play();
+}
+function AspenWay(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Aspen Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function AspenWayAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ASPEN_wAY_001.mp3";
+    iBusAudio.play();
+}
+function Coldharbour(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Coldharbour";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function ColdharbourAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_COLDHARBOUR_001.mp3";
+    iBusAudio.play();
+}
+function StewartStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Stewart Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function StewartStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_STEWART_STREET_001.mp3";
+    iBusAudio.play();
+}
+function StJohnsPark(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "St John's Park";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function StJohnsParkAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_JOHNS_PARK_001.mp3";
+    iBusAudio.play();
+}
+function CubittTownSchool(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Cubitt Town School";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CubittTownSchoolAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CUBITT_TOWN_sCHOOL_001.mp3";
+    iBusAudio.play();
+}
+function PierStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Pier Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function PierStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_PIER_STREET_001.mp3";
+    iBusAudio.play();
+}
+function IsleofDogsPoliceStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Isle of Dogs Police Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function IsleofDogsPoliceStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ISLE_OF_DOGS_POLICE_STATION_001.mp3";
+    iBusAudio.play();
+}
+function IslandGardensStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Island Gardens Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function IslandGardensStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ISLAND_GARDENS_STATION_001.mp3";
+    iBusAudio.play();
+}
+function EastFerryRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "East Ferry Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function EastFerryRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_EAST_FERRY_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function LangbournePlace(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Langbourne Place";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function LangbournePlaceAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LANGBOURNE_PLACE_001.mp3";
+    iBusAudio.play();
+}
+function HarbingerSchoolMasthouseTerPier(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="none";
+    marquee.style.display = "block";
+    marquee.innerHTML = "Harbinger School / Masthouse Ter. Pier";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function HarbingerSchoolMasthouseTerPierAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HARBINGER_SCHOOL_MASTHOUSE_TERRANCE_PIER_001.mp3";
+    iBusAudio.play();
+}
+function StEdmundsSchool(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "St Edmund's School";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function StEdmundsSchoolAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_EDMUNDS_SCHOOL_001.mp3";
+    iBusAudio.play();
+}
+function CrewsStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Crews Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CrewsStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CREWS_STREET_001.mp3";
+    iBusAudio.play();
+}
+function ArnhemWharfPrimarySchool(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Arnhem Wharf Primary School";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function ArnhemWharfPrimarySchoolAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ARNHEM_WHARF_PRIMARY_SCHOOL_001.mp3";
+    iBusAudio.play();
+}
+function SirJohnMcdougallGardens(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Sir John Mcdougall Gardens";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function SirJohnMcdougallGardensAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_SIR_JOHN_MCDOUGAL_GARDENS_001.mp3";
+    iBusAudio.play();
+}
+function BarkantineClinicHutchingsStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="none";
+    marquee.style.display = "block";
+    marquee.innerHTML = "Barkantine Clinic / Hutchings Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function BarkantineClinicHutchingsStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BARKANTINE_CLINIC_001.mp3";
+    iBusAudio.play();
+    iBusAudio.onended = function() {
+        audio = 2;
+        if (audio == 2){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HUTCHINGS_STREET_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+}
+function ByngStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Byng Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function ByngStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BYNG_STREET_001.mp3";
+    iBusAudio.play();
+}
+function MarshWallHeronQuay(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Marsh Wall / Heron Quay";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function MarshWallHeronQuayAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MARSH_WALL_HERON_QUAYS_001.mp3";
+    iBusAudio.play();
+}
+function CanaryWharfStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Canary Wharf Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CanaryWharfStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CANARY_WHARF_STATION_001.mp3";
+    iBusAudio.play();
+}
+function CanadaSquareSouthCanaryWharfStn(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Canada Square South / Canary Wharf Stn";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CanadaSquareSouthCanaryWharfStnAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CANADA_SQUARE_SOUTH_001.mp3";
+    iBusAudio.play();
+}
+function WestIndiaAvenue(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "West India Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WestIndiaAvenueAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WEST_INDIA_AVENUE_001.mp3";
+    iBusAudio.play();
+}
+function WestferryCircusCanaryWharfPier(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="none";
+    marquee.style.display = "block";
+    marquee.innerHTML = "Westferry Circus / Canary Wharf Pier";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WestferryCircusCanaryWharfPierAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WESTFERRY_CIRCUS_CANARY_WHARF_PIER_001.mp3";
+    iBusAudio.play();
+}
+function WestferryStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Westferry Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WestferryStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WESTFERRY_Station_001.mp3";
+    iBusAudio.play();
+}
+function SalterStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Salter Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function SalterStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_SALTER_STREET_001.mp3";
+    iBusAudio.play();
+}
+function EastIndiaDockRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "East India Dock Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function EastIndiaDockRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_EAST_INDIA_DOCK_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function PixleyStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Pixley Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function PixleyStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_PIXLEY_STREET_001.mp3";
+    iBusAudio.play();
+}
+function StPaulsWay(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "St Paul's Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function StPaulsWayAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ST_PAULS_WAY_001.mp3";
+    iBusAudio.play();
+}
+function AckroydDrive(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Ackroyd Drive";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function AckroydDriveAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ACKROYD_DRIVE_001.mp3";
+    iBusAudio.play();
+}
+function EricStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Eric Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function EricStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ERIC_STREET_001.mp3";
+    iBusAudio.play();
+}
+function MileEndStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Mile End Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function MileEndStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MILE_END_STATION_001.mp3";
+    iBusAudio.play();
+}
+function MileEndParkLeisureCentre(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Mile End Park Leisure Centre";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function MileEndParkLeisureCentreAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MILE_END_PARK_LEISURE_CENTRE_001.mp3";
+    iBusAudio.play();
+}
+function LimehousePoliceStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Limehouse Police Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function LimehousePoliceStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LIMEHOUSE_POLICE_STATION_001.mp3";
+    iBusAudio.play();
+}
+function CubaStreet(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Cuba Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CubaStreetAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CUBA_STREET_001.mp3";
+    iBusAudio.play();
+}
+function CrewsStreettheSpaceTheatre(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Crews Street / the Space Theatre";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CrewsStreettheSpaceTheatreAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CREWS_STREET_THE_SPACE_THEATRE_001.mp3";
+    iBusAudio.play();
+}
+function MaconochiesRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Maconochies Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function MaconochiesRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MACONOCHIES_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function GeorgeGreensSchool(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "George Green's School";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function GeorgeGreensSchoolAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_GEORGE_GREENS_SCHOOL_001.mp3";
+    iBusAudio.play();
+}
+function TheBlueBridge(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "The Blue Bridge";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function TheBlueBridgeAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_THE_BLUE_BRIDGE_001.mp3";
     iBusAudio.play();
 }

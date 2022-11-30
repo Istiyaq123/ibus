@@ -30,10 +30,19 @@ function StPauls100btn(){
   StGeorgesTownHallShadwellStn100()
   showDestination.setAttribute( "onClick", "StPauls100ibus();" );
 }
+function PoplarAllSaintsD7btn(){
+  MileEndStationBowRoadD7()
+  showDestination.setAttribute( "onClick", "PoplarAllSaintsD7ibus();" );
+}
+function MileEndD7btn(){
+  PoplarAllSaintsChurchD7()
+  showDestination.setAttribute( "onClick", "MileEndD7ibus();" );
+}
 
 function Shadwell339ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
+  marquee.style.display = "none";
   topTextNo.innerHTML = "339 to Shadwell";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_339_001.mp3";
@@ -60,6 +69,7 @@ function Shadwell339ibus(){
 function Leytonstone339ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
+  marquee.style.display = "none";
   topTextNo.innerHTML = "339 to Leytonstone";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_339_002.mp3";
@@ -86,6 +96,7 @@ function Leytonstone339ibus(){
 function Shadwell100ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
+  marquee.style.display = "none";
   topTextNo.innerHTML = "100 to Shadwell";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_100_001.mp3";
@@ -112,6 +123,7 @@ function Shadwell100ibus(){
 function StPauls100ibus(){
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
+  marquee.style.display = "none";
   topTextNo.innerHTML = "100 to St Paul's";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_100_001.mp3";
@@ -125,6 +137,60 @@ function StPauls100ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_ST_PAULS_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function PoplarAllSaintsD7ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "D7 to Poplar, All Saints";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_D7_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_POPLAR_ALL_SAINTS_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function MileEndD7ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "D7 to Mile End";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_D7_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_MILE_END_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -956,5 +1022,416 @@ function StGeorgesTownHallShadwellStn100(){
 function StGeorgesTownHallShadwellStn100Audio(){
   StGeorgesTownHallShadwellStnAudio()
   BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+}
+
+function PoplarAllSaintsChurchD7(){
+  PoplarAllSaintsChurch()
+  BackDestination.setAttribute( "onClick", "PoplarAllSaintsChurchD7Audio();" );
+  NextDestination.setAttribute( "onClick", "PoplarAllSaintsChurchD7Audio();" );
+}
+function PoplarAllSaintsChurchD7Audio(){
+  PoplarAllSaintsChurchAudio()
+  BackDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  NextDestination.setAttribute( "onClick", "PoplarHighStreetBlackwallD7();" );
+}
+function PoplarHighStreetBlackwallD7(){
+  PoplarHighStreetBlackwall()
+  BackDestination.setAttribute( "onClick", "PoplarHighStreetBlackwallD7Audio();" );
+  NextDestination.setAttribute( "onClick", "PoplarHighStreetBlackwallD7Audio();" );
+}
+function PoplarHighStreetBlackwallD7Audio(){
+  PoplarHighStreetBlackwallAudio()
+  BackDestination.setAttribute( "onClick", "PoplarAllSaintsChurchD7();" );
+  NextDestination.setAttribute( "onClick", "AspenWayD7();" );
+}
+function AspenWayD7(){
+  AspenWay()
+  BackDestination.setAttribute( "onClick", "AspenWayD7Audio();" );
+  NextDestination.setAttribute( "onClick", "AspenWayD7Audio();" );
+}
+function AspenWayD7Audio(){
+  AspenWayAudio()
+  BackDestination.setAttribute( "onClick", "PoplarHighStreetBlackwallD7();" );
+  NextDestination.setAttribute( "onClick", "ColdharbourD7();" );
+}
+function ColdharbourD7(){
+  Coldharbour()
+  BackDestination.setAttribute( "onClick", "ColdharbourD7Audio();" );
+  NextDestination.setAttribute( "onClick", "ColdharbourD7Audio();" );
+}
+function ColdharbourD7Audio(){
+  ColdharbourAudio()
+  BackDestination.setAttribute( "onClick", "AspenWayD7();" );
+  NextDestination.setAttribute( "onClick", "StewartStreetD7();" );
+}
+function StewartStreetD7(){
+  StewartStreet()
+  BackDestination.setAttribute( "onClick", "StewartStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "StewartStreetD7Audio();" );
+}
+function StewartStreetD7Audio(){
+  StewartStreetAudio()
+  BackDestination.setAttribute( "onClick", "TheBlueBridgeD7();" );
+  NextDestination.setAttribute( "onClick", "StJohnsParkD7();" );
+}
+function TheBlueBridgeD7(){
+  TheBlueBridge()
+  BackDestination.setAttribute( "onClick", "TheBlueBridgeD7Audio();" );
+  NextDestination.setAttribute( "onClick", "TheBlueBridgeD7Audio();" );
+}
+function TheBlueBridgeD7Audio(){
+  TheBlueBridgeAudio()
+  BackDestination.setAttribute( "onClick", "ColdharbourD7();" );
+  NextDestination.setAttribute( "onClick", "StJohnsParkD7();" );
+}
+function StJohnsParkD7(){
+  StJohnsPark()
+  BackDestination.setAttribute( "onClick", "StJohnsParkD7Audio();" );
+  NextDestination.setAttribute( "onClick", "StJohnsParkD7Audio();" );
+}
+function StJohnsParkD7Audio(){
+  StJohnsParkAudio()
+  BackDestination.setAttribute( "onClick", "StewartStreetD7();" );
+  NextDestination.setAttribute( "onClick", "CubittTownSchoolD7();" );
+}
+function CubittTownSchoolD7(){
+  CubittTownSchool()
+  BackDestination.setAttribute( "onClick", "CubittTownSchoolD7Audio();" );
+  NextDestination.setAttribute( "onClick", "CubittTownSchoolD7Audio();" );
+}
+function CubittTownSchoolD7Audio(){
+  CubittTownSchoolAudio()
+  BackDestination.setAttribute( "onClick", "StJohnsParkD7();" );
+  NextDestination.setAttribute( "onClick", "PierStreetD7();" );
+}
+function PierStreetD7(){
+  PierStreet()
+  BackDestination.setAttribute( "onClick", "PierStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "PierStreetD7Audio();" );
+}
+function PierStreetD7Audio(){
+  PierStreetAudio()
+  BackDestination.setAttribute( "onClick", "CubittTownSchoolD7();" );
+  NextDestination.setAttribute( "onClick", "IsleofDogsPoliceStationD7();" );
+}
+function IsleofDogsPoliceStationD7(){
+  IsleofDogsPoliceStation()
+  BackDestination.setAttribute( "onClick", "IsleofDogsPoliceStationD7Audio();" );
+  NextDestination.setAttribute( "onClick", "IsleofDogsPoliceStationD7Audio();" );
+}
+function IsleofDogsPoliceStationD7Audio(){
+  IsleofDogsPoliceStationAudio()
+  BackDestination.setAttribute( "onClick", "PierStreetD7();" );
+  NextDestination.setAttribute( "onClick", "IslandGardensStationD7();" );
+}
+function IslandGardensStationD7(){
+  IslandGardensStation()
+  BackDestination.setAttribute( "onClick", "IslandGardensStationD7Audio();" );
+  NextDestination.setAttribute( "onClick", "IslandGardensStationD7Audio();" );
+}
+function IslandGardensStationD7Audio(){
+  IslandGardensStationAudio()
+  BackDestination.setAttribute( "onClick", "GeorgeGreensSchoolD7();" );
+  NextDestination.setAttribute( "onClick", "EastFerryRoadD7();" );
+}
+function GeorgeGreensSchoolD7(){
+  GeorgeGreensSchool()
+  BackDestination.setAttribute( "onClick", "GeorgeGreensSchoolD7Audio();" );
+  NextDestination.setAttribute( "onClick", "GeorgeGreensSchoolD7Audio();" );
+}
+function GeorgeGreensSchoolD7Audio(){
+  GeorgeGreensSchoolAudio()
+  BackDestination.setAttribute( "onClick", "IsleofDogsPoliceStationD7();" );
+  NextDestination.setAttribute( "onClick", "EastFerryRoadD7();" );
+}
+function EastFerryRoadD7(){
+  EastFerryRoad()
+  BackDestination.setAttribute( "onClick", "EastFerryRoadD7Audio();" );
+  NextDestination.setAttribute( "onClick", "EastFerryRoadD7Audio();" );
+}
+function EastFerryRoadD7Audio(){
+  EastFerryRoadAudio()
+  BackDestination.setAttribute( "onClick", "IslandGardensStationD7();" );
+  NextDestination.setAttribute( "onClick", "LangbournePlaceD7();" );
+}
+function LangbournePlaceD7(){
+  LangbournePlace()
+  BackDestination.setAttribute( "onClick", "LangbournePlaceD7Audio();" );
+  NextDestination.setAttribute( "onClick", "LangbournePlaceD7Audio();" );
+}
+function LangbournePlaceD7Audio(){
+  LangbournePlaceAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "HarbingerSchoolMasthouseTerPierD7();" );
+}
+function HarbingerSchoolMasthouseTerPierD7(){
+  HarbingerSchoolMasthouseTerPier()
+  BackDestination.setAttribute( "onClick", "HarbingerSchoolMasthouseTerPierD7Audio();" );
+  NextDestination.setAttribute( "onClick", "HarbingerSchoolMasthouseTerPierD7Audio();" );
+}
+function HarbingerSchoolMasthouseTerPierD7Audio(){
+  HarbingerSchoolMasthouseTerPierAudio()
+  BackDestination.setAttribute( "onClick", "MaconochiesRoadD7();" );
+  NextDestination.setAttribute( "onClick", "StEdmundsSchoolD7();" );
+}
+function MaconochiesRoadD7(){
+  MaconochiesRoad()
+  BackDestination.setAttribute( "onClick", "MaconochiesRoadD7Audio();" );
+  NextDestination.setAttribute( "onClick", "MaconochiesRoadD7Audio();" );
+}
+function MaconochiesRoadD7Audio(){
+  MaconochiesRoadAudio()
+  BackDestination.setAttribute( "onClick", "EastFerryRoadD7();" );
+  NextDestination.setAttribute( "onClick", "StEdmundsSchoolD7();" );
+}
+function StEdmundsSchoolD7(){
+  StEdmundsSchool()
+  BackDestination.setAttribute( "onClick", "StEdmundsSchoolD7Audio();" );
+  NextDestination.setAttribute( "onClick", "StEdmundsSchoolD7Audio();" );
+}
+function StEdmundsSchoolD7Audio(){
+  StEdmundsSchoolAudio()
+  BackDestination.setAttribute( "onClick", "HarbingerSchoolMasthouseTerPierD7();" );
+  NextDestination.setAttribute( "onClick", "CrewsStreetD7();" );
+}
+function CrewsStreetD7(){
+  CrewsStreet()
+  BackDestination.setAttribute( "onClick", "CrewsStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "CrewsStreetD7Audio();" );
+}
+function CrewsStreetD7Audio(){
+  CrewsStreetAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "ArnhemWharfPrimarySchoolD7();" );
+}
+function ArnhemWharfPrimarySchoolD7(){
+  ArnhemWharfPrimarySchool()
+  BackDestination.setAttribute( "onClick", "ArnhemWharfPrimarySchoolD7Audio();" );
+  NextDestination.setAttribute( "onClick", "ArnhemWharfPrimarySchoolD7Audio();" );
+}
+function ArnhemWharfPrimarySchoolD7Audio(){
+  ArnhemWharfPrimarySchoolAudio()
+  BackDestination.setAttribute( "onClick", "CrewsStreettheSpaceTheatreD7();" );
+  NextDestination.setAttribute( "onClick", "SirJohnMcdougallGardensD7();" );
+}
+function CrewsStreettheSpaceTheatreD7(){
+  CrewsStreettheSpaceTheatre()
+  BackDestination.setAttribute( "onClick", "CrewsStreettheSpaceTheatreD7Audio();" );
+  NextDestination.setAttribute( "onClick", "CrewsStreettheSpaceTheatreD7Audio();" );
+}
+function CrewsStreettheSpaceTheatreD7Audio(){
+  CrewsStreettheSpaceTheatreAudio()
+  BackDestination.setAttribute( "onClick", "StEdmundsSchoolD7();" );
+  NextDestination.setAttribute( "onClick", "SirJohnMcdougallGardensD7();" );
+}
+function SirJohnMcdougallGardensD7(){
+  SirJohnMcdougallGardens()
+  BackDestination.setAttribute( "onClick", "SirJohnMcdougallGardensD7Audio();" );
+  NextDestination.setAttribute( "onClick", "SirJohnMcdougallGardensD7Audio();" );
+}
+function SirJohnMcdougallGardensD7Audio(){
+  SirJohnMcdougallGardensAudio()
+  BackDestination.setAttribute( "onClick", "ArnhemWharfPrimarySchoolD7();" );
+  NextDestination.setAttribute( "onClick", "BarkantineClinicHutchingsStreetD7();" );
+}
+function BarkantineClinicHutchingsStreetD7(){
+  BarkantineClinicHutchingsStreet()
+  BackDestination.setAttribute( "onClick", "BarkantineClinicHutchingsStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "BarkantineClinicHutchingsStreetD7Audio();" );
+}
+function BarkantineClinicHutchingsStreetD7Audio(){
+  BarkantineClinicHutchingsStreetAudio()
+  BackDestination.setAttribute( "onClick", "SirJohnMcdougallGardensD7();" );
+  NextDestination.setAttribute( "onClick", "ByngStreetD7();" );
+}
+function ByngStreetD7(){
+  ByngStreet()
+  BackDestination.setAttribute( "onClick", "ByngStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "ByngStreetD7Audio();" );
+}
+function ByngStreetD7Audio(){
+  ByngStreetAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "MarshWallHeronQuayD7();" );
+}
+function MarshWallHeronQuayD7(){
+  MarshWallHeronQuay()
+  BackDestination.setAttribute( "onClick", "MarshWallHeronQuayD7Audio();" );
+  NextDestination.setAttribute( "onClick", "MarshWallHeronQuayD7Audio();" );
+}
+function MarshWallHeronQuayD7Audio(){
+  MarshWallHeronQuayAudio()
+  BackDestination.setAttribute( "onClick", "CubaStreetD7();" );
+  NextDestination.setAttribute( "onClick", "CanaryWharfStationD7();" );
+}
+function CubaStreetD7(){
+  CubaStreet()
+  BackDestination.setAttribute( "onClick", "CubaStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "CubaStreetD7Audio();" );
+}
+function CubaStreetD7Audio(){
+  CubaStreetAudio()
+  BackDestination.setAttribute( "onClick", "BarkantineClinicHutchingsStreetD7();" );
+  NextDestination.setAttribute( "onClick", "CanaryWharfStationD7();" );
+}
+function CanaryWharfStationD7(){
+  CanaryWharfStation()
+  BackDestination.setAttribute( "onClick", "CanaryWharfStationD7Audio();" );
+  NextDestination.setAttribute( "onClick", "CanaryWharfStationD7Audio();" );
+}
+function CanaryWharfStationD7Audio(){
+  CanaryWharfStationAudio()
+  BackDestination.setAttribute( "onClick", "MarshWallHeronQuayD7();" );
+  NextDestination.setAttribute( "onClick", "CanadaSquareSouthCanaryWharfStnD7();" );
+}
+function CanadaSquareSouthCanaryWharfStnD7(){
+  CanadaSquareSouthCanaryWharfStn()
+  BackDestination.setAttribute( "onClick", "CanadaSquareSouthCanaryWharfStnD7Audio();" );
+  NextDestination.setAttribute( "onClick", "CanadaSquareSouthCanaryWharfStnD7Audio();" );
+}
+function CanadaSquareSouthCanaryWharfStnD7Audio(){
+  CanadaSquareSouthCanaryWharfStnAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "CanaryWharfStation2D7();" );
+}
+function CanaryWharfStation2D7(){
+  CanaryWharfStation()
+  BackDestination.setAttribute( "onClick", "CanaryWharfStation2D7Audio();" );
+  NextDestination.setAttribute( "onClick", "CanaryWharfStation2D7Audio();" );
+}
+function CanaryWharfStation2D7Audio(){
+  CanaryWharfStationAudio()
+  BackDestination.setAttribute( "onClick", "CanaryWharfStationD7();" );
+  NextDestination.setAttribute( "onClick", "WestIndiaAvenueD7();" );
+}
+function WestIndiaAvenueD7(){
+  WestIndiaAvenue()
+  BackDestination.setAttribute( "onClick", "WestIndiaAvenueD7Audio();" );
+  NextDestination.setAttribute( "onClick", "WestIndiaAvenueD7Audio();" );
+}
+function WestIndiaAvenueD7Audio(){
+  WestIndiaAvenueAudio()
+  BackDestination.setAttribute( "onClick", "CanaryWharfStation2D7();" );
+  NextDestination.setAttribute( "onClick", "WestferryCircusCanaryWharfPierD7();" );
+}
+function WestferryCircusCanaryWharfPierD7(){
+  WestferryCircusCanaryWharfPier()
+  BackDestination.setAttribute( "onClick", "WestferryCircusCanaryWharfPierD7Audio();" );
+  NextDestination.setAttribute( "onClick", "WestferryCircusCanaryWharfPierD7Audio();" );
+}
+function WestferryCircusCanaryWharfPierD7Audio(){
+  WestferryCircusCanaryWharfPierAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "WestferryStationD7();" );
+}
+function WestferryStationD7(){
+  WestferryStation()
+  BackDestination.setAttribute( "onClick", "WestferryStationD7Audio();" );
+  NextDestination.setAttribute( "onClick", "WestferryStationD7Audio();" );
+}
+function WestferryStationD7Audio(){
+  WestferryStationAudio()
+  BackDestination.setAttribute( "onClick", "WestIndiaAvenueD7();" );
+  NextDestination.setAttribute( "onClick", "SalterStreetD7();" );
+}
+function SalterStreetD7(){
+  SalterStreet()
+  BackDestination.setAttribute( "onClick", "SalterStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "SalterStreetD7Audio();" );
+}
+function SalterStreetD7Audio(){
+  SalterStreetAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "EastIndiaDockRoadD7();" );
+}
+function EastIndiaDockRoadD7(){
+  EastIndiaDockRoad()
+  BackDestination.setAttribute( "onClick", "EastIndiaDockRoadD7Audio();" );
+  NextDestination.setAttribute( "onClick", "EastIndiaDockRoadD7Audio();" );
+}
+function EastIndiaDockRoadD7Audio(){
+  EastIndiaDockRoadAudio()
+  BackDestination.setAttribute( "onClick", "LimehousePoliceStationD7();" );
+  NextDestination.setAttribute( "onClick", "PixleyStreetD7();" );
+}
+function LimehousePoliceStationD7(){
+  LimehousePoliceStation()
+  BackDestination.setAttribute( "onClick", "LimehousePoliceStationD7Audio();" );
+  NextDestination.setAttribute( "onClick", "LimehousePoliceStationD7Audio();" );
+}
+function LimehousePoliceStationD7Audio(){
+  LimehousePoliceStationAudio()
+  BackDestination.setAttribute( "onClick", "WestferryStationD7();" );
+  NextDestination.setAttribute( "onClick", "PixleyStreetD7();" );
+}
+function PixleyStreetD7(){
+  PixleyStreet()
+  BackDestination.setAttribute( "onClick", "PixleyStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "PixleyStreetD7Audio();" );
+}
+function PixleyStreetD7Audio(){
+  PixleyStreetAudio()
+  BackDestination.setAttribute( "onClick", "EastIndiaDockRoadD7();" );
+  NextDestination.setAttribute( "onClick", "StPaulsWayD7();" );
+}
+function StPaulsWayD7(){
+  StPaulsWay()
+  BackDestination.setAttribute( "onClick", "StPaulsWayD7Audio();" );
+  NextDestination.setAttribute( "onClick", "StPaulsWayD7Audio();" );
+}
+function StPaulsWayD7Audio(){
+  StPaulsWayAudio()
+  BackDestination.setAttribute( "onClick", "PixleyStreetD7();" );
+  NextDestination.setAttribute( "onClick", "AckroydDriveD7();" );
+}
+function AckroydDriveD7(){
+  AckroydDrive()
+  BackDestination.setAttribute( "onClick", "AckroydDriveD7Audio();" );
+  NextDestination.setAttribute( "onClick", "AckroydDriveD7Audio();" );
+}
+function AckroydDriveD7Audio(){
+  AckroydDriveAudio()
+  BackDestination.setAttribute( "onClick", "TobaccoDock100();" );
+  NextDestination.setAttribute( "onClick", "EricStreetD7();" );
+}
+function EricStreetD7(){
+  EricStreet()
+  BackDestination.setAttribute( "onClick", "EricStreetD7Audio();" );
+  NextDestination.setAttribute( "onClick", "EricStreetD7Audio();" );
+}
+function EricStreetD7Audio(){
+  EricStreetAudio()
+  BackDestination.setAttribute( "onClick", "MileEndParkLeisureCentreD7();" );
+  NextDestination.setAttribute( "onClick", "MileEndStationD7();" );
+}
+function MileEndParkLeisureCentreD7(){
+  MileEndParkLeisureCentre()
+  BackDestination.setAttribute( "onClick", "MileEndParkLeisureCentreD7Audio();" );
+  NextDestination.setAttribute( "onClick", "MileEndParkLeisureCentreD7Audio();" );
+}
+function MileEndParkLeisureCentreD7Audio(){
+  MileEndParkLeisureCentreAudio()
+  BackDestination.setAttribute( "onClick", "StPaulsWayD7();" );
+  NextDestination.setAttribute( "onClick", "MileEndStationD7();" );
+}
+function MileEndStationD7(){
+  MileEndStation()
+  BackDestination.setAttribute( "onClick", "MileEndStationD7Audio();" );
+  NextDestination.setAttribute( "onClick", "MileEndStationD7Audio();" );
+}
+function MileEndStationD7Audio(){
+  MileEndStationAudio()
+  BackDestination.setAttribute( "onClick", "EricStreetD7();" );
+  NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+}
+function MileEndStationBowRoadD7(){
+  MileEndStationBowRoad()
+  BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  NextDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+}
+function MileEndStationBowRoadD7Audio(){
+  MileEndStationBowRoadAudio()
+  BackDestination.setAttribute( "onClick", "MileEndStationD7();" );
   NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
 }
