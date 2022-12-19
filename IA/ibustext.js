@@ -2758,7 +2758,7 @@ function KingslandRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
     marquee.style.display = "none";
-    topTextNo.innerHTML = "Thurtle Road";
+    topTextNo.innerHTML = "Kingsland Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
 function KingslandRoadAudio(){
