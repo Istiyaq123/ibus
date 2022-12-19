@@ -2556,7 +2556,7 @@ function MarylandStationManbeyGroveAudio(){
     iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_Maryland_Station_Manbey_Grove_001.mp3";
     iBusAudio.play();
 }
-function BrunswickRoad6(){
+function BrunswickRoad(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="block";
     marquee.style.display = "none";
