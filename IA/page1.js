@@ -57,8 +57,8 @@ function TottenhamHale76(){
 //   topTextNo.style.display ="block";
 //   topTextNo.innerHTML = "Y"+smallSpace+"o"+smallSpace+"u"+bigSpace+"S"+smallSpace+"u"+smallSpace+"c"+smallSpace+"k";
 //   NextDestination.setAttribute( "onClick", "RathboneMarket();" );
-  BackDestination.setAttribute( "onClick", "HermitRoad();" );
-}
+//   BackDestination.setAttribute( "onClick", "HermitRoad();" );
+// }
 function ibus309BethnalGreen(){
   topTextYes.style.display ="block";
   topTextNo.style.display ="none";

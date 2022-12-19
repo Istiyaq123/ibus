@@ -2149,7 +2149,7 @@ function MorleyRoad69Audio(){
   }
 }
 function PlaistowStation69(){
-  MorleyRoad()
+  PlaistowStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "PlaistowStation69Audio();" );
