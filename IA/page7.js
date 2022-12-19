@@ -39,14 +39,14 @@ function MileEndD7btn(){
   showDestination.setAttribute( "onClick", "MileEndD7ibus();" );
 }
 function CanningTown69btn(){
+  routeDestination = "CanningTown69";
   WalthamstowBusStation69()
   showDestination.setAttribute( "onClick", "CanningTown69ibus();" );
-  var routeDestination = "CanningTown69";
 }
 function WalthamstowCentral69btn(){
+  routeDestination = "WalthamstowCentral69";
   CanningTownStation69()
   showDestination.setAttribute( "onClick", "WalthamstowCentral69ibus();" );
-  var routeDestination = "WalthamstowCentral69";
 }
 
 function Shadwell339ibus(){
