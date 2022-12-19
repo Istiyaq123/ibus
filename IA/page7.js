@@ -2377,7 +2377,7 @@ function CanningTownStation69Audio(){
   CanningTownStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "CanningTown69"){
-    NextDestination.setAttribute( "onClick", "BusTermiatesHere();" );
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "RathboneMarket69();" );
   }
