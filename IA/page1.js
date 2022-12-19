@@ -41,22 +41,22 @@ function TottenhamHale76(){
 // topTextYes.innerHTML = "309 to Bethnal Green, Chest Hospital";
 // topTextYes.style.animationName = "BethnalGreen309";
 
-function ibus474ManorPark(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "4"+smallSpace+"7"+smallSpace+"4"+bigSpace+"t"+smallSpace+"o"+bigSpace+"M"+smallSpace+"a"+smallSpace+"n"+smallSpace+"o"+smallSpace+"r"+bigSpace+"P"+smallSpace+"a"+smallSpace+"r"+smallSpace+"k";
-  NextDestination.setAttribute( "onClick", "HermitRoad();" );
-}function HermitRoad(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "H"+smallSpace+"e"+smallSpace+"r"+smallSpace+"m"+smallSpace+"i"+smallSpace+"t"+bigSpace+"R"+smallSpace+"o"+smallSpace+"a"+smallSpace+"d";
-  NextDestination.setAttribute( "onClick", "RathboneMarket();" );
-  BackDestination.setAttribute( "onClick", "ibus474ManorPark();" );
-}function RathboneMarket(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Y"+smallSpace+"o"+smallSpace+"u"+bigSpace+"S"+smallSpace+"u"+smallSpace+"c"+smallSpace+"k";
-  NextDestination.setAttribute( "onClick", "RathboneMarket();" );
+// function ibus474ManorPark(){
+//   topTextYes.style.display ="none";
+//   topTextNo.style.display ="block";
+//   topTextNo.innerHTML = "4"+smallSpace+"7"+smallSpace+"4"+bigSpace+"t"+smallSpace+"o"+bigSpace+"M"+smallSpace+"a"+smallSpace+"n"+smallSpace+"o"+smallSpace+"r"+bigSpace+"P"+smallSpace+"a"+smallSpace+"r"+smallSpace+"k";
+//   NextDestination.setAttribute( "onClick", "HermitRoad();" );
+// }function HermitRoad(){
+//   topTextYes.style.display ="none";
+//   topTextNo.style.display ="block";
+//   topTextNo.innerHTML = "H"+smallSpace+"e"+smallSpace+"r"+smallSpace+"m"+smallSpace+"i"+smallSpace+"t"+bigSpace+"R"+smallSpace+"o"+smallSpace+"a"+smallSpace+"d";
+//   NextDestination.setAttribute( "onClick", "RathboneMarket();" );
+//   BackDestination.setAttribute( "onClick", "ibus474ManorPark();" );
+// }function RathboneMarket(){
+//   topTextYes.style.display ="none";
+//   topTextNo.style.display ="block";
+//   topTextNo.innerHTML = "Y"+smallSpace+"o"+smallSpace+"u"+bigSpace+"S"+smallSpace+"u"+smallSpace+"c"+smallSpace+"k";
+//   NextDestination.setAttribute( "onClick", "RathboneMarket();" );
   BackDestination.setAttribute( "onClick", "HermitRoad();" );
 }
 function ibus309BethnalGreen(){
