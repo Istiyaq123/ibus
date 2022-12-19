@@ -1503,882 +1503,882 @@ function MileEndStationBowRoadD7Audio(){
 function WalthamstowBusStation69(){
   WalthamstowBusStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "WalthamstowBusStation69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "WalthamstowBusStation69Audio();" );
   }
 }
 function WalthamstowBusStation69Audio(){
   WalthamstowBusStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "GrosvenorParkRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   }
 }
 function GrosvenorParkRoad69(){
   GrosvenorParkRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "GrosvenorParkRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function GrosvenorParkRoad69Audio(){
   GrosvenorParkRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "GroveRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function QueensRoad69(){
   QueensRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "QueensRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "QueensRoad69Audio();" );
   }
 }
 function QueensRoad69Audio(){
   QueensRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "WalthamstowBusStation69();" );
   }
 }
 function GroveRoad69(){
   GroveRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "GroveRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "GroveRoad69Audio();" );
   }
 }
 function GroveRoad69Audio(){
   GroveRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BakersAvenue69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "QueensRoad69();" );
   }
 }
 function BakersAvenue69(){
   BakersAvenue()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BakersAvenue69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function BakersAvenue69Audio(){
   BakersAvenueAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonGreen69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function LeytonGreen69(){
   LeytonGreen()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonGreen69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function LeytonGreen69Audio(){
   LeytonGreenAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ColchesterRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function HoeStreetBakersArms69(){
   HoeStreetBakersArms()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "HoeStreetBakersArms69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "HoeStreetBakersArms69Audio();" );
   }
 }
 function HoeStreetBakersArms69Audio(){
   HoeStreetBakersArmsAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonMidlandRoadStation69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "GroveRoad69();" );
   }
 }
 function LeaBridgeRoadBakersArms69(){
   LeaBridgeRoadBakersArms()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeaBridgeRoadBakersArms69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeaBridgeRoadBakersArms69Audio();" );
   }
 }
 function LeaBridgeRoadBakersArms69Audio(){
   LeaBridgeRoadBakersArmsAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonMidlandRoadStation69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "HoeStreetBakersArms69();" );
   }
 }
 function ColchesterRoad69(){
   ColchesterRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ColchesterRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "ColchesterRoad69Audio();" );
   }
 }
 function ColchesterRoadAudio(){
   ColchesterRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonMidlandRoadStation69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeaBridgeRoadBakersArms69();" );
   }
 }
 function LeytonMidlandRoadStation69(){
   LeytonMidlandRoadStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonMidlandRoadStation69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeytonMidlandRoadStation69Audio();" );
   }
 }
 function LeytonMidlandRoadStation69Audio(){
   LeytonMidlandRoadStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonSportsGround69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "ColchesterRoad69();" );
   }
 }
 function LeytonSportsGround69(){
   LeytonSportsGround()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonSportsGround69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function LeytonSportsGround69Audio(){
   LeytonSportsGroundAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "VicarageRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function BrunswickRoad69(){
   BrunswickRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BrunswickRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BrunswickRoad69Audio();" );
   }
 }
 function BrunswickRoad69Audio(){
   BrunswickRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeytonMidlandRoadStation69();" );
   }
 }
 function VicarageRoad69(){
   VicarageRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "VicarageRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "VicarageRoad69Audio();" );
   }
 }
 function VicarageRoad69Audio(){
   VicarageRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "GrangeParkRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BrunswickRoad69();" );
   }
 }
 function GrangeParkRoad69(){
   GrangeParkRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "GrangeParkRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "GrangeParkRoad69Audio();" );
   }
 }
 function GrangeParkRoad69Audio(){
   GrangeParkRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BuckinghamRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "VicarageRoad69();" );
   }
 }
 function BuckinghamRoad69(){
   BuckinghamRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BuckinghamRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BuckinghamRoad69Audio();" );
   }
 }
 function BuckinghamRoad69Audio(){
   BuckinghamRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonLibrary69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "GrangeParkRoad69();" );
   }
 }
 function LeytonLibrary69(){
   LeytonLibrary()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonLibrary69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeytonLibrary69Audio();" );
   }
 }
 function LeytonLibrary69Audio(){
   LeytonLibraryAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonStation69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BuckinghamRoad69();" );
   }
 }
 function LeytonStation69(){
   LeytonStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LeytonStation69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeytonStation69Audio();" );
   }
 }
 function LeytonStation69Audio(){
   LeytonStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "MillaisRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeytonLibrary69();" );
   }
 }
 function MillaisRoad69(){
   MillaisRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "MillaisRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MillaisRoad69Audio();" );
   }
 }
 function MillaisRoad69Audio(){
   MillaisRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "DrapersField69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LeytonStation69();" );
   }
 }
 function DrapersField69(){
   DrapersField()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "DrapersField69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "DrapersField69Audio();" );
   }
 }
 function DrapersField69Audio(){
   DrapersFieldAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "EdithRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MillaisRoad69();" );
   }
 }
 function EdithRoad69(){
   EdithRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "EdithRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "EdithRoad69Audio();" );
   }
 }
 function EdithRoad69Audio(){
   EdithRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BurgessRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "DrapersField69();" );
   }
 }
 function BurgessRoad69(){
   BurgessRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BurgessRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BurgessRoad69Audio();" );
   }
 }
 function BurgessRoad69Audio(){
   BurgessRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "JansonRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "EdithRoad69();" );
   }
 }
 function JansonRoad69(){
   JansonRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "JansonRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function JansonRoad69Audio(){
   JansonRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ChobhamRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function ChobhamRoad69(){
   ChobhamRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ChobhamRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "ChobhamRoad69Audio();" );
   }
 }
 function ChobhamRoad69Audio(){
   ChobhamRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "MarylandStation69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BurgessRoad69();" );
   }
 }
 function MarylandStation69(){
   MarylandStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "MarylandStation69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MarylandStation69Audio();" );
   }
 }
 function MarylandStation69Audio(){
   MarylandStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ManbeyGrove69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "ChobhamRoad69();" );
   }
 }
 function ManbeyGrove69(){
   ManbeyGrove()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ManbeyGrove69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function ManbeyGrove69Audio(){
   ManbeyGroveAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordLibrary69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function StratfordLibrary69(){
   StratfordLibrary()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordLibrary69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function StratfordLibrary69Audio(){
   StratfordLibraryAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordCentre69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function StratfordCentre69(){
   StratfordCentre()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordCentre69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function StratfordCentre69Audio(){
   StratfordCentreAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BarnbyStreet69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function BarnbyStreet69(){
   BarnbyStreet()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BarnbyStreet69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function BarnbyStreet69Audio(){
   BarnbyStreetAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ChurchStreet69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function MarylandStationManbeyGrove69(){
   MarylandStationManbeyGrove()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordBroadway69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MarylandStationManbeyGrove69Audio();" );
   }
 }
 function MarylandStationManbeyGrove69Audio(){
   MarylandStationManbeyGroveAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MarylandStation69();" );
   }
 }
 function TheGrove69(){
   TheGrove()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordBroadway69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "TheGrove69Audio();" );
   }
 }
 function TheGrove69Audio(){
   TheGroveAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MarylandStationManbeyGrove69();" );
   }
 }
 function StratfordBusStation69(){
   StratfordBusStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordBroadway69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StratfordBusStation69Audio();" );
   }
 }
 function StratfordBusStation69Audio(){
   StratfordBusStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "TheGrove69();" );
   }
 }
 function StratfordBroadway69(){
   StratfordBroadway()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StratfordBroadway69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StratfordBroadway69Audio();" );
   }
 }
 function StratfordBroadway69Audio(){
   StratfordBroadwayAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StratfordBusStation69();" );
   }
 }
 function PaulStreet69(){
   PaulStreet()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "PaulStreet69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "PaulStreet69Audio();" );
   }
 }
 function PaulStreet69Audio(){
   PaulStreetAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StratfordBroadway69();" );
   }
 }
 function ChurchStreet69(){
   ChurchStreet()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "ChurchStreet69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "ChurchStreet69Audio();" );
   }
 }
 function ChurchStreet69Audio(){
   ChurchStreetAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "PlaistowGrove69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "PaulStreet69();" );
   }
 }
 function PlaistowGrove69(){
   PlaistowGrove()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "PlaistowGrove69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "PlaistowGrove69Audio();" );
   }
 }
 function PlaistowGrove69Audio(){
   PlaistowGroveAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "MorleyRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "ChurchStreet69();" );
   }
 }
 function MorleyRoad69(){
   MorleyRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "MorleyRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MorleyRoad69Audio();" );
   }
 }
 function MorleyRoad69Audio(){
   MorleyRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "PlaistowStation69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "PlaistowGrove69();" );
   }
 }
 function PlaistowStation69(){
   MorleyRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "PlaistowStation69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "PlaistowStation69Audio();" );
   }
 }
 function PlaistowStation69Audio(){
   PlaistowStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "HighStreetPlaistow69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "MorleyRoad69();" );
   }
 }
 function HighStreetPlaistow69(){
   HighStreetPlaistow()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "HighStreetPlaistow69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function HighStreetPlaistow69Audio(){
   HighStreetPlaistowAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "FlorenceRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function FlorenceRoad69(){
   FlorenceRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "FlorenceRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "FlorenceRoad69Audio();" );
   }
 }
 function FlorenceRoad69Audio(){
   FlorenceRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "UpperRoadGrangeRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "PlaistowStation69();" );
   }
 }
 function UpperRoadGrangeRoad69(){
   UpperRoadGrangeRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "UpperRoadGrangeRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function UpperRoadGrangeRoad69Audio(){
   UpperRoadGrangeRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "EastLondonCemetery69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function EastLondonCemetery69(){
   EastLondonCemetery()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "EastLondonCemetery69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function EastLondonCemetery69Audio(){
   EastLondonCemeteryAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StephensCourt69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
 function SuffolkRoad69(){
   SuffolkRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "SuffolkRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "SuffolkRoad69Audio();" );
   }
 }
 function SuffolkRoad69Audio(){
   SuffolkRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BlakeRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "FlorenceRoad69();" );
   }
 }
 function LadysmithRoad69(){
   LadysmithRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "LadysmithRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LadysmithRoad69Audio();" );
   }
 }
 function LadysmithRoad69Audio(){
   LadysmithRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BlakeRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "SuffolkRoad69();" );
   }
 }
 function StephensCourt69(){
   StephensCourt()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StephensCourt69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StephensCourt69Audio();" );
   }
 }
 function StephensCourt69Audio(){
   StephensCourtAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BlakeRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "LadysmithRoad69();" );
   }
 }
 function BlakeRoad69(){
   BlakeRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BlakeRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BlakeRoad69Audio();" );
   }
 }
 function BlakeRoad69Audio(){
   BlakeRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StarLane69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StephensCourt69();" );
   }
 }
 function StarLane69(){
   StarLane()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "StarLane69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StarLane69Audio();" );
   }
 }
 function StarLane69Audio(){
   StarLaneAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "HermitRoad69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "BlakeRoad69();" );
   }
 }
 function HermitRoad69(){
   HermitRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "HermitRoad69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "HermitRoad69Audio();" );
   }
 }
 function HermitRoad69Audio(){
   HermitRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "RathboneMarket69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "StarLane69();" );
   }
 }
 function RathboneMarket69(){
   RathboneMarket()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "RathboneMarket69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "RathboneMarket69Audio();" );
   }
 }
 function RathboneMarket69Audio(){
   RathboneMarketAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "CanningTownStation69();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "HermitRoad69();" );
   }
 }
 function CanningTownStation69(){
   CanningTownStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "CanningTownStation69Audio();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "CanningTownStation69Audio();" );
   }
 }
 function CanningTownStation69Audio(){
   CanningTownStation69Audio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
-  if (routeDestination == "CanningTown69"){
+  if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BusTermiatesHere();" );
-  } else if (routeDestination == "WalthamstowCentral69") {
+  } else if (routeDestination === "WalthamstowCentral69") {
     NextDestination.setAttribute( "onClick", "RathboneMarket69();" );
   }
 }
