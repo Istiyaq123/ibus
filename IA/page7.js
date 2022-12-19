@@ -1653,7 +1653,7 @@ function ColchesterRoad69(){
     NextDestination.setAttribute( "onClick", "ColchesterRoad69Audio();" );
   }
 }
-function ColchesterRoadAudio(){
+function ColchesterRoad69Audio(){
   ColchesterRoadAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "CanningTown69"){
@@ -2374,7 +2374,7 @@ function CanningTownStation69(){
   }
 }
 function CanningTownStation69Audio(){
-  CanningTownStation69Audio()
+  CanningTownStationAudio()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "CanningTown69"){
     NextDestination.setAttribute( "onClick", "BusTermiatesHere();" );
