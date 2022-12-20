@@ -58,6 +58,16 @@ function HomertonHospital394btn(){
   LiverpoolRoadChapelMarket394()
   showDestination.setAttribute( "onClick", "HomertonHospital394ibus();" );
 }
+function ArchwayW5btn(){
+  routeDestination = "ArchwayW5";
+  HarringaySainsburysW5()
+  showDestination.setAttribute( "onClick", "ArchwayW5ibus();" );
+}
+function HarringaySuperstoresW5btn(){
+  routeDestination = "HarringaySuperstoresW5";
+  ArchwayStationW5()
+  showDestination.setAttribute( "onClick", "HarringaySuperstoresW5ibus();" );
+}
 
 function Shadwell339ibus(){
   topTextYes.style.display ="none";
@@ -319,6 +329,60 @@ function HomertonHospital394ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_HOMERTON_HOSPITAL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function ArchwayW5ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "W5 to Archway";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_W5_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_ARCHWAY_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function HarringaySuperstoresW5ibus(){
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "W5 to Harringay, Superstores";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_W5_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_HARRINGAY_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -3291,5 +3355,600 @@ function LiverpoolRoadChapelMarket394Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   } else if (routeDestination === "HomertonHospital394") {
     NextDestination.setAttribute( "onClick", "AngelIslingtonCityRoad394();" );
+  }
+}
+
+function HarringaySainsburysW5(){
+  HarringaySainsburys()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HarringaySainsburysW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HarringaySainsburysW5Audio();" );
+  }
+}
+function HarringaySainsburysW5Audio(){
+  HarringaySainsburysAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "EndymionRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function GreenLanesHarringayW5(){
+  GreenLanesHarringay()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "EndymionRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "GreenLanesHarringayW5Audio();" );
+  }
+}
+function GreenLanesHarringayW5Audio(){
+  GreenLanesHarringayAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "FinsburyParkEndymionGateW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HarringaySainsburysW5();" );
+  }
+}
+function EndymionRoadW5(){
+  EndymionRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "EndymionRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "EndymionRoadW5Audio();" );
+  }
+}
+function EndymionRoadW5Audio(){
+  EndymionRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "FinsburyParkEndymionGateW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "GreenLanesHarringayW5();" );
+  }
+}
+function FinsburyParkEndymionGateW5(){
+  FinsburyParkEndymionGate()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "FinsburyParkEndymionGateW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "FinsburyParkEndymionGateW5Audio();" );
+  }
+}
+function FinsburyParkEndymionGateW5Audio(){
+  FinsburyParkEndymionGateAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "FinsburyParkHornseyGateW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function FinsburyParkHornseyGateW5(){
+  FinsburyParkHornseyGate()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "FinsburyParkHornseyGateW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "FinsburyParkHornseyGateW5Audio();" );
+  }
+}
+function FinsburyParkHornseyGateW5Audio(){
+  FinsburyParkHornseyGateAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "OakfieldRoadStroudGreenW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "EndymionRoadW5();" );
+  }
+}
+function OakfieldRoadStroudGreenW5(){
+  OakfieldRoadStroudGreen()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "OakfieldRoadStroudGreenW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "OakfieldRoadStroudGreenW5Audio();" );
+  }
+}
+function OakfieldRoadStroudGreenW5Audio(){
+  OakfieldRoadStroudGreenAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "MountViewRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "FinsburyParkHornseyGateW5();" );
+  }
+}
+function MountViewRoadW5(){
+  MountViewRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "MountViewRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "MountViewRoadW5Audio();" );
+  }
+}
+function MountViewRoadW5Audio(){
+  MountViewRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HarringayStationW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HarringayStationW5();" );
+  }
+}
+function HarringayStationW5(){
+  HarringayStation()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HarringayStationW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HarringayStationW5Audio();" );
+  }
+}
+function HarringayStationW5Audio(){
+  HarringayStationAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "StapletonHallRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "StapletonHallRoadW5();" );
+  }
+}
+function StapletonHallRoadW5(){
+  StapletonHallRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "StapletonHallRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "StapletonHallRoadW5Audio();" );
+  }
+}
+function StapletonHallRoadW5Audio(){
+  StapletonHallRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "RidgeRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "OakfieldRoadStroudGreenW5();" );
+  }
+}
+function RidgeRoadW5(){
+  RidgeRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "RidgeRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "RidgeRoadW5Audio();" );
+  }
+}
+function RidgeRoadW5Audio(){
+  RidgeRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "UplandsRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function UplandsRoadW5(){
+  UplandsRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "UplandsRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "UplandsRoadW5Audio();" );
+  }
+}
+function UplandsRoadW5Audio(){
+  UplandsRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WestonParkPrimarySchoolW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StationersParkW5(){
+  StationersPark()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WestonParkPrimarySchoolW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "StationersParkW5Audio();" );
+  }
+}
+function StationersParkW5Audio(){
+  StationersParkAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WestonParkW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "MountViewRoadW5();" );
+  }
+}
+function WestonParkPrimarySchoolW5(){
+  WestonParkPrimarySchool()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WestonParkPrimarySchoolW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WestonParkPrimarySchoolW5Audio();" );
+  }
+}
+function WestonParkPrimarySchoolW5Audio(){
+  WestonParkPrimarySchoolAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WestonParkW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "StationersParkW5();" );
+  }
+}
+function MayfieldRoadW5(){
+  MayfieldRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WestonParkW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "MayfieldRoadW5Audio();" );
+  }
+}
+function MayfieldRoadW5Audio(){
+  MayfieldRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "BourneRoadCrouchEndW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WestonParkPrimarySchoolW5();" );
+  }
+}
+function WestonParkW5(){
+  WestonPark()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WestonParkW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WestonParkW5Audio();" );
+  }
+}
+function WestonParkW5Audio(){
+  WestonParkAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "BourneRoadCrouchEndW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "MayfieldRoadW5();" );
+  }
+}
+function BourneRoadCrouchEndW5(){
+  BourneRoadCrouchEnd()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "BourneRoadCrouchEndW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "BourneRoadCrouchEndW5Audio();" );
+  }
+}
+function BourneRoadCrouchEndW5Audio(){
+  BourneRoadCrouchEndAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HornseyLibraryW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HornseyLibraryW5(){
+  HornseyLibrary()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HornseyLibraryW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HornseyLibraryW5Audio();" );
+  }
+}
+function HornseyLibraryW5Audio(){
+  HornseyLibraryAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CrouchEndBroadwayW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TottenhamLaneYMCAW5(){
+  TottenhamLaneYMCA()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CrouchEndBroadwayW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "TottenhamLaneYMCAW5Audio();" );
+  }
+}
+function TottenhamLaneYMCAW5Audio(){
+  TottenhamLaneYMCAAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WolseleyRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WestonParkW5();" );
+  }
+}
+function CrouchEndBroadwayW5(){
+  CrouchEndBroadway()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CrouchEndBroadwayW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "CrouchEndBroadwayW5Audio();" );
+  }
+}
+function CrouchEndBroadwayW5Audio(){
+  CrouchEndBroadwayAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WolseleyRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "TottenhamLaneYMCAW5();" );
+  }
+}
+function TivoliRoadCrouchEndW5(){
+  TivoliRoadCrouchEnd()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WolseleyRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "TivoliRoadCrouchEndW5Audio();" );
+  }
+}
+function TivoliRoadCrouchEndW5Audio(){
+  TivoliRoadCrouchEndAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CoolhurstRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "CrouchEndBroadwayW5();" );
+  }
+}
+function WolseleyRoadW5(){
+  WolseleyRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WolseleyRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WolseleyRoadW5Audio();" );
+  }
+}
+function WolseleyRoadW5Audio(){
+  WolseleyRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CoolhurstRoadW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "TivoliRoadCrouchEndW5();" );
+  }
+}
+function CoolhurstRoadW5(){
+  CoolhurstRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CoolhurstRoadW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "CoolhurstRoadW5Audio();" );
+  }
+}
+function CoolhurstRoadW5Audio(){
+  CoolhurstRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "LondonRoadNorthShepherdsHillW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WolseleyRoadW5();" );
+  }
+}
+function LondonRoadNorthShepherdsHillW5(){
+  LondonRoadNorthShepherdsHill()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "LondonRoadNorthShepherdsHillW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "LondonRoadNorthShepherdsHillW5Audio();" );
+  }
+}
+function LondonRoadNorthShepherdsHillW5Audio(){
+  LondonRoadNorthShepherdsHillAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "StanhopeRoadCrouchEndW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "CoolhurstRoadW5();" );
+  }
+}
+function AlfordHouseW5(){
+  AlfordHouse()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "StanhopeRoadCrouchEndW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "AlfordHouseW5Audio();" );
+  }
+}
+function AlfordHouseW5Audio(){
+  AlfordHouseAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "MayburyMewsW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "LondonRoadNorthShepherdsHillW5();" );
+  }
+}
+function StanhopeRoadCrouchEndW5(){
+  StanhopeRoadCrouchEnd()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "StanhopeRoadCrouchEndW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "StanhopeRoadCrouchEndW5Audio();" );
+  }
+}
+function StanhopeRoadCrouchEndW5Audio(){
+  StanhopeRoadCrouchEndAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "MayburyMewsW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "AlfordHouseW5();" );
+  }
+}
+function MayburyMewsW5(){
+  MayburyMews()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "MayburyMewsW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "MayburyMewsW5Audio();" );
+  }
+}
+function MayburyMewsW5Audio(){
+  MayburyMewsAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HornseyLaneW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HornseyLaneW5(){
+  HornseyLane()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HornseyLaneW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HornseyLaneW5Audio();" );
+  }
+}
+function HornseyLaneW5Audio(){
+  HornseyLaneAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "FitzwarrenGardensW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "StanhopeRoadCrouchEndW5();" );
+  }
+}
+function FitzwarrenGardensW5(){
+  FitzwarrenGardens()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "FitzwarrenGardensW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "FitzwarrenGardensW5Audio();" );
+  }
+}
+function FitzwarrenGardensW5Audio(){
+  FitzwarrenGardensAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "ArchwayBridgeW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HornseyLaneW5();" );
+  }
+}
+function ArchwayBridgeW5(){
+  ArchwayBridge()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "ArchwayBridgeW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "ArchwayBridgeW5Audio();" );
+  }
+}
+function ArchwayBridgeW5Audio(){
+  ArchwayBridgeAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CromwellAvenueW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "FitzwarrenGardensW5();" );
+  }
+}
+function CromwellAvenueW5(){
+  CromwellAvenue()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "CromwellAvenueW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "CromwellAvenueW5Audio();" );
+  }
+}
+function CromwellAvenueW5Audio(){
+  CromwellAvenueAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HighgateHillHornseyLaneW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "ArchwayBridgeW5();" );
+  }
+}
+function HighgateHillHornseyLaneW5(){
+  HighgateHillHornseyLane()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "HighgateHillHornseyLaneW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "HighgateHillHornseyLaneW5Audio();" );
+  }
+}
+function HighgateHillHornseyLaneW5Audio(){
+  HighgateHillHornseyLaneAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WhittingtonHospitalMagdalaAvenueW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WhittingtonHospitalMagdalaAvenueW5(){
+  HighgateHillHornseyLane()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "WhittingtonHospitalMagdalaAvenueW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WhittingtonHospitalMagdalaAvenueW5Audio();" );
+  }
+}
+function WhittingtonHospitalMagdalaAvenueW5Audio(){
+  WhittingtonHospitalMagdalaAvenueAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "ArchwayStationW5();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "CromwellAvenueW5();" );
+  }
+}
+function ArchwayStationW5(){
+  ArchwayStation()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "ArchwayStationW5Audio();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "ArchwayStationW5Audio();" );
+  }
+}
+function ArchwayStationW5Audio(){
+  ArchwayStationAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "ArchwayW5"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "HarringaySuperstoresW5") {
+    NextDestination.setAttribute( "onClick", "WhittingtonHospitalMagdalaAvenueW5();" );
   }
 }

@@ -3106,3 +3106,366 @@ function HomertonHospitalAudio(){
     iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HOMERTON_HOSPITAL_001.mp3";
     iBusAudio.play();
 }
+function HarringaySainsburys(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Harringay Sainsbury's";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function HarringaySainsburysAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HARRINGAY_SAINSBURY_001.mp3";
+    iBusAudio.play();
+}
+function EndymionRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Endymion Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function EndymionRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ENDYMION_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function FinsburyParkEndymionGate(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Finsbury Park Endymion Gate";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function FinsburyParkEndymionGateAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_FINSBURY_PARK_ENDYMION_GATE_001.mp3";
+    iBusAudio.play();
+}
+function FinsburyParkHornseyGate(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Finsbury Park Hornsey Gate";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function FinsburyParkHornseyGateAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_FINSBURY_PARK_HORNSEY_GATE_001.mp3";
+    iBusAudio.play();
+}
+function OakfieldRoadStroudGreen(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Oakfield Road Stroud Green";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function OakfieldRoadStroudGreenAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_OAKFIELD_ROAD_STROUD_GREEN_001.mp3";
+    iBusAudio.play();
+}
+function MountViewRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Mount View Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function MountViewRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MOUNT_VIEW_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function HarringayStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Harringay Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function HarringayStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HARRINGAY_STATION_001.mp3";
+    iBusAudio.play();
+}
+function StapletonHallRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Stapleton Hall Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function StapletonHallRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_STAPLETON_HALL_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function RidgeRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Ridge Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function RidgeRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_RIDGE_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function UplandsRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Uplands Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function UplandsRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_UPLANDS_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function WestonParkPrimarySchool(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Weston Park Primary School";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WestonParkPrimarySchoolAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WESTON_PARK_PRIMARY_SCHOOL_001.mp3";
+    iBusAudio.play();
+}
+function WestonPark(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Weston Park";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WestonParkAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WESTON_PARK_001.mp3";
+    iBusAudio.play();
+}
+function BourneRoadCrouchEnd(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Bourne Road Crouch End";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function BourneRoadCrouchEndAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BOURNE_ROAD_CROUCH_END_001.mp3";
+    iBusAudio.play();
+}
+function HornseyLibrary(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Hornsey Library";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function HornseyLibraryAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HORNSEY_LOBRARY_001.mp3";
+    iBusAudio.play();
+}
+function CrouchEndBroadway(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Crouch End Broadway";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CrouchEndBroadwayAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CROUCH_END_BROADWAY_001.mp3";
+    iBusAudio.play();
+}
+function WolseleyRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Wolseley Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WolseleyRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WOLSELEY_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function CoolhurstRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Coolhurst Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CoolhurstRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_COOLHURST_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function LondonRoadNorthShepherdsHill(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="none";
+    marquee.style.display = "block";
+    marquee.innerHTML = "London Road North / Shepherds Hill";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function LondonRoadNorthShepherdsHillAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LONDON_ROAD_NORTH_SHEPHERD_HILL_001.mp3";
+    iBusAudio.play();
+}
+function StanhopeRoadCrouchEnd(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Stanhope Road Crouch End";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function StanhopeRoadCrouchEndAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_STANHOPE_ROAD_CROUCH_END_001.mp3";
+    iBusAudio.play();
+}
+function MayburyMews(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Maybury Mews";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function MayburyMewsAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MAYBURY_MEWS_001.mp3";
+    iBusAudio.play();
+}
+function HornseyLane(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Hornsey Lane";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function HornseyLaneAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HORNSEY_LANE_001.mp3";
+    iBusAudio.play();
+}
+function FitzwarrenGardens(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Fitzwarren Gardens";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function FitzwarrenGardensAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_FLITZWARREN_GARDENS_001.mp3";
+    iBusAudio.play();
+}
+function ArchwayBridge(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Archway Bridge";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function ArchwayBridgeAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ARCHWAY_BRIDGE_001.mp3";
+    iBusAudio.play();
+}
+function CromwellAvenue(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Cromwell Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CromwellAvenueAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CROMWELL_AVENUE_001.mp3";
+    iBusAudio.play();
+}
+function HighgateHillHornseyLane(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Highgate Hill / Hornsey Lane";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function HighgateHillHornseyLaneAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_HIGHGATE_HILL_HORNSEY_LANE_001.mp3";
+    iBusAudio.play();
+}
+function WhittingtonHospitalMagdalaAvenue(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="none";
+    marquee.style.display = "block";
+    marquee.innerHTML = "Whittington Hospital / Magdala Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WhittingtonHospitalMagdalaAvenueAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WHITTINGTON_HOSPITAL_MAGDALA_AVENUE_001.mp3";
+    iBusAudio.play();
+}
+function ArchwayStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Archway Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function ArchwayStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ARCHWAY_STATION_001.mp3";
+    iBusAudio.play();
+}
+function AlfordHouse(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Alford House";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function AlfordHouseAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ALFORD_HOUSE_001.mp3";
+    iBusAudio.play();
+}
+function TivoliRoadCrouchEnd(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Tivoli Road Crouch End";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function TivoliRoadCrouchEndAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_TIVOLI_ROAD_CROUCH_END_001.mp3";
+    iBusAudio.play();
+}
+function TottenhamLaneYMCA(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Tottenham Lane Y M C A";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function TottenhamLaneYMCAAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_TOTTENHAM_LANE_YMCA_001.mp3";
+    iBusAudio.play();
+}
+function MayfieldRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Mayfield Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function MayfieldRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_MAYFIELD_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function StationersPark(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Stationers Park";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function StationersParkAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_STATIONERS_PARK_001.mp3";
+    iBusAudio.play();
+}
+function GreenLanesHarringay(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Green Lanes Harringay";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function GreenLanesHarringayAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_GREEN_LANES_HARRINGAY_001.mp3";
+    iBusAudio.play();
+}
