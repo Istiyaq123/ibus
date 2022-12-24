@@ -1790,6 +1790,7 @@ function HarbingerSchoolMasthouseTerPier(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "Harbinger School / Masthouse Ter. Pier";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1845,6 +1846,7 @@ function BarkantineClinicHutchingsStreet(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "Barkantine Clinic / Hutchings Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -1922,6 +1924,7 @@ function WestferryCircusCanaryWharfPier(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "Westferry Circus / Canary Wharf Pier";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -2780,6 +2783,7 @@ function HoxtonStationMuseumoftheHome(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "Hoxton Station / Museum of the Home";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -2791,6 +2795,7 @@ function FalkirkStHackneyCommunityCollege(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "Falkirk St / Hackney Community College";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -2802,6 +2807,7 @@ function CrondallStreetHoxtonStreetMarket(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "Crondall Street / Hoxton Street Market";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -3297,6 +3303,7 @@ function LondonRoadNorthShepherdsHill(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "London Road North / Shepherds Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -3385,6 +3392,7 @@ function WhittingtonHospitalMagdalaAvenue(){
     topTextYes.style.display ="none";
     topTextNo.style.display ="none";
     marquee.style.display = "block";
+    marquee.start();
     marquee.innerHTML = "Whittington Hospital / Magdala Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
 }
@@ -3467,5 +3475,71 @@ function GreenLanesHarringay(){
 }
 function GreenLanesHarringayAudio(){
     iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_GREEN_LANES_HARRINGAY_001.mp3";
+    iBusAudio.play();
+}
+function LeytonstoneStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Leytonstone Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function LeytonstoneStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_LEYTONSTONE_STATION_001.mp3";
+    iBusAudio.play();
+}
+function KirkdaleRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Kirkdale Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function KirkdaleRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_KIRKDALE_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function GreenManRoundabout(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Green Man Roundabout";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function GreenManRoundaboutAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_GREEN_MAN_ROUNDABOUT_001.mp3";
+    iBusAudio.play();
+}
+function CambridgeRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Cambridge Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function CambridgeRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CAMBRIDGE_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function BlakeHallRoad(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Blake Hall Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function BlakeHallRoadAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BLAKE_HALL_ROAD_001.mp3";
+    iBusAudio.play();
+}
+function WansteadStation(){
+    topTextYes.style.display ="none";
+    topTextNo.style.display ="block";
+    marquee.style.display = "none";
+    topTextNo.innerHTML = "Wanstead Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+}
+function WansteadStationAudio(){
+    iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_WANSTEAD_STATION_001.mp3";
     iBusAudio.play();
 }
