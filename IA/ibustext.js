@@ -1080,12 +1080,14 @@ function LichfieldRoadAudio(){
 }
 function MileEndStationBowRoad(){
     if (ibusView === "old"){
+        console.log("hey yeah");
         topTextYes.style.display ="none";
         topTextNo.style.display ="block";
         marquee.style.display = "none";
         topTextNo.innerHTML = "Mile End Station / Bow Road";
         // topTextYes.style.animationName = "RothburyRoad";
     } else if (ibusView === "new"){
+        console.log("Oh now");
         newIbusDisplayDesText.innerHTML = "Mile End Station / Bow Road";
         underground.style.display = "none";
         overground.style.display = "none";
