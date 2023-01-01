@@ -47,7 +47,7 @@ function BethnalGreen702btnNew(){
 function MileEnd702btnnew(){
   routeDestination = "MileEnd702";
   BonnerRoad702new()
-  newIbusdisplayRouteDesibus.innerHTML = "135 to Crossharbour, Asda";
+  newIbusdisplayRouteDesibus.innerHTML = "702 to Mile End";
   showDestination.setAttribute( "onClick", "MileEnd702newibus();" );
 }
 
