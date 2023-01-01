@@ -110,7 +110,7 @@ function Crossharbour135new(){
     }
   }
 };
-function BethnalGreenBonnerRoad702New(){
+function BethnalGreenBonnerRoad702new(){
   shownewibusdestination();
   if (newIbusdisplayrouteDes.style.display === "block"){
     var audio = 1;
