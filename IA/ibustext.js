@@ -2056,7 +2056,7 @@ function MileEndStation(){
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
         newIbusDisplayDesText.innerHTML = "Mile End ";
-        underground.style.display = "block";
+        underground.style.display = "inline";
         overground.style.display = "none";
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
@@ -3861,7 +3861,7 @@ function BowRoadStation(){
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
         newIbusDisplayDesText.innerHTML = "Bow Road Station ";
-        underground.style.display = "block";
+        underground.style.display = "inline";
         overground.style.display = "none";
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
@@ -3883,7 +3883,7 @@ function BowChurchStation(){
         newIbusDisplayDesText.innerHTML = "Bow Church Station ";
         underground.style.display = "none";
         overground.style.display = "none";
-        DLR.style.display = "block";
+        DLR.style.display = "inline";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
     }
@@ -4121,7 +4121,7 @@ function BethnalGreenStation(){
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
         newIbusDisplayDesText.innerHTML = "Bethnal Green Station ";
-        underground.style.display = "block";
+        underground.style.display = "inline";
         overground.style.display = "none";
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
