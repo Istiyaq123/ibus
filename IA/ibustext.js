@@ -2055,7 +2055,7 @@ function MileEndStation(){
         topTextNo.innerHTML = "Mile End Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
-        newIbusDisplayDesText.innerHTML = "Mile End ";
+        newIbusDisplayDesText.innerHTML = "Mile End Station";
         underground.style.display = "inline";
         overground.style.display = "none";
         DLR.style.display = "none";
