@@ -40,7 +40,7 @@ function Crossharbour135btnnew(){
 }
 function BethnalGreen702btnNew(){
   routeDestination = "BethnalGreen702";
-  MileEndStationBowRoad702()
+  MileEndStationBowRoad702new()
   newIbusdisplayRouteDesibus.innerHTML = "702 to Bethnal Green, Bonner Road";
   showDestination.setAttribute( "onClick", "BethnalGreenBonnerRoad702new();" );
 }
