@@ -4597,7 +4597,7 @@ function StThomasofCanterburyChurchW13Audio(){
   }
 }
 
-function StaffaRoadW19(){
+function StaffaRoadW19(){getRidOfDestination()
   StaffaRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4615,7 +4615,7 @@ function StaffaRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ArgallAvenueIndustrialEstateW19(){
+function ArgallAvenueIndustrialEstateW19(){getRidOfDestination()
   ArgallAvenueIndustrialEstate()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4633,7 +4633,7 @@ function ArgallAvenueIndustrialEstateW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function BarnCroftPrimarySchoolW19(){
+function BarnCroftPrimarySchoolW19(){getRidOfDestination()
   BarnCroftPrimarySchool()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4651,7 +4651,7 @@ function BarnCroftPrimarySchoolW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function MarkhouseAvenueW19(){
+function MarkhouseAvenueW19(){getRidOfDestination()
   MarkhouseAvenue()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4669,7 +4669,7 @@ function MarkhouseAvenueW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function SouthGroveW19(){
+function SouthGroveW19(){getRidOfDestination()
   SouthGrove()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4687,7 +4687,7 @@ function SouthGroveW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function SelborneWalkVernonRoadW19(){
+function SelborneWalkVernonRoadW19(){getRidOfDestination()
   SelborneWalkVernonRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4705,7 +4705,7 @@ function SelborneWalkVernonRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function SelborneWalkW19(){
+function SelborneWalkW19(){getRidOfDestination()
   SelborneWalk()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4723,7 +4723,7 @@ function SelborneWalkW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function WalthamstowCentralStationW19(){
+function WalthamstowCentralStationW19(){getRidOfDestination()
   WalthamstowCentralStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4741,7 +4741,7 @@ function WalthamstowCentralStationW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function WalthamstowBusStationW19(){
+function WalthamstowBusStationW19(){getRidOfDestination()
   WalthamstowBusStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4759,7 +4759,7 @@ function WalthamstowBusStationW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function GrosvenorParkRoadW19(){
+function GrosvenorParkRoadW19(){getRidOfDestination()
   GrosvenorParkRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4777,7 +4777,7 @@ function GrosvenorParkRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function GroveRoadW19(){
+function GroveRoadW19(){getRidOfDestination()
   GroveRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4795,7 +4795,7 @@ function GroveRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function BakersAvenueW19(){
+function BakersAvenueW19(){getRidOfDestination()
   BakersAvenue()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4813,7 +4813,7 @@ function BakersAvenueW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function LeaBridgeRoadBakersArmsW19(){
+function LeaBridgeRoadBakersArmsW19(){getRidOfDestination()
   LeaBridgeRoadBakersArms()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4831,7 +4831,7 @@ function LeaBridgeRoadBakersArmsW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function LeytonGreenRoadW19(){
+function LeytonGreenRoadW19(){getRidOfDestination()
   LeytonGreenRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4849,7 +4849,7 @@ function LeytonGreenRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ShernhallStreetW19(){
+function ShernhallStreetW19(){getRidOfDestination()
   ShernhallStreet()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4867,7 +4867,7 @@ function ShernhallStreetW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function PeterboroughRoadW19(){
+function PeterboroughRoadW19(){getRidOfDestination()
   PeterboroughRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4885,7 +4885,7 @@ function PeterboroughRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function WhippsCrossWoodStreetW19(){
+function WhippsCrossWoodStreetW19(){getRidOfDestination()
   WhippsCrossWoodStreet()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4903,7 +4903,7 @@ function WhippsCrossWoodStreetW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function WhippsCrossBusStandW19(){
+function WhippsCrossBusStandW19(){getRidOfDestination()
   WhippsCrossBusStand()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4921,7 +4921,7 @@ function WhippsCrossBusStandW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function WhippsCrossHospitalMainEntranceW19(){
+function WhippsCrossHospitalMainEntranceW19(){getRidOfDestination()
   WhippsCrossHospitalMainEntrance()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4939,7 +4939,7 @@ function WhippsCrossHospitalMainEntranceW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function WhippsCrossHospitalAEW19(){
+function WhippsCrossHospitalAEW19(){getRidOfDestination()
   WhippsCrossHospitalAE()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4957,7 +4957,7 @@ function WhippsCrossHospitalAEW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ClareRoadW19(){
+function ClareRoadW19(){getRidOfDestination()
   ClareRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4975,7 +4975,7 @@ function ClareRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function PeterboroughRoadtwoW19(){
+function PeterboroughRoadtwoW19(){getRidOfDestination()
   PeterboroughRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -4993,7 +4993,7 @@ function PeterboroughRoadtwoW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function EssexRoadSouthW19(){
+function EssexRoadSouthW19(){getRidOfDestination()
   EssexRoadSouth()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5011,7 +5011,7 @@ function EssexRoadSouthW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ElimPentecostalChurchW19(){
+function ElimPentecostalChurchW19(){getRidOfDestination()
   ElimPentecostalChurch()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5029,7 +5029,7 @@ function ElimPentecostalChurchW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ClarendonRoadW19(){
+function ClarendonRoadW19(){getRidOfDestination()
   ClarendonRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5047,7 +5047,7 @@ function ClarendonRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function LeytonstoneStnGroveGreenRoadW19(){
+function LeytonstoneStnGroveGreenRoadW19(){getRidOfDestination()
   LeytonstoneStnGroveGreenRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5065,7 +5065,7 @@ function LeytonstoneStnGroveGreenRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function GainsboroughRoadW19(){
+function GainsboroughRoadW19(){getRidOfDestination()
   GainsboroughRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5083,7 +5083,7 @@ function GainsboroughRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function GreenManRoundaboutW19(){
+function GreenManRoundaboutW19(){getRidOfDestination()
   GreenManRoundabout()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5101,7 +5101,7 @@ function GreenManRoundaboutW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function BushRoadGreenManRoundaboutW19(){
+function BushRoadGreenManRoundaboutW19(){getRidOfDestination()
   BushRoadGreenManRoundabout()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5119,7 +5119,7 @@ function BushRoadGreenManRoundaboutW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function BlakeHallCrescentW19(){
+function BlakeHallCrescentW19(){getRidOfDestination()
   BlakeHallCrescent()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5137,7 +5137,7 @@ function BlakeHallCrescentW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function QueenswoodGardensW19(){
+function QueenswoodGardensW19(){getRidOfDestination()
   QueenswoodGardens()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5155,7 +5155,7 @@ function QueenswoodGardensW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ParkRoadW19(){
+function ParkRoadW19(){getRidOfDestination()
   ParkRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5173,7 +5173,7 @@ function ParkRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function HerongateRoadW19(){
+function HerongateRoadW19(){getRidOfDestination()
   HerongateRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5191,7 +5191,7 @@ function HerongateRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function EmpressAvenueW19(){
+function EmpressAvenueW19(){getRidOfDestination()
   EmpressAvenue()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5209,7 +5209,7 @@ function EmpressAvenueW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function MerlinRoadW19(){
+function MerlinRoadW19(){getRidOfDestination()
   MerlinRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5227,7 +5227,7 @@ function MerlinRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function CityofLondonCemeteryW19(){
+function CityofLondonCemeteryW19(){getRidOfDestination()
   CityofLondonCemetery()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5245,7 +5245,7 @@ function CityofLondonCemeteryW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function CapelRoadW19(){
+function CapelRoadW19(){getRidOfDestination()
   CapelRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5263,7 +5263,7 @@ function CapelRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ManorParkStationW19(){
+function ManorParkStationW19(){getRidOfDestination()
   ManorParkStation()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5281,7 +5281,7 @@ function ManorParkStationW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function RomfordRoadW19(){
+function RomfordRoadW19(){getRidOfDestination()
   RomfordRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5299,7 +5299,7 @@ function RomfordRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function FirstAvenueW19(){
+function FirstAvenueW19(){getRidOfDestination()
   FirstAvenue()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5317,7 +5317,7 @@ function FirstAvenueW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function RabbitsRoadW19(){
+function RabbitsRoadW19(){getRidOfDestination()
   RabbitsRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5335,7 +5335,7 @@ function RabbitsRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function SeventhAvenueW19(){
+function SeventhAvenueW19(){getRidOfDestination()
   SeventhAvenue()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5353,7 +5353,7 @@ function SeventhAvenueW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function LittleIlfordLaneW19(){
+function LittleIlfordLaneW19(){getRidOfDestination()
   LittleIlfordLane()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5371,7 +5371,7 @@ function LittleIlfordLaneW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function NorthCircularRoadW19(){
+function NorthCircularRoadW19(){getRidOfDestination()
   NorthCircularRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5389,7 +5389,7 @@ function NorthCircularRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function IlfordHillW19(){
+function IlfordHillW19(){getRidOfDestination()
   IlfordHill()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5407,7 +5407,7 @@ function IlfordHillW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function ChapelRoadW19(){
+function ChapelRoadW19(){getRidOfDestination()
   ChapelRoad()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5425,7 +5425,7 @@ function ChapelRoadW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function RedbridgeCentralLibraryW19(){
+function RedbridgeCentralLibraryW19(){getRidOfDestination()
   RedbridgeCentralLibrary()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
@@ -5443,7 +5443,7 @@ function RedbridgeCentralLibraryW19Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function HainaultStreetW19(){
+function HainaultStreetW19(){getRidOfDestination()
   HainaultStreet()
   // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
   if (routeDestination === "IlfordW19"){
