@@ -473,7 +473,9 @@ function LeytonstoneW13ibus(){
   };
 }
 function IlfordW19ibus(){
-  // shownewibusdestination();
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
   topTextYes.style.display ="none";
   topTextNo.style.display ="block";
   marquee.style.display = "none";
@@ -501,7 +503,9 @@ function IlfordW19ibus(){
   };
 }
 function WalthamstowArgallAvenueW19ibus(){
-  // shownewibusdestination();
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
   topTextYes.style.display ="none";
   topTextNo.style.display ="none";
   marquee.style.display = "block";
