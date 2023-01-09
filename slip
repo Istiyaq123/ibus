@@ -1,0 +1,114 @@
+function EdmontonGreenBusStation191(){
+  getRidOfDestination()
+  EdmontonGreenBusStation()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "EdmontonGreenBusStation191Audio();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "EdmontonGreenBusStation191Audio();" );
+  }
+}
+function EdmontonGreenBusStation191Audio(){
+  EdmontonGreenBusStationAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "MonmouthRoad191();" );
+  }
+}
+function MonmouthRoad191(){
+  getRidOfDestination()
+  MonmouthRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "MonmouthRoad191Audio();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "MonmouthRoad191Audio();" );
+  }
+}
+function MonmouthRoad191Audio(){
+  MonmouthRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "BouncesRoad191();" );
+  }
+}
+function BouncesRoad191(){
+  getRidOfDestination()
+  BouncesRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "BouncesRoad191Audio();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "BouncesRoad191Audio();" );
+  }
+}
+function BouncesRoad191Audio(){
+  BouncesRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "StEdmundsCatholicPrimarySchool191();" );
+  }
+}
+function StEdmundsCatholicPrimarySchool191(){
+  getRidOfDestination()
+  StEdmundsCatholicPrimarySchool()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "StEdmundsCatholicPrimarySchool191Audio();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "StEdmundsCatholicPrimarySchool191Audio();" );
+  }
+}
+function StEdmundsCatholicPrimarySchool191Audio(){
+  StEdmundsCatholicPrimarySchoolAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "ChesterRoad191();" );
+  }
+}
+function ChesterRoad191(){
+  getRidOfDestination()
+  ChesterRoad()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "ChesterRoad191Audio();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "ChesterRoad191Audio();" );
+  }
+}
+function ChesterRoad191Audio(){
+  ChesterRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "ChesterRoad191();" );
+  }
+}
+function CarterhatchLane(){
+  getRidOfDestination()
+  CarterhatchLane()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "ChesterRoad191Audio();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "ChesterRoad191Audio();" );
+  }
+}
+function ChesterRoad191Audio(){
+  ChesterRoadAudio()
+  // BackDestination.setAttribute( "onClick", "MileEndStationBowRoadD7Audio();" );
+  if (routeDestination === "EdmontonGreen191"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Brimsdown191") {
+    NextDestination.setAttribute( "onClick", "ChesterRoad191();" );
+  }
+}
