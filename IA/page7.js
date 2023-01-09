@@ -549,9 +549,9 @@ function Brimsdown191ibus(){
     shownewibusdestination();
   }
   topTextYes.style.display ="none";
-  topTextNo.style.display ="none";
-  marquee.style.display = "block";
-  marquee.innerHTML = "191 to Brimsdown";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "191 to Brimsdown";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_191_001.mp3";
   iBusAudio.play();
@@ -579,9 +579,9 @@ function EdmontonGreen191ibus(){
     shownewibusdestination();
   }
   topTextYes.style.display ="none";
-  topTextNo.style.display ="none";
-  marquee.style.display = "block";
-  marquee.innerHTML = "191 to Edmonton Green";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "191 to Edmonton Green";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_191_001.mp3";
   iBusAudio.play();
