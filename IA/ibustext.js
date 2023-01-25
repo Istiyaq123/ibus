@@ -6740,6 +6740,26 @@ function LeighamCourtRdStreathamHillStnAudio(){
     iBusAudio.src=firstAudio+"Leigham_Court_Rd_Streatham_Hill_Stn"+lastAudio;
     iBusAudio.play();
 }
+function StreathamHillStnStreathamHill(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Streatham Hill Stn / Streatham Hill";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Streatham Hill Stn / Streatham Hill";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+    }
+}
+function StreathamHillStnStreathamHillAudio(){
+    iBusAudio.src=firstAudio+"Streatham_Hill_Stn_Streatham_Hill"+lastAudio;
+    iBusAudio.play();
+}
 function BarrhillRoad(){
     if (ibusView === "old"){
         topTextYes.style.display ="none";
