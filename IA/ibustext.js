@@ -7220,3 +7220,23 @@ function CrystalPalaceParadeAudio(){
     iBusAudio.src=firstAudio+"CRYSTAL_PALACE_PARADE"+lastAudio;
     iBusAudio.play();
 }
+function CrownLaneCrownPoint(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Crown Lane / Crown Point";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Crown Lane / Crown Point";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+    }
+}
+function CrownLaneCrownPointAudio(){
+    iBusAudio.src=firstAudio+"Crown_Lane_Crown_Point"+lastAudio;
+    iBusAudio.play();
+}
