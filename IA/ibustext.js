@@ -9037,7 +9037,7 @@ function PeckhamRyeNunheadLaneAudio(){
     iBusAudio.src=firstAudio+"Peckham_Rye_Nunhead_Lane"+lastAudio;
     iBusAudio.play();
 }
-function SolomonsPassageLane(){
+function SolomonsPassage(){
     if (ibusView === "old"){
         topTextYes.style.display ="none";
         topTextNo.style.display ="block";
@@ -9053,7 +9053,7 @@ function SolomonsPassageLane(){
         tfl_National_Rail_logo.style.display = "none";
     }
 }
-function SolomonsPassageLaneAudio(){
+function SolomonsPassageAudio(){
     iBusAudio.src=firstAudio+"Solomons_Passage"+lastAudio;
     iBusAudio.play();
 }
