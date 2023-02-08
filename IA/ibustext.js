@@ -9757,7 +9757,7 @@ function GrangeAcademyAudio(){
     iBusAudio.src=firstAudio+"Grange_Academy"+lastAudio;
     iBusAudio.play();
 }
-function TheRedLionPublicHousey(){
+function TheRedLionPublicHouse(){
     if (ibusView === "old"){
         topTextYes.style.display ="none";
         topTextNo.style.display ="block";
