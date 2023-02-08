@@ -10420,9 +10420,9 @@ function SouthHarrowBusStationAudio(){
 function HarrowTownCentreSheepcoteRoad(){
     if (ibusView === "old"){
         topTextYes.style.display ="none";
-        topTextNo.style.display ="block";
-        marquee.style.display = "none";
-        topTextNo.innerHTML = "Harrow Town Centre / Sheepcote Road";
+        topTextNo.style.display ="none";
+        marquee.style.display = "block";
+        marquee.innerHTML = "Harrow Town Centre / Sheepcote Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
         newIbusDisplayDesText.innerHTML = "Harrow Town Centre / Sheepcote Road";
