@@ -3827,22 +3827,22 @@ function HindesRoad258(){
 function HindesRoad258Audio(){
   HindesRoadAudio()
   if (routeDestination === "SouthHarrow258"){
-    NextDestination.setAttribute( "onClick", "HarrowTownCentreJohnsRoad258();" );
+    NextDestination.setAttribute( "onClick", "HarrowTownCentreStJohnsRoad258();" );
   } else if (routeDestination === "WatfordJunction258") {
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
-function HarrowTownCentreJohnsRoad258(){
+function HarrowTownCentreStJohnsRoad258(){
   getRidOfDestination()
-  HarrowTownCentreJohnsRoad()
+  HarrowTownCentreStJohnsRoad()
   if (routeDestination === "SouthHarrow258"){
-    NextDestination.setAttribute( "onClick", "HarrowTownCentreJohnsRoad258Audio();" );
+    NextDestination.setAttribute( "onClick", "HarrowTownCentreStJohnsRoad258Audio();" );
   } else if (routeDestination === "WatfordJunction258") {
-    NextDestination.setAttribute( "onClick", "HarrowTownCentreJohnsRoad258Audio();" );
+    NextDestination.setAttribute( "onClick", "HarrowTownCentreStJohnsRoad258Audio();" );
   }
 }
-function HarrowTownCentreJohnsRoad258Audio(){
-  HarrowTownCentreJohnsRoadAudio()
+function HarrowTownCentreStJohnsRoad258Audio(){
+  HarrowTownCentreStJohnsRoadAudio()
   if (routeDestination === "SouthHarrow258"){
     NextDestination.setAttribute( "onClick", "HarrowTownCentre258();" );
   } else if (routeDestination === "WatfordJunction258") {
