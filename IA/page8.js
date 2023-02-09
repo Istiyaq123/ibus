@@ -3212,7 +3212,7 @@ function StMarysRoad258(){
     NextDestination.setAttribute( "onClick", "StMarysRoad258Audio();" );
   }
 }
-function KingStreet258Audio(){
+function StMarysRoad258Audio(){
   StMarysRoadAudio()
   if (routeDestination === "SouthHarrow258"){
     NextDestination.setAttribute( "onClick", "WatfordFieldRoad258();" );
