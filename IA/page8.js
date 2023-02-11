@@ -57,6 +57,18 @@ function WatfordJunction258btn(){
   showDestination.setAttribute( "onClick", "WatfordJunction258ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "258 to Watford Junction";
 }
+function EmersonParkSchool650btn(){
+  routeDestination = "EmersonParkSchool650";
+  RomfordBusGarage650()
+  showDestination.setAttribute( "onClick", "EmersonParkSchool650ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "650 to Emerson Park School";
+}
+function RomfordBusGarage650btn(){
+  routeDestination = "RomfordBusGarage650";
+  EmersonParkAcademy650()
+  showDestination.setAttribute( "onClick", "RomfordBusGarage650ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "650 to Romford Bus Garage";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -228,6 +240,66 @@ function NewCrossGate343ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_NEW_CROSS_GATE_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function EmersonParkSchool650ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "650 to Romford Bus Garage";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_650_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_Emerson_PARK_SCHOOL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function RomfordBusGarage650ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "650 to Romford Bus Garage";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_650_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ROMFORD_BUS_GARAGE_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -4051,5 +4123,414 @@ function SouthHarrowBusStation258Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "WatfordJunction258") {
     NextDestination.setAttribute( "onClick", "GrangeRoad2258();" );
+  }
+}
+
+function CedarRoad650(){
+  getRidOfDestination()
+  CedarRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "CedarRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "CedarRoad650Audio();" );
+  }
+}
+function CedarRoad650Audio(){
+  CedarRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "TheAvenue650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function RomfordBusGarage650(){
+  getRidOfDestination()
+  RomfordBusGarage()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "RomfordBusGarage650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "RomfordBusGarage650Audio();" );
+  }
+}
+function RomfordBusGarage650Audio(){
+  RomfordBusGarageAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "TheAvenue650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "CedarRoad650();" );
+  }
+}
+function TheAvenue650(){
+  getRidOfDestination()
+  TheAvenue()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "TheAvenue650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "TheAvenue650Audio();" );
+  }
+}
+function TheAvenue650Audio(){
+  TheAvenueAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "RomfordMarket650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "RomfordBusGarage650();" );
+  }
+}
+function RomfordMarket650(){
+  getRidOfDestination()
+  RomfordMarket()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "RomfordMarket650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "RomfordMarket650Audio();" );
+  }
+}
+function RomfordMarket650Audio(){
+  RomfordMarketAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "MercuryGardens650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "TheAvenue650();" );
+  }
+}
+function MercuryGardens650(){
+  getRidOfDestination()
+  MercuryGardens()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "MercuryGardens650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "MercuryGardens650Audio();" );
+  }
+}
+function MercuryGardens650Audio(){
+  MercuryGardensAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WesternRoad650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WesternRoad650(){
+  getRidOfDestination()
+  WesternRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WesternRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WesternRoad650Audio();" );
+  }
+}
+function WesternRoad650Audio(){
+  WesternRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "RomfordStation650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "RomfordMarket650();" );
+  }
+}
+function RomfordStation650(){
+  getRidOfDestination()
+  RomfordStation()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "RomfordStation650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "RomfordStation650Audio();" );
+  }
+}
+function RomfordStation650Audio(){
+  RomfordStationAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "AlbertRoad650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WesternRoad650();" );
+  }
+}
+function AlbertRoad650(){
+  getRidOfDestination()
+  AlbertRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "AlbertRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "AlbertRoad650Audio();" );
+  }
+}
+function AlbertRoad650Audio(){
+  AlbertRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "ManorRoad650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "RomfordStation650();" );
+  }
+}
+function ManorRoad650(){
+  getRidOfDestination()
+  ManorRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "ManorRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "ManorRoad650Audio();" );
+  }
+}
+function ManorRoad650Audio(){
+  ManorRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "FairholmeAvenue650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "AlbertRoad650();" );
+  }
+}
+function FairholmeAvenue650(){
+  getRidOfDestination()
+  FairholmeAvenue()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "FairholmeAvenue650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "FairholmeAvenue650Audio();" );
+  }
+}
+function FairholmeAvenue650Audio(){
+  FairholmeAvenueAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "MargaretRoad650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "ManorRoad650();" );
+  }
+}
+function MargaretRoad650(){
+  getRidOfDestination()
+  MargaretRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "MargaretRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "MargaretRoad650Audio();" );
+  }
+}
+function MargaretRoad650Audio(){
+  MargaretRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WithamRoad650(){
+  getRidOfDestination()
+  WithamRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WithamRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WithamRoad650Audio();" );
+  }
+}
+function WithamRoad650Audio(){
+  WithamRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "GideaParkStation650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "FairholmeAvenue650();" );
+  }
+}
+function TheDrillRoundabout650(){
+  getRidOfDestination()
+  TheDrillRoundabout()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout650Audio();" );
+  }
+}
+function TheDrillRoundabout650Audio(){
+  TheDrillRoundaboutAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "GideaParkStation650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WithamRoad650();" );
+  }
+}
+function GideaParkStation650(){
+  getRidOfDestination()
+  GideaParkStation()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "GideaParkStation650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "GideaParkStation650Audio();" );
+  }
+}
+function GideaParkStation650Audio(){
+  GideaParkStationAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout2650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout650();" );
+  }
+}
+function TheDrillRoundabout2650(){
+  getRidOfDestination()
+  TheDrillRoundabout()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout2650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout2650Audio();" );
+  }
+}
+function TheDrillRoundabout2650Audio(){
+  TheDrillRoundaboutAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "BrooklandsGardens650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "GideaParkStation650();" );
+  }
+}
+function BrooklandsGardens650(){
+  getRidOfDestination()
+  BrooklandsGardens()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "BrooklandsGardens650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "BrooklandsGardens650Audio();" );
+  }
+}
+function BrooklandsGardens650Audio(){
+  BrooklandsGardensAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WaldenWay650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function KinfaunsAvenue650(){
+  getRidOfDestination()
+  KinfaunsAvenue()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "KinfaunsAvenue650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "KinfaunsAvenue650Audio();" );
+  }
+}
+function KinfaunsAvenue650Audio(){
+  KinfaunsAvenueAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "BurntwoodAvenue650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "TheDrillRoundabout2650();" );
+  }
+}
+function WaldenWay650(){
+  getRidOfDestination()
+  WaldenWay()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WaldenWay650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WaldenWay650Audio();" );
+  }
+}
+function WaldenWay650Audio(){
+  WaldenWayAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "BurntwoodAvenue650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "KinfaunsAvenue650();" );
+  }
+}
+function BurntwoodAvenue650(){
+  getRidOfDestination()
+  BurntwoodAvenue()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "BurntwoodAvenue650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "BurntwoodAvenue650Audio();" );
+  }
+}
+function BurntwoodAvenue650Audio(){
+  BurntwoodAvenueAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "ButtsGreenRoad650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WykehamAvenue650(){
+  getRidOfDestination()
+  WykehamAvenue()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WykehamAvenue650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WykehamAvenue650Audio();" );
+  }
+}
+function WykehamAvenue650Audio(){
+  WykehamAvenueAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "NelmesRoad650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WaldenWay650();" );
+  }
+}
+function ButtsGreenRoad650(){
+  getRidOfDestination()
+  ButtsGreenRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "ButtsGreenRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "ButtsGreenRoad650Audio();" );
+  }
+}
+function ButtsGreenRoad650Audio(){
+  ButtsGreenRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "NelmesRoad650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WykehamAvenue650();" );
+  }
+}
+function NelmesRoad650(){
+  getRidOfDestination()
+  NelmesRoad()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "NelmesRoad650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "NelmesRoad650Audio();" );
+  }
+}
+function NelmesRoad650Audio(){
+  NelmesRoadAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WingletyeLane650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "ButtsGreenRoad650();" );
+  }
+}
+function WingletyeLane650(){
+  getRidOfDestination()
+  WingletyeLane()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "WingletyeLane650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "WingletyeLane650Audio();" );
+  }
+}
+function WingletyeLane650Audio(){
+  WingletyeLaneAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "EmersonParkAcademy650();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function EmersonParkAcademy650(){
+  getRidOfDestination()
+  EmersonParkAcademy()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "EmersonParkAcademy650Audio();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "EmersonParkAcademy650Audio();" );
+  }
+}
+function EmersonParkAcademy650Audio(){
+  EmersonParkAcademyAudio()
+  if (routeDestination === "EmersonParkSchool650"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "RomfordBusGarage650") {
+    NextDestination.setAttribute( "onClick", "NelmesRoad650();" );
   }
 }
