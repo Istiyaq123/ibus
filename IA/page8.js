@@ -5231,7 +5231,7 @@ function WiltonCrescent152(){
 function WiltonCrescent152Audio(){
   WiltonCrescentAudio()
   if (routeDestination === "NewMaldenFountainRoundabout152"){
-    NextDestination.setAttribute( "onClick", "WiltonCrescent152();" );
+    NextDestination.setAttribute( "onClick", "TheNelsonHealthCentre152();" );
   } else if (routeDestination === "PollardsHill152") {
     NextDestination.setAttribute( "onClick", "MertonParkTramStop152();" );
   }
