@@ -69,6 +69,18 @@ function RomfordBusGarage650btn(){
   showDestination.setAttribute( "onClick", "RomfordBusGarage650ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "650 to Romford Bus Garage";
 }
+function NewMaldenFountainRoundabout152btn(){
+  routeDestination = "NewMaldenFountainRoundabout152";
+  SouthLodgeAvenueYorkshireRoad152()
+  showDestination.setAttribute( "onClick", "NewMaldenFountainRoundabout152ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "152 to New Malden, Fountain Roundabout";
+}
+function PollardsHill152btn(){
+  routeDestination = "PollardsHill152";
+  WaltonAvenue152()
+  showDestination.setAttribute( "onClick", "PollardsHill152ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "152 to Pollards Hill";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -300,6 +312,66 @@ function RomfordBusGarage650ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ROMFORD_BUS_GARAGE_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function PollardsHill152ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "152 to Pollards Hill";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_153_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_POLLARDS_HILL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function NewMaldenFountainRoundabout152ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="none";
+  marquee.style.display = "block";
+  marquee.innerHTML = "152 to New Malden, Fountain Roundabout";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_153_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_NEW_MALDEN_FOUNTAIN_ROUNDABOUT_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -4532,5 +4604,873 @@ function EmersonParkAcademy650Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "RomfordBusGarage650") {
     NextDestination.setAttribute( "onClick", "NelmesRoad650();" );
+  }
+}
+
+function SouthLodgeAvenueYorkshireRoad152(){
+  getRidOfDestination()
+  SouthLodgeAvenueYorkshireRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "SouthLodgeAvenueYorkshireRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "SouthLodgeAvenueYorkshireRoad152Audio();" );
+  }
+}
+function SouthLodgeAvenueYorkshireRoad152Audio(){
+  SouthLodgeAvenueYorkshireRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LeicesterAvenue152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function LeicesterAvenue152(){
+  getRidOfDestination()
+  LeicesterAvenue()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LeicesterAvenue152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LeicesterAvenue152Audio();" );
+  }
+}
+function LeicesterAvenue152Audio(){
+  LeicesterAvenueAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "NorthumberlandGardens152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function NorthumberlandGardens152(){
+  getRidOfDestination()
+  NorthumberlandGardens()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "NorthumberlandGardens152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "NorthumberlandGardens152Audio();" );
+  }
+}
+function NorthumberlandGardens152Audio(){
+  NorthumberlandGardensAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WestmorlandWay152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WestmorlandWay152(){
+  getRidOfDestination()
+  WestmorlandWay()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WestmorlandWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WestmorlandWay152Audio();" );
+  }
+}
+function WestmorlandWay152Audio(){
+  WestmorlandWayAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "CarisbrookeRoadHertfordWay152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CarisbrookeRoadHertfordWay152(){
+  getRidOfDestination()
+  CarisbrookeRoadHertfordWay()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "CarisbrookeRoadHertfordWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "CarisbrookeRoadHertfordWay152Audio();" );
+  }
+}
+function CarisbrookeRoadHertfordWay152Audio(){
+  CarisbrookeRoadHertfordWayAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "PollardsHillLibrary152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function PollardsHillLibrary152(){
+  getRidOfDestination()
+  PollardsHillLibrary()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "PollardsHillLibrary152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "PollardsHillLibrary152Audio();" );
+  }
+}
+function PollardsHillLibrary152Audio(){
+  PollardsHillLibraryAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "IvyGardens152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "SouthLodgeAvenueYorkshireRoad152();" );
+  }
+}
+function IvyGardens152(){
+  getRidOfDestination()
+  IvyGardens()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "IvyGardens152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "IvyGardens152Audio();" );
+  }
+}
+function IvyGardens152Audio(){
+  IvyGardensAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "NorthboroughRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "PollardsHillLibrary152();" );
+  }
+}
+function NorthboroughRoad152(){
+  getRidOfDestination()
+  NorthboroughRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "NorthboroughRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "NorthboroughRoad152Audio();" );
+  }
+}
+function NorthboroughRoad152Audio(){
+  NorthboroughRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "StanfordWay152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "IvyGardens152();" );
+  }
+}
+function StanfordWay152(){
+  getRidOfDestination()
+  StanfordWay()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "StanfordWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "StanfordWay152Audio();" );
+  }
+}
+function StanfordWay152Audio(){
+  StanfordWayAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MeophamRoadWoodstockWay152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function RosemeadAvenue152(){
+  getRidOfDestination()
+  RosemeadAvenue()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MeophamRoadWoodstockWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "RosemeadAvenue152Audio();" );
+  }
+}
+function RosemeadAvenue152Audio(){
+  RosemeadAvenueAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ClayAvenue152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "NorthboroughRoad152();" );
+  }
+}
+function StreathamParkCemetery152(){
+  getRidOfDestination()
+  StreathamParkCemetery()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MeophamRoadWoodstockWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "StreathamParkCemetery152Audio();" );
+  }
+}
+function StreathamParkCemetery152Audio(){
+  StreathamParkCemeteryAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ClayAvenue152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "RosemeadAvenue152();" );
+  }
+}
+function MeophamRoadWoodstockWay152(){
+  getRidOfDestination()
+  MeophamRoadWoodstockWay()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MeophamRoadWoodstockWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MeophamRoadWoodstockWay152Audio();" );
+  }
+}
+function MeophamRoadWoodstockWay152Audio(){
+  MeophamRoadWoodstockWayAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ClayAvenue152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "StreathamParkCemetery152();" );
+  }
+}
+function WarminsterWay152(){
+  getRidOfDestination()
+  WarminsterWay()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WarminsterWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WarminsterWay152Audio();" );
+  }
+}
+function WarminsterWay152Audio(){
+  WarminsterWayAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "StMarksCofEAcademyPlayingFields152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MeophamRoadWoodstockWay152();" );
+  }
+}
+function ClayAvenue152(){
+  getRidOfDestination()
+  ClayAvenue()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ClayAvenue152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ClayAvenue152Audio();" );
+  }
+}
+function ClayAvenue152Audio(){
+  ClayAvenueAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "StMarksCofEAcademyPlayingFields152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WarminsterWay152();" );
+  }
+}
+function StMarksCofEAcademyPlayingFields152(){
+  getRidOfDestination()
+  StMarksCofEAcademyPlayingFields()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "StMarksCofEAcademyPlayingFields152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "StMarksCofEAcademyPlayingFields152Audio();" );
+  }
+}
+function StMarksCofEAcademyPlayingFields152Audio(){
+  StMarksCofEAcademyPlayingFieldsAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MitchamEastfieldsStation152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ClayAvenue152();" );
+  }
+}
+function MitchamEastfieldsStation152(){
+  getRidOfDestination()
+  MitchamEastfieldsStation()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MitchamEastfieldsStation152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MitchamEastfieldsStation152Audio();" );
+  }
+}
+function MitchamEastfieldsStation152Audio(){
+  MitchamEastfieldsStationAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "EastfieldsRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "StMarksCofEAcademyPlayingFields152();" );
+  }
+}
+function EastfieldsRoad152(){
+  getRidOfDestination()
+  EastfieldsRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "EastfieldsRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "EastfieldsRoad152Audio();" );
+  }
+}
+function EastfieldsRoad152Audio(){
+  EastfieldsRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LocksLane152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function EastfieldsRdMitchamEastfieldsStn152(){
+  getRidOfDestination()
+  EastfieldsRdMitchamEastfieldsStn()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "EastfieldsRdMitchamEastfieldsStn152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "EastfieldsRdMitchamEastfieldsStn152Audio();" );
+  }
+}
+function EastfieldsRdMitchamEastfieldsStn152Audio(){
+  EastfieldsRdMitchamEastfieldsStnAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "DowneRoadMitchamLibrary152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MitchamEastfieldsStation152();" );
+  }
+}
+function LocksLane152(){
+  getRidOfDestination()
+  LocksLane()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LocksLane152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LocksLane152Audio();" );
+  }
+}
+function LocksLane152Audio(){
+  LocksLaneAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "DowneRoadMitchamLibrary152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "EastfieldsRdMitchamEastfieldsStn152();" );
+  }
+}
+function EvelineRoad152(){
+  getRidOfDestination()
+  EvelineRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "EvelineRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "EvelineRoad152Audio();" );
+  }
+}
+function EvelineRoad152Audio(){
+  EvelineRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MitchamFairGreen152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LocksLane152();" );
+  }
+}
+function DowneRoadMitchamLibrary152(){
+  getRidOfDestination()
+  DowneRoadMitchamLibrary()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "DowneRoadMitchamLibrary152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "DowneRoadMitchamLibrary152Audio();" );
+  }
+}
+function DowneRoadMitchamLibrary152Audio(){
+  DowneRoadMitchamLibraryAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MitchamFairGreen152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "EvelineRoad152();" );
+  }
+}
+function MitchamFairGreen152(){
+  getRidOfDestination()
+  MitchamFairGreen()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MitchamFairGreen152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MitchamFairGreen152Audio();" );
+  }
+}
+function MitchamFairGreen152Audio(){
+  MitchamFairGreenAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LoveLane152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "DowneRoadMitchamLibrary152();" );
+  }
+}
+function LoveLane152(){
+  getRidOfDestination()
+  LoveLane()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LoveLane152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LoveLane152Audio();" );
+  }
+}
+function LoveLane152Audio(){
+  LoveLaneAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "SadlerClose152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MitchamFairGreen152();" );
+  }
+}
+function SadlerClose152(){
+  getRidOfDestination()
+  SadlerClose()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "SadlerClose152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "SadlerClose152Audio();" );
+  }
+}
+function SadlerClose152Audio(){
+  SadlerCloseAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LewisRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LewisRoad152(){
+  getRidOfDestination()
+  LewisRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LewisRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LewisRoad152Audio();" );
+  }
+}
+function LewisRoad152Audio(){
+  LewisRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LavenderAvenue152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LoveLane152();" );
+  }
+}
+function LavenderAvenue152(){
+  getRidOfDestination()
+  LavenderAvenue()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LavenderAvenue152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LavenderAvenue152Audio();" );
+  }
+}
+function LavenderAvenue152Audio(){
+  LavenderAvenueAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ChelseaFields152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LewisRoad152();" );
+  }
+}
+function ChelseaFields152(){
+  getRidOfDestination()
+  ChelseaFields()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ChelseaFields152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ChelseaFields152Audio();" );
+  }
+}
+function ChelseaFields152Audio(){
+  ChelseaFieldsAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "Runnymede152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LavenderAvenue152();" );
+  }
+}
+function Runnymede152(){
+  getRidOfDestination()
+  Runnymede()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "Runnymede152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "Runnymede152Audio();" );
+  }
+}
+function Runnymede152Audio(){
+  RunnymedeAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ColliersWoodStation152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ChelseaFields152();" );
+  }
+}
+function ChristChurch152(){
+  getRidOfDestination()
+  ChristChurch()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ChristChurch152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ChristChurch152Audio();" );
+  }
+}
+function ChristChurch152Audio(){
+  ChristChurchAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MertonAbbey152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "Runnymede152();" );
+  }
+}
+function ColliersWoodStation152(){
+  getRidOfDestination()
+  ColliersWoodStation()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ColliersWoodStation152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ColliersWoodStation152Audio();" );
+  }
+}
+function ColliersWoodStation152Audio(){
+  ColliersWoodStationAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MertonAbbey152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ChristChurch152();" );
+  }
+}
+function MertonAbbey152(){
+  getRidOfDestination()
+  MertonAbbey()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MertonAbbey152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MertonAbbey152Audio();" );
+  }
+}
+function MertonAbbey152Audio(){
+  MertonAbbeyAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "AbbeyRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ColliersWoodStation152();" );
+  }
+}
+function AbbeyRoad152(){
+  getRidOfDestination()
+  AbbeyRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "AbbeyRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "AbbeyRoad152Audio();" );
+  }
+}
+function AbbeyRoad152Audio(){
+  AbbeyRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "SouthWimbledonStation152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MertonAbbey152();" );
+  }
+}
+function SouthWimbledonStation152(){
+  getRidOfDestination()
+  SouthWimbledonStation()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "SouthWimbledonStation152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "SouthWimbledonStation152Audio();" );
+  }
+}
+function SouthWimbledonStation152Audio(){
+  SouthWimbledonStationAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MordenRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "AbbeyRoad152();" );
+  }
+}
+function MordenRoad152(){
+  getRidOfDestination()
+  MordenRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MordenRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MordenRoad152Audio();" );
+  }
+}
+function MordenRoad152Audio(){
+  MordenRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WimbledonFireStation152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "SouthWimbledonStation152();" );
+  }
+}
+function WimbledonFireStation152(){
+  getRidOfDestination()
+  WimbledonFireStation()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WimbledonFireStation152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WimbledonFireStation152Audio();" );
+  }
+}
+function WimbledonFireStation152Audio(){
+  WimbledonFireStationAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MertonParkTramStop152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MordenRoad152();" );
+  }
+}
+function MertonParkTramStop152(){
+  getRidOfDestination()
+  MertonParkTramStop()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "MertonParkTramStop152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MertonParkTramStop152Audio();" );
+  }
+}
+function MertonParkTramStop152Audio(){
+  MertonParkTramStopAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WiltonCrescent152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WimbledonFireStation152();" );
+  }
+}
+function WiltonCrescent152(){
+  getRidOfDestination()
+  WiltonCrescent()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WiltonCrescent152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WiltonCrescent152Audio();" );
+  }
+}
+function WiltonCrescent152Audio(){
+  WiltonCrescentAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WiltonCrescent152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "MertonParkTramStop152();" );
+  }
+}
+function TheNelsonHealthCentre152(){
+  getRidOfDestination()
+  TheNelsonHealthCentre()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "TheNelsonHealthCentre152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "TheNelsonHealthCentre152Audio();" );
+  }
+}
+function TheNelsonHealthCentre152Audio(){
+  TheNelsonHealthCentreAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WimbledonChaseStation152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WiltonCrescent152();" );
+  }
+}
+function WimbledonChaseStation152(){
+  getRidOfDestination()
+  WimbledonChaseStation()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WimbledonChaseStation152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WimbledonChaseStation152Audio();" );
+  }
+}
+function WimbledonChaseStation152Audio(){
+  WimbledonChaseStationAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LowerDownsRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "TheNelsonHealthCentre152();" );
+  }
+}
+function LowerDownsRoad152(){
+  getRidOfDestination()
+  LowerDownsRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "LowerDownsRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LowerDownsRoad152Audio();" );
+  }
+}
+function LowerDownsRoad152Audio(){
+  LowerDownsRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "SydneyRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WimbledonChaseStation152();" );
+  }
+}
+function SydneyRoad152(){
+  getRidOfDestination()
+  SydneyRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "SydneyRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "SydneyRoad152Audio();" );
+  }
+}
+function SydneyRoad152Audio(){
+  SydneyRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "RaynesParkLibrary152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "LowerDownsRoad152();" );
+  }
+}
+function RaynesParkLibrary152(){
+  getRidOfDestination()
+  RaynesParkLibrary()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "RaynesParkLibrary152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "RaynesParkLibrary152Audio();" );
+  }
+}
+function RaynesParkLibrary152Audio(){
+  RaynesParkLibraryAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "RaynesParkStation152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "SydneyRoad152();" );
+  }
+}
+function RaynesParkStation152(){
+  getRidOfDestination()
+  RaynesParkStation()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "RaynesParkStation152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "RaynesParkStation152Audio();" );
+  }
+}
+function RaynesParkStation152Audio(){
+  RaynesParkStationAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "BusheyRoadGrandDrive152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "RaynesParkLibrary152();" );
+  }
+}
+function BusheyRoadGrandDrive152(){
+  getRidOfDestination()
+  BusheyRoadGrandDrive()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "BusheyRoadGrandDrive152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "BusheyRoadGrandDrive152Audio();" );
+  }
+}
+function BusheyRoadGrandDrive152Audio(){
+  BusheyRoadGrandDriveAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "CartersBridge152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "RaynesParkStation152();" );
+  }
+}
+function CartersBridge152(){
+  getRidOfDestination()
+  CartersBridge()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "CartersBridge152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "CartersBridge152Audio();" );
+  }
+}
+function CartersBridge152Audio(){
+  CartersBridgeAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "RaynesParkHighSchool152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "BusheyRoadGrandDrive152();" );
+  }
+}
+function RaynesParkHighSchool152(){
+  getRidOfDestination()
+  RaynesParkHighSchool()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "RaynesParkHighSchool152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "RaynesParkHighSchool152Audio();" );
+  }
+}
+function RaynesParkHighSchool152Audio(){
+  RaynesParkHighSchoolAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ShannonCornerSuperstores152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ShannonCornerSuperstores152(){
+  getRidOfDestination()
+  ShannonCornerSuperstores()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ShannonCornerSuperstores152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ShannonCornerSuperstores152Audio();" );
+  }
+}
+function ShannonCornerSuperstores152Audio(){
+  ShannonCornerSuperstoresAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ShannonCornerBeverleyWay152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ShannonCornerBeverleyWay152(){
+  getRidOfDestination()
+  ShannonCornerBeverleyWay()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ShannonCornerBeverleyWay152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ShannonCornerBeverleyWay152Audio();" );
+  }
+}
+function ShannonCornerBeverleyWay152Audio(){
+  ShannonCornerBeverleyWayAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ShannonCornerRookwoodAvenue152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "CartersBridge152();" );
+  }
+}
+function ShannonCornerRookwoodAvenue152(){
+  getRidOfDestination()
+  ShannonCornerRookwoodAvenue()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "ShannonCornerRookwoodAvenue152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ShannonCornerRookwoodAvenue152Audio();" );
+  }
+}
+function ShannonCornerRookwoodAvenue152Audio(){
+  ShannonCornerRookwoodAvenueAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "QueensRoad152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ShannonCornerBeverleyWay152();" );
+  }
+}
+function QueensRoad152(){
+  getRidOfDestination()
+  QueensRoad()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "QueensRoad152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "QueensRoad152Audio();" );
+  }
+}
+function QueensRoad152Audio(){
+  QueensRoadAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WaltonAvenue152();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "ShannonCornerRookwoodAvenue152();" );
+  }
+}
+function WaltonAvenue152(){
+  getRidOfDestination()
+  WaltonAvenue()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "WaltonAvenue152Audio();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "WaltonAvenue152Audio();" );
+  }
+}
+function WaltonAvenue152Audio(){
+  WaltonAvenueAudio()
+  if (routeDestination === "NewMaldenFountainRoundabout152"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "PollardsHill152") {
+    NextDestination.setAttribute( "onClick", "QueensRoad152();" );
   }
 }

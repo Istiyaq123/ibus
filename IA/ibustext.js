@@ -773,6 +773,7 @@ function LeytonstoneStnGroveGreenRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeytonstoneStnGroveGreenRoadAudio(){
@@ -1032,6 +1033,7 @@ function FordRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FordRoadAudio(){
@@ -1052,6 +1054,7 @@ function MedwayRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MedwayRoadAudio(){
@@ -1107,6 +1110,7 @@ function MileEndStationBowRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MileEndStationBowRoadAudio(){
@@ -1259,6 +1263,7 @@ function RomanRoadGroveRoad()
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RomanRoadGroveRoadAudio(){
@@ -2031,6 +2036,7 @@ function MileEndStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MileEndStationAudio(){
@@ -2129,6 +2135,7 @@ function WalthamstowBusStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WalthamstowBusStationAudio(){
@@ -2150,6 +2157,7 @@ function GrosvenorParkRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GrosvenorParkRoadAudio(){
@@ -2171,6 +2179,7 @@ function GroveRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GroveRoadAudio(){
@@ -2192,6 +2201,7 @@ function BakersAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BakersAvenueAudio(){
@@ -2631,6 +2641,7 @@ function LeaBridgeRoadBakersArms(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeaBridgeRoadBakersArmsAudio(){
@@ -2651,6 +2662,7 @@ function HoeStreetBakersArms(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HoeStreetBakersArmsAudio(){
@@ -2671,6 +2683,7 @@ function QueensRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function QueensRoadAudio(){
@@ -3587,6 +3600,7 @@ function GreenManRoundabout(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GreenManRoundaboutAudio(){
@@ -3750,6 +3764,7 @@ function EmpressAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EmpressAvenueAudio(){
@@ -3891,6 +3906,7 @@ function CobornRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CobornRoadAudio(){
@@ -3911,6 +3927,7 @@ function BowRoadStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BowRoadStationAudio(){
@@ -3931,6 +3948,7 @@ function BowChurchStation(){
         DLR.style.display = "inline";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BowChurchStationAudio(){
@@ -3951,6 +3969,7 @@ function BowBusGarage(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BowBusGarageAudio(){
@@ -3971,6 +3990,7 @@ function TredegarRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TredegarRoadAudio(){
@@ -3991,6 +4011,7 @@ function RomanRoadMarket(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RomanRoadMarketAudio(){
@@ -4011,6 +4032,7 @@ function OldFordRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function OldFordRoadAudio(){
@@ -4031,6 +4053,7 @@ function ParnellRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ParnellRoadAudio(){
@@ -4051,6 +4074,7 @@ function AliceLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AliceLaneAudio(){
@@ -4071,6 +4095,7 @@ function HaverfieldGreenGroveRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HaverfieldGreenGroveRoadAudio(){
@@ -4091,6 +4116,7 @@ function BonnerStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BonnerStreetAudio(){
@@ -4111,6 +4137,7 @@ function CyprusStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CyprusStreetAudio(){
@@ -4131,6 +4158,7 @@ function BonnerRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BonnerRoadAudio(){
@@ -4151,6 +4179,7 @@ function PeelGrove(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PeelGroveAudio(){
@@ -4171,6 +4200,7 @@ function BethnalGreenStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BethnalGreenStationAudio(){
@@ -4191,6 +4221,7 @@ function BurnhamStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BurnhamStreetAudio(){
@@ -4211,6 +4242,7 @@ function SmartStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SmartStreetAudio(){
@@ -4231,6 +4263,7 @@ function BowChurch(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BowChurchAudio(){
@@ -4251,6 +4284,7 @@ function StaffaRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StaffaRoadAudio(){
@@ -4271,6 +4305,7 @@ function ArgallAvenueIndustrialEstate(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ArgallAvenueIndustrialEstateAudio(){
@@ -4291,6 +4326,7 @@ function BarnCroftPrimarySchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BarnCroftPrimarySchoolAudio(){
@@ -4311,6 +4347,7 @@ function MarkhouseAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MarkhouseAvenueAudio(){
@@ -4331,6 +4368,7 @@ function SouthGrove(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SouthGroveAudio(){
@@ -4351,6 +4389,7 @@ function SelborneWalkVernonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SelborneWalkVernonRoadAudio(){
@@ -4371,6 +4410,7 @@ function SelborneWalk(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SelborneWalkAudio(){
@@ -4391,6 +4431,7 @@ function WalthamstowCentralStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WalthamstowCentralStationAudio(){
@@ -4411,6 +4452,7 @@ function LeytonGreenRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeytonGreenRoadAudio(){
@@ -4431,6 +4473,7 @@ function ShernhallStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ShernhallStreetAudio(){
@@ -4451,6 +4494,7 @@ function PeterboroughRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PeterboroughRoadAudio(){
@@ -4471,6 +4515,7 @@ function WhippsCrossWoodStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WhippsCrossWoodStreetAudio(){
@@ -4491,6 +4536,7 @@ function WhippsCrossBusStand(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WhippsCrossBusStandAudio(){
@@ -4511,6 +4557,7 @@ function WhippsCrossHospitalMainEntrance(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WhippsCrossHospitalMainEntranceAudio(){
@@ -4531,6 +4578,7 @@ function WhippsCrossHospitalAE(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WhippsCrossHospitalAEAudio(){
@@ -4551,6 +4599,7 @@ function ClareRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ClareRoadAudio(){
@@ -4571,6 +4620,7 @@ function EssexRoadSouth(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EssexRoadSouthAudio(){
@@ -4591,6 +4641,7 @@ function ElimPentecostalChurch(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ElimPentecostalChurchAudio(){
@@ -4611,6 +4662,7 @@ function ClarendonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ClarendonRoadAudio(){
@@ -4631,6 +4683,7 @@ function GainsboroughRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GainsboroughRoadAudio(){
@@ -4651,6 +4704,7 @@ function BushRoadGreenManRoundabout(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BushRoadGreenManRoundaboutAudio(){
@@ -4671,6 +4725,7 @@ function BlakeHallCrescent(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BlakeHallCrescentAudio(){
@@ -4691,6 +4746,7 @@ function QueenswoodGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function QueenswoodGardensAudio(){
@@ -4711,6 +4767,7 @@ function ParkRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ParkRoadAudio(){
@@ -4731,6 +4788,7 @@ function HerongateRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HerongateRoadAudio(){
@@ -4751,6 +4809,7 @@ function MerlinRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MerlinRoadAudio(){
@@ -4771,6 +4830,7 @@ function CityofLondonCemetery(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CityofLondonCemeteryAudio(){
@@ -4791,6 +4851,7 @@ function CapelRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CapelRoadAudio(){
@@ -4811,6 +4872,7 @@ function ManorParkStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "inline";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ManorParkStationAudio(){
@@ -4831,6 +4893,7 @@ function RomfordRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RomfordRoadAudio(){
@@ -4851,6 +4914,7 @@ function FirstAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FirstAvenueAudio(){
@@ -4871,6 +4935,7 @@ function RabbitsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RabbitsRoadAudio(){
@@ -4891,6 +4956,7 @@ function SeventhAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SeventhAvenueAudio(){
@@ -4911,6 +4977,7 @@ function LittleIlfordLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LittleIlfordLaneAudio(){
@@ -4931,6 +4998,7 @@ function NorthCircularRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NorthCircularRoadAudio(){
@@ -4951,6 +5019,7 @@ function IlfordHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function IlfordHillAudio(){
@@ -4971,6 +5040,7 @@ function ChapelRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ChapelRoadAudio(){
@@ -4991,6 +5061,7 @@ function RedbridgeCentralLibrary(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RedbridgeCentralLibraryAudio(){
@@ -5011,6 +5082,7 @@ function HainaultStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HainaultStreetAudio(){
@@ -5031,6 +5103,7 @@ function IlfordBroadway(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function IlfordBroadwayAudio(){
@@ -5051,6 +5124,7 @@ function DersinghamAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function DersinghamAvenueAudio(){
@@ -5071,6 +5145,7 @@ function HighStreetNorth(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HighStreetNorthAudio(){
@@ -5091,6 +5166,7 @@ function WansteadParkAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WansteadParkAvenueAudio(){
@@ -5111,6 +5187,7 @@ function DoverRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function DoverRoadAudio(){
@@ -5131,6 +5208,7 @@ function EssexRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EssexRoadAudio(){
@@ -5151,6 +5229,7 @@ function EdmontonGreenBusStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EdmontonGreenBusStationAudio(){
@@ -5171,6 +5250,7 @@ function MonmouthRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MonmouthRoadAudio(){
@@ -5191,6 +5271,7 @@ function BouncesRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BouncesRoadAudio(){
@@ -5211,6 +5292,7 @@ function StEdmundsCatholicPrimarySchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StEdmundsCatholicPrimarySchoolAudio(){
@@ -5231,6 +5313,7 @@ function ChesterRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ChesterRoadAudio(){
@@ -5251,6 +5334,7 @@ function ExeterRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ExeterRoadAudio(){
@@ -5271,6 +5355,7 @@ function MontaguRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MontaguRoadAudio(){
@@ -5291,6 +5376,7 @@ function StMarysRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StMarysRoadAudio(){
@@ -5311,6 +5397,7 @@ function ShirleyGrove(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ShirleyGroveAudio(){
@@ -5331,6 +5418,7 @@ function ScarboroughRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ScarboroughRoadAudio(){
@@ -5351,6 +5439,7 @@ function NightingaleRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NightingaleRoadAudio(){
@@ -5371,6 +5460,7 @@ function OrchardRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function OrchardRoadAudio(){
@@ -5391,6 +5481,7 @@ function FalconRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FalconRoadAudio(){
@@ -5411,6 +5502,7 @@ function PondersEndStnOasisAcademyHadley(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PondersEndStnOasisAcademyHadleyAudio(){
@@ -5431,6 +5523,7 @@ function ScotlandGreenRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ScotlandGreenRoadAudio(){
@@ -5451,6 +5544,7 @@ function AlexandraRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AlexandraRoadAudio(){
@@ -5471,6 +5565,7 @@ function PondersEndHighStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PondersEndHighStreetAudio(){
@@ -5491,6 +5586,7 @@ function GlynRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GlynRoadAudio(){
@@ -5511,6 +5607,7 @@ function EnfieldBusGarageSouthburyStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EnfieldBusGarageSouthburyStationAudio(){
@@ -5531,6 +5628,7 @@ function CrownRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CrownRoadAudio(){
@@ -5551,6 +5649,7 @@ function BairdRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BairdRoadAudio(){
@@ -5571,6 +5670,7 @@ function GreatCambridgeRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GreatCambridgeRoadAudio(){
@@ -5591,6 +5691,7 @@ function PercivalRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PercivalRoadAudio(){
@@ -5611,6 +5712,7 @@ function CecilAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CecilAvenueAudio(){
@@ -5631,6 +5733,7 @@ function LadysmithRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LadysmithRoadAudio(){
@@ -5651,6 +5754,7 @@ function EnfieldTownStation(){
         DLR.style.display = "inline";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EnfieldTownStationAudio(){
@@ -5671,6 +5775,7 @@ function EnfieldTownCecilRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EnfieldTownCecilRoadAudio(){
@@ -5691,6 +5796,7 @@ function WindmillHillEnfieldWarMemorial(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WindmillHillEnfieldWarMemorialAudio(){
@@ -5711,6 +5817,7 @@ function ParsonageLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ParsonageLaneAudio(){
@@ -5731,6 +5838,7 @@ function GordonHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GordonHillAudio(){
@@ -5751,6 +5859,7 @@ function LavenderHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LavenderHillAudio(){
@@ -5771,6 +5880,7 @@ function BrowningRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BrowningRoadAudio(){
@@ -5791,6 +5901,7 @@ function BakerStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BakerStreetAudio(){
@@ -5811,6 +5922,7 @@ function KenilworthCrescent(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function KenilworthCrescentAudio(){
@@ -5831,6 +5943,7 @@ function FortyHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FortyHillAudio(){
@@ -5851,6 +5964,7 @@ function WillowRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WillowRoadAudio(){
@@ -5871,6 +5985,7 @@ function LinwoodCrescent(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LinwoodCrescentAudio(){
@@ -5891,6 +6006,7 @@ function BaynesClose(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BaynesCloseAudio(){
@@ -5911,6 +6027,7 @@ function LarksfieldGrove(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LarksfieldGroveAudio(){
@@ -5931,6 +6048,7 @@ function SherborneAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SherborneAvenueAudio(){
@@ -5951,6 +6069,7 @@ function OatlandsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function OatlandsRoadAudio(){
@@ -5971,6 +6090,7 @@ function DurantsSchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function DurantsSchoolAudio(){
@@ -5991,6 +6111,7 @@ function IngersollRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function IngersollRoadAudio(){
@@ -6011,6 +6132,7 @@ function HertfordRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HertfordRoadAudio(){
@@ -6031,6 +6153,7 @@ function AlbanyParkAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AlbanyParkAvenueAudio(){
@@ -6051,6 +6174,7 @@ function CastleRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CastleRoadAudio(){
@@ -6071,6 +6195,7 @@ function LeysRoadEast(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeysRoadEastAudio(){
@@ -6091,6 +6216,7 @@ function Fouracres(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FouracresAudio(){
@@ -6111,6 +6237,7 @@ function BrimsdownStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BrimsdownStationAudio(){
@@ -6131,6 +6258,7 @@ function CarterhatchLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CarterhatchLaneAudio(){
@@ -6151,6 +6279,7 @@ function LaurelBankRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LaurelBankRoadAudio(){
@@ -6171,6 +6300,7 @@ function EnfieldTownChurchStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EnfieldTownChurchStreetAudio(){
@@ -6191,6 +6321,7 @@ function CrownRoadSouthburyStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CrownRoadSouthburyStationAudio(){
@@ -6211,6 +6342,7 @@ function RoyalBritishLegion(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RoyalBritishLegionAudio(){
@@ -6231,6 +6363,7 @@ function DurantsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function DurantsRoadAudio(){
@@ -6251,6 +6384,7 @@ function PondersEndStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PondersEndStationAudio(){
@@ -6271,6 +6405,7 @@ function OasisAcademyHadley(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function OasisAcademyHadleyAudio(){
@@ -6291,6 +6426,7 @@ function StMatthewsChurch(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StMatthewsChurchAudio(){
@@ -6311,6 +6447,7 @@ function WarleyRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WarleyRoadAudio(){
@@ -6331,6 +6468,7 @@ function CrystalPalaceBusStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CrystalPalaceBusStationAudio(){
@@ -6351,6 +6489,7 @@ function WestowHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WestowHillAudio(){
@@ -6371,6 +6510,7 @@ function WestowStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WestowStreetAudio(){
@@ -6391,6 +6531,7 @@ function GipsyHillPoliceStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GipsyHillPoliceStationAudio(){
@@ -6411,6 +6552,7 @@ function RockmountRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RockmountRoadAudio(){
@@ -6431,6 +6573,7 @@ function HermitageRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HermitageRoadAudio(){
@@ -6451,6 +6594,7 @@ function SaltersHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SaltersHillAudio(){
@@ -6471,6 +6615,7 @@ function TivoliRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TivoliRoadAudio(){
@@ -6491,6 +6636,7 @@ function CrownPoint(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CrownPointAudio(){
@@ -6511,6 +6657,7 @@ function RyecroftRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RyecroftRoadAudio(){
@@ -6531,6 +6678,7 @@ function StreathamCommonNorthLeighamCrtRd(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StreathamCommonNorthLeighamCrtRdAudio(){
@@ -6551,6 +6699,7 @@ function LeighamCourtRoadStreathamCommon(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeighamCourtRoadStreathamCommonAudio(){
@@ -6571,6 +6720,7 @@ function JuliansPrimarySchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function JuliansPrimarySchoolAudio(){
@@ -6591,6 +6741,7 @@ function RockhamptonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RockhamptonRoadAudio(){
@@ -6611,6 +6762,7 @@ function StPetersChurch(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StPetersChurchAudio(){
@@ -6631,6 +6783,7 @@ function ValleyRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ValleyRoadAudio(){
@@ -6651,6 +6804,7 @@ function DunravenSchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function DunravenSchoolAudio(){
@@ -6671,6 +6825,7 @@ function MountearlGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MountearlGardensAudio(){
@@ -6691,6 +6846,7 @@ function LeighamCourtRdStreathamHillStn(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeighamCourtRdStreathamHillStnAudio(){
@@ -6711,6 +6867,7 @@ function StreathamHillStnStreathamHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StreathamHillStnStreathamHillAudio(){
@@ -6731,6 +6888,7 @@ function BarrhillRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BarrhillRoadAudio(){
@@ -6751,6 +6909,7 @@ function TelfordAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TelfordAvenueAudio(){
@@ -6771,6 +6930,7 @@ function ChristchurchRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ChristchurchRoadAudio(){
@@ -6791,6 +6951,7 @@ function StreathamPlace(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StreathamPlaceAudio(){
@@ -6811,6 +6972,7 @@ function AtkinsRoadNewParkRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AtkinsRoadNewParkRoadAudio(){
@@ -6831,6 +6993,7 @@ function KingsAvenueAtkinsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function KingsAvenueAtkinsRoadAudio(){
@@ -6851,6 +7014,7 @@ function ThorncliffeRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ThorncliffeRoadAudio(){
@@ -6871,6 +7035,7 @@ function ClarenceAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ClarenceAvenueAudio(){
@@ -6891,6 +7056,7 @@ function LyhamRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LyhamRoadAudio(){
@@ -6911,6 +7077,7 @@ function BedfordRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BedfordRoadAudio(){
@@ -6931,6 +7098,7 @@ function ParkHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ParkHillAudio(){
@@ -6951,6 +7119,7 @@ function ClaphamCommonStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ClaphamCommonStationAudio(){
@@ -6971,6 +7140,7 @@ function LongRoadClaphamCommon(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LongRoadClaphamCommonAudio(){
@@ -6991,6 +7161,7 @@ function OmnibusClapham(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function OmnibusClaphamAudio(){
@@ -7011,6 +7182,7 @@ function WingateSquare(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WingateSquareAudio(){
@@ -7031,6 +7203,7 @@ function RoseberyRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RoseberyRoadAudio(){
@@ -7051,6 +7224,7 @@ function StreathamHillChristchurchRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StreathamHillChristchurchRoadAudio(){
@@ -7071,6 +7245,7 @@ function StreathamClose(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StreathamCloseAudio(){
@@ -7091,6 +7266,7 @@ function LeighamCourtRoadValleyRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeighamCourtRoadValleyRoadAudio(){
@@ -7111,6 +7287,7 @@ function LeafGrove(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LeafGroveAudio(){
@@ -7131,6 +7308,7 @@ function CrownLaneCrownPoint(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CrownLaneCrownPointAudio(){
@@ -7151,6 +7329,7 @@ function NorwoodSchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NorwoodSchoolAudio(){
@@ -7171,6 +7350,7 @@ function CrystalPalaceParade(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CrystalPalaceParadeAudio(){
@@ -7191,6 +7371,7 @@ function CrownLaneCrownPoint(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CrownLaneCrownPointAudio(){
@@ -7211,6 +7392,7 @@ function HaveringPark(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HaveringParkAudio(){
@@ -7231,6 +7413,7 @@ function CharlotteGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CharlotteGardensAudio(){
@@ -7251,6 +7434,7 @@ function PortmoreGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PortmoreGardensAudio(){
@@ -7271,6 +7455,7 @@ function StaplefordGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StaplefordGardensAudio(){
@@ -7291,6 +7476,7 @@ function FrintonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FrintonRoadAudio(){
@@ -7311,6 +7497,7 @@ function GobionsFarm(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GobionsFarmAudio(){
@@ -7331,6 +7518,7 @@ function WhiteHartLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WhiteHartLaneAudio(){
@@ -7351,6 +7539,7 @@ function CollierRowClockhouseLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CollierRowClockhouseLaneAudio(){
@@ -7371,6 +7560,7 @@ function CollierRowRoundaboutRexClose(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CollierRowRoundaboutRexCloseAudio(){
@@ -7391,6 +7581,7 @@ function HulseAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HulseAvenueAudio(){
@@ -7411,6 +7602,7 @@ function MowbraysRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MowbraysRoadAudio(){
@@ -7431,6 +7623,7 @@ function HainaultRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HainaultRoadAudio(){
@@ -7451,6 +7644,7 @@ function ParklandsSchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ParklandsSchoolAudio(){
@@ -7471,6 +7665,7 @@ function RomfordBusGarage(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RomfordBusGarageAudio(){
@@ -7491,6 +7686,7 @@ function TheAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TheAvenueAudio(){
@@ -7511,6 +7707,7 @@ function RomfordMarket(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RomfordMarketAudio(){
@@ -7531,6 +7728,7 @@ function MercuryGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MercuryGardensAudio(){
@@ -7551,6 +7749,7 @@ function WesternRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WesternRoadAudio(){
@@ -7571,6 +7770,7 @@ function RomfordStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "inline";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RomfordStationAudio(){
@@ -7591,6 +7791,7 @@ function ThurloeGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ThurloeGardensAudio(){
@@ -7611,6 +7812,7 @@ function SouthStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SouthStreetAudio(){
@@ -7631,6 +7833,7 @@ function AlbertRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AlbertRoadAudio(){
@@ -7651,6 +7854,7 @@ function PrincesRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PrincesRoadAudio(){
@@ -7671,6 +7875,7 @@ function FrancesBardsleyAcademy(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FrancesBardsleyAcademyAudio(){
@@ -7691,6 +7896,7 @@ function CranhamRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CranhamRoadAudio(){
@@ -7711,6 +7917,7 @@ function SalisburyRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SalisburyRoadAudio(){
@@ -7731,6 +7938,7 @@ function TheDrillRoundabout(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TheDrillRoundaboutAudio(){
@@ -7751,6 +7959,7 @@ function GideaParkStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "inline";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GideaParkStationAudio(){
@@ -7771,6 +7980,7 @@ function UpperBrentwoodRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function UpperBrentwoodRoadAudio(){
@@ -7791,6 +8001,7 @@ function NorthumberlandAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NorthumberlandAvenueAudio(){
@@ -7811,6 +8022,7 @@ function HardleyCrescent(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HardleyCrescentAudio(){
@@ -7831,6 +8043,7 @@ function ArdleighGreenSchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ArdleighGreenSchoolAudio(){
@@ -7851,6 +8064,7 @@ function SouthendArterialRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SouthendArterialRoadAudio(){
@@ -7871,6 +8085,7 @@ function RosslynAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RosslynAvenueAudio(){
@@ -7891,6 +8106,7 @@ function StPetersChurch(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StPetersChurchAudio(){
@@ -7911,6 +8127,7 @@ function HaroldWoodStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "inline";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HaroldWoodStationAudio(){
@@ -7931,6 +8148,7 @@ function ArundelRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ArundelRoadAudio(){
@@ -7951,6 +8169,7 @@ function StNeotsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StNeotsRoadAudio(){
@@ -7971,6 +8190,7 @@ function CamborneAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CamborneAvenueAudio(){
@@ -7991,6 +8211,7 @@ function KingsbridgeRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function KingsbridgeRoadAudio(){
@@ -8011,6 +8232,7 @@ function HaroldHillCommunityCentre(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HaroldHillCommunityCentreAudio(){
@@ -8031,6 +8253,7 @@ function CentralParkLeisureCentre(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CentralParkLeisureCentreAudio(){
@@ -8051,6 +8274,7 @@ function BrooksideSchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BrooksideSchoolAudio(){
@@ -8071,6 +8295,7 @@ function LindfieldRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LindfieldRoadAudio(){
@@ -8091,6 +8316,7 @@ function WigtonWay(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WigtonWayAudio(){
@@ -8111,6 +8337,7 @@ function WhitchurchRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WhitchurchRoadAudio(){
@@ -8131,6 +8358,7 @@ function PrioryRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PrioryRoadAudio(){
@@ -8151,6 +8379,7 @@ function WincantonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WincantonRoadAudio(){
@@ -8171,6 +8400,7 @@ function CummingsHallLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CummingsHallLaneAudio(){
@@ -8191,6 +8421,7 @@ function AshbourneRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AshbourneRoadAudio(){
@@ -8211,6 +8442,7 @@ function TroopersDrive(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TroopersDriveAudio(){
@@ -8231,6 +8463,7 @@ function TeesDrive(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TeesDriveAudio(){
@@ -8251,6 +8484,7 @@ function HarknessClose(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarknessCloseAudio(){
@@ -8271,6 +8505,7 @@ function RecreationAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RecreationAvenueAudio(){
@@ -8291,6 +8526,7 @@ function WestmorelandAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WestmorelandAvenueAudio(){
@@ -8311,6 +8547,7 @@ function BrentwoodRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BrentwoodRoadAudio(){
@@ -8331,6 +8568,7 @@ function CedarRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CedarRoadAudio(){
@@ -8351,6 +8589,7 @@ function HillfootRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HillfootRoadAudio(){
@@ -8371,6 +8610,7 @@ function LowshoeLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LowshoeLaneAudio(){
@@ -8391,6 +8631,7 @@ function CollierRowLibrary(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CollierRowLibraryAudio(){
@@ -8411,6 +8652,7 @@ function MelvilleRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MelvilleRoadAudio(){
@@ -8431,6 +8673,7 @@ function HogHillRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HogHillRoadAudio(){
@@ -8451,6 +8694,7 @@ function CarterDrive(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CarterDriveAudio(){
@@ -8471,6 +8715,7 @@ function AldgateStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AldgateStationAudio(){
@@ -8491,6 +8736,7 @@ function Minories(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MinoriesAudio(){
@@ -8511,6 +8757,7 @@ function TowerHillTowerGatewayStation(){
         DLR.style.display = "inline";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TowerHillTowerGatewayStationAudio(){
@@ -8531,6 +8778,7 @@ function TowerBridge(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TowerBridgeAudio(){
@@ -8551,6 +8799,7 @@ function UnicornTheatre(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function UnicornTheatreAudio(){
@@ -8571,6 +8820,7 @@ function LondonBridgeStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LondonBridgeStationAudio(){
@@ -8591,6 +8841,7 @@ function SouthwarkStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SouthwarkStreetAudio(){
@@ -8611,6 +8862,7 @@ function UnionStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function UnionStreetAudio(){
@@ -8631,6 +8883,7 @@ function BoroughStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BoroughStationAudio(){
@@ -8651,6 +8904,7 @@ function InnerLondonCrownCourt(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function InnerLondonCrownCourtAudio(){
@@ -8671,6 +8925,7 @@ function ElephantCastleNewingtonCauseway(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ElephantCastleNewingtonCausewayAudio(){
@@ -8691,6 +8946,7 @@ function ElephantCastleStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ElephantCastleStationAudio(){
@@ -8711,6 +8967,7 @@ function ElephantPark(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ElephantParkAudio(){
@@ -8731,6 +8988,7 @@ function LarcomStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LarcomStreetAudio(){
@@ -8751,6 +9009,7 @@ function BalfourStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BalfourStreetAudio(){
@@ -8771,6 +9030,7 @@ function EastStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EastStreetAudio(){
@@ -8791,6 +9051,7 @@ function AlsaceRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AlsaceRoadAudio(){
@@ -8811,6 +9072,7 @@ function AlbanyRoadWellsWay(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AlbanyRoadWellsWayAudio(){
@@ -8831,6 +9093,7 @@ function StGeorgesWayBurgessPark(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StGeorgesWayBurgessParkAudio(){
@@ -8851,6 +9114,7 @@ function SedgmoorPlace(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SedgmoorPlaceAudio(){
@@ -8871,6 +9135,7 @@ function SouthamptonWayEstate(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SouthamptonWayEstateAudio(){
@@ -8891,6 +9156,7 @@ function SouthamptonWayPeckhamRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SouthamptonWayPeckhamRoadAudio(){
@@ -8911,6 +9177,7 @@ function HarrisAcademy(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrisAcademyAudio(){
@@ -8931,6 +9198,7 @@ function PeckhamLibrary(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PeckhamLibraryAudio(){
@@ -8951,6 +9219,7 @@ function ClaytonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ClaytonRoadAudio(){
@@ -8971,6 +9240,7 @@ function TheAyleshamCentre(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TheAyleshamCentreAudio(){
@@ -8991,6 +9261,7 @@ function PeckhamRyeStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PeckhamRyeStationAudio(){
@@ -9011,6 +9282,7 @@ function NigelRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NigelRoadAudio(){
@@ -9031,6 +9303,7 @@ function PeckhamRyeNunheadLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PeckhamRyeNunheadLaneAudio(){
@@ -9051,6 +9324,7 @@ function SolomonsPassage(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SolomonsPassageAudio(){
@@ -9071,6 +9345,7 @@ function RyeHillPark(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RyeHillParkAudio(){
@@ -9091,6 +9366,7 @@ function StuartRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StuartRoadAudio(){
@@ -9111,6 +9387,7 @@ function SurreyRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SurreyRoadAudio(){
@@ -9131,6 +9408,7 @@ function MerttinsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MerttinsRoadAudio(){
@@ -9151,6 +9429,7 @@ function StNorbertRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StNorbertRoadAudio(){
@@ -9171,6 +9450,7 @@ function TurnhamRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TurnhamRoadAudio(){
@@ -9191,6 +9471,7 @@ function BrockillCrescent(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BrockillCrescentAudio(){
@@ -9211,6 +9492,7 @@ function StAsaphRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StAsaphRoadAudio(){
@@ -9231,6 +9513,7 @@ function AvignonRoadDrakefellRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AvignonRoadDrakefellRoadAudio(){
@@ -9251,6 +9534,7 @@ function KittoRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function KittoRoadAudio(){
@@ -9271,6 +9555,7 @@ function ArbuthnotRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ArbuthnotRoadAudio(){
@@ -9291,6 +9576,7 @@ function OmmaneyRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function OmmaneyRoadAudio(){
@@ -9311,6 +9597,7 @@ function NewCrossJerninghamRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NewCrossJerninghamRoadAudio(){
@@ -9331,6 +9618,7 @@ function NewCrossBusGarage(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NewCrossBusGarageAudio(){
@@ -9351,6 +9639,7 @@ function DrakefellRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function DrakefellRoadAudio(){
@@ -9371,6 +9660,7 @@ function InvertonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function InvertonRoadAudio(){
@@ -9391,6 +9681,7 @@ function PeckhamRyeEastDulwichRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PeckhamRyeEastDulwichRoadAudio(){
@@ -9411,6 +9702,7 @@ function HeatonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HeatonRoadAudio(){
@@ -9431,6 +9723,7 @@ function HanoverPark(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HanoverParkAudio(){
@@ -9451,6 +9744,7 @@ function PeckhamRoadSouthamptonWay(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function PeckhamRoadSouthamptonWayAudio(){
@@ -9471,6 +9765,7 @@ function CottageGreen(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CottageGreenAudio(){
@@ -9491,6 +9786,7 @@ function HamptonStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HamptonStreetAudio(){
@@ -9511,6 +9807,7 @@ function HaysGalleria(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HaysGalleriaAudio(){
@@ -9531,6 +9828,7 @@ function AbbotsLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AbbotsLaneAudio(){
@@ -9551,6 +9849,7 @@ function TowerGatewayStation(){
         DLR.style.display = "inline";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TowerGatewayStationAudio(){
@@ -9571,6 +9870,7 @@ function WatfordJunctionStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WatfordJunctionStationAudio(){
@@ -9591,6 +9891,7 @@ function BeechenGrove(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BeechenGroveAudio(){
@@ -9611,6 +9912,7 @@ function WaterLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WaterLaneAudio(){
@@ -9631,6 +9933,7 @@ function WatfordHighStreetStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WatfordHighStreetStationAudio(){
@@ -9651,6 +9954,7 @@ function WatfordFieldRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WatfordFieldRoadAudio(){
@@ -9671,6 +9975,7 @@ function WaterfieldsWay(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WaterfieldsWayAudio(){
@@ -9691,6 +9996,7 @@ function BusheyArches(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BusheyArchesAudio(){
@@ -9711,6 +10017,7 @@ function BusheyStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BusheyStationAudio(){
@@ -9731,6 +10038,7 @@ function GrangeRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GrangeRoadAudio(){
@@ -9751,6 +10059,7 @@ function GrangeAcademy(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function GrangeAcademyAudio(){
@@ -9771,6 +10080,7 @@ function TheRedLionPublicHouse(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TheRedLionPublicHouseAudio(){
@@ -9791,6 +10101,7 @@ function BournehallRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BournehallRoadAudio(){
@@ -9811,6 +10122,7 @@ function MelbourneRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MelbourneRoadAudio(){
@@ -9831,6 +10143,7 @@ function Steeplands(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SteeplandsAudio(){
@@ -9851,6 +10164,7 @@ function TheRoyalOakPublicHouse(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TheRoyalOakPublicHouseAudio(){
@@ -9871,6 +10185,7 @@ function MerryHillRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MerryHillRoadAudio(){
@@ -9891,6 +10206,7 @@ function StPetersClose(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StPetersCloseAudio(){
@@ -9911,6 +10227,7 @@ function WindmillLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WindmillLaneAudio(){
@@ -9931,6 +10248,7 @@ function CommonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function CommonRoadAudio(){
@@ -9951,6 +10269,7 @@ function HiveRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HiveRoadAudio(){
@@ -9971,6 +10290,7 @@ function AvantiHousePrimarySchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function AvantiHousePrimarySchoolAudio(){
@@ -9991,6 +10311,7 @@ function Sandringham(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SandringhamAudio(){
@@ -10011,6 +10332,7 @@ function ClampHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ClampHillAudio(){
@@ -10031,6 +10353,7 @@ function BrookshillGate(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BrookshillGateAudio(){
@@ -10051,6 +10374,7 @@ function HarrowCollege(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowCollegeAudio(){
@@ -10071,6 +10395,7 @@ function UxbridgeRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function UxbridgeRoadAudio(){
@@ -10091,6 +10416,7 @@ function HarrowWealdBusGarage(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowWealdBusGarageAudio(){
@@ -10111,6 +10437,7 @@ function WealdLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WealdLaneAudio(){
@@ -10131,6 +10458,7 @@ function SalvatorianCollegeStJosephsChurch(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SalvatorianCollegeStJosephsChurchAudio(){
@@ -10151,6 +10479,7 @@ function WealdstoneBaptistChurch(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WealdstoneBaptistChurchAudio(){
@@ -10171,6 +10500,7 @@ function TheWealdstoneCentre(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TheWealdstoneCentreAudio(){
@@ -10191,6 +10521,7 @@ function HarrowWealdstoneStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowWealdstoneStationAudio(){
@@ -10211,6 +10542,7 @@ function HarrowCivicCentreHarrowMosque(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowCivicCentreHarrowMosqueAudio(){
@@ -10231,6 +10563,7 @@ function HindesRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HindesRoadAudio(){
@@ -10251,6 +10584,7 @@ function HarrowTownCentreStJohnsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowTownCentreStJohnsRoadAudio(){
@@ -10271,6 +10605,7 @@ function HarrowTownCentre(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowTownCentreAudio(){
@@ -10291,6 +10626,7 @@ function HarrowBusStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowBusStationAudio(){
@@ -10311,6 +10647,7 @@ function TyburnLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function TyburnLaneAudio(){
@@ -10331,6 +10668,7 @@ function KentonRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function KentonRoadAudio(){
@@ -10351,6 +10689,7 @@ function HarrowSchool(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowSchoolAudio(){
@@ -10371,6 +10710,7 @@ function HarrowPark(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowParkAudio(){
@@ -10391,6 +10731,7 @@ function RoxethHill(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function RoxethHillAudio(){
@@ -10411,6 +10752,7 @@ function SouthHarrowBusStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SouthHarrowBusStationAudio(){
@@ -10431,6 +10773,7 @@ function HarrowTownCentreSheepcoteRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function HarrowTownCentreSheepcoteRoadAudio(){
@@ -10451,6 +10794,7 @@ function SafariCinema(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function SafariCinemaAudio(){
@@ -10471,6 +10815,7 @@ function LongElmes(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function LongElmesAudio(){
@@ -10491,6 +10836,7 @@ function MonroGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MonroGardensAudio(){
@@ -10511,6 +10857,7 @@ function BusheyHeathThreeCrowns(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BusheyHeathThreeCrownsAudio(){
@@ -10531,6 +10878,7 @@ function DaltonWay(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function DaltonWayAudio(){
@@ -10551,6 +10899,7 @@ function KingStreet(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function KingStreetAudio(){
@@ -10571,6 +10920,7 @@ function StJohnsRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StJohnsRoadAudio(){
@@ -10591,6 +10941,7 @@ function WatfordJunctionRailwayStation(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WatfordJunctionRailwayStationAudio(){
@@ -10611,6 +10962,7 @@ function ManorRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ManorRoadAudio(){
@@ -10631,6 +10983,7 @@ function FairholmeAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function FairholmeAvenueAudio(){
@@ -10651,6 +11004,7 @@ function MargaretRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function MargaretRoadAudio(){
@@ -10671,6 +11025,7 @@ function BrooklandsGardens(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BrooklandsGardensAudio(){
@@ -10691,6 +11046,7 @@ function WaldenWay(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WaldenWayAudio(){
@@ -10711,6 +11067,7 @@ function BurntwoodAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function BurntwoodAvenueAudio(){
@@ -10731,6 +11088,7 @@ function ButtsGreenRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function ButtsGreenRoadAudio(){
@@ -10751,6 +11109,7 @@ function NelmesRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function NelmesRoadAudio(){
@@ -10771,6 +11130,7 @@ function WingletyeLane(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WingletyeLaneAudio(){
@@ -10791,6 +11151,7 @@ function EmersonParkAcademy(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function EmersonParkAcademyAudio(){
@@ -10811,6 +11172,7 @@ function WykehamAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WykehamAvenueAudio(){
@@ -10831,6 +11193,7 @@ function KinfaunsAvenue(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function KinfaunsAvenueAudio(){
@@ -10851,9 +11214,1081 @@ function WithamRoad(){
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
         tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function WithamRoadAudio(){
     iBusAudio.src=firstAudio+"Witham_Road"+lastAudio;
+    iBusAudio.play();
+}
+function SouthLodgeAvenueYorkshireRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="none";
+        marquee.style.display = "block";
+        marquee.innerHTML = "South Lodge Avenue / Yorkshire Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "South Lodge Avenue / Yorkshire Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function SouthLodgeAvenueYorkshireRoadAudio(){
+    iBusAudio.src=firstAudio+"South_Lodge_Avenue_Yorkshire_Road"+lastAudio;
+    iBusAudio.play();
+}
+function LeicesterAvenue(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Leicester Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Leicester Avenue";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LeicesterAvenueAudio(){
+    iBusAudio.src=firstAudio+"Leicester_Avenue"+lastAudio;
+    iBusAudio.play();
+}
+function NorthumberlandGardens(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Northumberland Gardens";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Northumberland Gardens";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function NorthumberlandGardensAudio(){
+    iBusAudio.src=firstAudio+"Northumberland_Gardens"+lastAudio;
+    iBusAudio.play();
+}
+function WestmorlandWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Westmorland Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Westmorland Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WestmorlandWayAudio(){
+    iBusAudio.src=firstAudio+"Westmorland_Way"+lastAudio;
+    iBusAudio.play();
+}
+function CarisbrookeRoadHertfordWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Carisbrooke Road / Hertford Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Carisbrooke Road / Hertford Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function CarisbrookeRoadHertfordWayAudio(){
+    iBusAudio.src=firstAudio+"Carisbrooke_Road_Hertford_Way"+lastAudio;
+    iBusAudio.play();
+}
+function PollardsHillLibrary(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Pollards Hill Library";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Pollards Hill Library";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function PollardsHillLibraryAudio(){
+    iBusAudio.src=firstAudio+"Pollards_Hill_Library"+lastAudio;
+    iBusAudio.play();
+}
+function IvyGardens(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Ivy Gardens";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Ivy Gardens";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function IvyGardensAudio(){
+    iBusAudio.src=firstAudio+"Ivy_Gardens"+lastAudio;
+    iBusAudio.play();
+}
+function NorthboroughRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Northborough Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Northborough Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function NorthboroughRoadAudio(){
+    iBusAudio.src=firstAudio+"Northborough_Road"+lastAudio;
+    iBusAudio.play();
+}
+function StanfordWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Stanford Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Stanford Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function StanfordWayAudio(){
+    iBusAudio.src=firstAudio+"Stanford_Way"+lastAudio;
+    iBusAudio.play();
+}
+function MeophamRoadWoodstockWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Meopham Road / Woodstock Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Meopham Road / Woodstock Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function MeophamRoadWoodstockWayAudio(){
+    iBusAudio.src=firstAudio+"Meopham_Road_Woodstock_Way"+lastAudio;
+    iBusAudio.play();
+}
+function ClayAvenue(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Clay Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Clay Avenue";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ClayAvenueAudio(){
+    iBusAudio.src=firstAudio+"Clay_Avenue"+lastAudio;
+    iBusAudio.play();
+}
+function StMarksCofEAcademyPlayingFields(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="none";
+        marquee.style.display = "block";
+        marquee.innerHTML = "St Mark's C of E Academy Playing Fields";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "St Mark's C of E Academy Playing Fields";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function StMarksCofEAcademyPlayingFieldsAudio(){
+    iBusAudio.src=firstAudio+"St_Marks_C_of_E_Academy_Playing_Fields"+lastAudio;
+    iBusAudio.play();
+}
+function MitchamEastfieldsStation(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Mitcham Eastfields Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Mitcham Eastfields Station";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function MitchamEastfieldsStationAudio(){
+    iBusAudio.src=firstAudio+"Mitcham_Eastfields_Station"+lastAudio;
+    iBusAudio.play();
+}
+function EastfieldsRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Eastfields Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Eastfields Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function EastfieldsRoadAudio(){
+    iBusAudio.src=firstAudio+"Eastfields_Road"+lastAudio;
+    iBusAudio.play();
+}
+function LocksLane(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Locks Lane";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Locks Lane";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LocksLaneAudio(){
+    iBusAudio.src=firstAudio+"Locks_Lane"+lastAudio;
+    iBusAudio.play();
+}
+function DowneRoadMitchamLibrary(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Downe Road / Mitcham Library";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Downe Road / Mitcham Library";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function DowneRoadMitchamLibraryAudio(){
+    iBusAudio.src=firstAudio+"Downe_Road_Mitcham_Library"+lastAudio;
+    iBusAudio.play();
+}
+function MitchamFairGreen(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Mitcham Fair Green";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Mitcham Fair Green";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function MitchamFairGreenAudio(){
+    iBusAudio.src=firstAudio+"Mitcham_Fair_Green"+lastAudio;
+    iBusAudio.play();
+}
+function LoveLane(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Love Lane";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Love Lane";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LoveLaneAudio(){
+    iBusAudio.src=firstAudio+"Love_Lane"+lastAudio;
+    iBusAudio.play();
+}
+function SadlerClose(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Sadler Close";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Sadler Close";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function SadlerCloseAudio(){
+    iBusAudio.src=firstAudio+"Sadler_Close"+lastAudio;
+    iBusAudio.play();
+}
+function LewisRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Lewis Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Lewis Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LewisRoadAudio(){
+    iBusAudio.src=firstAudio+"Lewis_Road"+lastAudio;
+    iBusAudio.play();
+}
+function LavenderAvenue(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Lavender Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Lavender Avenue";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LavenderAvenueAudio(){
+    iBusAudio.src=firstAudio+"Lavender_Avenue"+lastAudio;
+    iBusAudio.play();
+}
+function ChelseaFields(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Chelsea Fields";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Chelsea Fields";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ChelseaFieldsAudio(){
+    iBusAudio.src=firstAudio+"Chelsea_Fields"+lastAudio;
+    iBusAudio.play();
+}
+function Runnymede(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Runnymede";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Runnymede";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function RunnymedeAudio(){
+    iBusAudio.src=firstAudio+"Runnymede"+lastAudio;
+    iBusAudio.play();
+}
+function ColliersWoodStation(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Colliers Wood Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Colliers Wood Station";
+        underground.style.display = "inline";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ColliersWoodStationAudio(){
+    iBusAudio.src=firstAudio+"Colliers_Wood_Station"+lastAudio;
+    iBusAudio.play();
+}
+function MertonAbbey(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Merton Abbey";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Merton Abbey";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function MertonAbbeyAudio(){
+    iBusAudio.src=firstAudio+"Merton_Abbey"+lastAudio;
+    iBusAudio.play();
+}
+function AbbeyRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Abbey Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Abbey Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function AbbeyRoadAudio(){
+    iBusAudio.src=firstAudio+"Abbey_Road"+lastAudio;
+    iBusAudio.play();
+}
+function SouthWimbledonStation(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "South Wimbledon Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "South Wimbledon Station";
+        underground.style.display = "inline";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function SouthWimbledonStationAudio(){
+    iBusAudio.src=firstAudio+"South_Wimbledon_Station"+lastAudio;
+    iBusAudio.play();
+}
+function MordenRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Morden Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Morden Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function MordenRoadAudio(){
+    iBusAudio.src=firstAudio+"Morden_Road"+lastAudio;
+    iBusAudio.play();
+}
+function WimbledonFireStation(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Wimbledon Fire Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Wimbledon Fire Station";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WimbledonFireStationAudio(){
+    iBusAudio.src=firstAudio+"Wimbledon_Fire_Station"+lastAudio;
+    iBusAudio.play();
+}
+function MertonParkTramStop(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Merton Park Tram Stop";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Merton Park Tram Stop";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "inline";
+    }
+}
+function MertonParkTramStopAudio(){
+    iBusAudio.src=firstAudio+"Merton_Park_Tram_Stop"+lastAudio;
+    iBusAudio.play();
+}
+function WiltonCrescent(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Wilton Crescent";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Wilton Crescent";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WiltonCrescentAudio(){
+    iBusAudio.src=firstAudio+"Wilton_Crescent"+lastAudio;
+    iBusAudio.play();
+}
+function TheNelsonHealthCentre(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "The Nelson Health Centre";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "The Nelson Health Centre";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function TheNelsonHealthCentreAudio(){
+    iBusAudio.src=firstAudio+"The_Nelson_Health_Centre"+lastAudio;
+    iBusAudio.play();
+}
+function WimbledonChaseStation(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Wimbledon Chase Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Wimbledon Chase Station";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WimbledonChaseStationAudio(){
+    iBusAudio.src=firstAudio+"Wimbledon_Chase_Station"+lastAudio;
+    iBusAudio.play();
+}
+function LowerDownsRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Lower Downs Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Lower Downs Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LowerDownsRoadAudio(){
+    iBusAudio.src=firstAudio+"Lower_Downs_Road"+lastAudio;
+    iBusAudio.play();
+}
+function SydneyRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Sydney Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Sydney Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function SydneyRoadAudio(){
+    iBusAudio.src=firstAudio+"Sydney_Road"+lastAudio;
+    iBusAudio.play();
+}
+function RaynesParkLibrary(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Raynes Park Library";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Raynes Park Library";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function RaynesParkLibraryAudio(){
+    iBusAudio.src=firstAudio+"Raynes_Park_Library"+lastAudio;
+    iBusAudio.play();
+}
+function RaynesParkStation(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Raynes Park Station";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Raynes Park Station";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function RaynesParkStationAudio(){
+    iBusAudio.src=firstAudio+"Raynes_Park_STATION"+lastAudio;
+    iBusAudio.play();
+}
+function BusheyRoadGrandDrive(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Bushey Road / Grand Drive";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Bushey Road / Grand Drive";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function BusheyRoadGrandDriveAudio(){
+    iBusAudio.src=firstAudio+"Bushey_Road_Grand_Drive"+lastAudio;
+    iBusAudio.play();
+}
+function CartersBridge(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Carters Bridge";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Carters Bridge";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function CartersBridgeAudio(){
+    iBusAudio.src=firstAudio+"Carters_Bridge"+lastAudio;
+    iBusAudio.play();
+}
+function RaynesParkHighSchool(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Raynes Park High School";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Raynes Park High School";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function RaynesParkHighSchoolAudio(){
+    iBusAudio.src=firstAudio+"Raynes_Park_High_School"+lastAudio;
+    iBusAudio.play();
+}
+function ShannonCornerSuperstores(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Shannon Corner Superstores";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Shannon Corner Superstores";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ShannonCornerSuperstoresAudio(){
+    iBusAudio.src=firstAudio+"Shannon_Corner_Superstores"+lastAudio;
+    iBusAudio.play();
+}
+function ShannonCornerBeverleyWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Shannon Corner / Beverley Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Shannon Corner / Beverley Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ShannonCornerBeverleyWayAudio(){
+    iBusAudio.src=firstAudio+"Shannon_Corner_Beverley_Way"+lastAudio;
+    iBusAudio.play();
+}
+function ShannonCornerRookwoodAvenue(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="none";
+        marquee.style.display = "block";
+        marquee.innerHTML = "Shannon Corner / Rookwood Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Shannon Corner / Rookwood Avenue";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ShannonCornerRookwoodAvenueAudio(){
+    iBusAudio.src=firstAudio+"Shannon_Corner_Rookwood_Avenue"+lastAudio;
+    iBusAudio.play();
+}
+function QueensRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Queens Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Queens Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function QueensRoadAudio(){
+    iBusAudio.src=firstAudio+"Queens_Road"+lastAudio;
+    iBusAudio.play();
+}
+function WaltonAvenue(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Walton Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Walton Avenue";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WaltonAvenueAudio(){
+    iBusAudio.src=firstAudio+"Walton_Avenue"+lastAudio;
+    iBusAudio.play();
+}
+function ChristChurch(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Christ Church";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Christ Church";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ChristChurchAudio(){
+    iBusAudio.src=firstAudio+"Christ_Church"+lastAudio;
+    iBusAudio.play();
+}
+function EvelineRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Eveline Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Eveline Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function EvelineRoadAudio(){
+    iBusAudio.src=firstAudio+"Eveline_Road"+lastAudio;
+    iBusAudio.play();
+}
+function EastfieldsRdMitchamEastfieldsStn(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="none";
+        marquee.style.display = "block";
+        marquee.innerHTML = "Eastfields Rd / Mitcham Eastfields Stn";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Eastfields Rd / Mitcham Eastfields Stn";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function EastfieldsRdMitchamEastfieldsStnAudio(){
+    iBusAudio.src=firstAudio+"Eastfields_Rd_Mitcham_Eastfields_Stn"+lastAudio;
+    iBusAudio.play();
+}
+function WarminsterWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Warminster Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Warminster Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WarminsterWayAudio(){
+    iBusAudio.src=firstAudio+"Warminster_Way"+lastAudio;
+    iBusAudio.play();
+}
+function StreathamParkCemetery(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Streatham Park Cemetery";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Streatham Park Cemetery";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function StreathamParkCemeteryAudio(){
+    iBusAudio.src=firstAudio+"Streatham_Park_Cemetery"+lastAudio;
+    iBusAudio.play();
+}
+function RosemeadAvenue(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Rosemead Avenue";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Rosemead Avenue";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function RosemeadAvenueAudio(){
+    iBusAudio.src=firstAudio+"Rosemead_Avenue"+lastAudio;
     iBusAudio.play();
 }
