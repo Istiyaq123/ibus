@@ -5634,3 +5634,139 @@ function LondonAquaticsCentre108Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
+function LondonAquaticsCentre108(){
+  getRidOfDestination()
+  LondonAquaticsCentre()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108Audio();" );
+  }
+}
+function LondonAquaticsCentre108Audio(){
+  LondonAquaticsCentreAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "CarpentersPrimarySchool108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CarpentersPrimarySchool108(){
+  getRidOfDestination()
+  CarpentersPrimarySchool()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "CarpentersPrimarySchool108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "CarpentersPrimarySchool108Audio();" );
+  }
+}
+function CarpentersPrimarySchool108Audio(){
+  CarpentersPrimarySchoolAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "WartonRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WartonRoad108(){
+  getRidOfDestination()
+  WartonRoad()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "WartonRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "WartonRoad108Audio();" );
+  }
+}
+function WartonRoad108Audio(){
+  WartonRoadAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "AbbeyLane108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AbbeyLane108(){
+  getRidOfDestination()
+  AbbeyLane()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "AbbeyLane108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "AbbeyLane108Audio();" );
+  }
+}
+function AbbeyLane108Audio(){
+  AbbeyLaneAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowFlyover108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BowFlyover108(){
+  getRidOfDestination()
+  BowFlyover()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowFlyover108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BowFlyover108Audio();" );
+  }
+}
+function BowFlyover108Audio(){
+  BowFlyoverAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowChurch108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BowChurch108(){
+  getRidOfDestination()
+  BowChurch()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowChurch108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BowChurch108Audio();" );
+  }
+}
+function BowChurch108Audio(){
+  BowChurchAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowChurchStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BowChurchStation108(){
+  getRidOfDestination()
+  BowChurchStation()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowChurchStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BowChurchStation108Audio();" );
+  }
+}
+function BowChurchStation108Audio(){
+  BowChurchStationAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "RountonRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function RountonRoad108(){
+  getRidOfDestination()
+  RountonRoad()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "RountonRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "RountonRoad108Audio();" );
+  }
+}
+function RountonRoad108Audio(){
+  RountonRoadAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "RountonRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}

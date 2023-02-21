@@ -12250,8 +12250,8 @@ function StratfordInternationalStation(){
         overground.style.display = "none";
         DLR.style.display = "inline";
         ElizabethLine.style.display = "none";
-        tfl_National_Rail_logo.style.display = "none";
-        tfl_trams_Roundel.style.display = "inline";
+        tfl_National_Rail_logo.style.display = "inline";
+        tfl_trams_Roundel.style.display = "none";
     }
 }
 function StratfordInternationalStationAudio(){
