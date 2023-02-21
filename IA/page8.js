@@ -81,6 +81,25 @@ function PollardsHill152btn(){
   showDestination.setAttribute( "onClick", "PollardsHill152ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "152 to Pollards Hill";
 }
+function Lewisham108btn(){
+  routeDestination = "Lewisham108";
+  StratfordInternationalStation108()
+  showDestination.setAttribute( "onClick", "Lewisham108ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "108 to Lewisham Station";
+  startnumber = 1;
+}
+function StratfordInternational108btn(){
+  routeDestination = "StratfordInternational108";
+  LewishamCentre108()
+  showDestination.setAttribute( "onClick", "StratfordInternational108ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "108 to Stratford International";
+}
+function CanningTown108btn(){
+  routeDestination = "CanningTown108";
+  StratfordInternationalStation108()
+  showDestination.setAttribute( "onClick", "CanningTown108ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "108 to Canning Town Bus Station";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -372,6 +391,96 @@ function NewMaldenFountainRoundabout152ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_NEW_MALDEN_FOUNTAIN_ROUNDABOUT_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function Lewisham108ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "108 to Lewisham Station";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_108_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_LEWISHAM_STATION_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function StratfordInternational108ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "108 to Stratford International";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_108_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_STRATFORD_INTERNATIONAL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function CanningTown108ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "108 to Canning Town Bus Station";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_108_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CANNING_TOWN_BUS_STATION_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -5472,5 +5581,28 @@ function WaltonAvenue152Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "PollardsHill152") {
     NextDestination.setAttribute( "onClick", "QueensRoad152();" );
+  }
+}
+
+function StratfordInternationalStation108(){
+  getRidOfDestination()
+  StratfordInternationalStation()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "StratfordInternationalStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StratfordInternationalStation108Audio();" );
+  }
+}
+function StratfordInternationalStation108Audio(){
+  StratfordInternationalStationAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    if (startnumber === "1"){
+      NextDestination.setAttribute( "onClick", "StratfordInternationalStation108();" );
+      startnumber = 2;
+    } else {
+      NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
+    }
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
   }
 }
