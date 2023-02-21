@@ -5598,10 +5598,26 @@ function StratfordInternationalStation108Audio(){
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
     if (startnumber === "1"){
       NextDestination.setAttribute( "onClick", "StratfordInternationalStation108();" );
-      startnumber = 2;
     } else {
       NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
     }
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StratfordCityBusStation108(){
+  getRidOfDestination()
+  StratfordCityBusStation()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "StratfordCityBusStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StratfordCityBusStation108Audio();" );
+  }
+}
+function StratfordCityBusStation108Audio(){
+  StratfordCityBusStationAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
   } else if (routeDestination === "StratfordInternational108") {
     NextDestination.setAttribute( "onClick", "();" );
   }
