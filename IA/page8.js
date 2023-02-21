@@ -86,7 +86,6 @@ function Lewisham108btn(){
   StratfordInternationalStation108()
   showDestination.setAttribute( "onClick", "Lewisham108ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "108 to Lewisham Station";
-  startnumber = 1;
 }
 function StratfordInternational108btn(){
   routeDestination = "StratfordInternational108";
@@ -5596,12 +5595,7 @@ function StratfordInternationalStation108(){
 function StratfordInternationalStation108Audio(){
   StratfordInternationalStationAudio()
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
-    if (startnumber === 1){
-      NextDestination.setAttribute( "onClick", "StratfordInternationalStation108();" );
-      console.log (startnumber);
-    } else {
-      NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
-    }
+    NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
   } else if (routeDestination === "StratfordInternational108") {
     NextDestination.setAttribute( "onClick", "();" );
   }
@@ -5618,7 +5612,24 @@ function StratfordCityBusStation108(){
 function StratfordCityBusStation108Audio(){
   StratfordCityBusStationAudio()
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
-    NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
+    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LondonAquaticsCentre108(){
+  getRidOfDestination()
+  LondonAquaticsCentre()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108Audio();" );
+  }
+}
+function LondonAquaticsCentre108Audio(){
+  LondonAquaticsCentreAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108();" );
   } else if (routeDestination === "StratfordInternational108") {
     NextDestination.setAttribute( "onClick", "();" );
   }
