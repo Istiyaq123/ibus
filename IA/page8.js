@@ -5596,7 +5596,7 @@ function StratfordInternationalStation108(){
 function StratfordInternationalStation108Audio(){
   StratfordInternationalStationAudio()
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
-    if (startnumber === "1"){
+    if (startnumber === 1){
       NextDestination.setAttribute( "onClick", "StratfordInternationalStation108();" );
     } else {
       NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
