@@ -93,6 +93,12 @@ function StratfordInternational108btn(){
   showDestination.setAttribute( "onClick", "StratfordInternational108ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "108 to Stratford International";
 }
+function StratfordInternationalfromCanningTown108btn(){
+  routeDestination = "StratfordInternational108";
+  CanningTownBusStation108()
+  showDestination.setAttribute( "onClick", "StratfordInternational108ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "108 to Stratford International";
+}
 function CanningTown108btn(){
   routeDestination = "CanningTown108";
   StratfordInternationalStation108()
@@ -5597,7 +5603,7 @@ function StratfordInternationalStation108Audio(){
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
     NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
   } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "();" );
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   }
 }
 function StratfordCityBusStation108(){
@@ -5614,24 +5620,7 @@ function StratfordCityBusStation108Audio(){
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
     NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108();" );
   } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "();" );
-  }
-}
-function LondonAquaticsCentre108(){
-  getRidOfDestination()
-  LondonAquaticsCentre()
-  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
-    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108Audio();" );
-  } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108Audio();" );
-  }
-}
-function LondonAquaticsCentre108Audio(){
-  LondonAquaticsCentreAudio()
-  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
-    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108();" );
-  } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "();" );
+    NextDestination.setAttribute( "onClick", "StratfordInternationalStation108();" );
   }
 }
 function LondonAquaticsCentre108(){
@@ -5648,7 +5637,7 @@ function LondonAquaticsCentre108Audio(){
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
     NextDestination.setAttribute( "onClick", "CarpentersPrimarySchool108();" );
   } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "();" );
+    NextDestination.setAttribute( "onClick", "StratfordCityBusStation108();" );
   }
 }
 function CarpentersPrimarySchool108(){
@@ -5668,6 +5657,23 @@ function CarpentersPrimarySchool108Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
+function GibbinsRoad108(){
+  getRidOfDestination()
+  GibbinsRoad()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "WartonRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "GibbinsRoad108Audio();" );
+  }
+}
+function GibbinsRoad108Audio(){
+  GibbinsRoadAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "AbbeyLane108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LondonAquaticsCentre108();" );
+  }
+}
 function WartonRoad108(){
   getRidOfDestination()
   WartonRoad()
@@ -5682,7 +5688,7 @@ function WartonRoad108Audio(){
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
     NextDestination.setAttribute( "onClick", "AbbeyLane108();" );
   } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "();" );
+    NextDestination.setAttribute( "onClick", "GibbinsRoad108();" );
   }
 }
 function AbbeyLane108(){
@@ -5719,6 +5725,23 @@ function BowFlyover108Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   }
 }
+function MarshgateLane108(){
+  getRidOfDestination()
+  MarshgateLane()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowChurch108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MarshgateLane108Audio();" );
+  }
+}
+function MarshgateLane108Audio(){
+  MarshgateLaneAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BowChurchStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "WartonRoad108();" );
+  }
+}
 function BowChurch108(){
   getRidOfDestination()
   BowChurch()
@@ -5733,7 +5756,7 @@ function BowChurch108Audio(){
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
     NextDestination.setAttribute( "onClick", "BowChurchStation108();" );
   } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "();" );
+    NextDestination.setAttribute( "onClick", "MarshgateLane108();" );
   }
 }
 function BowChurchStation108(){
@@ -5750,7 +5773,24 @@ function BowChurchStation108Audio(){
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
     NextDestination.setAttribute( "onClick", "RountonRoad108();" );
   } else if (routeDestination === "StratfordInternational108") {
-    NextDestination.setAttribute( "onClick", "();" );
+    NextDestination.setAttribute( "onClick", "BowChurch108();" );
+  }
+}
+function BowRoad108(){
+  getRidOfDestination()
+  BowRoad()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "RountonRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BowRoad108Audio();" );
+  }
+}
+function BowRoad108Audio(){
+  BowRoadAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "DevonsRoadStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BowChurchStation108();" );
   }
 }
 function RountonRoad108(){
@@ -5765,8 +5805,707 @@ function RountonRoad108(){
 function RountonRoad108Audio(){
   RountonRoadAudio()
   if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "DevonsRoadStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BowRoad108();" );
+  }
+}
+function DevonsRoadStation108(){
+  getRidOfDestination()
+  DevonsRoadStation()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "DevonsRoadStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "DevonsRoadStation108Audio();" );
+  }
+}
+function DevonsRoadStation108Audio(){
+  DevonsRoadStationAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "CranwellClose108();" );
+  } else if (routeDestination === "StratfordInternational108") {
     NextDestination.setAttribute( "onClick", "RountonRoad108();" );
+  }
+}
+function CranwellClose108(){
+  getRidOfDestination()
+  CranwellClose()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "CranwellClose108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "CranwellClose108Audio();" );
+  }
+}
+function CranwellClose108Audio(){
+  CranwellCloseAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "FaweStreet108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "DevonsRoadStation108();" );
+  }
+}
+function FaweStreet108(){
+  getRidOfDestination()
+  FaweStreet()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "FaweStreet108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "FaweStreet108Audio();" );
+  }
+}
+function FaweStreet108Audio(){
+  FaweStreetAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "LangdonParkStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "CranwellClose108();" );
+  }
+}
+function LangdonParkStation108(){
+  getRidOfDestination()
+  LangdonParkStation()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "LangdonParkStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LangdonParkStation108Audio();" );
+  }
+}
+function LangdonParkStation108Audio(){
+  LangdonParkStationAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "ChrispStreetMarket108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "FaweStreet108();" );
+  }
+}
+function ChrispStreetMarket108(){
+  getRidOfDestination()
+  ChrispStreetMarket()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "ChrispStreetMarket108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "ChrispStreetMarket108Audio();" );
+  }
+}
+function ChrispStreetMarket108Audio(){
+  ChrispStreetMarketAudio()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BazelyStreet108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LangdonParkStation108();" );
+  }
+}
+function BazelyStreet108(){
+  getRidOfDestination()
+  BazelyStreet()
+  if (routeDestination === "Lewisham108" || routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BazelyStreet108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BazelyStreet108Audio();" );
+  }
+}
+function BazelyStreet108Audio(){
+  BazelyStreetAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackwallTunnelEastIndiaDockRoad108();" );
+  } else if (routeDestination === "CanningTown108") {
+    NextDestination.setAttribute( "onClick", "BrunswickRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "ChrispStreetMarket108();" );
+  }
+}
+function BrunswickRoad108(){
+  getRidOfDestination()
+  BrunswickRoad()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BrunswickRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BrunswickRoad108Audio();" );
+  }
+}
+function BrunswickRoad108Audio(){
+  BrunswickRoadAudio()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "NutmegLane108();" );
   } else if (routeDestination === "StratfordInternational108") {
     NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function NutmegLane108(){
+  getRidOfDestination()
+  NutmegLane()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "NutmegLane108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "NutmegLane108Audio();" );
+  }
+}
+function NutmegLane108Audio(){
+  NutmegLaneAudio()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "AbbottRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BlackwallTunnel108(){
+  getRidOfDestination()
+  BlackwallTunnel()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "AbbottRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackwallTunnel108Audio();" );
+  }
+}
+function BlackwallTunnel108Audio(){
+  BlackwallTunnelAudio()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "StephensonStreet108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BazelyStreet108();" );
+  }
+}
+function AbbottRoad108(){
+  getRidOfDestination()
+  AbbottRoad()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "AbbottRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "AbbottRoad108Audio();" );
+  }
+}
+function AbbottRoad108Audio(){
+  AbbottRoadAudio()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "StephensonStreet108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackwallTunnel108();" );
+  }
+}
+function StephensonStreet108(){
+  getRidOfDestination()
+  StephensonStreet()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "StephensonStreet108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StephensonStreet108Audio();" );
+  }
+}
+function StephensonStreet108Audio(){
+  StephensonStreetAudio()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "CanningTownStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CanningTownStation108(){
+  getRidOfDestination()
+  CanningTownStation()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "CanningTownStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "CanningTownStation108Audio();" );
+  }
+}
+function CanningTownStation108Audio(){
+  CanningTownStationAudio()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CanningTownBusStation108(){
+  getRidOfDestination()
+  CanningTownBusStation()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "CanningTownStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "CanningTownBusStation108Audio();" );
+  }
+}
+function CanningTownBusStation108Audio(){
+  CanningTownBusStationAudio()
+  if (routeDestination === "CanningTown108"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "AbbottRoad108();" );
+  }
+}
+function BlackwallTunnelEastIndiaDockRoad108(){
+  getRidOfDestination()
+  BlackwallTunnelEastIndiaDockRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackwallTunnelEastIndiaDockRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackwallTunnelEastIndiaDockRoad108Audio();" );
+  }
+}
+function BlackwallTunnelEastIndiaDockRoad108Audio(){
+  BlackwallTunnelEastIndiaDockRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BoordStreet108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MordenWharfRoad108(){
+  getRidOfDestination()
+  MordenWharfRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BoordStreet108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MordenWharfRoad108Audio();" );
+  }
+}
+function MordenWharfRoad108Audio(){
+  MordenWharfRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "NorthGreenwichStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BazelyStreet108();" );
+  }
+}
+function BlackwallLane108(){
+  getRidOfDestination()
+  BlackwallLane()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BoordStreet108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackwallLane108Audio();" );
+  }
+}
+function BlackwallLane108Audio(){
+  BlackwallLaneAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "NorthGreenwichStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MordenWharfRoad108();" );
+  }
+}
+function BoordStreet108(){
+  getRidOfDestination()
+  BoordStreet()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BoordStreet108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BoordStreet108Audio();" );
+  }
+}
+function BoordStreet108Audio(){
+  BoordStreetAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "NorthGreenwichStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackwallLane108();" );
+  }
+}
+function NorthGreenwichStation108(){
+  getRidOfDestination()
+  NorthGreenwichStation()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "NorthGreenwichStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "NorthGreenwichStation108Audio();" );
+  }
+}
+function NorthGreenwichStation108Audio(){
+  NorthGreenwichStationAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumVillageOvalSquare108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BoordStreet108();" );
+  }
+}
+function MillenniumVillageOvalSquare108(){
+  getRidOfDestination()
+  MillenniumVillageOvalSquare()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumVillageOvalSquare108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumVillageOvalSquare108Audio();" );
+  }
+}
+function MillenniumVillageOvalSquare108Audio(){
+  MillenniumVillageOvalSquareAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumVillageSouth108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "NorthGreenwichStation108();" );
+  }
+}
+function MillenniumVillageSouth108(){
+  getRidOfDestination()
+  MillenniumVillageSouth()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumVillageSouth108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumVillageSouth108Audio();" );
+  }
+}
+function MillenniumVillageSouth108Audio(){
+  MillenniumVillageSouthAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkWest108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumVillageOvalSquare108();" );
+  }
+}
+function MillenniumLeisureParkWest108(){
+  getRidOfDestination()
+  MillenniumLeisureParkWest()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkWest108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkWest108Audio();" );
+  }
+}
+function MillenniumLeisureParkWest108Audio(){
+  MillenniumLeisureParkWestAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkEast108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumVillageSouth108();" );
+  }
+}
+function MillenniumLeisureParkEast108(){
+  getRidOfDestination()
+  MillenniumLeisureParkEast()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkEast108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkEast108Audio();" );
+  }
+}
+function MillenniumLeisureParkEast108Audio(){
+  MillenniumLeisureParkEastAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "CombedaleRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkWest108();" );
+  }
+}
+function CombedaleRoad108(){
+  getRidOfDestination()
+  CombedaleRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "CombedaleRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "CombedaleRoad108Audio();" );
+  }
+}
+function CombedaleRoad108Audio(){
+  CombedaleRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "WestcombeParkStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function KemsingRoad108(){
+  getRidOfDestination()
+  KemsingRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "WestcombeParkStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "KemsingRoad108Audio();" );
+  }
+}
+function KemsingRoad108Audio(){
+  KemsingRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "KirksideRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MillenniumLeisureParkEast108();" );
+  }
+}
+function WesterdaleRoad108(){
+  getRidOfDestination()
+  WesterdaleRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "WestcombeParkStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "WesterdaleRoad108Audio();" );
+  }
+}
+function WesterdaleRoad108Audio(){
+  WesterdaleRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "KirksideRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "KemsingRoad108();" );
+  }
+}
+function WestcombeParkStation108(){
+  getRidOfDestination()
+  WestcombeParkStation()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "WestcombeParkStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "WestcombeParkStation108Audio();" );
+  }
+}
+function WestcombeParkStation108Audio(){
+  WestcombeParkStationAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "KirksideRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "WesterdaleRoad108();" );
+  }
+}
+function KirksideRoad108(){
+  getRidOfDestination()
+  KirksideRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "KirksideRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "KirksideRoad108Audio();" );
+  }
+}
+function KirksideRoad108Audio(){
+  KirksideRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathRoyalStandard108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "WestcombeParkStation108();" );
+  }
+}
+function BlackheathRoyalStandard108(){
+  getRidOfDestination()
+  BlackheathRoyalStandard()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathRoyalStandard108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackheathRoyalStandard108Audio();" );
+  }
+}
+function BlackheathRoyalStandard108Audio(){
+  BlackheathRoyalStandardAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StrathedenParade108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "KirksideRoad108();" );
+  }
+}
+function StrathedenParade108(){
+  getRidOfDestination()
+  StrathedenParade()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StrathedenParade108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StrathedenParade108Audio();" );
+  }
+}
+function StrathedenParade108Audio(){
+  StrathedenParadeAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StrathedenRoadShootersHillRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StrathedenRoadShootersHillRoad108(){
+  getRidOfDestination()
+  StrathedenRoadShootersHillRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StrathedenRoadShootersHillRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StrathedenRoadShootersHillRoad108Audio();" );
+  }
+}
+function StrathedenRoadShootersHillRoad108Audio(){
+  StrathedenRoadShootersHillRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StGermansPlace108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackheathRoyalStandard108();" );
+  }
+}
+function StGermansPlace108(){
+  getRidOfDestination()
+  StGermansPlace()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StGermansPlace108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StGermansPlace108Audio();" );
+  }
+}
+function StGermansPlace108Audio(){
+  StGermansPlaceAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MontpelierRow108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StrathedenRoadShootersHillRoad108();" );
+  }
+}
+function MontpelierRow108(){
+  getRidOfDestination()
+  MontpelierRow()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "MontpelierRow108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MontpelierRow108Audio();" );
+  }
+}
+function MontpelierRow108Audio(){
+  MontpelierRowAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StGermansPlace108();" );
+  }
+}
+function RoyalParade108(){
+  getRidOfDestination()
+  RoyalParade()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "RoyalParade108Audio();" );
+  }
+}
+function RoyalParade108Audio(){
+  RoyalParadeAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathHospital108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "MontpelierRow108();" );
+  }
+}
+function BlackheathStation108(){
+  getRidOfDestination()
+  BlackheathStation()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackheathStation108Audio();" );
+  }
+}
+function BlackheathStation108Audio(){
+  BlackheathStationAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathHospital108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "RoyalParade108();" );
+  }
+}
+function BlackheathHospital108(){
+  getRidOfDestination()
+  BlackheathHospital()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BlackheathHospital108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackheathHospital108Audio();" );
+  }
+}
+function BlackheathHospital108Audio(){
+  BlackheathHospitalAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StMargaretsChurchBrandramRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackheathStation108();" );
+  }
+}
+function StMargaretsChurchBrandramRoad108(){
+  getRidOfDestination()
+  StMargaretsChurchBrandramRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "StMargaretsChurchBrandramRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StMargaretsChurchBrandramRoad108Audio();" );
+  }
+}
+function StMargaretsChurchBrandramRoad108Audio(){
+  StMargaretsChurchBrandramRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "TheSquirrels108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "BlackheathHospital108();" );
+  }
+}
+function TheSquirrels108(){
+  getRidOfDestination()
+  TheSquirrels()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "TheSquirrels108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "TheSquirrels108Audio();" );
+  }
+}
+function TheSquirrels108Audio(){
+  TheSquirrelsAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "LockmeadRoad108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "StMargaretsChurchBrandramRoad108();" );
+  }
+}
+function LockmeadRoad108(){
+  getRidOfDestination()
+  LockmeadRoad()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "LockmeadRoad108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LockmeadRoad108Audio();" );
+  }
+}
+function LockmeadRoad108Audio(){
+  LockmeadRoadAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "LewishamClockTower108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "TheSquirrels108();" );
+  }
+}
+function LewishamClockTower108(){
+  getRidOfDestination()
+  LewishamClockTower()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "LewishamClockTower108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LewishamClockTower108Audio();" );
+  }
+}
+function LewishamClockTower108Audio(){
+  LewishamClockTowerAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "LewishamStation108();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LewishamStation108(){
+  getRidOfDestination()
+  LewishamStation()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "LewishamStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LewishamStation108Audio();" );
+  }
+}
+function LewishamStation108Audio(){
+  LewishamStationAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LewishamCentre108(){
+  getRidOfDestination()
+  LewishamCentre()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "LewishamStation108Audio();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LewishamCentre108Audio();" );
+  }
+}
+function LewishamCentre108Audio(){
+  LewishamCentreAudio()
+  if (routeDestination === "Lewisham108"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "StratfordInternational108") {
+    NextDestination.setAttribute( "onClick", "LockmeadRoad108();" );
   }
 }
