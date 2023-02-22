@@ -13308,3 +13308,24 @@ function GibbinsRoadAudio(){
     iBusAudio.src=firstAudio+"Gibbins_Road"+lastAudio;
     iBusAudio.play();
 }
+function LewishamCentre(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Lewisham Centre";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Lewisham Centre";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LewishamCentreAudio(){
+    iBusAudio.src=firstAudio+"Lewisham_Centre"+lastAudio;
+    iBusAudio.play();
+}
