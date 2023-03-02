@@ -105,6 +105,18 @@ function CanningTown108btn(){
   showDestination.setAttribute( "onClick", "CanningTown108ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "108 to Canning Town Bus Station";
 }
+function Brixton351btn(){
+  routeDestination = "Brixton351";
+  IsleofDogsPoliceStation351()
+  showDestination.setAttribute( "onClick", "Brixton351ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "351 to Brixton";
+}
+function IslandGardens351btn(){
+  routeDestination = "IslandGardens351";
+  BrixtonStationNR351()
+  showDestination.setAttribute( "onClick", "IslandGardens351ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "351 to Island Gardens";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -486,6 +498,66 @@ function CanningTown108ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_CANNING_TOWN_BUS_STATION_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function Brixton351ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "351 to Brixton";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_352_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_BRIXTON_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function IslandGardens351ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "351 to Island Gardens";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_352_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ISLAND_GARDENS_STATION_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -6507,5 +6579,1230 @@ function LewishamCentre108Audio(){
     NextDestination.setAttribute( "onClick", "();" );
   } else if (routeDestination === "StratfordInternational108") {
     NextDestination.setAttribute( "onClick", "LockmeadRoad108();" );
+  }
+}
+
+function IsleofDogsPoliceStation351(){
+  getRidOfDestination()
+  IsleofDogsPoliceStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "IsleofDogsPoliceStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "IsleofDogsPoliceStation351Audio();" );
+  }
+}
+function IsleofDogsPoliceStation351Audio(){
+  IsleofDogsPoliceStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "IslandGardensStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function GeorgeGreensSchool351(){
+  getRidOfDestination()
+  GeorgeGreensSchool()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "IslandGardensStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "GeorgeGreensSchool351Audio();" );
+  }
+}
+function GeorgeGreensSchool351Audio(){
+  GeorgeGreensSchoolAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "EastFerryRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function IslandGardensStation351(){
+  getRidOfDestination()
+  IslandGardensStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "IslandGardensStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "IslandGardensStation351Audio();" );
+  }
+}
+function IslandGardensStation351Audio(){
+  IslandGardensStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "EastFerryRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "GeorgeGreensSchool351();" );
+  }
+}
+function EastFerryRoad351(){
+  getRidOfDestination()
+  EastFerryRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "EastFerryRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "EastFerryRoad351Audio();" );
+  }
+}
+function EastFerryRoad351Audio(){
+  EastFerryRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MudchuteStationSpindriftAve351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MudchuteStationSpindriftAve351(){
+  getRidOfDestination()
+  MudchuteStationSpindriftAve()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MudchuteStationSpindriftAve351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MudchuteStationSpindriftAve351Audio();" );
+  }
+}
+function MudchuteStationSpindriftAve351Audio(){
+  MudchuteStationSpindriftAveAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MudchuteStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MillwallPark351(){
+  getRidOfDestination()
+  MillwallPark()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MudchuteStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MillwallPark351Audio();" );
+  }
+}
+function MillwallPark351Audio(){
+  MillwallParkAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CrossharbourAsda351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "IslandGardensStation351();" );
+  }
+}
+function MudchuteStation351(){
+  getRidOfDestination()
+  MudchuteStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MudchuteStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MudchuteStation351Audio();" );
+  }
+}
+function MudchuteStation351Audio(){
+  MudchuteStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CrossharbourAsda351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MillwallPark351();" );
+  }
+}
+function CrossharbourAsda351(){
+  getRidOfDestination()
+  CrossharbourAsda()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CrossharbourAsda351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CrossharbourAsda351Audio();" );
+  }
+}
+function CrossharbourAsda351Audio(){
+  CrossharbourAsdaAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CrossharbourStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MudchuteStation351();" );
+  }
+}
+function CrossharbourStation351(){
+  getRidOfDestination()
+  CrossharbourStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CrossharbourStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CrossharbourStation351Audio();" );
+  }
+}
+function CrossharbourStation351Audio(){
+  CrossharbourStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HarbourExchangeSquare351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CrossharbourAsda351();" );
+  }
+}
+function EastFerryRoadtwo351(){
+  getRidOfDestination()
+  EastFerryRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HarbourExchangeSquare351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "EastFerryRoadtwo351Audio();" );
+  }
+}
+function EastFerryRoadtwo351Audio(){
+  EastFerryRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "SouthQuayStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CrossharbourStation351();" );
+  }
+}
+function HarbourExchangeSquare351(){
+  getRidOfDestination()
+  HarbourExchangeSquare()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HarbourExchangeSquare351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HarbourExchangeSquare351Audio();" );
+  }
+}
+function HarbourExchangeSquare351Audio(){
+  HarbourExchangeSquareAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "SouthQuayStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "EastFerryRoadtwo351();" );
+  }
+}
+function SouthQuayStation351(){
+  getRidOfDestination()
+  SouthQuayStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "SouthQuayStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "SouthQuayStation351Audio();" );
+  }
+}
+function SouthQuayStation351Audio(){
+  SouthQuayStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AdmiralsWay351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HarbourExchangeSquare351();" );
+  }
+}
+function AdmiralsWay351(){
+  getRidOfDestination()
+  AdmiralsWay()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AdmiralsWay351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "AdmiralsWay351Audio();" );
+  }
+}
+function AdmiralsWay351Audio(){
+  AdmiralsWayAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MastmakersRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "SouthQuayStation351();" );
+  }
+}
+function MastmakersRoad351(){
+  getRidOfDestination()
+  MastmakersRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MastmakersRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MastmakersRoad351Audio();" );
+  }
+}
+function MastmakersRoad351Audio(){
+  MastmakersRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HeronQuays351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "AdmiralsWay351();" );
+  }
+}
+function HeronQuays351(){
+  getRidOfDestination()
+  HeronQuays()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HeronQuays351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HeronQuays351Audio();" );
+  }
+}
+function HeronQuays351Audio(){
+  HeronQuaysAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CanaryWharfStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MastmakersRoad351();" );
+  }
+}
+function CanaryWharfStation351(){
+  getRidOfDestination()
+  CanaryWharfStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CanaryWharfStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CanaryWharfStation351Audio();" );
+  }
+}
+function CanaryWharfStation351Audio(){
+  CanaryWharfStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CanadaSquareSouthCanaryWharfStn351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HeronQuays351();" );
+  }
+}
+function CanadaSquareSouthCanaryWharfStn351(){
+  getRidOfDestination()
+  CanadaSquareSouthCanaryWharfStn()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CanadaSquareSouthCanaryWharfStn351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CanadaSquareSouthCanaryWharfStn351Audio();" );
+  }
+}
+function CanadaSquareSouthCanaryWharfStn351Audio(){
+  CanadaSquareSouthCanaryWharfStnAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CanaryWharfStationtwo351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CanaryWharfStationtwo351(){
+  getRidOfDestination()
+  CanaryWharfStationtwo()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CanaryWharfStationtwo351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CanaryWharfStationtwo351Audio();" );
+  }
+}
+function CanaryWharfStationtwo351Audio(){
+  CanaryWharfStationtwoAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestIndiaAvenue351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CanaryWharfStation351();" );
+  }
+}
+function WestIndiaAvenue351(){
+  getRidOfDestination()
+  WestIndiaAvenue()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestIndiaAvenue351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WestIndiaAvenue351Audio();" );
+  }
+}
+function WestIndiaAvenue351Audio(){
+  WestIndiaAvenueAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestferryCircusCanaryWharfPier351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CanaryWharfStationtwo351();" );
+  }
+}
+function WestferryCircusCanaryWharfPier351(){
+  getRidOfDestination()
+  WestferryCircusCanaryWharfPier()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestferryCircusCanaryWharfPier351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WestferryCircusCanaryWharfPier351Audio();" );
+  }
+}
+function WestferryCircusCanaryWharfPier351Audio(){
+  WestferryCircusCanaryWharfPierAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestferryStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WestferryStation351(){
+  getRidOfDestination()
+  WestferryStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestferryStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WestferryStation351Audio();" );
+  }
+}
+function WestferryStation351Audio(){
+  WestferryStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "SalterStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WestIndiaAvenue351();" );
+  }
+}
+function SalterStreet351(){
+  getRidOfDestination()
+  SalterStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "SalterStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "SalterStreet351Audio();" );
+  }
+}
+function SalterStreet351Audio(){
+  SalterStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehousePoliceStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LimehousePoliceStation351(){
+  getRidOfDestination()
+  LimehousePoliceStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehousePoliceStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LimehousePoliceStation351Audio();" );
+  }
+}
+function LimehousePoliceStation351Audio(){
+  LimehousePoliceStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehouseTownHall351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WestferryStation351();" );
+  }
+}
+function LimehouseTownHall351(){
+  getRidOfDestination()
+  LimehouseTownHall()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehouseTownHall351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LimehouseTownHall351Audio();" );
+  }
+}
+function LimehouseTownHall351Audio(){
+  LimehouseTownHallAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LowellStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BurdettRoad351(){
+  getRidOfDestination()
+  BurdettRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LowellStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BurdettRoad351Audio();" );
+  }
+}
+function BurdettRoad351Audio(){
+  BurdettRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehouseStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LimehousePoliceStation351Audio();" );
+  }
+}
+function SalmonLane351(){
+  getRidOfDestination()
+  SalmonLane()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LowellStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "SalmonLane351Audio();" );
+  }
+}
+function SalmonLane351Audio(){
+  SalmonLaneAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehouseStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BurdettRoad351();" );
+  }
+}
+function LowellStreet351(){
+  getRidOfDestination()
+  LowellStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LowellStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LowellStreet351Audio();" );
+  }
+}
+function LowellStreet351Audio(){
+  LowellStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehouseStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "SalmonLane351();" );
+  }
+}
+function LimehouseStation351(){
+  getRidOfDestination()
+  LimehouseStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LimehouseStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LimehouseStation351Audio();" );
+  }
+}
+function LimehouseStation351Audio(){
+  LimehouseStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurch351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LowellStreet351();" );
+  }
+}
+function StepneyMethodistChurch351(){
+  getRidOfDestination()
+  StepneyMethodistChurch()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurch351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurch351Audio();" );
+  }
+}
+function StepneyMethodistChurch351Audio(){
+  StepneyMethodistChurchAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MarionRichardsonSchool351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LimehouseStation351();" );
+  }
+}
+function MarionRichardsonSchool351(){
+  getRidOfDestination()
+  MarionRichardsonSchool()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MarionRichardsonSchool351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MarionRichardsonSchool351Audio();" );
+  }
+}
+function MarionRichardsonSchool351Audio(){
+  MarionRichardsonSchoolAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ExmouthEstate351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ExmouthEstate351(){
+  getRidOfDestination()
+  ExmouthEstate()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ExmouthEstate351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ExmouthEstate351Audio();" );
+  }
+}
+function ExmouthEstate351Audio(){
+  ExmouthEstateAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurch351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ArbourSquare351(){
+  getRidOfDestination()
+  ArbourSquare()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurch351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ArbourSquare351Audio();" );
+  }
+}
+function ArbourSquare351Audio(){
+  ArbourSquareAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WatneyMarket351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurch351();" );
+  }
+}
+function StMarysStMichaelsChurch351(){
+  getRidOfDestination()
+  StMarysStMichaelsChurch()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurch351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurch351Audio();" );
+  }
+}
+function StMarysStMichaelsChurch351Audio(){
+  StMarysStMichaelsChurchAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WatneyMarket351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ArbourSquare351();" );
+  }
+}
+function WatneyMarketh351(){
+  getRidOfDestination()
+  WatneyMarket()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WatneyMarket351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WatneyMarket351Audio();" );
+  }
+}
+function WatneyMarket351Audio(){
+  WatneyMarketAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "NewRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurch351();" );
+  }
+}
+function NewRoad351(){
+  getRidOfDestination()
+  NewRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "NewRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "NewRoad351Audio();" );
+  }
+}
+function NewRoad351Audio(){
+  NewRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HenriquesStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WatneyMarketh351();" );
+  }
+}
+function HenriquesStreet351(){
+  getRidOfDestination()
+  HenriquesStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HenriquesStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HenriquesStreet351Audio();" );
+  }
+}
+function HenriquesStreet351Audio(){
+  HenriquesStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "NewRoad351();" );
+  }
+}
+function AldgateEastStation351(){
+  getRidOfDestination()
+  AldgateEastStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "AldgateEastStation351Audio();" );
+  }
+}
+function AldgateEastStation351Audio(){
+  AldgateEastStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AldgateStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HenriquesStreet351();" );
+  }
+}
+function AldgateStation351(){
+  getRidOfDestination()
+  AldgateStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AldgateStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "AldgateStation351Audio();" );
+  }
+}
+function AldgateStation351Audio(){
+  AldgateStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "Minories351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function Minories351(){
+  getRidOfDestination()
+  Minories()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "Minories351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "Minories351Audio();" );
+  }
+}
+function Minories351Audio(){
+  MinoriesAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "TowerHillTowerGatewayStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TowerHillTowerGatewayStation351(){
+  getRidOfDestination()
+  TowerHillTowerGatewayStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "TowerHillTowerGatewayStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "TowerHillTowerGatewayStation351Audio();" );
+  }
+}
+function TowerHillTowerGatewayStation351Audio(){
+  TowerHillTowerGatewayStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "TowerBridge351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MansellStreet351(){
+  getRidOfDestination()
+  MansellStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "TowerBridge351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MansellStreet351Audio();" );
+  }
+}
+function MansellStreet351Audio(){
+  MansellStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DruidStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "AldgateEastStation351();" );
+  }
+}
+function TowerGatewayStation351(){
+  getRidOfDestination()
+  TowerGatewayStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "TowerBridge351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "TowerGatewayStation351Audio();" );
+  }
+}
+function TowerGatewayStation351Audio(){
+  TowerGatewayStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DruidStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MansellStreet351();" );
+  }
+}
+function TowerBridge351(){
+  getRidOfDestination()
+  TowerBridge()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "TowerBridge351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "TowerBridge351Audio();" );
+  }
+}
+function TowerBridge351Audio(){
+  TowerBridgeAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DruidStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "TowerGatewayStation351();" );
+  }
+}
+function DruidStreet351(){
+  getRidOfDestination()
+  DruidStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DruidStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "DruidStreet351Audio();" );
+  }
+}
+function DruidStreet351Audio(){
+  DruidStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AbbeyStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "TowerBridge351();" );
+  }
+}
+function AbbeyStreet351(){
+  getRidOfDestination()
+  AbbeyStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "AbbeyStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "AbbeyStreet351Audio();" );
+  }
+}
+function AbbeyStreet351Audio(){
+  AbbeyStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "GrangeRoadCaledonianMarket351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "DruidStreet351();" );
+  }
+}
+function GrangeRoadCaledonianMarket351(){
+  getRidOfDestination()
+  GrangeRoadCaledonianMarket()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "GrangeRoadCaledonianMarket351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "GrangeRoadCaledonianMarket351Audio();" );
+  }
+}
+function GrangeRoadCaledonianMarket351Audio(){
+  GrangeRoadCaledonianMarketAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BricklayersArmsTowerBridgeRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "AbbeyStreet351();" );
+  }
+}
+function BricklayersArmsTowerBridgeRoad351(){
+  getRidOfDestination()
+  BricklayersArmsTowerBridgeRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BricklayersArmsTowerBridgeRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BricklayersArmsTowerBridgeRoad351Audio();" );
+  }
+}
+function BricklayersArmsTowerBridgeRoad351Audio(){
+  BricklayersArmsTowerBridgeRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BricklayersArmsNewKentRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "GrangeRoadCaledonianMarket351();" );
+  }
+}
+function BricklayersArmsNewKentRoad351(){
+  getRidOfDestination()
+  BricklayersArmsNewKentRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BricklayersArmsNewKentRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BricklayersArmsNewKentRoad351Audio();" );
+  }
+}
+function BricklayersArmsNewKentRoad351Audio(){
+  BricklayersArmsNewKentRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "RodneyPlace351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BricklayersArmsTowerBridgeRoad351();" );
+  }
+}
+function RodneyPlace351(){
+  getRidOfDestination()
+  RodneyPlace()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "RodneyPlace351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "RodneyPlace351Audio();" );
+  }
+}
+function RodneyPlace351Audio(){
+  RodneyPlaceAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ElephantCastleNewKentRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BricklayersArmsNewKentRoad351();" );
+  }
+}
+function ElephantCastleNewKentRoad351(){
+  getRidOfDestination()
+  ElephantCastleNewKentRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ElephantCastleNewKentRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ElephantCastleNewKentRoad351Audio();" );
+  }
+}
+function ElephantCastleNewKentRoad351Audio(){
+  ElephantCastleNewKentRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ElephantCastleStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "RodneyPlace351();" );
+  }
+}
+function ElephantCastleStation351(){
+  getRidOfDestination()
+  ElephantCastleStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ElephantCastleStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ElephantCastleStation351Audio();" );
+  }
+}
+function ElephantCastleStation351Audio(){
+  ElephantCastleStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LarcomStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ElephantCastleNewKentRoad351();" );
+  }
+}
+function HamptonStreet351(){
+  getRidOfDestination()
+  HamptonStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "HamptonStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HamptonStreet351Audio();" );
+  }
+}
+function HamptonStreet351Audio(){
+  HamptonStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "EastStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ElephantCastleStation351();" );
+  }
+}
+function LarcomStreet351(){
+  getRidOfDestination()
+  LarcomStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LarcomStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LarcomStreet351Audio();" );
+  }
+}
+function LarcomStreet351Audio(){
+  LarcomStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "EastStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "HamptonStreet351();" );
+  }
+}
+function EastStreet351(){
+  getRidOfDestination()
+  EastStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "EastStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "EastStreet351Audio();" );
+  }
+}
+function EastStreet351Audio(){
+  EastStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestmorelandRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LarcomStreet351();" );
+  }
+}
+function WestmorelandRoad351(){
+  getRidOfDestination()
+  WestmorelandRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WestmorelandRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WestmorelandRoad351Audio();" );
+  }
+}
+function WestmorelandRoad351Audio(){
+  WestmorelandRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CamberwellRoadAlbanyRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "EastStreet351();" );
+  }
+}
+function CamberwellRoadAlbanyRoad351(){
+  getRidOfDestination()
+  CamberwellRoadAlbanyRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CamberwellRoadAlbanyRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CamberwellRoadAlbanyRoad351Audio();" );
+  }
+}
+function CamberwellRoadAlbanyRoad351Audio(){
+  CamberwellRoadAlbanyRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BowyerPlace351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WestmorelandRoad351();" );
+  }
+}
+function BowyerPlace351(){
+  getRidOfDestination()
+  BowyerPlace()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BowyerPlace351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BowyerPlace351Audio();" );
+  }
+}
+function BowyerPlace351Audio(){
+  BowyerPlaceAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MedlarStreet351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CamberwellRoadAlbanyRoad351();" );
+  }
+}
+function WyndhamRoad351(){
+  getRidOfDestination()
+  WyndhamRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "WyndhamRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WyndhamRoad351Audio();" );
+  }
+}
+function WyndhamRoad351Audio(){
+  WyndhamRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DenmarkHillCamberwellGreen351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BowyerPlace351();" );
+  }
+}
+function MedlarStreet351(){
+  getRidOfDestination()
+  MedlarStreet()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MedlarStreet351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MedlarStreet351Audio();" );
+  }
+}
+function MedlarStreet351Audio(){
+  MedlarStreetAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DenmarkHillCamberwellGreen351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "WyndhamRoad351();" );
+  }
+}
+function CamberwellGreen351(){
+  getRidOfDestination()
+  CamberwellGreen()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DenmarkHillCamberwellGreen351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CamberwellGreen351Audio();" );
+  }
+}
+function CamberwellGreen351Audio(){
+  CamberwellGreenAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ValmarRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MedlarStreet351();" );
+  }
+}
+function DenmarkHillCamberwellGreen351(){
+  getRidOfDestination()
+  DenmarkHillCamberwellGreen()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "DenmarkHillCamberwellGreen351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "DenmarkHillCamberwellGreen351Audio();" );
+  }
+}
+function DenmarkHillCamberwellGreen351Audio(){
+  DenmarkHillCamberwellGreenAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ValmarRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CamberwellGreen351();" );
+  }
+}
+function ValmarRoad351(){
+  getRidOfDestination()
+  ValmarRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ValmarRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ValmarRoad351Audio();" );
+  }
+}
+function ValmarRoad351Audio(){
+  ValmarRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CaldecotRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "DenmarkHillCamberwellGreen351();" );
+  }
+}
+function CaldecotRoad351(){
+  getRidOfDestination()
+  CaldecotRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "CaldecotRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CaldecotRoad351Audio();" );
+  }
+}
+function CaldecotRoad351Audio(){
+  CaldecotRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LilfordRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ValmarRoad351();" );
+  }
+}
+function LilfordRoad351(){
+  getRidOfDestination()
+  LilfordRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LilfordRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LilfordRoad351Audio();" );
+  }
+}
+function LilfordRoad351Audio(){
+  LilfordRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LoughboroughJunctionStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "CaldecotRoad351();" );
+  }
+}
+function PomfretRoad351(){
+  getRidOfDestination()
+  PomfretRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LoughboroughJunctionStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "PomfretRoad351Audio();" );
+  }
+}
+function PomfretRoad351Audio(){
+  PomfretRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ShakespeareRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LilfordRoad351();" );
+  }
+}
+function LoughboroughJunctionStation351(){
+  getRidOfDestination()
+  LoughboroughJunctionStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LoughboroughJunctionStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LoughboroughJunctionStation351Audio();" );
+  }
+}
+function LoughboroughJunctionStation351Audio(){
+  LoughboroughJunctionStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ShakespeareRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "PomfretRoad351();" );
+  }
+}
+function ShakespeareRoad351(){
+  getRidOfDestination()
+  ShakespeareRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ShakespeareRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ShakespeareRoad351Audio();" );
+  }
+}
+function ShakespeareRoad351Audio(){
+  ShakespeareRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MoorlandRoad351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LoughboroughJunctionStation351();" );
+  }
+}
+function MoorlandRoad351(){
+  getRidOfDestination()
+  MoorlandRoad()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "MoorlandRoad351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "MoorlandRoad351Audio();" );
+  }
+}
+function MoorlandRoad351Audio(){
+  MoorlandRoadAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ElectricLane351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ElectricLane351(){
+  getRidOfDestination()
+  ElectricLane()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "ElectricLane351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ElectricLane351Audio();" );
+  }
+}
+function ElectricLane351Audio(){
+  ElectricLaneAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LambethTownHall351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LambethTownHall351(){
+  getRidOfDestination()
+  LambethTownHall()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "LambethTownHall351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "LambethTownHall351Audio();" );
+  }
+}
+function LambethTownHall351Audio(){
+  LambethTownHallAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BrixtonStation351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BrixtonStation351(){
+  getRidOfDestination()
+  BrixtonStation()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BrixtonStation351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BrixtonStation351Audio();" );
+  }
+}
+function BrixtonStation351Audio(){
+  BrixtonStationAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BrixtonStationNR351();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BrixtonStationNR351(){
+  getRidOfDestination()
+  BrixtonStationNR()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BrixtonStationNR351Audio();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "BrixtonStationNR351Audio();" );
+  }
+}
+function BrixtonStationNR351Audio(){
+  BrixtonStationNRAudio()
+  if (routeDestination === "Brixton351"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "IslandGardens351") {
+    NextDestination.setAttribute( "onClick", "ShakespeareRoad351();" );
   }
 }
