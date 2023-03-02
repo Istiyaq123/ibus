@@ -7143,7 +7143,7 @@ function StMarysStMichaelsChurch351Audio(){
     NextDestination.setAttribute( "onClick", "ArbourSquare351();" );
   }
 }
-function WatneyMarketh351(){
+function WatneyMarket351(){
   getRidOfDestination()
   WatneyMarket()
   if (routeDestination === "Brixton351"){
