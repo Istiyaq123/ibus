@@ -6873,7 +6873,7 @@ function CanadaSquareSouthCanaryWharfStn351Audio(){
 }
 function CanaryWharfStationtwo351(){
   getRidOfDestination()
-  CanaryWharfStationtwo()
+  CanaryWharfStation()
   if (routeDestination === "Brixton351"){
     NextDestination.setAttribute( "onClick", "CanaryWharfStationtwo351Audio();" );
   } else if (routeDestination === "IslandGardens351") {
@@ -6881,7 +6881,7 @@ function CanaryWharfStationtwo351(){
   }
 }
 function CanaryWharfStationtwo351Audio(){
-  CanaryWharfStationtwoAudio()
+  CanaryWharfStationAudio()
   if (routeDestination === "Brixton351"){
     NextDestination.setAttribute( "onClick", "WestIndiaAvenue351();" );
   } else if (routeDestination === "IslandGardens351") {
