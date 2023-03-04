@@ -7174,7 +7174,7 @@ function NewRoad351Audio(){
   if (routeDestination === "Brixton351"){
     NextDestination.setAttribute( "onClick", "HenriquesStreet351();" );
   } else if (routeDestination === "IslandGardens351") {
-    NextDestination.setAttribute( "onClick", "WatneyMarketh351();" );
+    NextDestination.setAttribute( "onClick", "WatneyMarket351();" );
   }
 }
 function HenriquesStreet351(){
