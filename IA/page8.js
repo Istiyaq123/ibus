@@ -115,7 +115,7 @@ function IslandGardens351btn(){
   routeDestination = "IslandGardens351";
   BrixtonStationNR351()
   showDestination.setAttribute( "onClick", "IslandGardens351ibus();" );
-  newIbusdisplayRouteDesibus.innerHTML = "351 to Island Gardens";
+  newIbusdisplayRouteDesibus.innerHTML = "351 to Cubitt Town, Manchester Road";
 }
 
 function ClaphamCommon417ibus(){
@@ -543,9 +543,9 @@ function IslandGardens351ibus(){
     shownewibusdestination();
   }
   topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  marquee.style.display = "none";
-  topTextNo.innerHTML = "351 to Island Gardens";
+  topTextNo.style.display ="none";
+  marquee.style.display = "block";
+  marquee.innerHTML = "351 to Cubitt Town, Manchester Road";
   var audio = 1;
   iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_352_001.mp3";
   iBusAudio.play();
@@ -557,7 +557,7 @@ function IslandGardens351ibus(){
       iBusAudio.onended = function() {
         audio = 3;
         if (audio == 3){
-          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_ISLAND_GARDENS_STATION_001.mp3";
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_CUBITT_TOWN_MANCHESTER_ROAD_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
