@@ -117,6 +117,18 @@ function IslandGardens351btn(){
   showDestination.setAttribute( "onClick", "IslandGardens351ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "351 to Cubitt Town, Manchester Road";
 }
+function StokeNewington276btn(){
+  routeDestination = "StokeNewington276";
+  GatewaySurgicalCentre276()
+  showDestination.setAttribute( "onClick", "StokeNewington276ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "276 to Stoke Newington";
+}
+function NewhamHospital276btn(){
+  routeDestination = "NewhamHospital276";
+  StokeNewingtonCommon276()
+  showDestination.setAttribute( "onClick", "NewhamHospital276ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "276 to Newham Hospital";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -558,6 +570,66 @@ function IslandGardens351ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_CUBITT_TOWN_MANCHESTER_ROAD_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function StokeNewington276ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "276 to Stoke Newington";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_276_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_STOKE_NEWINGTON_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function NewhamHospital276ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "276 to Newham Hospital";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_276_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_NEWHAM_GENERAL_HOSPITAL_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -7804,5 +7876,1434 @@ function BrixtonStationNR351Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "IslandGardens351") {
     NextDestination.setAttribute( "onClick", "ShakespeareRoad351();" );
+  }
+}
+
+function GatewaySurgicalCentre276(){
+  getRidOfDestination()
+  GatewaySurgicalCentre()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "GatewaySurgicalCentre276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "GatewaySurgicalCentre276Audio();" );
+  }
+}
+function GatewaySurgicalCentre276Audio(){
+  GatewaySurgicalCentreAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function NewhamUniversityHospMainReception276(){
+  getRidOfDestination()
+  NewhamUniversityHospMainReception()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception276Audio();" );
+  }
+}
+function NewhamUniversityHospMainReception276Audio(){
+  NewhamUniversityHospMainReceptionAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "GatewaySurgicalCentre276();" );
+  }
+}
+function NewhamUniversityHospEmergencyDept276(){
+  getRidOfDestination()
+  NewhamUniversityHospEmergencyDept()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept276Audio();" );
+  }
+}
+function NewhamUniversityHospEmergencyDept276Audio(){
+  NewhamUniversityHospEmergencyDeptAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospNewVicCollege276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception276();" );
+  }
+}
+function NewhamUniversityHospNewVicCollege276(){
+  getRidOfDestination()
+  NewhamUniversityHospNewVicCollege()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospNewVicCollege276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospNewVicCollege276Audio();" );
+  }
+}
+function NewhamUniversityHospNewVicCollege276Audio(){
+  NewhamUniversityHospNewVicCollegeAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WigstonRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept276();" );
+  }
+}
+function WigstonRoad276(){
+  getRidOfDestination()
+  WigstonRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WigstonRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WigstonRoad276Audio();" );
+  }
+}
+function WigstonRoad276Audio(){
+  WigstonRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLane276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function PlaistowPrinceRegentLane276(){
+  getRidOfDestination()
+  PlaistowPrinceRegentLane()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLane276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLane276Audio();" );
+  }
+}
+function PlaistowPrinceRegentLane276Audio(){
+  PlaistowPrinceRegentLaneAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BeaumontRoad276(){
+  getRidOfDestination()
+  BeaumontRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BeaumontRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BeaumontRoad276Audio();" );
+  }
+}
+function BeaumontRoad276Audio(){
+  BeaumontRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospNewVicCollege276();" );
+  }
+}
+function KhartoumRoad276(){
+  getRidOfDestination()
+  KhartoumRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "KhartoumRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "KhartoumRoad276Audio();" );
+  }
+}
+function KhartoumRoad276Audio(){
+  KhartoumRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BeaumontRoad276();" );
+  }
+}
+function PlaistowPoliceStation276(){
+  getRidOfDestination()
+  PlaistowPoliceStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStation276Audio();" );
+  }
+}
+function PlaistowPoliceStation276Audio(){
+  PlaistowPoliceStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BalaamStreet276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "KhartoumRoad276();" );
+  }
+}
+function BalaamStreet276(){
+  getRidOfDestination()
+  BalaamStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BalaamStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BalaamStreet276Audio();" );
+  }
+}
+function BalaamStreet276Audio(){
+  BalaamStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ChargeableLane276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStation276();" );
+  }
+}
+function ChargeableLane276(){
+  getRidOfDestination()
+  ChargeableLane()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ChargeableLane276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ChargeableLane276Audio();" );
+  }
+}
+function ChargeableLane276Audio(){
+  ChargeableLaneAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "CroydonRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CroydonRoad276(){
+  getRidOfDestination()
+  CroydonRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "CroydonRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "CroydonRoad276Audio();" );
+  }
+}
+function CroydonRoad276Audio(){
+  CroydonRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RokebySchool276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function KingStreet276(){
+  getRidOfDestination()
+  KingStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "KingStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "KingStreet276Audio();" );
+  }
+}
+function KingStreet276Audio(){
+  KingStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BalaamStreet276();" );
+  }
+}
+function RokebySchool276(){
+  getRidOfDestination()
+  RokebySchool()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RokebySchool276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RokebySchool276Audio();" );
+  }
+}
+function RokebySchool276Audio(){
+  RokebySchoolAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HermitRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "KingStreet276();" );
+  }
+}
+function HermitRoad276(){
+  getRidOfDestination()
+  HermitRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HermitRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HermitRoad276Audio();" );
+  }
+}
+function HermitRoad276Audio(){
+  HermitRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MalmesburyTerrace276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RokebySchool276();" );
+  }
+}
+function MalmesburyTerrace276(){
+  getRidOfDestination()
+  MalmesburyTerrace()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MalmesburyTerrace276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MalmesburyTerrace276Audio();" );
+  }
+}
+function MalmesburyTerrace276Audio(){
+  MalmesburyTerraceAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StarPrimarySchool276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HermitRoad276();" );
+  }
+}
+function StarPrimarySchool276(){
+  getRidOfDestination()
+  StarPrimarySchool()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StarPrimarySchool276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StarPrimarySchool276Audio();" );
+  }
+}
+function StarPrimarySchool276Audio(){
+  StarPrimarySchoolAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StarLaneStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StarLaneStation276(){
+  getRidOfDestination()
+  StarLaneStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StarLaneStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StarLaneStation276Audio();" );
+  }
+}
+function StarLaneStation276Audio(){
+  StarLaneStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "GodboldRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ExningRoad276(){
+  getRidOfDestination()
+  ExningRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ExningRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ExningRoad276Audio();" );
+  }
+}
+function ExningRoad276Audio(){
+  ExningRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MalmesburyTerrace276();" );
+  }
+}
+function StarLaneStnStarPrimarySch276(){
+  getRidOfDestination()
+  StarLaneStnStarPrimarySch()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StarLaneStnStarPrimarySch276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StarLaneStnStarPrimarySch276Audio();" );
+  }
+}
+function StarLaneStnStarPrimarySch276Audio(){
+  StarLaneStnStarPrimarySchAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ExningRoad276();" );
+  }
+}
+function GodboldRoad276(){
+  getRidOfDestination()
+  GodboldRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "GodboldRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "GodboldRoad276Audio();" );
+  }
+}
+function GodboldRoad276Audio(){
+  GodboldRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MilnerRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StarLaneStnStarPrimarySch276();" );
+  }
+}
+function MilnerRoad276(){
+  getRidOfDestination()
+  MilnerRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MilnerRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MilnerRoad276Audio();" );
+  }
+}
+function MilnerRoad276Audio(){
+  MilnerRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WestHamStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "GodboldRoad276();" );
+  }
+}
+function WestHamStation276(){
+  getRidOfDestination()
+  WestHamStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WestHamStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WestHamStation276Audio();" );
+  }
+}
+function WestHamStation276Audio(){
+  WestHamStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "LeywickStreet276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MilnerRoad276();" );
+  }
+}
+function LeywickStreet276(){
+  getRidOfDestination()
+  LeywickStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "LeywickStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "LeywickStreet276Audio();" );
+  }
+}
+function LeywickStreet276Audio(){
+  LeywickStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MitreRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CorporationStreet276(){
+  getRidOfDestination()
+  CorporationStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "CorporationStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "CorporationStreet276Audio();" );
+  }
+}
+function CorporationStreet276Audio(){
+  CorporationStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WestHamStation276();" );
+  }
+}
+function MitreRoad276(){
+  getRidOfDestination()
+  MitreRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MitreRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MitreRoad276Audio();" );
+  }
+}
+function MitreRoad276Audio(){
+  MitreRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ChurchStreet276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "CorporationStreet276();" );
+  }
+}
+function ChurchStreet276(){
+  getRidOfDestination()
+  ChurchStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ChurchStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ChurchStreet276Audio();" );
+  }
+}
+function ChurchStreet276Audio(){
+  ChurchStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PaulStreet276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MitreRoad276();" );
+  }
+}
+function PaulStreet276(){
+  getRidOfDestination()
+  PaulStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PaulStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "PaulStreet276Audio();" );
+  }
+}
+function PaulStreet276Audio(){
+  PaulStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StratfordBusStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BarnbyStreet276(){
+  getRidOfDestination()
+  BarnbyStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BarnbyStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BarnbyStreet276Audio();" );
+  }
+}
+function BarnbyStreet276Audio(){
+  BarnbyStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ChurchStreet276();" );
+  }
+}
+function StratfordBroadway276(){
+  getRidOfDestination()
+  StratfordBroadway()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StratfordBroadway276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StratfordBroadway276Audio();" );
+  }
+}
+function StratfordBroadway276Audio(){
+  StratfordBroadwayAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BarnbyStreet276();" );
+  }
+}
+function StratfordBusStation276(){
+  getRidOfDestination()
+  StratfordBusStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StratfordBusStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StratfordBusStation276Audio();" );
+  }
+}
+function StratfordBusStation276Audio(){
+  StratfordBusStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StratfordBroadway276();" );
+  }
+}
+function StratfordHighStCarpentersRoad276(){
+  getRidOfDestination()
+  StratfordHighStCarpentersRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad276Audio();" );
+  }
+}
+function StratfordHighStCarpentersRoad276Audio(){
+  StratfordHighStCarpentersRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WartonRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StratfordBusStation276();" );
+  }
+}
+function WartonRoad276(){
+  getRidOfDestination()
+  WartonRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WartonRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WartonRoad276Audio();" );
+  }
+}
+function WartonRoad276Audio(){
+  WartonRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "AbbeyLane276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StratfordHighStCarpentersRoad276();" );
+  }
+}
+function AbbeyLane276(){
+  getRidOfDestination()
+  AbbeyLane()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "AbbeyLane276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "AbbeyLane276Audio();" );
+  }
+}
+function AbbeyLane276Audio(){
+  AbbeyLaneAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BowFlyover276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BowFlyover276(){
+  getRidOfDestination()
+  BowFlyover()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BowFlyover276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BowFlyover276Audio();" );
+  }
+}
+function BowFlyover276Audio(){
+  BowFlyoverAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BowChurch276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MarshgateLane276(){
+  getRidOfDestination()
+  MarshgateLane()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MarshgateLane276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MarshgateLane276Audio();" );
+  }
+}
+function MarshgateLane276Audio(){
+  MarshgateLaneAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WartonRoad276();" );
+  }
+}
+function BowChurch276(){
+  getRidOfDestination()
+  BowChurch()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BowChurch276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BowChurch276Audio();" );
+  }
+}
+function BowChurch276Audio(){
+  BowChurchAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BowBusGarage276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MarshgateLane276();" );
+  }
+}
+function BowBusGarage276(){
+  getRidOfDestination()
+  BowBusGarage()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BowBusGarage276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BowBusGarage276Audio();" );
+  }
+}
+function BowBusGarage276Audio(){
+  BowBusGarageAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "TredegarRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BowChurch276();" );
+  }
+}
+function TredegarRoad276(){
+  getRidOfDestination()
+  TredegarRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "TredegarRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "TredegarRoad276Audio();" );
+  }
+}
+function TredegarRoad276Audio(){
+  TredegarRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RomanRoadMarket276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BowBusGarage276();" );
+  }
+}
+function RomanRoadMarket276(){
+  getRidOfDestination()
+  RomanRoadMarket()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RomanRoadMarket276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RomanRoadMarket276Audio();" );
+  }
+}
+function RomanRoadMarket276Audio(){
+  RomanRoadMarketAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "OldFordRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "TredegarRoad276();" );
+  }
+}
+function OldFordRoad276(){
+  getRidOfDestination()
+  OldFordRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "OldFordRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "OldFordRoad276Audio();" );
+  }
+}
+function OldFordRoad276Audio(){
+  OldFordRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WatersideClose276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RomanRoadMarket276();" );
+  }
+}
+function WatersideClose276(){
+  getRidOfDestination()
+  WatersideClose()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WatersideClose276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WatersideClose276Audio();" );
+  }
+}
+function WatersideClose276Audio(){
+  WatersideCloseAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WickLane276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WickLane276(){
+  getRidOfDestination()
+  WickLane()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WickLane276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WickLane276Audio();" );
+  }
+}
+function WickLane276Audio(){
+  WickLaneAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WansbeckRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "OldFordRoad276();" );
+  }
+}
+function WansbeckRoad276(){
+  getRidOfDestination()
+  WansbeckRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "WansbeckRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WansbeckRoad276Audio();" );
+  }
+}
+function WansbeckRoad276Audio(){
+  WansbeckRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RothburyRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MonierRoad276(){
+  getRidOfDestination()
+  MonierRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MonierRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MonierRoad276Audio();" );
+  }
+}
+function MonierRoad276Audio(){
+  MonierRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "WickLane276();" );
+  }
+}
+function RothburyRoad276(){
+  getRidOfDestination()
+  RothburyRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RothburyRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RothburyRoad276Audio();" );
+  }
+}
+function RothburyRoad276Audio(){
+  RothburyRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HackneyWickStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MonierRoad276();" );
+  }
+}
+function HackneyWickStation276(){
+  getRidOfDestination()
+  HackneyWickStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HackneyWickStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HackneyWickStation276Audio();" );
+  }
+}
+function HackneyWickStation276Audio(){
+  HackneyWickStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BerkshireRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RothburyRoad276();" );
+  }
+}
+function BerkshireRoad276(){
+  getRidOfDestination()
+  BerkshireRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BerkshireRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BerkshireRoad276Audio();" );
+  }
+}
+function BerkshireRoad276Audio(){
+  BerkshireRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "OsborneRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HackneyWickStation276();" );
+  }
+}
+function OsborneRoad276(){
+  getRidOfDestination()
+  OsborneRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "OsborneRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "OsborneRoad276Audio();" );
+  }
+}
+function OsborneRoad276Audio(){
+  OsborneRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "TrowbridgeEstate276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BerkshireRoad276();" );
+  }
+}
+function TrowbridgeEstate276(){
+  getRidOfDestination()
+  TrowbridgeEstate()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "TrowbridgeEstate276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "TrowbridgeEstate276Audio();" );
+  }
+}
+function TrowbridgeEstate276Audio(){
+  TrowbridgeEstateAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "CrowfootClose276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "OsborneRoad276();" );
+  }
+}
+function CrowfootClose276(){
+  getRidOfDestination()
+  CrowfootClose()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "CrowfootClose276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "CrowfootClose276Audio();" );
+  }
+}
+function CrowfootClose276Audio(){
+  CrowfootCloseAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PoplarClose276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "TrowbridgeEstate276();" );
+  }
+}
+function PoplarClose276(){
+  getRidOfDestination()
+  PoplarClose()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PoplarClose276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "PoplarClose276Audio();" );
+  }
+}
+function PoplarClose276Audio(){
+  PoplarCloseAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "KingsmeadEstate276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LeeConservancyRoadPoplarClose276(){
+  getRidOfDestination()
+  LeeConservancyRoadPoplarClose()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "LeeConservancyRoadPoplarClose276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "LeeConservancyRoadPoplarClose276Audio();" );
+  }
+}
+function LeeConservancyRoadPoplarClose276Audio(){
+  LeeConservancyRoadPoplarCloseAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MarshHill276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "CrowfootClose276();" );
+  }
+}
+function KingsmeadEstate276(){
+  getRidOfDestination()
+  KingsmeadEstate()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "KingsmeadEstate276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "KingsmeadEstate276Audio();" );
+  }
+}
+function KingsmeadEstate276Audio(){
+  KingsmeadEstateAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MarshHill276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "LeeConservancyRoadPoplarClose276();" );
+  }
+}
+function MarshHill276(){
+  getRidOfDestination()
+  MarshHill()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MarshHill276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MarshHill276Audio();" );
+  }
+}
+function MarshHill276Audio(){
+  MarshHillAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "GlynRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AdleyStreet276(){
+  getRidOfDestination()
+  AdleyStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "AdleyStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "AdleyStreet276Audio();" );
+  }
+}
+function AdleyStreet276Audio(){
+  AdleyStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "KingsmeadEstate276();" );
+  }
+}
+function GlynRoad276(){
+  getRidOfDestination()
+  GlynRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "GlynRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "GlynRoad276Audio();" );
+  }
+}
+function GlynRoad276Audio(){
+  GlynRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "AdleyStreet276();" );
+  }
+}
+function BrooksbysWalkHomertonStation276(){
+  getRidOfDestination()
+  BrooksbysWalkHomertonStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation276Audio();" );
+  }
+}
+function BrooksbysWalkHomertonStation276Audio(){
+  BrooksbysWalkHomertonStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HomertonHospital276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HomertonHospital276(){
+  getRidOfDestination()
+  HomertonHospital()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HomertonHospital276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HomertonHospital276Audio();" );
+  }
+}
+function HomertonHospital276Audio(){
+  HomertonHospitalAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BanisterHouse276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BanisterHouse276(){
+  getRidOfDestination()
+  BanisterHouse()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BanisterHouse276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BanisterHouse276Audio();" );
+  }
+}
+function BanisterHouse276Audio(){
+  BanisterHouseAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PonsfordStreet276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function PonsfordStreet276(){
+  getRidOfDestination()
+  PonsfordStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "PonsfordStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "PonsfordStreet276Audio();" );
+  }
+}
+function PonsfordStreet276Audio(){
+  PonsfordStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "TrelawneyEstate276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TrelawneyEstate276(){
+  getRidOfDestination()
+  TrelawneyEstate()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "TrelawneyEstate276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "TrelawneyEstate276Audio();" );
+  }
+}
+function TrelawneyEstate276Audio(){
+  TrelawneyEstateAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HackneyTownHall276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HackneyTownHall276(){
+  getRidOfDestination()
+  HackneyTownHall()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HackneyTownHall276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HackneyTownHall276Audio();" );
+  }
+}
+function HackneyTownHall276Audio(){
+  HackneyTownHallAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HomertonHospitalWardleStreet276(){
+  getRidOfDestination()
+  HomertonHospitalWardleStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet276Audio();" );
+  }
+}
+function HomertonHospitalWardleStreet276Audio(){
+  HomertonHospitalWardleStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "GlynRoad276();" );
+  }
+}
+function HomertonHospitalHomertonRow276(){
+  getRidOfDestination()
+  HomertonHospitalHomertonRow()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HomertonHospitalHomertonRow276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HomertonHospitalHomertonRow276Audio();" );
+  }
+}
+function HomertonHospitalHomertonRow276Audio(){
+  HomertonHospitalHomertonRowAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet276();" );
+  }
+}
+function FennStreet276(){
+  getRidOfDestination()
+  FennStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "FennStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "FennStreet276Audio();" );
+  }
+}
+function FennStreet276Audio(){
+  FennStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HomertonHospitalHomertonRow276();" );
+  }
+}
+function HomertonTerrace276(){
+  getRidOfDestination()
+  HomertonTerrace()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HomertonTerrace276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HomertonTerrace276Audio();" );
+  }
+}
+function HomertonTerrace276Audio(){
+  HomertonTerraceAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "FennStreet276();" );
+  }
+}
+function MorningLaneTrelawneyEstate276(){
+  getRidOfDestination()
+  MorningLaneTrelawneyEstate()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "MorningLaneTrelawneyEstate276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MorningLaneTrelawneyEstate276Audio();" );
+  }
+}
+function MorningLaneTrelawneyEstate276Audio(){
+  MorningLaneTrelawneyEstateAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HomertonTerrace276();" );
+  }
+}
+function HackneyCentralStation276(){
+  getRidOfDestination()
+  HackneyCentralStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation276Audio();" );
+  }
+}
+function HackneyCentralStation276Audio(){
+  HackneyCentralStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "AmhurstRoadHackneyDownsStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "MorningLaneTrelawneyEstate276();" );
+  }
+}
+function AmhurstRoadHackneyDownsStation276(){
+  getRidOfDestination()
+  AmhurstRoadHackneyDownsStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "AmhurstRoadHackneyDownsStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "AmhurstRoadHackneyDownsStation276Audio();" );
+  }
+}
+function AmhurstRoadHackneyDownsStation276Audio(){
+  AmhurstRoadHackneyDownsStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "AmhurstRoadDalstonLane276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AmhurstRoadDalstonLane276(){
+  getRidOfDestination()
+  AmhurstRoadDalstonLane()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "AmhurstRoadDalstonLane276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "AmhurstRoadDalstonLane276Audio();" );
+  }
+}
+function AmhurstRoadDalstonLane276Audio(){
+  AmhurstRoadDalstonLaneAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "SandringhamRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HackneyDownsStation276(){
+  getRidOfDestination()
+  HackneyDownsStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "HackneyDownsStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HackneyDownsStation276Audio();" );
+  }
+}
+function HackneyDownsStation276Audio(){
+  HackneyDownsStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation276();" );
+  }
+}
+function SandringhamRoad276(){
+  getRidOfDestination()
+  SandringhamRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "SandringhamRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "SandringhamRoad276Audio();" );
+  }
+}
+function SandringhamRoad276Audio(){
+  SandringhamRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "DownsParkRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "HackneyDownsStation276();" );
+  }
+}
+function DownsParkRoad276(){
+  getRidOfDestination()
+  DownsParkRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "DownsParkRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "DownsParkRoad276Audio();" );
+  }
+}
+function DownsParkRoad276Audio(){
+  DownsParkRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ShacklewellLane276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "SandringhamRoad276();" );
+  }
+}
+function ShacklewellLane276(){
+  getRidOfDestination()
+  ShacklewellLane()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ShacklewellLane276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ShacklewellLane276Audio();" );
+  }
+}
+function ShacklewellLane276Audio(){
+  ShacklewellLaneAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RectoryRoadDownsRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "DownsParkRoad276();" );
+  }
+}
+function RectoryRoadDownsRoad276(){
+  getRidOfDestination()
+  RectoryRoadDownsRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RectoryRoadDownsRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RectoryRoadDownsRoad276Audio();" );
+  }
+}
+function RectoryRoadDownsRoad276Audio(){
+  RectoryRoadDownsRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ManseRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ManseRoad276(){
+  getRidOfDestination()
+  ManseRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "ManseRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ManseRoad276Audio();" );
+  }
+}
+function ManseRoad276Audio(){
+  ManseRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StokeNewingtonPoliceStation276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StokeNewingtonPoliceStation276(){
+  getRidOfDestination()
+  StokeNewingtonPoliceStation()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StokeNewingtonPoliceStation276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StokeNewingtonPoliceStation276Audio();" );
+  }
+}
+function StokeNewingtonPoliceStation276Audio(){
+  StokeNewingtonPoliceStationAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BrookeRoad276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BrookeRoad276(){
+  getRidOfDestination()
+  BrookeRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BrookeRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "BrookeRoad276Audio();" );
+  }
+}
+function BrookeRoad276Audio(){
+  BrookeRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StokeNewingtonHighStGarnhamStreet276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StokeNewingtonHighStGarnhamStreet276(){
+  getRidOfDestination()
+  StokeNewingtonHighStGarnhamStreet()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StokeNewingtonHighStGarnhamStreet276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StokeNewingtonHighStGarnhamStreet276Audio();" );
+  }
+}
+function StokeNewingtonHighStGarnhamStreet276Audio(){
+  StokeNewingtonHighStGarnhamStreetAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NorthwoldRoadStokeNewingtonCommon276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function NorthwoldRoadStokeNewingtonCommon276(){
+  getRidOfDestination()
+  NorthwoldRoadStokeNewingtonCommon()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "NorthwoldRoadStokeNewingtonCommon276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "NorthwoldRoadStokeNewingtonCommon276Audio();" );
+  }
+}
+function NorthwoldRoadStokeNewingtonCommon276Audio(){
+  NorthwoldRoadStokeNewingtonCommonAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StokeNewingtonCommon276();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function DownsRoad276(){
+  getRidOfDestination()
+  DownsRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "DownsRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "DownsRoad276Audio();" );
+  }
+}
+function DownsRoad276Audio(){
+  DownsRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "ShacklewellLane276();" );
+  }
+}
+function RectoryRoadBrookeRoad276(){
+  getRidOfDestination()
+  RectoryRoadBrookeRoad()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "RectoryRoadBrookeRoad276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RectoryRoadBrookeRoad276Audio();" );
+  }
+}
+function RectoryRoadBrookeRoad276Audio(){
+  RectoryRoadBrookeRoadAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "DownsRoad276();" );
+  }
+}
+function StokeNewingtonCommon276(){
+  getRidOfDestination()
+  StokeNewingtonCommon()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "StokeNewingtonCommon276Audio();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "StokeNewingtonCommon276Audio();" );
+  }
+}
+function StokeNewingtonCommon276Audio(){
+  StokeNewingtonCommonAudio()
+  if (routeDestination === "StokeNewington276"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "NewhamHospital276") {
+    NextDestination.setAttribute( "onClick", "RectoryRoadBrookeRoad276();" );
   }
 }
