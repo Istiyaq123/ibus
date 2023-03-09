@@ -129,6 +129,30 @@ function NewhamHospital276btn(){
   showDestination.setAttribute( "onClick", "NewhamHospital276ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "276 to Newham Hospital";
 }
+function BecktonStation101btn(){
+  routeDestination = "BecktonStation101";
+  WoodbinePlace101()
+  showDestination.setAttribute( "onClick", "BecktonStation101ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "101 to Beckton, Bus Station";
+}
+function Wanstead101btn(){
+  routeDestination = "Wanstead101";
+  BecktonBusStation101()
+  showDestination.setAttribute( "onClick", "Wanstead101ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "101 to Wanstead";
+}
+function EastHamNewhamTownHall376btn(){
+  routeDestination = "EastHamNewhamTownHall376";
+  BecktonBusStation376()
+  showDestination.setAttribute( "onClick", "EastHamNewhamTownHall376ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "376 to East Ham, Newham Town Hall";
+}
+function BecktonStation376btn(){
+  routeDestination = "BecktonStation376";
+  NewhamTownHall376()
+  showDestination.setAttribute( "onClick", "BecktonStation376ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "376 to Beckton, Bus Station";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -630,6 +654,126 @@ function NewhamHospital276ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_NEWHAM_GENERAL_HOSPITAL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function BecktonStation101ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "101 to Beckton, Bus Station";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_101_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BECKTON_BUS_STATION_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function Wanstead101ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "101 to Wanstead";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_101_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_WANSTEAD_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function EastHamNewhamTownHall376ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="none";
+  marquee.style.display = "block";
+  marquee.innerHTML = "376 to East Ham, Newham Town Hall";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_376_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_EAST_HAM_NEWHAM_TOWN_HALL_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function BecktonStation376ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "376 to Beckton, Bus Station";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_376_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/S_BECKTON_BUS_STATION_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -9305,5 +9449,1537 @@ function StokeNewingtonCommon276Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "NewhamHospital276") {
     NextDestination.setAttribute( "onClick", "RectoryRoadBrookeRoad276();" );
+  }
+}
+
+function WoodbinePlace101(){
+  getRidOfDestination()
+  WoodbinePlace()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "WoodbinePlace101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WoodbinePlace101Audio();" );
+  }
+}
+function WoodbinePlace101Audio(){
+  WoodbinePlaceAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "WansteadHighStWansteadStation101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function WansteadHighStWansteadStation101(){
+  getRidOfDestination()
+  WansteadHighStWansteadStation()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "WansteadHighStWansteadStation101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WansteadHighStWansteadStation101Audio();" );
+  }
+}
+function WansteadHighStWansteadStation101Audio(){
+  WansteadHighStWansteadStationAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "WansteadStationGeorgeGreen101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WansteadStationGeorgeGreen101(){
+  getRidOfDestination()
+  WansteadStationGeorgeGreen()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "WansteadStationGeorgeGreen101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WansteadStationGeorgeGreen101Audio();" );
+  }
+}
+function WansteadStationGeorgeGreen101Audio(){
+  WansteadStationGeorgeGreenAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "FelsteadRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function FelsteadRoad101(){
+  getRidOfDestination()
+  FelsteadRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "FelsteadRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "FelsteadRoad101Audio();" );
+  }
+}
+function FelsteadRoad101Audio(){
+  FelsteadRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BushRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WansteadStation101(){
+  getRidOfDestination()
+  WansteadStation()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "WansteadStation101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WansteadStation101Audio();" );
+  }
+}
+function WansteadStation101Audio(){
+  WansteadStationAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WoodbinePlace101();" );
+  }
+}
+function CambridgePark101(){
+  getRidOfDestination()
+  CambridgePark()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CambridgePark101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CambridgePark101Audio();" );
+  }
+}
+function CambridgePark101Audio(){
+  CambridgeParkAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WansteadStation101();" );
+  }
+}
+function BushRoad101(){
+  getRidOfDestination()
+  BushRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BushRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BushRoad101Audio();" );
+  }
+}
+function BushRoad101Audio(){
+  BushRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BlakeHallCrescent101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CambridgePark101();" );
+  }
+}
+function BlakeHallCrescent101(){
+  getRidOfDestination()
+  BlakeHallCrescent()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BlakeHallCrescent101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BlakeHallCrescent101Audio();" );
+  }
+}
+function BlakeHallCrescent101Audio(){
+  BlakeHallCrescentAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "QueenswoodGardens101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BushRoad101();" );
+  }
+}
+function QueenswoodGardens101(){
+  getRidOfDestination()
+  QueenswoodGardens()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "QueenswoodGardens101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "QueenswoodGardens101Audio();" );
+  }
+}
+function QueenswoodGardens101Audio(){
+  QueenswoodGardensAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "ParkRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BlakeHallCrescent101();" );
+  }
+}
+function ParkRoad101(){
+  getRidOfDestination()
+  ParkRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "ParkRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "ParkRoad101Audio();" );
+  }
+}
+function ParkRoad101Audio(){
+  ParkRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "HerongateRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "QueenswoodGardens101();" );
+  }
+}
+function HerongateRoad101(){
+  getRidOfDestination()
+  HerongateRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "HerongateRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "HerongateRoad101Audio();" );
+  }
+}
+function HerongateRoad101Audio(){
+  HerongateRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EmpressAvenue101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function DoverRoad101(){
+  getRidOfDestination()
+  DoverRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "DoverRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "DoverRoad101Audio();" );
+  }
+}
+function DoverRoad101Audio(){
+  DoverRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "ParkRoad101();" );
+  }
+}
+function EmpressAvenue101(){
+  getRidOfDestination()
+  EmpressAvenue()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EmpressAvenue101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "EmpressAvenue101Audio();" );
+  }
+}
+function EmpressAvenue101Audio(){
+  EmpressAvenueAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "MerlinRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "DoverRoad101();" );
+  }
+}
+function MerlinRoad101(){
+  getRidOfDestination()
+  MerlinRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "MerlinRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "MerlinRoad101Audio();" );
+  }
+}
+function MerlinRoad101Audio(){
+  MerlinRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CityofLondonCemetery101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "EmpressAvenue101();" );
+  }
+}
+function WansteadParkAvenue101(){
+  getRidOfDestination()
+  WansteadParkAvenue()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "WansteadParkAvenue101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WansteadParkAvenue101Audio();" );
+  }
+}
+function WansteadParkAvenue101Audio(){
+  WansteadParkAvenueAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "MerlinRoad101();" );
+  }
+}
+function CityofLondonCemetery101(){
+  getRidOfDestination()
+  CityofLondonCemetery()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CityofLondonCemetery101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CityofLondonCemetery101Audio();" );
+  }
+}
+function CityofLondonCemetery101Audio(){
+  CityofLondonCemeteryAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CapelRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "WansteadParkAvenue101();" );
+  }
+}
+function CapelRoad101(){
+  getRidOfDestination()
+  CapelRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CapelRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CapelRoad101Audio();" );
+  }
+}
+function CapelRoad101Audio(){
+  CapelRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "ManorParkStation101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CityofLondonCemetery101();" );
+  }
+}
+function ManorParkStation101(){
+  getRidOfDestination()
+  ManorParkStation()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "ManorParkStation101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "ManorParkStation101Audio();" );
+  }
+}
+function ManorParkStation101Audio(){
+  ManorParkStationAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "RomfordRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CapelRoad101();" );
+  }
+}
+function RomfordRoad101(){
+  getRidOfDestination()
+  RomfordRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "RomfordRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "RomfordRoad101Audio();" );
+  }
+}
+function RomfordRoad101Audio(){
+  RomfordRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CranbourneRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "ManorParkStation101();" );
+  }
+}
+function CranbourneRoad101(){
+  getRidOfDestination()
+  CranbourneRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CranbourneRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CranbourneRoad101Audio();" );
+  }
+}
+function CranbourneRoad101Audio(){
+  CranbourneRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BerkeleyRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BerkeleyRoad101(){
+  getRidOfDestination()
+  BerkeleyRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BerkeleyRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BerkeleyRoad101Audio();" );
+  }
+}
+function BerkeleyRoad101Audio(){
+  BerkeleyRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "RuskinAvenue101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "RomfordRoad101();" );
+  }
+}
+function RuskinAvenue101(){
+  getRidOfDestination()
+  RuskinAvenue()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "RuskinAvenue101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "RuskinAvenue101Audio();" );
+  }
+}
+function RuskinAvenue101Audio(){
+  RuskinAvenueAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "ShelleyAvenue101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BerkeleyRoad101();" );
+  }
+}
+function ShelleyAvenue101(){
+  getRidOfDestination()
+  ShelleyAvenue()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "ShelleyAvenue101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "ShelleyAvenue101Audio();" );
+  }
+}
+function ShelleyAvenue101Audio(){
+  ShelleyAvenueAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "GladstoneAvenue101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "RuskinAvenue101();" );
+  }
+}
+function GladstoneAvenue101(){
+  getRidOfDestination()
+  GladstoneAvenue()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "GladstoneAvenue101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "GladstoneAvenue101Audio();" );
+  }
+}
+function GladstoneAvenue101Audio(){
+  GladstoneAvenueAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EastHamStation101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "ShelleyAvenue101();" );
+  }
+}
+function EastHamStation101(){
+  getRidOfDestination()
+  EastHamStation()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EastHamStation101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "EastHamStation101Audio();" );
+  }
+}
+function EastHamStation101Audio(){
+  EastHamStationAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BendishRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "GladstoneAvenue101();" );
+  }
+}
+function BendishRoad101(){
+  getRidOfDestination()
+  BendishRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BendishRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BendishRoad101Audio();" );
+  }
+}
+function BendishRoad101Audio(){
+  BendishRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "RonLeightonWay101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "EastHamStation101();" );
+  }
+}
+function RonLeightonWay101(){
+  getRidOfDestination()
+  RonLeightonWay()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "RonLeightonWay101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "RonLeightonWay101Audio();" );
+  }
+}
+function RonLeightonWay101Audio(){
+  RonLeightonWayAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "HighStreetNorth101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HighStreetNorth101(){
+  getRidOfDestination()
+  HighStreetNorth()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "HighStreetNorth101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "HighStreetNorth101Audio();" );
+  }
+}
+function HighStreetNorth101Audio(){
+  HighStreetNorthAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "NewhamTownHall101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CaledonRoad101(){
+  getRidOfDestination()
+  CaledonRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "CaledonRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CaledonRoad101Audio();" );
+  }
+}
+function CaledonRoad101Audio(){
+  CaledonRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BendishRoad101();" );
+  }
+}
+function KemptonRoad101(){
+  getRidOfDestination()
+  KemptonRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "KemptonRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "KemptonRoad101Audio();" );
+  }
+}
+function KemptonRoad101Audio(){
+  KemptonRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "CaledonRoad101();" );
+  }
+}
+function NewhamTownHall101(){
+  getRidOfDestination()
+  NewhamTownHall()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "NewhamTownHall101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "NewhamTownHall101Audio();" );
+  }
+}
+function NewhamTownHall101Audio(){
+  NewhamTownHallAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "MarketStreet101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "KemptonRoad101();" );
+  }
+}
+function MarketStreet101(){
+  getRidOfDestination()
+  MarketStreet()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "MarketStreet101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "MarketStreet101Audio();" );
+  }
+}
+function MarketStreet101Audio(){
+  MarketStreetAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EastHamCentralPark101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TilburyRoad101(){
+  getRidOfDestination()
+  TilburyRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "TilburyRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "TilburyRoad101Audio();" );
+  }
+}
+function TilburyRoad101Audio(){
+  TilburyRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "NewhamTownHall101();" );
+  }
+}
+function EastHamCentralPark101(){
+  getRidOfDestination()
+  EastHamCentralPark()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EastHamCentralPark101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "EastHamCentralPark101Audio();" );
+  }
+}
+function EastHamCentralPark101Audio(){
+  EastHamCentralParkAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "VicarageLane101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "TilburyRoad101();" );
+  }
+}
+function VicarageLane101(){
+  getRidOfDestination()
+  VicarageLane()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "VicarageLane101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "VicarageLane101Audio();" );
+  }
+}
+function VicarageLane101Audio(){
+  VicarageLaneAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EastHamFireStation101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function EastHamFireStation101(){
+  getRidOfDestination()
+  EastHamFireStation()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "EastHamFireStation101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "EastHamFireStation101Audio();" );
+  }
+}
+function EastHamFireStation101Audio(){
+  EastHamFireStationAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "LonsdaleAvenue101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MarlowRoad101(){
+  getRidOfDestination()
+  MarlowRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "MarlowRoad101Audio();" );
+  }
+}
+function MarlowRoad101Audio(){
+  MarlowRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "EastHamCentralPark101();" );
+  }
+}
+function MortimerRoad101(){
+  getRidOfDestination()
+  MortimerRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "MortimerRoad101Audio();" );
+  }
+}
+function MortimerRoad101Audio(){
+  MortimerRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "MarlowRoad101();" );
+  }
+}
+function LonsdaleAvenue101(){
+  getRidOfDestination()
+  LonsdaleAvenue()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "LonsdaleAvenue101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "LonsdaleAvenue101Audio();" );
+  }
+}
+function LonsdaleAvenue101Audio(){
+  LonsdaleAvenueAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "AlbatrossClose101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "MortimerRoad101();" );
+  }
+}
+function AlbatrossClose101(){
+  getRidOfDestination()
+  AlbatrossClose()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "AlbatrossClose101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "AlbatrossClose101Audio();" );
+  }
+}
+function AlbatrossClose101Audio(){
+  AlbatrossCloseAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "TollgateRoad101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "LonsdaleAvenue101();" );
+  }
+}
+function TollgateRoad101(){
+  getRidOfDestination()
+  TollgateRoad()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "TollgateRoad101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "TollgateRoad101Audio();" );
+  }
+}
+function TollgateRoad101Audio(){
+  TollgateRoadAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BecktonBusStation101();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "AlbatrossClose101();" );
+  }
+}
+function BecktonBusStation101(){
+  getRidOfDestination()
+  BecktonBusStation()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BecktonBusStation101Audio();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "BecktonBusStation101Audio();" );
+  }
+}
+function BecktonBusStation101Audio(){
+  BecktonBusStationAudio()
+  if (routeDestination === "BecktonStation101"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "Wanstead101") {
+    NextDestination.setAttribute( "onClick", "TollgateRoad101();" );
+  }
+}
+
+function BecktonBusStation376(){
+  getRidOfDestination()
+  BecktonBusStation()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BecktonBusStation376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BecktonBusStation376Audio();" );
+  }
+}
+function BecktonBusStation376Audio(){
+  BecktonBusStationAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "CoveleesWall376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function CoveleesWall376(){
+  getRidOfDestination()
+  CoveleesWall()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "CoveleesWall376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "CoveleesWall376Audio();" );
+  }
+}
+function CoveleesWall376Audio(){
+  CoveleesWallAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WinsorParkEstate376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function EastHamManorWay376(){
+  getRidOfDestination()
+  EastHamManorWay()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "EastHamManorWay376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "EastHamManorWay376Audio();" );
+  }
+}
+function EastHamManorWay376Audio(){
+  EastHamManorWayAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "HorseLeaze376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BecktonBusStation376();" );
+  }
+}
+function WinsorParkEstate376(){
+  getRidOfDestination()
+  WinsorParkEstate()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WinsorParkEstate376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WinsorParkEstate376Audio();" );
+  }
+}
+function WinsorParkEstate376Audio(){
+  WinsorParkEstateAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "HorseLeaze376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "EastHamManorWay376();" );
+  }
+}
+function HorseLeaze376(){
+  getRidOfDestination()
+  HorseLeaze()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "HorseLeaze376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "HorseLeaze376Audio();" );
+  }
+}
+function HorseLeaze376Audio(){
+  HorseLeazeAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "DevallsClose376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WinsorParkEstate376();" );
+  }
+}
+function DevallsClose376(){
+  getRidOfDestination()
+  DevallsClose()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "DevallsClose376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "DevallsClose376Audio();" );
+  }
+}
+function DevallsClose376Audio(){
+  DevallsCloseAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "CyprusStation376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function FerndaleStreet376(){
+  getRidOfDestination()
+  FerndaleStreet()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "FerndaleStreet376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "FerndaleStreet376Audio();" );
+  }
+}
+function FerndaleStreet376Audio(){
+  FerndaleStreetAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "HorseLeaze376();" );
+  }
+}
+function CyprusStation376(){
+  getRidOfDestination()
+  CyprusStation()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "CyprusStation376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "CyprusStation376Audio();" );
+  }
+}
+function CyprusStation376Audio(){
+  CyprusStationAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "StraitRoadEastHamManorWay376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "FerndaleStreet376();" );
+  }
+}
+function StraitRoadEastHamManorWay376(){
+  getRidOfDestination()
+  StraitRoadEastHamManorWay()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "StraitRoadEastHamManorWay376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "StraitRoadEastHamManorWay376Audio();" );
+  }
+}
+function StraitRoadEastHamManorWay376Audio(){
+  StraitRoadEastHamManorWayAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "RenfrewClose376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "CyprusStation376();" );
+  }
+}
+function RenfrewClose376(){
+  getRidOfDestination()
+  RenfrewClose()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "RenfrewClose376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "RenfrewClose376Audio();" );
+  }
+}
+function RenfrewClose376Audio(){
+  RenfrewCloseAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BecktonParkStation376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "StraitRoadEastHamManorWay376();" );
+  }
+}
+function CampionClose376(){
+  getRidOfDestination()
+  CampionClose()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "CampionClose376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "CampionClose376Audio();" );
+  }
+}
+function CampionClose376Audio(){
+  CampionCloseAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "StraitRoadStansfeldRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "RenfrewClose376();" );
+  }
+}
+function BecktonParkStation376(){
+  getRidOfDestination()
+  BecktonParkStation()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BecktonParkStation376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BecktonParkStation376Audio();" );
+  }
+}
+function BecktonParkStation376Audio(){
+  BecktonParkStationAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "StraitRoadStansfeldRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "CampionClose376();" );
+  }
+}
+function StraitRoadStansfeldRoad376(){
+  getRidOfDestination()
+  StraitRoadStansfeldRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "StraitRoadStansfeldRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "StraitRoadStansfeldRoad376Audio();" );
+  }
+}
+function StraitRoadStansfeldRoad376Audio(){
+  StraitRoadStansfeldRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "JakeRussellWalk376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BecktonParkStation376();" );
+  }
+}
+function JakeRussellWalk376(){
+  getRidOfDestination()
+  JakeRussellWalk()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "JakeRussellWalk376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "JakeRussellWalk376Audio();" );
+  }
+}
+function JakeRussellWalk376Audio(){
+  JakeRussellWalkAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WillThornePavilion376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "StraitRoadStansfeldRoad376();" );
+  }
+}
+function WillThornePavilion376(){
+  getRidOfDestination()
+  WillThornePavilion()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WillThornePavilion376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WillThornePavilion376Audio();" );
+  }
+}
+function WillThornePavilion376Audio(){
+  WillThornePavilionAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "FulmerRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "JakeRussellWalk376();" );
+  }
+}
+function FulmerRoad376(){
+  getRidOfDestination()
+  FulmerRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "FulmerRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "FulmerRoad376Audio();" );
+  }
+}
+function FulmerRoad376Audio(){
+  FulmerRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "SullivanAvenue376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WillThornePavilion376();" );
+  }
+}
+function SullivanAvenue376(){
+  getRidOfDestination()
+  SullivanAvenue()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "SullivanAvenue376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "SullivanAvenue376Audio();" );
+  }
+}
+function SullivanAvenue376Audio(){
+  SullivanAvenueAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "ColmanRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "FulmerRoad376();" );
+  }
+}
+function ColmanRoad376(){
+  getRidOfDestination()
+  ColmanRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "ColmanRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "ColmanRoad376Audio();" );
+  }
+}
+function ColmanRoad376Audio(){
+  ColmanRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BennettRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "SullivanAvenue376();" );
+  }
+}
+function NewhamLeisureCentre376(){
+  getRidOfDestination()
+  NewhamLeisureCentre()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewhamLeisureCentre376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewhamLeisureCentre376Audio();" );
+  }
+}
+function NewhamLeisureCentre376Audio(){
+  NewhamLeisureCentreAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "ColmanRoad376();" );
+  }
+}
+function BennettRoad376(){
+  getRidOfDestination()
+  BennettRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BennettRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BennettRoad376Audio();" );
+  }
+}
+function BennettRoad376Audio(){
+  BennettRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewhamLeisureCentre376();" );
+  }
+}
+function NewhamUniversityHospEmergencyDept376(){
+  getRidOfDestination()
+  NewhamUniversityHospEmergencyDept()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept376Audio();" );
+  }
+}
+function NewhamUniversityHospEmergencyDept376Audio(){
+  NewhamUniversityHospEmergencyDeptAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BennettRoad376();" );
+  }
+}
+function NewhamUniversityHospMainReception376(){
+  getRidOfDestination()
+  NewhamUniversityHospMainReception()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception376Audio();" );
+  }
+}
+function NewhamUniversityHospMainReception376Audio(){
+  NewhamUniversityHospMainReceptionAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BramptonManorSchool376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospEmergencyDept376();" );
+  }
+}
+function BramptonManorSchool376(){
+  getRidOfDestination()
+  BramptonManorSchool()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BramptonManorSchool376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BramptonManorSchool376Audio();" );
+  }
+}
+function BramptonManorSchool376Audio(){
+  BramptonManorSchoolAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewCityRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function NewCityRoad376(){
+  getRidOfDestination()
+  NewCityRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewCityRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewCityRoad376Audio();" );
+  }
+}
+function NewCityRoad376Audio(){
+  NewCityRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WilsonRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WilsonRoad376(){
+  getRidOfDestination()
+  WilsonRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WilsonRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WilsonRoad376Audio();" );
+  }
+}
+function WilsonRoad376Audio(){
+  WilsonRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BarkingRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BarkingRoad376(){
+  getRidOfDestination()
+  BarkingRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BarkingRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BarkingRoad376Audio();" );
+  }
+}
+function BarkingRoad376Audio(){
+  BarkingRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "UptonParkBoleyn376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BecktonOrPrinceRegent376(){
+  getRidOfDestination()
+  BecktonOrPrinceRegent()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BecktonOrPrinceRegent376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BecktonOrPrinceRegent376Audio();" );
+  }
+}
+function BecktonOrPrinceRegent376Audio(){
+  BecktonOrPrinceRegentAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewhamUniversityHospMainReception376();" );
+  }
+}
+function FrintonRoad376(){
+  getRidOfDestination()
+  FrintonRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "FrintonRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "FrintonRoad376Audio();" );
+  }
+}
+function FrintonRoad376Audio(){
+  FrintonRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BecktonOrPrinceRegent376();" );
+  }
+}
+function BensonAvenue376(){
+  getRidOfDestination()
+  BensonAvenue()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BensonAvenue376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BensonAvenue376Audio();" );
+  }
+}
+function BensonAvenue376Audio(){
+  BensonAvenueAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "TudorRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "FrintonRoad376();" );
+  }
+}
+function UptonParkBoleyn376(){
+  getRidOfDestination()
+  UptonParkBoleyn()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "UptonParkBoleyn376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "UptonParkBoleyn376Audio();" );
+  }
+}
+function UptonParkBoleyn376Audio(){
+  UptonParkBoleynAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "TudorRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BensonAvenue376();" );
+  }
+}
+function TudorRoad376(){
+  getRidOfDestination()
+  TudorRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "TudorRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "TudorRoad376Audio();" );
+  }
+}
+function TudorRoad376Audio(){
+  TudorRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "UptonParkStation376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function QueensMarket376(){
+  getRidOfDestination()
+  QueensMarket()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "QueensMarket376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "QueensMarket376Audio();" );
+  }
+}
+function QueensMarket376Audio(){
+  QueensMarketAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "UptonParkBoleyn376();" );
+  }
+}
+function UptonParkStation376(){
+  getRidOfDestination()
+  UptonParkStation()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "UptonParkStation376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "UptonParkStation376Audio();" );
+  }
+}
+function UptonParkStation376Audio(){
+  UptonParkStationAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "PlashetRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "QueensMarket376();" );
+  }
+}
+function PlashetRoad376(){
+  getRidOfDestination()
+  PlashetRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "PlashetRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "PlashetRoad376Audio();" );
+  }
+}
+function PlashetRoad376Audio(){
+  PlashetRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WashingtonRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WashingtonRoad376(){
+  getRidOfDestination()
+  WashingtonRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WashingtonRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WashingtonRoad376Audio();" );
+  }
+}
+function WashingtonRoad376Audio(){
+  WashingtonRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WalpoleRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WalpoleRoad376(){
+  getRidOfDestination()
+  WalpoleRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WalpoleRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WalpoleRoad376Audio();" );
+  }
+}
+function WalpoleRoad376Audio(){
+  WalpoleRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "KatherineRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function GreenStreet376(){
+  getRidOfDestination()
+  GreenStreet()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "GreenStreet376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "GreenStreet376Audio();" );
+  }
+}
+function GreenStreet376Audio(){
+  GreenStreetAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "UptonParkStation376();" );
+  }
+}
+function WhitfieldRoad376(){
+  getRidOfDestination()
+  WhitfieldRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "WhitfieldRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WhitfieldRoad376Audio();" );
+  }
+}
+function WhitfieldRoad376Audio(){
+  WhitfieldRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "GreenStreet376();" );
+  }
+}
+function KatherineRoad376(){
+  getRidOfDestination()
+  KatherineRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "KatherineRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "KatherineRoad376Audio();" );
+  }
+}
+function KatherineRoad376Audio(){
+  KatherineRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "ShrewsburyRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "WhitfieldRoad376();" );
+  }
+}
+function ShrewsburyRoad376(){
+  getRidOfDestination()
+  ShrewsburyRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "ShrewsburyRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "ShrewsburyRoad376Audio();" );
+  }
+}
+function ShrewsburyRoad376Audio(){
+  ShrewsburyRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "PlashetSchool376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "KatherineRoad376();" );
+  }
+}
+function PlashetSchool376(){
+  getRidOfDestination()
+  PlashetSchool()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "PlashetSchool376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "PlashetSchool376Audio();" );
+  }
+}
+function PlashetSchool376Audio(){
+  PlashetSchoolAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "EastHamStation376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "ShrewsburyRoad376();" );
+  }
+}
+function EastHamStation376(){
+  getRidOfDestination()
+  EastHamStation()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "EastHamStation376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "EastHamStation376Audio();" );
+  }
+}
+function EastHamStation376Audio(){
+  EastHamStationAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BendishRoad376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "PlashetSchool376();" );
+  }
+}
+function BendishRoad376(){
+  getRidOfDestination()
+  BendishRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BendishRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BendishRoad376Audio();" );
+  }
+}
+function BendishRoad376Audio(){
+  BendishRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "RonLeightonWay376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "EastHamStation376();" );
+  }
+}
+function RonLeightonWay376(){
+  getRidOfDestination()
+  RonLeightonWay()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "RonLeightonWay376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "RonLeightonWay376Audio();" );
+  }
+}
+function RonLeightonWay376Audio(){
+  RonLeightonWayAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "HighStreetNorth376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HighStreetNorth376(){
+  getRidOfDestination()
+  HighStreetNorth()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "HighStreetNorth376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "HighStreetNorth376Audio();" );
+  }
+}
+function HighStreetNorth376Audio(){
+  HighStreetNorthAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewhamTownHall376();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CaledonRoad376(){
+  getRidOfDestination()
+  CaledonRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "CaledonRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "CaledonRoad376Audio();" );
+  }
+}
+function CaledonRoad376Audio(){
+  CaledonRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "BendishRoad376();" );
+  }
+}
+function KemptonRoad376(){
+  getRidOfDestination()
+  KemptonRoad()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "KemptonRoad376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "KemptonRoad376Audio();" );
+  }
+}
+function KemptonRoad376Audio(){
+  KemptonRoadAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "CaledonRoad376();" );
+  }
+}
+function NewhamTownHall376(){
+  getRidOfDestination()
+  NewhamTownHall()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "NewhamTownHall376Audio();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "NewhamTownHall376Audio();" );
+  }
+}
+function NewhamTownHall376Audio(){
+  NewhamTownHallAudio()
+  if (routeDestination === "EastHamNewhamTownHall376"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "BecktonStation376") {
+    NextDestination.setAttribute( "onClick", "KemptonRoad376();" );
   }
 }
