@@ -13720,11 +13720,11 @@ function ElephantCastleNewKentRoad(){
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
         newIbusDisplayDesText.innerHTML = "Elephant & Castle / New Kent Road";
-        underground.style.display = "none";
+        underground.style.display = "inline";
         overground.style.display = "none";
         DLR.style.display = "none";
         ElizabethLine.style.display = "none";
-        tfl_National_Rail_logo.style.display = "none";
+        tfl_National_Rail_logo.style.display = "inline";
         tfl_trams_Roundel.style.display = "none";
     }
 }
@@ -17909,5 +17909,698 @@ function EastHamManorWay(){
 }
 function EastHamManorWayAudio(){
     iBusAudio.src=firstAudio+"East_Ham_Manor_Way"+lastAudio;
+    iBusAudio.play();
+}
+function CrystalPalaceParadeCollegeRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="none";
+        marquee.style.display = "block";
+        marquee.innerHTML = "Crystal Palace Parade / College Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Crystal Palace Parade / College Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function CrystalPalaceParadeCollegeRoadAudio(){
+    iBusAudio.src=firstAudio+"Crystal_Palace_Parade_College_Road"+lastAudio;
+    iBusAudio.play();
+}
+function WestwoodHill(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Westwood Hill";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Westwood Hill";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WestwoodHillAudio(){
+    iBusAudio.src=firstAudio+"Westwood_Hill"+lastAudio;
+    iBusAudio.play();
+}
+function DomeHillPark(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Dome Hill Park";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Dome Hill Park";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function DomeHillParkAudio(){
+    iBusAudio.src=firstAudio+"Dome_Hill_Park"+lastAudio;
+    iBusAudio.play();
+}
+function WellsParkRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Wells Park Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Wells Park Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WellsParkRoadAudio(){
+    iBusAudio.src=firstAudio+"Wells_Park_Road"+lastAudio;
+    iBusAudio.play();
+}
+function DroitwichClose(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Droitwich Close";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Droitwich Close";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function DroitwichCloseAudio(){
+    iBusAudio.src=firstAudio+"Droitwich_Close"+lastAudio;
+    iBusAudio.play();
+}
+function CrescentWoodRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Crescent Wood Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Crescent Wood Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function CrescentWoodRoadAudio(){
+    iBusAudio.src=firstAudio+"Crescent_Wood_Road"+lastAudio;
+    iBusAudio.play();
+}
+function SydenhamHillKirkdale(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Sydenham Hill / Kirkdale";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Sydenham Hill / Kirkdale";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function SydenhamHillKirkdaleAudio(){
+    iBusAudio.src=firstAudio+"Sydenham_Hill_Kirkdale"+lastAudio;
+    iBusAudio.play();
+}
+function HornimanPark(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Horniman Park";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Horniman Park";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function HornimanParkAudio(){
+    iBusAudio.src=firstAudio+"Horniman_Park"+lastAudio;
+    iBusAudio.play();
+}
+function LordshipLaneWoodVale(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Lordship Lane / Wood Vale";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Lordship Lane / Wood Vale";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LordshipLaneWoodValeAudio(){
+    iBusAudio.src=firstAudio+"Lordship_Lane_Wood_Vale"+lastAudio;
+    iBusAudio.play();
+}
+function UnderhillRoadMelfordRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Underhill Road / Melford Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Underhill Road / Melford Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function UnderhillRoadMelfordRoadAudio(){
+    iBusAudio.src=firstAudio+"Underhill_Road_Melford_Road"+lastAudio;
+    iBusAudio.play();
+}
+function MelfordRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Melford Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Melford Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function MelfordRoadAudio(){
+    iBusAudio.src=firstAudio+"Melford_Road"+lastAudio;
+    iBusAudio.play();
+}
+function LangtonRise(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Langton Rise";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Langton Rise";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LangtonRiseAudio(){
+    iBusAudio.src=firstAudio+"Langton_Rise"+lastAudio;
+    iBusAudio.play();
+}
+function WoodValeForestHillRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Wood Vale / Forest Hill Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Wood Vale / Forest Hill Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WoodValeForestHillRoadAudio(){
+    iBusAudio.src=firstAudio+"Wood_Vale_Forest_Hill_Road"+lastAudio;
+    iBusAudio.play();
+}
+function TherapiaRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Therapia Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Therapia Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function TherapiaRoadAudio(){
+    iBusAudio.src=firstAudio+"Therapia_Road"+lastAudio;
+    iBusAudio.play();
+}
+function DunstansRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Dunstans Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Dunstans Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function DunstansRoadAudio(){
+    iBusAudio.src=firstAudio+"Dunstans_Road"+lastAudio;
+    iBusAudio.play();
+}
+function FriernRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Friern Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Friern Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function FriernRoadAudio(){
+    iBusAudio.src=firstAudio+"Friern_Road"+lastAudio;
+    iBusAudio.play();
+}
+function PeckhamRyeBarryRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Friern Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Friern Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function PeckhamRyeBarryRoadAudio(){
+    iBusAudio.src=firstAudio+"Peckham_Rye_Barry_Road"+lastAudio;
+    iBusAudio.play();
+}
+function TheGardens(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "The Gardens";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "The Gardens";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function TheGardensAudio(){
+    iBusAudio.src=firstAudio+"The_Gardens"+lastAudio;
+    iBusAudio.play();
+}
+function BonarRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Bonar Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Bonar Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function BonarRoadAudio(){
+    iBusAudio.src=firstAudio+"Bonar_Road"+lastAudio;
+    iBusAudio.play();
+}
+function CommercialWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Commercial Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Commercial Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function CommercialWayAudio(){
+    iBusAudio.src=firstAudio+"Commercial_Way"+lastAudio;
+    iBusAudio.play();
+}
+function BirdInBushRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Bird In Bush Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Bird In Bush Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function BirdInBushRoadAudio(){
+    iBusAudio.src=firstAudio+"Bird_In_Bush_Road"+lastAudio;
+    iBusAudio.play();
+}
+function StGeorgesWay(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "St George's Way";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "St George's Way";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function StGeorgesWayAudio(){
+    iBusAudio.src=firstAudio+"St_Georges_Way"+lastAudio;
+    iBusAudio.play();
+}
+function WaiteStreet(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Waite Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Waite Street";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function WaiteStreetAudio(){
+    iBusAudio.src=firstAudio+"Waite_Street"+lastAudio;
+    iBusAudio.play();
+}
+function NileTerrace(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Nile Terrace";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Nile Terrace";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function NileTerraceAudio(){
+    iBusAudio.src=firstAudio+"Nile_Terrace"+lastAudio;
+    iBusAudio.play();
+}
+function DuntonRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Dunton Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Dunton Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function DuntonRoadAudio(){
+    iBusAudio.src=firstAudio+"Dunton_Road"+lastAudio;
+    iBusAudio.play();
+}
+function OldKentRoadEastStreet(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Old Kent Road / East Street";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Old Kent Road / East Street";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function OldKentRoadEastStreetAudio(){
+    iBusAudio.src=firstAudio+"Old_Kent_Road_East_Street"+lastAudio;
+    iBusAudio.play();
+}
+function BricklayersArms(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Bricklayer's Arms";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Bricklayer's Arms";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function BricklayersArmsAudio(){
+    iBusAudio.src=firstAudio+"Bricklayers_Arms"+lastAudio;
+    iBusAudio.play();
+}
+function ElephantCastleLondonRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Elephant & Castle / London Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Elephant & Castle / London Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function ElephantCastleLondonRoadAudio(){
+    iBusAudio.src=firstAudio+"ELEPHANT_N_CASTLE__LONDON_ROAD"+lastAudio;
+    iBusAudio.play();
+}
+function LambethRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Lambeth Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Lambeth Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function LambethRoadAudio(){
+    iBusAudio.src=firstAudio+"Lambeth_Road"+lastAudio;
+    iBusAudio.play();
+}
+function PeckhamPostOffice(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Peckham Post Office";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Peckham Post Office";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function PeckhamPostOfficeAudio(){
+    iBusAudio.src=firstAudio+"Peckham_Post_Office"+lastAudio;
+    iBusAudio.play();
+}
+function UnderhillRoad(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Underhill Road";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Underhill Road";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function UnderhillRoadAudio(){
+    iBusAudio.src=firstAudio+"Underhill_Road"+lastAudio;
+    iBusAudio.play();
+}
+function SydenhamHillBluebellClose(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="block";
+        marquee.style.display = "none";
+        topTextNo.innerHTML = "Sydenham Hill / Bluebell Close";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Sydenham Hill / Bluebell Close";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function SydenhamHillBluebellCloseAudio(){
+    iBusAudio.src=firstAudio+"Sydenham_Hill_Bluebell_Close"+lastAudio;
+    iBusAudio.play();
+}
+function CrystalPalaceParadeFountainDrive(){
+    if (ibusView === "old"){
+        topTextYes.style.display ="none";
+        topTextNo.style.display ="none";
+        marquee.style.display = "block";
+        marquee.innerHTML = "Crystal Palace Parade / Fountain Drive";
+    // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
+    } else if (ibusView === "new"){
+        newIbusDisplayDesText.innerHTML = "Crystal Palace Parade / Fountain Drive";
+        underground.style.display = "none";
+        overground.style.display = "none";
+        DLR.style.display = "none";
+        ElizabethLine.style.display = "none";
+        tfl_National_Rail_logo.style.display = "none";
+        tfl_trams_Roundel.style.display = "none";
+    }
+}
+function CrystalPalaceParadeFountainDriveAudio(){
+    iBusAudio.src=firstAudio+"Crystal_Palace_Parade_Fountain_Drive"+lastAudio;
     iBusAudio.play();
 }
