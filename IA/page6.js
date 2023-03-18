@@ -6,56 +6,6 @@ var bSpace = '<span class="invisible">...</span>'
 var topTextYes = document.getElementById("topTextYes");
 var topTextNo = document.getElementById("topTextNo");
 
-function CCTV(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "CCTV is in operation on this Bus";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/CCTV%20FOI%20Sept.mp3";
-  iBusAudio.play();
-}
-function DestinationChange(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "This bus is on diversion. Please listen for further announcements";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/Destination Change FOI Sept.mp3";
-  iBusAudio.play();
-}
-function DriverChangenew(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Driver Change";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/Driver%20Change%20FOI%20Sept.mp3";
-  iBusAudio.play();
-}
-function Waitnew(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Bus will wait for a short time";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/Even%20Out%20Service%20FOI%20Sept.mp3";
-  iBusAudio.play();
-}
-function Standing(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "No Standing on the Uppder Decks or Stairs";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/No%20Standing%20FOI%20Sept.mp3";
-  iBusAudio.play();
-}
-function moveDown(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Please move down inside the bus";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/Pls%20Mve%20Down%20Bus%20FOI%20Sept.mp3";
-  iBusAudio.play();
-}
-function seats(){
-  topTextYes.style.display ="none";
-  topTextNo.style.display ="block";
-  topTextNo.innerHTML = "Seats are available upstairs";
-  iBusAudio.src="https://istiyaq123.github.io/ibus/audio/Seats%20Upstairs%20FOI%20Sept.mp3";
-  iBusAudio.play();
-}
-
 function BrentfordCountyCourt195btn(){
   RomneyRoad195()
   showDestination.setAttribute( "onClick", "BrentfordCountyCourt195ibus();" );

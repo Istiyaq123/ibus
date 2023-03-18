@@ -9,5 +9,5 @@ function allIbusRight1(){
 function allIbusPlaylists(){
   ibusBtnleft.setAttribute( "onClick", "allIbusLeftPlaylist1();" );
   ibusBtnRight.setAttribute( "onClick", "allIbusRightPlaylist1();" );
-  ibusSearchHistory.innerHTML = btn1+"Astrick"+btn2+"*"+btn3+btn1+"Diversion"+btn2+"Diversion"+btn3+btn1+"Waitnew"+btn2+"Bus will Wait here"+btn3+btn1+"DriverChangenew"+btn2+"Driver Change"+btn3+btn1+"CCTV"+btn2+"CCTV"+btn3+btn1+"DestinationChange"+btn2+"Destination Change"+btn3+btn1+"Standing"+btn2+"No Staning"+btn3+btn1+"moveDown"+btn2+"Move Down"+btn3+btn1+"seats"+btn2+"Seats"+btn3+btn1+"BusTerminatesHere"+btn2+"Bus Terminates Here"+btn3;
+  ibusSearchHistory.innerHTML = btn1+"Astrick"+btn2+"*"+btn3+btn1+"Diversion"+btn2+"Diversion"+btn3+btn1+"Waitnew"+btn2+"Bus will Wait here"+btn3+btn1+"DriverChangenew"+btn2+"Driver Change"+btn3+btn1+"CCTV"+btn2+"CCTV"+btn3+btn1+"DestinationChange"+btn2+"Destination Change"+btn3+btn1+"Standing"+btn2+"No Staning"+btn3+btn1+"moveDown"+btn2+"Move Down"+btn3+btn1+"seats"+btn2+"Seats"+btn3+btn1+"BusTerminatesHere"+btn2+"Bus Terminates Here"+btn3+btn1+"Wait"+btn2+"Wait"+btn3;
 }
