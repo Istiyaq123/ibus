@@ -14,156 +14,182 @@ function ClaphamCommon417btn(){
   CrystalPalaceBusStation417()
   showDestination.setAttribute( "onClick", "ClaphamCommon417ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "417 to Clapham Common";
+  DestinationTextNewIbus()
 }
 function CrystalPalace417btn(){
   routeDestination = "CrystalPalace417";
   WingateSquare417()
   showDestination.setAttribute( "onClick", "CrystalPalace417ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "417 to Crystal Palace";
+  DestinationTextNewIbus()
 }
 function NoakHill294btn(){
   routeDestination = "NoakHill294";
   HaveringPark294()
   showDestination.setAttribute( "onClick", "NoakHill294ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "294 to Noak Hill";
+  DestinationTextNewIbus()
 }
 function HaveringPark294btn(){
   routeDestination = "HaveringPark294";
   WincantonRoad294()
   showDestination.setAttribute( "onClick", "HaveringPark294ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "294 to Havering Park";
+  DestinationTextNewIbus()
 }
 function Aldgate343btn(){
   routeDestination = "Aldgate343";
   NewCrossJerninghamRoad343()
   showDestination.setAttribute( "onClick", "Aldgate343ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "343 to Aldgate";
+  DestinationTextNewIbus()
 }
 function NewCrossGate343btn(){
   routeDestination = "NewCrossGate343";
   AldgateStation343()
   showDestination.setAttribute( "onClick", "NewCrossGate343ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "343 to New Cross Gate";
+  DestinationTextNewIbus()
 }
 function SouthHarrow258btn(){
   routeDestination = "SouthHarrow258";
   WatfordJunctionStation258()
   showDestination.setAttribute( "onClick", "SouthHarrow258ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "258 to South Harrow";
+  DestinationTextNewIbus()
 }
 function WatfordJunction258btn(){
   routeDestination = "WatfordJunction258";
   SouthHarrowBusStation258()
   showDestination.setAttribute( "onClick", "WatfordJunction258ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "258 to Watford Junction";
+  DestinationTextNewIbus()
 }
 function EmersonParkSchool650btn(){
   routeDestination = "EmersonParkSchool650";
   RomfordBusGarage650()
   showDestination.setAttribute( "onClick", "EmersonParkSchool650ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "650 to Emerson Park School";
+  DestinationTextNewIbus()
 }
 function RomfordBusGarage650btn(){
   routeDestination = "RomfordBusGarage650";
   EmersonParkAcademy650()
   showDestination.setAttribute( "onClick", "RomfordBusGarage650ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "650 to Romford Bus Garage";
+  DestinationTextNewIbus()
 }
 function NewMaldenFountainRoundabout152btn(){
   routeDestination = "NewMaldenFountainRoundabout152";
   SouthLodgeAvenueYorkshireRoad152()
   showDestination.setAttribute( "onClick", "NewMaldenFountainRoundabout152ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "152 to New Malden, Fountain Roundabout";
+  DestinationTextNewIbus()
 }
 function PollardsHill152btn(){
   routeDestination = "PollardsHill152";
   WaltonAvenue152()
   showDestination.setAttribute( "onClick", "PollardsHill152ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "152 to Pollards Hill";
+  DestinationTextNewIbus()
 }
 function Lewisham108btn(){
   routeDestination = "Lewisham108";
   StratfordInternationalStation108()
   showDestination.setAttribute( "onClick", "Lewisham108ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "108 to Lewisham Station";
+  DestinationTextNewIbus()
 }
 function StratfordInternational108btn(){
   routeDestination = "StratfordInternational108";
   LewishamCentre108()
   showDestination.setAttribute( "onClick", "StratfordInternational108ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "108 to Stratford International";
+  DestinationTextNewIbus()
 }
 function StratfordInternationalfromCanningTown108btn(){
   routeDestination = "StratfordInternational108";
   CanningTownBusStation108()
   showDestination.setAttribute( "onClick", "StratfordInternational108ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "108 to Stratford International";
+  DestinationTextNewIbus()
 }
 function CanningTown108btn(){
   routeDestination = "CanningTown108";
   StratfordInternationalStation108()
   showDestination.setAttribute( "onClick", "CanningTown108ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "108 to Canning Town Bus Station";
+  DestinationTextNewIbus()
 }
 function Brixton351btn(){
   routeDestination = "Brixton351";
   IsleofDogsPoliceStation351()
   showDestination.setAttribute( "onClick", "Brixton351ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "351 to Brixton";
+  DestinationTextNewIbus()
 }
 function IslandGardens351btn(){
   routeDestination = "IslandGardens351";
   BrixtonStationNR351()
   showDestination.setAttribute( "onClick", "IslandGardens351ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "351 to Cubitt Town, Manchester Road";
+  DestinationTextNewIbus()
 }
 function StokeNewington276btn(){
   routeDestination = "StokeNewington276";
   GatewaySurgicalCentre276()
   showDestination.setAttribute( "onClick", "StokeNewington276ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "276 to Stoke Newington";
+  DestinationTextNewIbus()
 }
 function NewhamHospital276btn(){
   routeDestination = "NewhamHospital276";
   StokeNewingtonCommon276()
   showDestination.setAttribute( "onClick", "NewhamHospital276ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "276 to Newham Hospital";
+  DestinationTextNewIbus()
 }
 function BecktonStation101btn(){
   routeDestination = "BecktonStation101";
   WoodbinePlace101()
   showDestination.setAttribute( "onClick", "BecktonStation101ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "101 to Beckton, Bus Station";
+  DestinationTextNewIbus()
 }
 function Wanstead101btn(){
   routeDestination = "Wanstead101";
   BecktonBusStation101()
   showDestination.setAttribute( "onClick", "Wanstead101ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "101 to Wanstead";
+  DestinationTextNewIbus()
 }
 function EastHamNewhamTownHall376btn(){
   routeDestination = "EastHamNewhamTownHall376";
   BecktonBusStation376()
   showDestination.setAttribute( "onClick", "EastHamNewhamTownHall376ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "376 to East Ham, Newham Town Hall";
+  DestinationTextNewIbus()
 }
 function BecktonStation376btn(){
   routeDestination = "BecktonStation376";
   NewhamTownHall376()
   showDestination.setAttribute( "onClick", "BecktonStation376ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "376 to Beckton, Bus Station";
+  DestinationTextNewIbus()
 }
 function ElephantCastle363btn(){
   routeDestination = "ElephantCastle363";
   CrystalPalaceParade363()
   showDestination.setAttribute( "onClick", "ElephantCastle363ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "363 to Elephant & Castle";
+  DestinationTextNewIbus()
 }
 function CrystalPalace363btn(){
   routeDestination = "CrystalPalace363";
   ElephantCastleLondonRoad363()
   showDestination.setAttribute( "onClick", "CrystalPalace363ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "363 to Crystal Palace";
+  DestinationTextNewIbus()
 }
 
 function ClaphamCommon417ibus(){

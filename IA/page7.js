@@ -86,24 +86,28 @@ function IlfordW19btn(){
   StaffaRoadW19()
   showDestination.setAttribute( "onClick", "IlfordW19ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "W19 to Ilford";
+  DestinationTextNewIbus()
 }
 function WalthamstowArgallAvenueW19btn(){
   routeDestination = "WalthamstowArgallAvenueW19";
   HainaultStreetW19()
   showDestination.setAttribute( "onClick", "WalthamstowArgallAvenueW19ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "W19 to Walthamstow, Argall Avenue";
+  DestinationTextNewIbus()
 }
 function Brimsdown191btn(){
   routeDestination = "Brimsdown191";
   EdmontonGreenBusStation191()
   showDestination.setAttribute( "onClick", "Brimsdown191ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "191 to Brimsdown";
+  DestinationTextNewIbus()
 }
 function EdmontonGreen191btn(){
   routeDestination = "EdmontonGreen191";
   BrimsdownStation191()
   showDestination.setAttribute( "onClick", "EdmontonGreen191ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "191 to Edmonton Green";
+  DestinationTextNewIbus()
 }
 
 function Shadwell339ibus(){
