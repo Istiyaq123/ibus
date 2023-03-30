@@ -165,6 +165,18 @@ function CrystalPalace363btn(){
   showDestination.setAttribute( "onClick", "CrystalPalace363ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "363 to Crystal Palace";
 }
+function FulhamBroadway11btn(){
+  routeDestination = "FulhamBroadway11";
+  PrimroseStreet11()
+  showDestination.setAttribute( "onClick", "FulhamBroadway11ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "11 to Fulham Broadway";
+}
+function LiverpoolStreet11btn(){
+  routeDestination = "LiverpoolStreet11";
+  FulhamTownHall11()
+  showDestination.setAttribute( "onClick", "LiverpoolStreet11ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "11 to Liverpool Street";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -869,6 +881,68 @@ function CrystalPalace363ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_CRYSTAL_PALACE_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function FulhamBroadway11btn(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "11 to Fulham Broadway";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_11_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_FULHAM_BROADWAY_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function LiverpoolStreet11btn(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "11 to Liverpool Street";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_11_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_LIVERPOOL_STREET_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -11808,5 +11882,1060 @@ function LambethRoad363Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "CrystalPalace363") {
     NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+
+function AppoldStreet11(){
+  getRidOfDestination()
+  AppoldStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "AppoldStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "AppoldStreet11Audio();" );
+  }
+}
+function AppoldStreet11Audio(){
+  AppoldStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function PrimroseStreet11(){
+  getRidOfDestination()
+  PrimroseStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "PrimroseStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "PrimroseStreet11Audio();" );
+  }
+}
+function PrimroseStreet11Audio(){
+  PrimroseStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "LiverpoolStreetStation11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "AppoldStreet11();" );
+  }
+}
+function LiverpoolStreetStation11(){
+  getRidOfDestination()
+  LiverpoolStreetStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "LiverpoolStreetStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LiverpoolStreetStation11Audio();" );
+  }
+}
+function LiverpoolStreetStation11Audio(){
+  LiverpoolStreetStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "CamomileStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "PrimroseStreet11();" );
+  }
+}
+function CamomileStreet11(){
+  getRidOfDestination()
+  CamomileStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "CamomileStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CamomileStreet11Audio();" );
+  }
+}
+function CamomileStreet11Audio(){
+  CamomileStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "OldBroadStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function OldBroadStreet11(){
+  getRidOfDestination()
+  OldBroadStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "OldBroadStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "OldBroadStreet11Audio();" );
+  }
+}
+function OldBroadStreet11Audio(){
+  OldBroadStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "PoultryBankStation11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function PoultryBankStation11(){
+  getRidOfDestination()
+  PoultryBankStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "PoultryBankStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "PoultryBankStation11Audio();" );
+  }
+}
+function PoultryBankStation11Audio(){
+  PoultryBankStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "NewChangeCannonStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WormwoodStreet11(){
+  getRidOfDestination()
+  WormwoodStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WormwoodStreet11Audio();" );
+  }
+}
+function WormwoodStreet11Audio(){
+  WormwoodStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LiverpoolStreetStation11();" );
+  }
+}
+function AllHallowsChurch11(){
+  getRidOfDestination()
+  AllHallowsChurch()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "AllHallowsChurch11Audio();" );
+  }
+}
+function AllHallowsChurch11Audio(){
+  AllHallowsChurchAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WormwoodStreet11();" );
+  }
+}
+function LondonWallMoorgateStation11(){
+  getRidOfDestination()
+  LondonWallMoorgateStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LondonWallMoorgateStation11Audio();" );
+  }
+}
+function LondonWallMoorgateStation11Audio(){
+  LondonWallMoorgateStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "AllHallowsChurch11();" );
+  }
+}
+function LondonWallMuseumofLondon11(){
+  getRidOfDestination()
+  LondonWallMuseumofLondon()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LondonWallMuseumofLondon11Audio();" );
+  }
+}
+function LondonWallMuseumofLondon11Audio(){
+  LondonWallMuseumofLondonAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LondonWallMoorgateStation11();" );
+  }
+}
+function LittleBritain11(){
+  getRidOfDestination()
+  LittleBritain()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "LittleBritain11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LittleBritain11Audio();" );
+  }
+}
+function LittleBritain11Audio(){
+  LittleBritainAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LondonWallMuseumofLondon11();" );
+  }
+}
+function StPaulsStation11(){
+  getRidOfDestination()
+  StPaulsStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StPaulsStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "StPaulsStation11Audio();" );
+  }
+}
+function StPaulsStation11Audio(){
+  StPaulsStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LittleBritain11();" );
+  }
+}
+function NewChangeCannonStreet11(){
+  getRidOfDestination()
+  NewChangeCannonStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "NewChangeCannonStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "NewChangeCannonStreet11Audio();" );
+  }
+}
+function NewChangeCannonStreet11Audio(){
+  NewChangeCannonStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StPaulsChurchyard11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "StPaulsStation11();" );
+  }
+}
+function StPaulsChurchyard11(){
+  getRidOfDestination()
+  StPaulsChurchyard()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StPaulsChurchyard11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "StPaulsChurchyard11Audio();" );
+  }
+}
+function StPaulsChurchyard11Audio(){
+  StPaulsChurchyardAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StPaulsCathedral11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StPaulsCathedral11(){
+  getRidOfDestination()
+  StPaulsCathedral()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StPaulsCathedral11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "StPaulsCathedral11Audio();" );
+  }
+}
+function StPaulsCathedral11Audio(){
+  StPaulsCathedralAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "CityThameslinkStnLudgateCircus11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "NewChangeCannonStreet11();" );
+  }
+}
+function CityThameslinkStnLudgateCircus11(){
+  getRidOfDestination()
+  CityThameslinkStnLudgateCircus()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "CityThameslinkStnLudgateCircus11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CityThameslinkStnLudgateCircus11Audio();" );
+  }
+}
+function CityThameslinkStnLudgateCircus11Audio(){
+  CityThameslinkStnLudgateCircusAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "ShoeLane11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ShoeLane11(){
+  getRidOfDestination()
+  ShoeLane()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "ShoeLane11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "ShoeLane11Audio();" );
+  }
+}
+function ShoeLane11Audio(){
+  ShoeLaneAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "FetterLane11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LudgateHillOldBailey11(){
+  getRidOfDestination()
+  LudgateHillOldBailey()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "LudgateCircus11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LudgateHillOldBailey11Audio();" );
+  }
+}
+function LudgateHillOldBailey11Audio(){
+  LudgateHillOldBaileyAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "StPaulsCathedral11();" );
+  }
+}
+function LudgateCircus11(){
+  getRidOfDestination()
+  LudgateCircus()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "LudgateCircus11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LudgateCircus11Audio();" );
+  }
+}
+function LudgateCircus11Audio(){
+  LudgateCircusAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LudgateHillOldBailey11();" );
+  }
+}
+function FetterLane11(){
+  getRidOfDestination()
+  FetterLane()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "FetterLane11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "FetterLane11Audio();" );
+  }
+}
+function FetterLane11Audio(){
+  FetterLaneAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "ChanceryLane11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "LudgateCircus11();" );
+  }
+}
+function ChanceryLane11(){
+  getRidOfDestination()
+  ChanceryLane()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "ChanceryLane11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "ChanceryLane11Audio();" );
+  }
+}
+function ChanceryLane11Audio(){
+  ChanceryLaneAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJustice11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TheRoyalCourtsofJustice11(){
+  getRidOfDestination()
+  TheRoyalCourtsofJustice()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJustice11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJustice11Audio();" );
+  }
+}
+function TheRoyalCourtsofJustice11Audio(){
+  TheRoyalCourtsofJusticeAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "AldwychAustraliaHouse11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "FetterLane11();" );
+  }
+}
+function AldwychAustraliaHouse11(){
+  getRidOfDestination()
+  AldwychAustraliaHouse()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "AldwychAustraliaHouse11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "AldwychAustraliaHouse11Audio();" );
+  }
+}
+function AldwychAustraliaHouse11Audio(){
+  AldwychAustraliaHouseAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "AldwychDruryLane11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AldwychDruryLane11(){
+  getRidOfDestination()
+  AldwychDruryLane()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "AldwychDruryLane11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "AldwychDruryLane11Audio();" );
+  }
+}
+function AldwychDruryLane11Audio(){
+  AldwychDruryLaneAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "SavoyStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function SavoyStreet11(){
+  getRidOfDestination()
+  SavoyStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "SavoyStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "SavoyStreet11Audio();" );
+  }
+}
+function SavoyStreet11Audio(){
+  SavoyStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "BedfordStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BedfordStreet11(){
+  getRidOfDestination()
+  BedfordStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "BedfordStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "BedfordStreet11Audio();" );
+  }
+}
+function BedfordStreet11Audio(){
+  BedfordStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "TrafalgarSquareCharingCrossStn11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TrafalgarSquareCharingCrossStn11(){
+  getRidOfDestination()
+  TrafalgarSquareCharingCrossStn()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "TrafalgarSquareCharingCrossStn11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "TrafalgarSquareCharingCrossStn11Audio();" );
+  }
+}
+function TrafalgarSquareCharingCrossStn11Audio(){
+  TrafalgarSquareCharingCrossStnAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WhitehallTrafalgarSquare11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WhitehallTrafalgarSquare11(){
+  getRidOfDestination()
+  WhitehallTrafalgarSquare()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WhitehallTrafalgarSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WhitehallTrafalgarSquare11Audio();" );
+  }
+}
+function WhitehallTrafalgarSquare11Audio(){
+  WhitehallTrafalgarSquareAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "HorseGuardsParade11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function Aldwych11(){
+  getRidOfDestination()
+  Aldwych()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "Aldwych11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "Aldwych11Audio();" );
+  }
+}
+function Aldwych11Audio(){
+  AldwychAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJustice11();" );
+  }
+}
+function SouthamptonStreetCoventGarden11(){
+  getRidOfDestination()
+  SouthamptonStreetCoventGarden()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "SouthamptonStreetCoventGarden11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "SouthamptonStreetCoventGarden11Audio();" );
+  }
+}
+function SouthamptonStreetCoventGarden11Audio(){
+  SouthamptonStreetCoventGardenAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "Aldwych11();" );
+  }
+}
+function CharingCrossStnTrafalgarSquare11(){
+  getRidOfDestination()
+  CharingCrossStnTrafalgarSquare()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "CharingCrossStnTrafalgarSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CharingCrossStnTrafalgarSquare11Audio();" );
+  }
+}
+function CharingCrossStnTrafalgarSquare11Audio(){
+  CharingCrossStnTrafalgarSquareAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "SouthamptonStreetCoventGarden11();" );
+  }
+}
+function HorseGuardsParade11(){
+  getRidOfDestination()
+  HorseGuardsParade()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "HorseGuardsParade11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "HorseGuardsParade11Audio();" );
+  }
+}
+function HorseGuardsParade11Audio(){
+  HorseGuardsParadeAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterStnParliamentSquare11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CharingCrossStnTrafalgarSquare11();" );
+  }
+}
+function WestminsterStnParliamentSquare11(){
+  getRidOfDestination()
+  WestminsterStnParliamentSquare()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterStnParliamentSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterStnParliamentSquare11Audio();" );
+  }
+}
+function WestminsterStnParliamentSquare11Audio(){
+  WestminsterStnParliamentSquareAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "GreatSmithStreetWestminsterAbbey11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "HorseGuardsParade11();" );
+  }
+}
+function GreatSmithStreetWestminsterAbbey11(){
+  getRidOfDestination()
+  GreatSmithStreetWestminsterAbbey()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "GreatSmithStreetWestminsterAbbey11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "GreatSmithStreetWestminsterAbbey11Audio();" );
+  }
+}
+function GreatSmithStreetWestminsterAbbey11Audio(){
+  GreatSmithStreetWestminsterAbbeyAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StJamessParkStation11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WestminsterAbbey11(){
+  getRidOfDestination()
+  WestminsterAbbey()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StJamessParkStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterAbbey11Audio();" );
+  }
+}
+function WestminsterAbbey11Audio(){
+  WestminsterAbbeyAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterCityHall11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterStnParliamentSquare11();" );
+  }
+}
+function StJamessParkStation11(){
+  getRidOfDestination()
+  StJamessParkStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "StJamessParkStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "StJamessParkStation11Audio();" );
+  }
+}
+function StJamessParkStation11Audio(){
+  StJamessParkStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterCityHall11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterAbbey11();" );
+  }
+}
+function WestminsterCityHall11(){
+  getRidOfDestination()
+  WestminsterCityHall()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterCityHall11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterCityHall11Audio();" );
+  }
+}
+function WestminsterCityHall11Audio(){
+  WestminsterCityHallAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterCathedralVictoriaStn11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "StJamessParkStation11();" );
+  }
+}
+function WestminsterCathedralVictoriaStn11(){
+  getRidOfDestination()
+  WestminsterCathedralVictoriaStn()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterCathedralVictoriaStn11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterCathedralVictoriaStn11Audio();" );
+  }
+}
+function WestminsterCathedralVictoriaStn11Audio(){
+  WestminsterCathedralVictoriaStnAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "VictoriaStation11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WestminsterCathedral11(){
+  getRidOfDestination()
+  WestminsterCathedral()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WestminsterCathedral11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterCathedral11Audio();" );
+  }
+}
+function WestminsterCathedral11Audio(){
+  WestminsterCathedralAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterCityHall11();" );
+  }
+}
+function VictoriaStation11(){
+  getRidOfDestination()
+  VictoriaStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "VictoriaStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "VictoriaStation11Audio();" );
+  }
+}
+function VictoriaStation11Audio(){
+  VictoriaStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "VictoriaCoachStation11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WestminsterCathedral11();" );
+  }
+}
+function EcclestonBridge11(){
+  getRidOfDestination()
+  EcclestonBridge()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "EcclestonBridge11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "EcclestonBridge11Audio();" );
+  }
+}
+function EcclestonBridge11Audio(){
+  EcclestonBridgeAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "PimlicoRoadEburyBridgeRoad11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "VictoriaStation11();" );
+  }
+}
+function VictoriaCoachStation11(){
+  getRidOfDestination()
+  VictoriaCoachStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "VictoriaCoachStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "VictoriaCoachStation11Audio();" );
+  }
+}
+function VictoriaCoachStation11Audio(){
+  VictoriaCoachStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "PimlicoRoadEburyBridgeRoad11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "EcclestonBridge11();" );
+  }
+}
+function PimlicoRoadEburyBridgeRoad11(){
+  getRidOfDestination()
+  PimlicoRoadEburyBridgeRoad()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "PimlicoRoadEburyBridgeRoad11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "PimlicoRoadEburyBridgeRoad11Audio();" );
+  }
+}
+function PimlicoRoadEburyBridgeRoad11Audio(){
+  PimlicoRoadEburyBridgeRoadAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "RoyalHospitalRoad11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function RoyalHospitalRoad11(){
+  getRidOfDestination()
+  RoyalHospitalRoad()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "RoyalHospitalRoad11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "RoyalHospitalRoad11Audio();" );
+  }
+}
+function RoyalHospitalRoad11Audio(){
+  RoyalHospitalRoadAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "SloaneSquareStation11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function SloaneSquareStation11(){
+  getRidOfDestination()
+  SloaneSquareStation()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "SloaneSquareStation11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "SloaneSquareStation11Audio();" );
+  }
+}
+function SloaneSquareStation11Audio(){
+  SloaneSquareStationAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "DukeofYorkSquare11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function EburyBridgeRoad11(){
+  getRidOfDestination()
+  EburyBridgeRoad()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "EburyBridgeRoad11Audio();" );
+  }
+}
+function EburyBridgeRoad11Audio(){
+  EburyBridgeRoadAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "VictoriaCoachStation11();" );
+  }
+}
+function ChelseaBridgeRoad11(){
+  getRidOfDestination()
+  ChelseaBridgeRoad()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "DukeofYorkSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "ChelseaBridgeRoad11Audio();" );
+  }
+}
+function ChelseaBridgeRoad11Audio(){
+  ChelseaBridgeRoadAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "EburyBridgeRoad11();" );
+  }
+}
+function SloaneSquareStnLowerSloaneSt11(){
+  getRidOfDestination()
+  SloaneSquareStnLowerSloaneSt()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "DukeofYorkSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "SloaneSquareStnLowerSloaneSt11Audio();" );
+  }
+}
+function SloaneSquareStnLowerSloaneSt11Audio(){
+  SloaneSquareStnLowerSloaneStAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "ChelseaBridgeRoad11();" );
+  }
+}
+function CadoganGardensSloaneSquare11(){
+  getRidOfDestination()
+  CadoganGardensSloaneSquare()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "DukeofYorkSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CadoganGardensSloaneSquare11Audio();" );
+  }
+}
+function CadoganGardensSloaneSquare11Audio(){
+  CadoganGardensSloaneSquareAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "SloaneSquareStnLowerSloaneSt11();" );
+  }
+}
+function DukeofYorkSquare11(){
+  getRidOfDestination()
+  DukeofYorkSquare()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "DukeofYorkSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "DukeofYorkSquare11Audio();" );
+  }
+}
+function DukeofYorkSquare11Audio(){
+  DukeofYorkSquareAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WalpoleStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CadoganGardensSloaneSquare11();" );
+  }
+}
+function WalpoleStreet11(){
+  getRidOfDestination()
+  WalpoleStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WalpoleStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WalpoleStreet11Audio();" );
+  }
+}
+function WalpoleStreet11Audio(){
+  WalpoleStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "MarkhamStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MarkhamStreet11(){
+  getRidOfDestination()
+  MarkhamStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "MarkhamStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "MarkhamStreet11Audio();" );
+  }
+}
+function MarkhamStreet11Audio(){
+  MarkhamStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "ChelseaOldTownHall11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "DukeofYorkSquare11();" );
+  }
+}
+function ChelseaOldTownHall11(){
+  getRidOfDestination()
+  ChelseaOldTownHall()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "ChelseaOldTownHall11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "ChelseaOldTownHall11Audio();" );
+  }
+}
+function ChelseaOldTownHall11Audio(){
+  ChelseaOldTownHallAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "CarlyleSquare11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "MarkhamStreet11();" );
+  }
+}
+function CarlyleSquare11(){
+  getRidOfDestination()
+  CarlyleSquare()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "CarlyleSquare11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CarlyleSquare11Audio();" );
+  }
+}
+function CarlyleSquare11Audio(){
+  CarlyleSquareAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "BeaufortStreet11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "ChelseaOldTownHall11();" );
+  }
+}
+function OldChurchStreet11(){
+  getRidOfDestination()
+  OldChurchStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "OldChurchStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "OldChurchStreet11Audio();" );
+  }
+}
+function OldChurchStreet11Audio(){
+  OldChurchStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "CarlyleSquare11();" );
+  }
+}
+function BeaufortStreet11(){
+  getRidOfDestination()
+  BeaufortStreet()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "BeaufortStreet11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "BeaufortStreet11Audio();" );
+  }
+}
+function BeaufortStreet11Audio(){
+  BeaufortStreetAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "EdithGroveWorldsEnd11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "OldChurchStreet11();" );
+  }
+}
+function HoburyStreetWorldsEnd11(){
+  getRidOfDestination()
+  HoburyStreetWorldsEnd()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "HoburyStreetWorldsEnd11Audio();" );
+  }
+}
+function HoburyStreetWorldsEnd11Audio(){
+  HoburyStreetWorldsEndAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "=();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "BeaufortStreet11();" );
+  }
+}
+function EdithGroveWorldsEnd11(){
+  getRidOfDestination()
+  EdithGroveWorldsEnd()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "EdithGroveWorldsEnd11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "EdithGroveWorldsEnd11Audio();" );
+  }
+}
+function EdithGroveWorldsEnd11Audio(){
+  EdithGroveWorldsEndAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WorldsEndHealthCentre11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "HoburyStreetWorldsEnd11();" );
+  }
+}
+function WorldsEndHealthCentre11(){
+  getRidOfDestination()
+  WorldsEndHealthCentre()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "WorldsEndHealthCentre11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WorldsEndHealthCentre11Audio();" );
+  }
+}
+function WorldsEndHealthCentre11Audio(){
+  WorldsEndHealthCentreAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "RumboldRoad11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "EdithGroveWorldsEnd11();" );
+  }
+}
+function RumboldRoad11(){
+  getRidOfDestination()
+  RumboldRoad()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "RumboldRoad11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "RumboldRoad11Audio();" );
+  }
+}
+function RumboldRoad11Audio(){
+  RumboldRoadAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "TyrawleyRoad11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "WorldsEndHealthCentre11();" );
+  }
+}
+function TyrawleyRoad11(){
+  getRidOfDestination()
+  TyrawleyRoad()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "TyrawleyRoad11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "TyrawleyRoad11Audio();" );
+  }
+}
+function TyrawleyRoad11Audio(){
+  TyrawleyRoadAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "FulhamTownHall11();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "RumboldRoad11();" );
+  }
+}
+function FulhamTownHall11(){
+  getRidOfDestination()
+  FulhamTownHall()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "FulhamTownHall11Audio();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "FulhamTownHall11Audio();" );
+  }
+}
+function FulhamTownHall11Audio(){
+  FulhamTownHallAudio()
+  if (routeDestination === "FulhamBroadway11"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "LiverpoolStreet11") {
+    NextDestination.setAttribute( "onClick", "TyrawleyRoad11();" );
   }
 }
