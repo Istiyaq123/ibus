@@ -9,6 +9,8 @@ function Astrick(){
         topTextNo.innerHTML = "*";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "*";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -71,6 +73,8 @@ function moveDown(){
         topTextNo.innerHTML = "Please move down the bus";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Please move down the bus";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -91,6 +95,8 @@ function CCTV(){
         topTextNo.innerHTML = "CCTV in use";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "CCTV in use";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -133,6 +139,8 @@ function DriverChangenew(){
         topTextNo.innerHTML = "Driver Change";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Driver Change";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -153,6 +161,8 @@ function Standing(){
         topTextNo.innerHTML = "No Standing on upper deck";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "No Standing on upper deck";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -173,6 +183,8 @@ function seats(){
         topTextNo.innerHTML = "Seats available upstairs";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Seats available upstairs";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -952,6 +964,8 @@ function LeytonstoneStnGroveGreenRoad(){
         marquee.innerHTML = "Leytonstone Stn / Grove Green Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leytonstone Stn / Grove Green Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -1159,6 +1173,8 @@ function FordRoad(){
         topTextNo.innerHTML = "Ford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ford Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -1181,6 +1197,8 @@ function MedwayRoad(){
         topTextNo.innerHTML = "Medway Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Medway Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -1238,6 +1256,8 @@ function MileEndStationBowRoad(){
         // topTextYes.style.animationName = "RothburyRoad";
     } else if (ibusView === "new"){
         console.log("Oh now");
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mile End Station / Bow Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -1392,6 +1412,8 @@ function RomanRoadGroveRoad()
         topTextNo.innerHTML = "Roman Road / Grove Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Roman Road / Grove Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -1968,6 +1990,8 @@ function MileEndStation(){
         topTextNo.innerHTML = "Mile End Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mile End Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -2046,6 +2070,8 @@ function WalthamstowBusStation(){
         topTextNo.innerHTML = "Walthamstow Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Walthamstow Bus Station ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -2069,6 +2095,8 @@ function GrosvenorParkRoad(){
         topTextNo.innerHTML = "Grosvenor Park Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Grosvenor Park Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -2092,6 +2120,8 @@ function GroveRoad(){
         topTextNo.innerHTML = "Grove Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Grove Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -2115,6 +2145,8 @@ function BakersAvenue(){
         topTextNo.innerHTML = "Bakers Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bakers Avenue ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -2468,6 +2500,8 @@ function LeaBridgeRoadBakersArms(){
         topTextNo.innerHTML = "Lea Bridge Road / Bakers Arms";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lea Bridge Road / Bakers Arms ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -2490,6 +2524,8 @@ function HoeStreetBakersArms(){
         topTextNo.innerHTML = "Hoe Street / Bakers Arms";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hoe Street / Bakers Arms";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -2512,6 +2548,8 @@ function QueensRoad(){
         topTextNo.innerHTML = "Queen's Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Queen's Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3331,6 +3369,8 @@ function GreenManRoundabout(){
         topTextNo.innerHTML = "Green Man Roundabout";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Green Man Roundabout";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3485,6 +3525,8 @@ function EmpressAvenue(){
         topTextNo.innerHTML = "Empress Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Empress Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3606,6 +3648,8 @@ function CobornRoad(){
         topTextNo.innerHTML = "Coborn Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Coborn Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3628,6 +3672,8 @@ function BowRoadStation(){
         topTextNo.innerHTML = "Bow Road Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bow Road Station ";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -3650,6 +3696,8 @@ function BowChurchStation(){
         topTextNo.innerHTML = "Bow Church Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bow Church Station ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3672,6 +3720,8 @@ function BowBusGarage(){
         topTextNo.innerHTML = "Bow Bus Garage";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bow Bus Garage ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3694,6 +3744,8 @@ function TredegarRoad(){
         topTextNo.innerHTML = "Tredegar Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tredegar Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3716,6 +3768,8 @@ function RomanRoadMarket(){
         topTextNo.innerHTML = "Roman Road Market";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Roman Road Market ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3738,6 +3792,8 @@ function OldFordRoad(){
         topTextNo.innerHTML = "Old Ford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Old Ford Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3760,6 +3816,8 @@ function ParnellRoad(){
         topTextNo.innerHTML = "Parnell Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Parnell Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3782,6 +3840,8 @@ function AliceLane(){
         topTextNo.innerHTML = "Alice Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Alice Lane ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3804,6 +3864,8 @@ function HaverfieldGreenGroveRoad(){
         topTextNo.innerHTML = "Haverfield Green / Grove Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Haverfield Green / Grove Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3826,6 +3888,8 @@ function BonnerStreet(){
         topTextNo.innerHTML = "Bonner Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bonner Street ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3848,6 +3912,8 @@ function CyprusStreet(){
         topTextNo.innerHTML = "Cyprus Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cyprus Street ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3870,6 +3936,8 @@ function BonnerRoad(){
         topTextNo.innerHTML = "Bonner Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bonner Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3892,6 +3960,8 @@ function PeelGrove(){
         topTextNo.innerHTML = "Peel Grove";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peel Grove ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3914,6 +3984,8 @@ function BethnalGreenStation(){
         topTextNo.innerHTML = "Bethnal Green Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bethnal Green Station ";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -3936,6 +4008,8 @@ function BurnhamStreet(){
         topTextNo.innerHTML = "Burnham Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Burnham Street ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3958,6 +4032,8 @@ function SmartStreet(){
         topTextNo.innerHTML = "Smart Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Smart Street ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -3980,6 +4056,8 @@ function BowChurch(){
         topTextNo.innerHTML = "Bow Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bow Church ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4002,6 +4080,8 @@ function StaffaRoad(){
         topTextNo.innerHTML = "Staffa Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Staffa Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4024,6 +4104,8 @@ function ArgallAvenueIndustrialEstate(){
         topTextNo.innerHTML = "Argall Avenue Industrial Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Argall Avenue Industrial Estate ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4046,6 +4128,8 @@ function BarnCroftPrimarySchool(){
         topTextNo.innerHTML = "Barn Croft Primary School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Barn Croft Primary School ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4068,6 +4152,8 @@ function MarkhouseAvenue(){
         topTextNo.innerHTML = "Markhouse Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Markhouse Avenue ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4090,6 +4176,8 @@ function SouthGrove(){
         topTextNo.innerHTML = "South Grove";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "South Grove ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4112,6 +4200,8 @@ function SelborneWalkVernonRoad(){
         topTextNo.innerHTML = "Selborne Walk / Vernon Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Selborne Walk / Vernon Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4134,6 +4224,8 @@ function SelborneWalk(){
         topTextNo.innerHTML = "Selborne Walk";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Selborne Walk ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4156,6 +4248,8 @@ function WalthamstowCentralStation(){
         topTextNo.innerHTML = "Walthamstow Central Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Walthamstow Central Station ";
         underground.style.display = "inline";
         overground.style.display = "inline";
@@ -4178,6 +4272,8 @@ function LeytonGreenRoad(){
         topTextNo.innerHTML = "Leyton Green Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leyton Green Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4200,6 +4296,8 @@ function ShernhallStreet(){
         topTextNo.innerHTML = "Shernhall Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shernhall Street ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4222,6 +4320,8 @@ function PeterboroughRoad(){
         topTextNo.innerHTML = "Peterborough Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peterborough Road ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4244,6 +4344,8 @@ function WhippsCrossWoodStreet(){
         topTextNo.innerHTML = "Whipps Cross / Wood Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Whipps Cross / Wood Street ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4266,6 +4368,8 @@ function WhippsCrossBusStand(){
         topTextNo.innerHTML = "Whipps Cross Bus Stand";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Whipps Cross Bus Stand ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4288,6 +4392,8 @@ function WhippsCrossHospitalMainEntrance(){
         marquee.innerHTML = "Whipps Cross Hospital / Main Entrance";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Whipps Cross Hospital / Main Entrance ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4310,6 +4416,8 @@ function WhippsCrossHospitalAE(){
         topTextNo.innerHTML = "Whipps Cross Hospital / A & E";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Whipps Cross Hospital / A & E ";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4332,6 +4440,8 @@ function ClareRoad(){
         topTextNo.innerHTML = "Clare Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Clare Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4354,6 +4464,8 @@ function EssexRoadSouth(){
         topTextNo.innerHTML = "Essex Road South";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Essex Road South";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4376,6 +4488,8 @@ function ElimPentecostalChurch(){
         topTextNo.innerHTML = "Elim Pentecostal Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Elim Pentecostal Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4398,6 +4512,8 @@ function ClarendonRoad(){
         topTextNo.innerHTML = "Clarendon Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Clarendon Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4420,6 +4536,8 @@ function GainsboroughRoad(){
         topTextNo.innerHTML = "Gainsborough Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gainsborough Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4442,6 +4560,8 @@ function BushRoadGreenManRoundabout(){
         marquee.innerHTML = "Bush Road / Green Man Roundabout";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bush Road / Green Man Roundabout";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4464,6 +4584,8 @@ function BlakeHallCrescent(){
         topTextNo.innerHTML = "Blake Hall Crescent";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Blake Hall Crescent";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4486,6 +4608,8 @@ function QueenswoodGardens(){
         topTextNo.innerHTML = "Queenswood Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Queenswood Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4508,6 +4632,8 @@ function ParkRoad(){
         topTextNo.innerHTML = "Park Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Park Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4530,6 +4656,8 @@ function HerongateRoad(){
         topTextNo.innerHTML = "Herongate Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Herongate Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4552,6 +4680,8 @@ function MerlinRoad(){
         topTextNo.innerHTML = "Merlin Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Merlin Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4574,6 +4704,8 @@ function CityofLondonCemetery(){
         topTextNo.innerHTML = "City of London Cemetery";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "City of London Cemetery";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4596,6 +4728,8 @@ function CapelRoad(){
         topTextNo.innerHTML = "Capel Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Capel Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4618,6 +4752,8 @@ function ManorParkStation(){
         topTextNo.innerHTML = "Manor Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Manor Park Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4640,6 +4776,8 @@ function RomfordRoad(){
         topTextNo.innerHTML = "Romford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Romford Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4662,6 +4800,8 @@ function FirstAvenue(){
         topTextNo.innerHTML = "First Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "First Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4684,6 +4824,8 @@ function RabbitsRoad(){
         topTextNo.innerHTML = "Rabbits Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rabbits Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4706,6 +4848,8 @@ function SeventhAvenue(){
         topTextNo.innerHTML = "Seventh Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Seventh Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4728,6 +4872,8 @@ function LittleIlfordLane(){
         topTextNo.innerHTML = "Little Ilford Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Little Ilford Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4750,6 +4896,8 @@ function NorthCircularRoad(){
         topTextNo.innerHTML = "North Circular Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "North Circular Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4772,6 +4920,8 @@ function IlfordHill(){
         topTextNo.innerHTML = "Ilford Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ilford Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4794,6 +4944,8 @@ function ChapelRoad(){
         topTextNo.innerHTML = "Chapel Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chapel Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4816,6 +4968,8 @@ function RedbridgeCentralLibrary(){
         topTextNo.innerHTML = "Redbridge Central Library";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Redbridge Central Library";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4838,6 +4992,8 @@ function HainaultStreet(){
         topTextNo.innerHTML = "Hainault Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hainault Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4860,6 +5016,8 @@ function IlfordBroadway(){
         topTextNo.innerHTML = "Ilford Broadway";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ilford Broadway";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4882,6 +5040,8 @@ function DersinghamAvenue(){
         topTextNo.innerHTML = "Dersingham Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Dersingham Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4904,6 +5064,8 @@ function HighStreetNorth(){
         topTextNo.innerHTML = "High Street North";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "High Street North";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4926,6 +5088,8 @@ function WansteadParkAvenue(){
         topTextNo.innerHTML = "Wanstead Park Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wanstead Park Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4948,6 +5112,8 @@ function DoverRoad(){
         topTextNo.innerHTML = "Dover Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Dover Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4970,6 +5136,8 @@ function EssexRoad(){
         topTextNo.innerHTML = "Essex Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Essex Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -4992,6 +5160,8 @@ function EdmontonGreenBusStation(){
         topTextNo.innerHTML = "Edmonton Green Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Edmonton Green Bus Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5014,6 +5184,8 @@ function MonmouthRoad(){
         topTextNo.innerHTML = "Monmouth Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Monmouth Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5036,6 +5208,8 @@ function BouncesRoad(){
         topTextNo.innerHTML = "Bounces Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bounces Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5058,6 +5232,8 @@ function StEdmundsCatholicPrimarySchool(){
         marquee.innerHTML = "St Edmunds Catholic Primary School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Edmunds Catholic Primary School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5080,6 +5256,8 @@ function ChesterRoad(){
         topTextNo.innerHTML = "Chester Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chester Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5102,6 +5280,8 @@ function ExeterRoad(){
         topTextNo.innerHTML = "Exeter Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Exeter Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5124,6 +5304,8 @@ function MontaguRoad(){
         topTextNo.innerHTML = "Montagu Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Montagu Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5146,6 +5328,8 @@ function StMarysRoad(){
         topTextNo.innerHTML = "St Mary's Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Mary's Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5168,6 +5352,8 @@ function ShirleyGrove(){
         topTextNo.innerHTML = "Shirley Grove";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shirley Grove";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5190,6 +5376,8 @@ function ScarboroughRoad(){
         topTextNo.innerHTML = "Scarborough Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Scarborough Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5212,6 +5400,8 @@ function NightingaleRoad(){
         topTextNo.innerHTML = "Nightingale Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Nightingale Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5234,6 +5424,8 @@ function OrchardRoad(){
         topTextNo.innerHTML = "Orchard Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Orchard Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5256,6 +5448,8 @@ function FalconRoad(){
         topTextNo.innerHTML = "Falcon Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Falcon Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5278,6 +5472,8 @@ function PondersEndStnOasisAcademyHadley(){
         marquee.innerHTML = "Ponders End Stn / Oasis Academy Hadley";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ponders End Stn / Oasis Academy Hadley";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5300,6 +5496,8 @@ function ScotlandGreenRoad(){
         topTextNo.innerHTML = "Scotland Green Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Scotland Green Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5322,6 +5520,8 @@ function AlexandraRoad(){
         topTextNo.innerHTML = "Alexandra Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Alexandra Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5344,6 +5544,8 @@ function PondersEndHighStreet(){
         topTextNo.innerHTML = "Ponders End High Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ponders End High Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5366,6 +5568,8 @@ function GlynRoad(){
         topTextNo.innerHTML = "Glyn Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Glyn Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5388,6 +5592,8 @@ function EnfieldBusGarageSouthburyStation(){
         marquee.innerHTML = "Enfield Bus Garage / Southbury Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Enfield Bus Garage / Southbury Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5410,6 +5616,8 @@ function CrownRoad(){
         topTextNo.innerHTML = "Crown Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crown Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5432,6 +5640,8 @@ function BairdRoad(){
         topTextNo.innerHTML = "Baird Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Baird Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5454,6 +5664,8 @@ function GreatCambridgeRoad(){
         topTextNo.innerHTML = "Great Cambridge Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Great Cambridge Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5476,6 +5688,8 @@ function PercivalRoad(){
         topTextNo.innerHTML = "Percival Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Percival Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5498,6 +5712,8 @@ function CecilAvenue(){
         topTextNo.innerHTML = "Cecil Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cecil Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5520,6 +5736,8 @@ function LadysmithRoad(){
         topTextNo.innerHTML = "Ladysmith Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ladysmith Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5542,6 +5760,8 @@ function EnfieldTownStation(){
         topTextNo.innerHTML = "Enfield Town Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Enfield Town Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -5564,6 +5784,8 @@ function EnfieldTownCecilRoad(){
         topTextNo.innerHTML = "Enfield Town / Cecil Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Enfield Town / Cecil Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5586,6 +5808,8 @@ function WindmillHillEnfieldWarMemorial(){
         topTextNo.innerHTML = "Windmill Hill / Enfield War Memorial";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Windmill Hill / Enfield War Memorial";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5608,6 +5832,8 @@ function ParsonageLane(){
         topTextNo.innerHTML = "Parsonage Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Parsonage Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5630,6 +5856,8 @@ function GordonHill(){
         topTextNo.innerHTML = "Gordon Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gordon Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5652,6 +5880,8 @@ function LavenderHill(){
         topTextNo.innerHTML = "Lavender Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lavender Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5674,6 +5904,8 @@ function BrowningRoad(){
         topTextNo.innerHTML = "Browning Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Browning Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5696,6 +5928,8 @@ function BakerStreet(){
         topTextNo.innerHTML = "Baker Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Baker Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5718,6 +5952,8 @@ function KenilworthCrescent(){
         topTextNo.innerHTML = "Kenilworth Crescent";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kenilworth Crescent";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5740,6 +5976,8 @@ function FortyHill(){
         topTextNo.innerHTML = "Forty Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Forty Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5762,6 +6000,8 @@ function WillowRoad(){
         topTextNo.innerHTML = "Willow Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Willow Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5784,6 +6024,8 @@ function LinwoodCrescent(){
         topTextNo.innerHTML = "Linwood Crescent";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Linwood Crescent";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5806,6 +6048,8 @@ function BaynesClose(){
         topTextNo.innerHTML = "Baynes Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Baynes Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5828,6 +6072,8 @@ function LarksfieldGrove(){
         topTextNo.innerHTML = "Larksfield Grove";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Larksfield Grove";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5850,6 +6096,8 @@ function SherborneAvenue(){
         topTextNo.innerHTML = "Sherborne Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sherborne Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5872,6 +6120,8 @@ function OatlandsRoad(){
         topTextNo.innerHTML = "Oatlands Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Oatlands Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5894,6 +6144,8 @@ function DurantsSchool(){
         topTextNo.innerHTML = "Durants School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Durants School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5916,6 +6168,8 @@ function IngersollRoad(){
         topTextNo.innerHTML = "Ingersoll Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ingersoll Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5938,6 +6192,8 @@ function HertfordRoad(){
         topTextNo.innerHTML = "Hertford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hertford Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5960,6 +6216,8 @@ function AlbanyParkAvenue(){
         topTextNo.innerHTML = "Albany Park Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Albany Park Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -5982,6 +6240,8 @@ function CastleRoad(){
         topTextNo.innerHTML = "Castle Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Castle Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6004,6 +6264,8 @@ function LeysRoadEast(){
         topTextNo.innerHTML = "Leys Road East";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leys Road East";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6026,6 +6288,8 @@ function Fouracres(){
         topTextNo.innerHTML = "Fouracres";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fouracres";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6048,6 +6312,8 @@ function BrimsdownStation(){
         topTextNo.innerHTML = "Brimsdown Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brimsdown Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6070,6 +6336,8 @@ function CarterhatchLane(){
         topTextNo.innerHTML = "Carterhatch Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Carterhatch Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6092,6 +6360,8 @@ function LaurelBankRoad(){
         topTextNo.innerHTML = "Laurel Bank Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Laurel Bank Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6114,6 +6384,8 @@ function EnfieldTownChurchStreet(){
         topTextNo.innerHTML = "Enfield Town / Church Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Enfield Town / Church Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6136,6 +6408,8 @@ function CrownRoadSouthburyStation(){
         topTextNo.innerHTML = "Crown Road / Southbury Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crown Road / Southbury Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6158,6 +6432,8 @@ function RoyalBritishLegion(){
         topTextNo.innerHTML = "Royal British Legion";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Royal British Legion";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6180,6 +6456,8 @@ function DurantsRoad(){
         topTextNo.innerHTML = "Durants Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Durants Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6202,6 +6480,8 @@ function PondersEndStation(){
         topTextNo.innerHTML = "Ponders End Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ponders End Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6224,6 +6504,8 @@ function OasisAcademyHadley(){
         topTextNo.innerHTML = "Oasis Academy Hadley";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Oasis Academy Hadley";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6246,6 +6528,8 @@ function StMatthewsChurch(){
         topTextNo.innerHTML = "St Matthew's Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Matthew's Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6268,6 +6552,8 @@ function WarleyRoad(){
         topTextNo.innerHTML = "Warley Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Warley Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6290,6 +6576,8 @@ function CrystalPalaceBusStation(){
         topTextNo.innerHTML = "Crystal Palace Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crystal Palace Bus Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6312,6 +6600,8 @@ function WestowHill(){
         topTextNo.innerHTML = "Westow Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westow Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6334,6 +6624,8 @@ function WestowStreet(){
         topTextNo.innerHTML = "Westow Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westow Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6356,6 +6648,8 @@ function GipsyHillPoliceStation(){
         topTextNo.innerHTML = "Gipsy Hill Police Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gipsy Hill Police Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6378,6 +6672,8 @@ function RockmountRoad(){
         topTextNo.innerHTML = "Rockmount Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rockmount Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6400,6 +6696,8 @@ function HermitageRoad(){
         topTextNo.innerHTML = "Hermitage Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hermitage Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6422,6 +6720,8 @@ function SaltersHill(){
         topTextNo.innerHTML = "Salter's Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Salter's Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6444,6 +6744,8 @@ function TivoliRoad(){
         topTextNo.innerHTML = "Tivoli Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tivoli Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6466,6 +6768,8 @@ function CrownPoint(){
         topTextNo.innerHTML = "Crown Point";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crown Point";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6488,6 +6792,8 @@ function RyecroftRoad(){
         topTextNo.innerHTML = "Ryecroft Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ryecroft Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6510,6 +6816,8 @@ function StreathamCommonNorthLeighamCrtRd(){
         marquee.innerHTML = "Streatham Common North / Leigham Crt Rd";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Streatham Common North / Leigham Crt Rd";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6532,6 +6840,8 @@ function LeighamCourtRoadStreathamCommon(){
         marquee.innerHTML = "Leigham Court Road / Streatham Common";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leigham Court Road / Streatham Common";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6554,6 +6864,8 @@ function JuliansPrimarySchool(){
         topTextNo.innerHTML = "Julian's Primary School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Julian's Primary School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6576,6 +6888,8 @@ function RockhamptonRoad(){
         topTextNo.innerHTML = "Rockhampton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rockhampton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6598,6 +6912,8 @@ function StPetersChurch(){
         topTextNo.innerHTML = "St Peters Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Peters Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6620,6 +6936,8 @@ function ValleyRoad(){
         topTextNo.innerHTML = "Valley Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Valley Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6642,6 +6960,8 @@ function DunravenSchool(){
         topTextNo.innerHTML = "Dunraven School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Dunraven School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6664,6 +6984,8 @@ function MountearlGardens(){
         topTextNo.innerHTML = "Mountearl Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mountearl Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6686,6 +7008,8 @@ function LeighamCourtRdStreathamHillStn(){
         marquee.innerHTML = "Leigham Court Rd / Streatham Hill Stn";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leigham Court Rd / Streatham Hill Stn";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6708,6 +7032,8 @@ function StreathamHillStnStreathamHill(){
         topTextNo.innerHTML = "Streatham Hill Stn / Streatham Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Streatham Hill Stn / Streatham Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6730,6 +7056,8 @@ function BarrhillRoad(){
         topTextNo.innerHTML = "Barrhill Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Barrhill Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6752,6 +7080,8 @@ function TelfordAvenue(){
         topTextNo.innerHTML = "Telford Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Telford Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6774,6 +7104,8 @@ function ChristchurchRoad(){
         topTextNo.innerHTML = "Christchurch Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Christchurch Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6796,6 +7128,8 @@ function StreathamPlace(){
         topTextNo.innerHTML = "Streatham Place";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Streatham Place";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6818,6 +7152,8 @@ function AtkinsRoadNewParkRoad(){
         topTextNo.innerHTML = "Atkins Road / New Park Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Atkins Road / New Park Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6840,6 +7176,8 @@ function KingsAvenueAtkinsRoad(){
         topTextNo.innerHTML = "Kings Avenue / Atkins Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kings Avenue / Atkins Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6862,6 +7200,8 @@ function ThorncliffeRoad(){
         topTextNo.innerHTML = "Thorncliffe Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Thorncliffe Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6884,6 +7224,8 @@ function ClarenceAvenue(){
         topTextNo.innerHTML = "Clarence Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Clarence Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6906,6 +7248,8 @@ function LyhamRoad(){
         topTextNo.innerHTML = "Lyham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lyham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6928,6 +7272,8 @@ function BedfordRoad(){
         topTextNo.innerHTML = "Bedford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bedford Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6950,6 +7296,8 @@ function ParkHill(){
         topTextNo.innerHTML = "Park Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Park Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -6972,6 +7320,8 @@ function ClaphamCommonStation(){
         topTextNo.innerHTML = "Clapham Common Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Clapham Common Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -6994,6 +7344,8 @@ function LongRoadClaphamCommon(){
         topTextNo.innerHTML = "Long Road / Clapham Common";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Long Road / Clapham Common";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7016,6 +7368,8 @@ function OmnibusClapham(){
         topTextNo.innerHTML = "Omnibus Clapham";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Omnibus Clapham";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7038,6 +7392,8 @@ function WingateSquare(){
         topTextNo.innerHTML = "Wingate Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wingate Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7060,6 +7416,8 @@ function RoseberyRoad(){
         topTextNo.innerHTML = "Rosebery Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rosebery Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7082,6 +7440,8 @@ function StreathamHillChristchurchRoad(){
         topTextNo.innerHTML = "Streatham Hill / Christchurch Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Streatham Hill / Christchurch Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7104,6 +7464,8 @@ function StreathamClose(){
         topTextNo.innerHTML = "Streatham Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Streatham Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7126,6 +7488,8 @@ function LeighamCourtRoadValleyRoad(){
         topTextNo.innerHTML = "Leigham Court Road / Valley Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leigham Court Road / Valley Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7148,6 +7512,8 @@ function LeafGrove(){
         topTextNo.innerHTML = "Leaf Grove";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leaf Grove";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7170,6 +7536,8 @@ function CrownLaneCrownPoint(){
         topTextNo.innerHTML = "Crown Lane / Crown Point";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crown Lane / Crown Point";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7192,6 +7560,8 @@ function NorwoodSchool(){
         topTextNo.innerHTML = "Norwood School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Norwood School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7214,6 +7584,8 @@ function CrystalPalaceParade(){
         topTextNo.innerHTML = "Crystal Palace Parade";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crystal Palace Parade";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7236,6 +7608,8 @@ function CrownLaneCrownPoint(){
         topTextNo.innerHTML = "Crown Lane / Crown Point";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crown Lane / Crown Point";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7258,6 +7632,8 @@ function HaveringPark(){
         topTextNo.innerHTML = "Havering Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Havering Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7280,6 +7656,8 @@ function CharlotteGardens(){
         topTextNo.innerHTML = "Charlotte Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Charlotte Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7302,6 +7680,8 @@ function PortmoreGardens(){
         topTextNo.innerHTML = "Portmore Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Portmore Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7324,6 +7704,8 @@ function StaplefordGardens(){
         topTextNo.innerHTML = "Stapleford Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stapleford Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7346,6 +7728,8 @@ function FrintonRoad(){
         topTextNo.innerHTML = "Frinton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Frinton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7368,6 +7752,8 @@ function GobionsFarm(){
         topTextNo.innerHTML = "Gobions Farm";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gobions Farm";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7390,6 +7776,8 @@ function WhiteHartLane(){
         topTextNo.innerHTML = "White Hart Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "White Hart Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7412,6 +7800,8 @@ function CollierRowClockhouseLane(){
         topTextNo.innerHTML = "Collier Row / Clockhouse Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Collier Row / Clockhouse Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7434,6 +7824,8 @@ function CollierRowRoundaboutRexClose(){
         marquee.innerHTML = "Collier Row Roundabout / Rex Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Collier Row Roundabout / Rex Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7456,6 +7848,8 @@ function HulseAvenue(){
         topTextNo.innerHTML = "Hulse Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hulse Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7478,6 +7872,8 @@ function MowbraysRoad(){
         topTextNo.innerHTML = "Mowbrays Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mowbrays Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7500,6 +7896,8 @@ function HainaultRoad(){
         topTextNo.innerHTML = "Hainault Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hainault Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7522,6 +7920,8 @@ function ParklandsSchool(){
         topTextNo.innerHTML = "Parklands School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Parklands School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7544,6 +7944,8 @@ function RomfordBusGarage(){
         topTextNo.innerHTML = "Romford Bus Garage";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Romford Bus Garage";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7566,6 +7968,8 @@ function TheAvenue(){
         topTextNo.innerHTML = "The Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7588,6 +7992,8 @@ function RomfordMarket(){
         topTextNo.innerHTML = "Romford Market";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Romford Market";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7610,6 +8016,8 @@ function MercuryGardens(){
         topTextNo.innerHTML = "Mercury Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mercury Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7632,6 +8040,8 @@ function WesternRoad(){
         topTextNo.innerHTML = "Western Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Western Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7654,6 +8064,8 @@ function RomfordStation(){
         topTextNo.innerHTML = "Romford Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Romford Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -7676,6 +8088,8 @@ function ThurloeGardens(){
         topTextNo.innerHTML = "Thurloe Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Thurloe Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7698,6 +8112,8 @@ function SouthStreet(){
         topTextNo.innerHTML = "South Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "South Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7720,6 +8136,8 @@ function AlbertRoad(){
         topTextNo.innerHTML = "Albert Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Albert Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7742,6 +8160,8 @@ function PrincesRoad(){
         topTextNo.innerHTML = "Princes Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Princes Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7764,6 +8184,8 @@ function FrancesBardsleyAcademy(){
         topTextNo.innerHTML = "Frances Bardsley Academy";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Frances Bardsley Academy";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7786,6 +8208,8 @@ function CranhamRoad(){
         topTextNo.innerHTML = "Cranham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cranham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7808,6 +8232,8 @@ function SalisburyRoad(){
         topTextNo.innerHTML = "Salisbury Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Salisbury Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7830,6 +8256,8 @@ function TheDrillRoundabout(){
         topTextNo.innerHTML = "The Drill Roundabout";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Drill Roundabout";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7852,6 +8280,8 @@ function GideaParkStation(){
         topTextNo.innerHTML = "Gidea Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gidea Park Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7874,6 +8304,8 @@ function UpperBrentwoodRoad(){
         topTextNo.innerHTML = "Upper Brentwood Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Upper Brentwood Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7896,6 +8328,8 @@ function NorthumberlandAvenue(){
         topTextNo.innerHTML = "Northumberland Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Northumberland Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7918,6 +8352,8 @@ function HardleyCrescent(){
         topTextNo.innerHTML = "Hardley Crescent";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hardley Crescent";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7940,6 +8376,8 @@ function ArdleighGreenSchool(){
         topTextNo.innerHTML = "Ardleigh Green School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ardleigh Green School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7962,6 +8400,8 @@ function SouthendArterialRoad(){
         topTextNo.innerHTML = "Southend Arterial Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Southend Arterial Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -7984,6 +8424,8 @@ function RosslynAvenue(){
         topTextNo.innerHTML = "Rosslyn Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rosslyn Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8006,6 +8448,8 @@ function StPetersChurch(){
         topTextNo.innerHTML = "St Peter's Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Peter's Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8028,6 +8472,8 @@ function HaroldWoodStation(){
         topTextNo.innerHTML = "Harold Wood Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harold Wood Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8050,6 +8496,8 @@ function ArundelRoad(){
         topTextNo.innerHTML = "Arundel Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Arundel Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8072,6 +8520,8 @@ function StNeotsRoad(){
         topTextNo.innerHTML = "St Neot's Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Neot's Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8094,6 +8544,8 @@ function CamborneAvenue(){
         topTextNo.innerHTML = "Camborne Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Camborne Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8116,6 +8568,8 @@ function KingsbridgeRoad(){
         topTextNo.innerHTML = "Kingsbridge Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kingsbridge Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8138,6 +8592,8 @@ function HaroldHillCommunityCentre(){
         topTextNo.innerHTML = "Harold Hill Community Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harold Hill Community Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8160,6 +8616,8 @@ function CentralParkLeisureCentre(){
         topTextNo.innerHTML = "Central Park Leisure Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Central Park Leisure Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8182,6 +8640,8 @@ function BrooksideSchool(){
         topTextNo.innerHTML = "Brookside School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brookside School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8204,6 +8664,8 @@ function LindfieldRoad(){
         topTextNo.innerHTML = "Lindfield Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lindfield Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8226,6 +8688,8 @@ function WigtonWay(){
         topTextNo.innerHTML = "Wigton Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wigton Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8248,6 +8712,8 @@ function WhitchurchRoad(){
         topTextNo.innerHTML = "Whitchurch Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Whitchurch Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8270,6 +8736,8 @@ function PrioryRoad(){
         topTextNo.innerHTML = "Priory Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Priory Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8292,6 +8760,8 @@ function WincantonRoad(){
         topTextNo.innerHTML = "Wincanton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wincanton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8314,6 +8784,8 @@ function CummingsHallLane(){
         topTextNo.innerHTML = "Cummings Hall Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cummings Hall Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8336,6 +8808,8 @@ function AshbourneRoad(){
         topTextNo.innerHTML = "Ashbourne Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ashbourne Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8358,6 +8832,8 @@ function TroopersDrive(){
         topTextNo.innerHTML = "Troopers Drive";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Troopers Drive";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8380,6 +8856,8 @@ function TeesDrive(){
         topTextNo.innerHTML = "Tees Drive";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tees Drive";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8402,6 +8880,8 @@ function HarknessClose(){
         topTextNo.innerHTML = "Harkness Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harkness Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8424,6 +8904,8 @@ function RecreationAvenue(){
         topTextNo.innerHTML = "Recreation Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Recreation Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8446,6 +8928,8 @@ function WestmorelandAvenue(){
         topTextNo.innerHTML = "Westmoreland Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westmoreland Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8468,6 +8952,8 @@ function BrentwoodRoad(){
         topTextNo.innerHTML = "Brentwood Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brentwood Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8490,6 +8976,8 @@ function CedarRoad(){
         topTextNo.innerHTML = "Cedar Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cedar Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8512,6 +9000,8 @@ function HillfootRoad(){
         topTextNo.innerHTML = "Hillfoot Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hillfoot Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8534,6 +9024,8 @@ function LowshoeLane(){
         topTextNo.innerHTML = "Lowshoe Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lowshoe Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8556,6 +9048,8 @@ function CollierRowLibrary(){
         topTextNo.innerHTML = "Collier Row Library";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Collier Row Library";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8578,6 +9072,8 @@ function MelvilleRoad(){
         topTextNo.innerHTML = "Melville Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Melville Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8600,6 +9096,8 @@ function HogHillRoad(){
         topTextNo.innerHTML = "Hog Hill Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hog Hill Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8622,6 +9120,8 @@ function CarterDrive(){
         topTextNo.innerHTML = "Carter Drive";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Carter Drive";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8644,6 +9144,8 @@ function AldgateStation(){
         topTextNo.innerHTML = "Aldgate Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Aldgate Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -8666,6 +9168,8 @@ function Minories(){
         topTextNo.innerHTML = "Minories";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Minories";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8688,6 +9192,8 @@ function TowerHillTowerGatewayStation(){
         topTextNo.innerHTML = "Tower Hill / Tower Gateway Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tower Hill / Tower Gateway Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8710,6 +9216,8 @@ function TowerBridge(){
         topTextNo.innerHTML = "Tower Bridge";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tower Bridge";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8732,6 +9240,8 @@ function UnicornTheatre(){
         topTextNo.innerHTML = "Unicorn Theatre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Unicorn Theatre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8754,6 +9264,8 @@ function LondonBridgeStation(){
         topTextNo.innerHTML = "London Bridge Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "London Bridge Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -8776,6 +9288,8 @@ function SouthwarkStreet(){
         topTextNo.innerHTML = "Southwark Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Southwark Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8798,6 +9312,8 @@ function UnionStreet(){
         topTextNo.innerHTML = "Union Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Union Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8820,6 +9336,8 @@ function BoroughStation(){
         topTextNo.innerHTML = "Borough Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Borough Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -8842,6 +9360,8 @@ function InnerLondonCrownCourt(){
         topTextNo.innerHTML = "Inner London Crown Court";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Inner London Crown Court";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8864,6 +9384,8 @@ function ElephantCastleNewingtonCauseway(){
         marquee.innerHTML = "Elephant & Castle / Newington Causeway";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Elephant & Castle / Newington Causeway";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8886,6 +9408,8 @@ function ElephantCastleStation(){
         topTextNo.innerHTML = "Elephant & Castle Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Elephant & Castle Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -8908,6 +9432,8 @@ function ElephantPark(){
         topTextNo.innerHTML = "Elephant Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Elephant Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8930,6 +9456,8 @@ function LarcomStreet(){
         topTextNo.innerHTML = "Larcom Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Larcom Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8952,6 +9480,8 @@ function BalfourStreet(){
         topTextNo.innerHTML = "Balfour Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Balfour Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8974,6 +9504,8 @@ function EastStreet(){
         topTextNo.innerHTML = "East Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "East Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -8996,6 +9528,8 @@ function AlsaceRoad(){
         topTextNo.innerHTML = "Alsace Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Alsace Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9018,6 +9552,8 @@ function AlbanyRoadWellsWay(){
         topTextNo.innerHTML = "Albany Road / Wells Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Albany Road / Wells Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9040,6 +9576,8 @@ function StGeorgesWayBurgessPark(){
         topTextNo.innerHTML = "St George's Way / Burgess Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St George's Way / Burgess Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9062,6 +9600,8 @@ function SedgmoorPlace(){
         topTextNo.innerHTML = "Sedgmoor Place";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sedgmoor Place";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9084,6 +9624,8 @@ function SouthamptonWayEstate(){
         topTextNo.innerHTML = "Southampton Way Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Southampton Way Estate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9106,6 +9648,8 @@ function SouthamptonWayPeckhamRoad(){
         topTextNo.innerHTML = "Southampton Way / Peckham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Southampton Way / Peckham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9128,6 +9672,8 @@ function HarrisAcademy(){
         topTextNo.innerHTML = "Harris Academy";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harris Academy";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9150,6 +9696,8 @@ function PeckhamLibrary(){
         topTextNo.innerHTML = "Peckham Library";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peckham Library";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9172,6 +9720,8 @@ function ClaytonRoad(){
         topTextNo.innerHTML = "Clayton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Clayton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9194,6 +9744,8 @@ function TheAyleshamCentre(){
         topTextNo.innerHTML = "The Aylesham Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Aylesham Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9216,6 +9768,8 @@ function PeckhamRyeStation(){
         topTextNo.innerHTML = "Peckham Rye Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peckham Rye Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -9238,6 +9792,8 @@ function NigelRoad(){
         topTextNo.innerHTML = "Nigel Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Nigel Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9260,6 +9816,8 @@ function PeckhamRyeNunheadLane(){
         topTextNo.innerHTML = "Peckham Rye / Nunhead Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peckham Rye / Nunhead Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9282,6 +9840,8 @@ function SolomonsPassage(){
         topTextNo.innerHTML = "Solomon's Passage";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Solomon's Passage";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9304,6 +9864,8 @@ function RyeHillPark(){
         topTextNo.innerHTML = "Rye Hill Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rye Hill Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9326,6 +9888,8 @@ function StuartRoad(){
         topTextNo.innerHTML = "Stuart Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stuart Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9348,6 +9912,8 @@ function SurreyRoad(){
         topTextNo.innerHTML = "Surrey Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Surrey Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9370,6 +9936,8 @@ function MerttinsRoad(){
         topTextNo.innerHTML = "Merttins Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Merttins Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9392,6 +9960,8 @@ function StNorbertRoad(){
         topTextNo.innerHTML = "St Norbert Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Norbert Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9414,6 +9984,8 @@ function TurnhamRoad(){
         topTextNo.innerHTML = "Turnham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Turnham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9436,6 +10008,8 @@ function BrockillCrescent(){
         topTextNo.innerHTML = "Brockill Crescent";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brockill Crescent";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9458,6 +10032,8 @@ function StAsaphRoad(){
         topTextNo.innerHTML = "St Asaph Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Asaph Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9480,6 +10056,8 @@ function AvignonRoadDrakefellRoad(){
         topTextNo.innerHTML = "Avignon Road / Drakefell Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Avignon Road / Drakefell Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9502,6 +10080,8 @@ function KittoRoad(){
         topTextNo.innerHTML = "Kitto Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kitto Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9524,6 +10104,8 @@ function ArbuthnotRoad(){
         topTextNo.innerHTML = "Arbuthnot Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Arbuthnot Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9546,6 +10128,8 @@ function OmmaneyRoad(){
         topTextNo.innerHTML = "Ommaney Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ommaney Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9568,6 +10152,8 @@ function NewCrossJerninghamRoad(){
         topTextNo.innerHTML = "New Cross / Jerningham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "New Cross / Jerningham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9590,6 +10176,8 @@ function NewCrossBusGarage(){
         topTextNo.innerHTML = "New Cross Bus Garage";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "New Cross Bus Garage";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9612,6 +10200,8 @@ function DrakefellRoad(){
         topTextNo.innerHTML = "Drakefell Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Drakefell Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9634,6 +10224,8 @@ function InvertonRoad(){
         topTextNo.innerHTML = "Inverton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Inverton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9656,6 +10248,8 @@ function PeckhamRyeEastDulwichRoad(){
         topTextNo.innerHTML = "Peckham Rye / East Dulwich Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peckham Rye / East Dulwich Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9678,6 +10272,8 @@ function HeatonRoad(){
         topTextNo.innerHTML = "Heaton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Heaton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9700,6 +10296,8 @@ function HanoverPark(){
         topTextNo.innerHTML = "Hanover Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hanover Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9722,6 +10320,8 @@ function PeckhamRoadSouthamptonWay(){
         topTextNo.innerHTML = "Peckham Road / Southampton Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peckham Road / Southampton Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9744,6 +10344,8 @@ function CottageGreen(){
         topTextNo.innerHTML = "Cottage Green";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cottage Green";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9766,6 +10368,8 @@ function HamptonStreet(){
         topTextNo.innerHTML = "Hampton Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hampton Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9788,6 +10392,8 @@ function HaysGalleria(){
         topTextNo.innerHTML = "Hay's Galleria";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hay's Galleria";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9810,6 +10416,8 @@ function AbbotsLane(){
         topTextNo.innerHTML = "Abbots Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Abbots Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9832,6 +10440,8 @@ function TowerGatewayStation(){
         topTextNo.innerHTML = "Tower Gateway Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tower Gateway Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9854,6 +10464,8 @@ function WatfordJunctionStation(){
         topTextNo.innerHTML = "Watford Junction Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Watford Junction Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -9876,6 +10488,8 @@ function BeechenGrove(){
         topTextNo.innerHTML = "Beechen Grove";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Beechen Grove";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9898,6 +10512,8 @@ function WaterLane(){
         topTextNo.innerHTML = "Water Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Water Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9920,6 +10536,8 @@ function WatfordHighStreetStation(){
         topTextNo.innerHTML = "Watford High Street Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Watford High Street Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -9942,6 +10560,8 @@ function WatfordFieldRoad(){
         topTextNo.innerHTML = "Watford Field Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Watford Field Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9964,6 +10584,8 @@ function WaterfieldsWay(){
         topTextNo.innerHTML = "Waterfields Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Waterfields Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -9986,6 +10608,8 @@ function BusheyArches(){
         topTextNo.innerHTML = "Bushey Arches";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bushey Arches";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10008,6 +10632,8 @@ function BusheyStation(){
         topTextNo.innerHTML = "Bushey Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bushey Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -10030,6 +10656,8 @@ function GrangeRoad(){
         topTextNo.innerHTML = "Grange Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Grange Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10052,6 +10680,8 @@ function GrangeAcademy(){
         topTextNo.innerHTML = "Grange Academy";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Grange Academy";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10074,6 +10704,8 @@ function TheRedLionPublicHouse(){
         topTextNo.innerHTML = "The Red Lion Public House";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Red Lion Public House";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10096,6 +10728,8 @@ function BournehallRoad(){
         topTextNo.innerHTML = "Bournehall Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bournehall Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10118,6 +10752,8 @@ function MelbourneRoad(){
         topTextNo.innerHTML = "Melbourne Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Melbourne Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10140,6 +10776,8 @@ function Steeplands(){
         topTextNo.innerHTML = "Steeplands";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Steeplands";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10162,6 +10800,8 @@ function TheRoyalOakPublicHouse(){
         topTextNo.innerHTML = "The Royal Oak Public House";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Royal Oak Public House";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10184,6 +10824,8 @@ function MerryHillRoad(){
         topTextNo.innerHTML = "Merry Hill Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Merry Hill Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10206,6 +10848,8 @@ function StPetersClose(){
         topTextNo.innerHTML = "St Peter's Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Peter's Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10228,6 +10872,8 @@ function WindmillLane(){
         topTextNo.innerHTML = "Windmill Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Windmill Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10250,6 +10896,8 @@ function CommonRoad(){
         topTextNo.innerHTML = "Common Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Common Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10272,6 +10920,8 @@ function HiveRoad(){
         topTextNo.innerHTML = "Hive Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hive Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10294,6 +10944,8 @@ function AvantiHousePrimarySchool(){
         topTextNo.innerHTML = "Avanti House Primary School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Avanti House Primary School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10316,6 +10968,8 @@ function Sandringham(){
         topTextNo.innerHTML = "Sandringham";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sandringham";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10338,6 +10992,8 @@ function ClampHill(){
         topTextNo.innerHTML = "Clamp Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Clamp Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10360,6 +11016,8 @@ function BrookshillGate(){
         topTextNo.innerHTML = "Brookshill Gate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brookshill Gate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10382,6 +11040,8 @@ function HarrowCollege(){
         topTextNo.innerHTML = "Harrow College";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow College";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10404,6 +11064,8 @@ function UxbridgeRoad(){
         topTextNo.innerHTML = "Uxbridge Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Uxbridge Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10426,6 +11088,8 @@ function HarrowWealdBusGarage(){
         topTextNo.innerHTML = "Harrow Weald Bus Garage";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow Weald Bus Garage";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10448,6 +11112,8 @@ function WealdLane(){
         topTextNo.innerHTML = "Weald Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Weald Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10470,6 +11136,8 @@ function SalvatorianCollegeStJosephsChurch(){
         marquee.innerHTML = "Salvatorian College / St Joseph's Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Salvatorian College / St Joseph's Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10492,6 +11160,8 @@ function WealdstoneBaptistChurch(){
         topTextNo.innerHTML = "Wealdstone Baptist Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wealdstone Baptist Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10514,6 +11184,8 @@ function TheWealdstoneCentre(){
         topTextNo.innerHTML = "The Wealdstone Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Wealdstone Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10536,6 +11208,8 @@ function HarrowWealdstoneStation(){
         topTextNo.innerHTML = "Harrow & Wealdstone Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow & Wealdstone Station";
         underground.style.display = "inline";
         overground.style.display = "inline";
@@ -10558,6 +11232,8 @@ function HarrowCivicCentreHarrowMosque(){
         marquee.innerHTML = "Harrow Civic Centre / Harrow Mosque";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow Civic Centre / Harrow Mosque";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10580,6 +11256,8 @@ function HindesRoad(){
         topTextNo.innerHTML = "Hindes Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hindes Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10602,6 +11280,8 @@ function HarrowTownCentreStJohnsRoad(){
         marquee.innerHTML = "Harrow Town Centre / St John's Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow Town Centre / St John's Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10624,6 +11304,8 @@ function HarrowTownCentre(){
         topTextNo.innerHTML = "Harrow Town Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow Town Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10646,6 +11328,8 @@ function HarrowBusStation(){
         topTextNo.innerHTML = "Harrow Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow Bus Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -10668,6 +11352,8 @@ function TyburnLane(){
         topTextNo.innerHTML = "Tyburn Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tyburn Lane";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -10690,6 +11376,8 @@ function KentonRoad(){
         topTextNo.innerHTML = "Kenton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kenton Road";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -10712,6 +11400,8 @@ function HarrowSchool(){
         topTextNo.innerHTML = "Harrow School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow School";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -10734,6 +11424,8 @@ function HarrowPark(){
         topTextNo.innerHTML = "Harrow Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow Park";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -10756,6 +11448,8 @@ function RoxethHill(){
         topTextNo.innerHTML = "Roxeth Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Roxeth Hill";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -10778,6 +11472,8 @@ function SouthHarrowBusStation(){
         topTextNo.innerHTML = "South Harrow Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "South Harrow Bus Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -10800,6 +11496,8 @@ function HarrowTownCentreSheepcoteRoad(){
         marquee.innerHTML = "Harrow Town Centre / Sheepcote Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harrow Town Centre / Sheepcote Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10822,6 +11520,8 @@ function SafariCinema(){
         topTextNo.innerHTML = "Safari Cinema";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Safari Cinema";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10844,6 +11544,8 @@ function LongElmes(){
         topTextNo.innerHTML = "Long Elmes";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Long Elmes";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10866,6 +11568,8 @@ function MonroGardens(){
         topTextNo.innerHTML = "Monro Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Monro Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10888,6 +11592,8 @@ function BusheyHeathThreeCrowns(){
         topTextNo.innerHTML = "Bushey Heath Three Crowns";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bushey Heath Three Crowns";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10910,6 +11616,8 @@ function DaltonWay(){
         topTextNo.innerHTML = "Dalton Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Dalton Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10932,6 +11640,8 @@ function KingStreet(){
         topTextNo.innerHTML = "King Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "King Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10954,6 +11664,8 @@ function StJohnsRoad(){
         topTextNo.innerHTML = "St John's Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St John's Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10976,6 +11688,8 @@ function WatfordJunctionRailwayStation(){
         topTextNo.innerHTML = "Watford Junction Railway Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Watford Junction Railway Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -10998,6 +11712,8 @@ function ManorRoad(){
         topTextNo.innerHTML = "Manor Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Manor Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11020,6 +11736,8 @@ function FairholmeAvenue(){
         topTextNo.innerHTML = "Fairholme Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fairholme Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11042,6 +11760,8 @@ function MargaretRoad(){
         topTextNo.innerHTML = "Margaret Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Margaret Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11064,6 +11784,8 @@ function BrooklandsGardens(){
         topTextNo.innerHTML = "Brooklands Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brooklands Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11086,6 +11808,8 @@ function WaldenWay(){
         topTextNo.innerHTML = "Walden Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Walden Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11108,6 +11832,8 @@ function BurntwoodAvenue(){
         topTextNo.innerHTML = "Burntwood Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Burntwood Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11130,6 +11856,8 @@ function ButtsGreenRoad(){
         topTextNo.innerHTML = "Butts Green Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Butts Green Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11152,6 +11880,8 @@ function NelmesRoad(){
         topTextNo.innerHTML = "Nelmes Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Nelmes Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11174,6 +11904,8 @@ function WingletyeLane(){
         topTextNo.innerHTML = "Wingletye Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wingletye Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11196,6 +11928,8 @@ function EmersonParkAcademy(){
         topTextNo.innerHTML = "Emerson Park Academy";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Emerson Park Academy";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11218,6 +11952,8 @@ function WykehamAvenue(){
         topTextNo.innerHTML = "Wykeham Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wykeham Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11240,6 +11976,8 @@ function KinfaunsAvenue(){
         topTextNo.innerHTML = "Kinfauns Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kinfauns Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11262,6 +12000,8 @@ function WithamRoad(){
         topTextNo.innerHTML = "Witham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Witham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11284,6 +12024,8 @@ function SouthLodgeAvenueYorkshireRoad(){
         marquee.innerHTML = "South Lodge Avenue / Yorkshire Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "South Lodge Avenue / Yorkshire Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11306,6 +12048,8 @@ function LeicesterAvenue(){
         topTextNo.innerHTML = "Leicester Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leicester Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11328,6 +12072,8 @@ function NorthumberlandGardens(){
         topTextNo.innerHTML = "Northumberland Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Northumberland Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11350,6 +12096,8 @@ function WestmorlandWay(){
         topTextNo.innerHTML = "Westmorland Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westmorland Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11372,6 +12120,8 @@ function CarisbrookeRoadHertfordWay(){
         topTextNo.innerHTML = "Carisbrooke Road / Hertford Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Carisbrooke Road / Hertford Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11394,6 +12144,8 @@ function PollardsHillLibrary(){
         topTextNo.innerHTML = "Pollards Hill Library";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Pollards Hill Library";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11416,6 +12168,8 @@ function IvyGardens(){
         topTextNo.innerHTML = "Ivy Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ivy Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11438,6 +12192,8 @@ function NorthboroughRoad(){
         topTextNo.innerHTML = "Northborough Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Northborough Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11460,6 +12216,8 @@ function StanfordWay(){
         topTextNo.innerHTML = "Stanford Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stanford Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11482,6 +12240,8 @@ function MeophamRoadWoodstockWay(){
         topTextNo.innerHTML = "Meopham Road / Woodstock Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Meopham Road / Woodstock Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11504,6 +12264,8 @@ function ClayAvenue(){
         topTextNo.innerHTML = "Clay Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Clay Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11526,6 +12288,8 @@ function StMarksCofEAcademyPlayingFields(){
         marquee.innerHTML = "St Mark's C of E Academy Playing Fields";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Mark's C of E Academy Playing Fields";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11548,6 +12312,8 @@ function MitchamEastfieldsStation(){
         topTextNo.innerHTML = "Mitcham Eastfields Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mitcham Eastfields Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11570,6 +12336,8 @@ function EastfieldsRoad(){
         topTextNo.innerHTML = "Eastfields Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Eastfields Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11592,6 +12360,8 @@ function LocksLane(){
         topTextNo.innerHTML = "Locks Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Locks Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11614,6 +12384,8 @@ function DowneRoadMitchamLibrary(){
         topTextNo.innerHTML = "Downe Road / Mitcham Library";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Downe Road / Mitcham Library";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11636,6 +12408,8 @@ function MitchamFairGreen(){
         topTextNo.innerHTML = "Mitcham Fair Green";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mitcham Fair Green";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11658,6 +12432,8 @@ function LoveLane(){
         topTextNo.innerHTML = "Love Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Love Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11680,6 +12456,8 @@ function SadlerClose(){
         topTextNo.innerHTML = "Sadler Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sadler Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11702,6 +12480,8 @@ function LewisRoad(){
         topTextNo.innerHTML = "Lewis Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lewis Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11724,6 +12504,8 @@ function LavenderAvenue(){
         topTextNo.innerHTML = "Lavender Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lavender Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11746,6 +12528,8 @@ function ChelseaFields(){
         topTextNo.innerHTML = "Chelsea Fields";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chelsea Fields";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11768,6 +12552,8 @@ function Runnymede(){
         topTextNo.innerHTML = "Runnymede";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Runnymede";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11790,6 +12576,8 @@ function ColliersWoodStation(){
         topTextNo.innerHTML = "Colliers Wood Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Colliers Wood Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -11812,6 +12600,8 @@ function MertonAbbey(){
         topTextNo.innerHTML = "Merton Abbey";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Merton Abbey";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11834,6 +12624,8 @@ function AbbeyRoad(){
         topTextNo.innerHTML = "Abbey Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Abbey Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11856,6 +12648,8 @@ function SouthWimbledonStation(){
         topTextNo.innerHTML = "South Wimbledon Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "South Wimbledon Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -11878,6 +12672,8 @@ function MordenRoad(){
         topTextNo.innerHTML = "Morden Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Morden Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11900,6 +12696,8 @@ function WimbledonFireStation(){
         topTextNo.innerHTML = "Wimbledon Fire Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wimbledon Fire Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11922,6 +12720,8 @@ function MertonParkTramStop(){
         topTextNo.innerHTML = "Merton Park Tram Stop";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Merton Park Tram Stop";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11943,6 +12743,8 @@ function WiltonCrescent(){
         topTextNo.innerHTML = "Wilton Crescent";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wilton Crescent";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11965,6 +12767,8 @@ function TheNelsonHealthCentre(){
         topTextNo.innerHTML = "The Nelson Health Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Nelson Health Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -11987,6 +12791,8 @@ function WimbledonChaseStation(){
         topTextNo.innerHTML = "Wimbledon Chase Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wimbledon Chase Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12009,6 +12815,8 @@ function LowerDownsRoad(){
         topTextNo.innerHTML = "Lower Downs Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lower Downs Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12031,6 +12839,8 @@ function SydneyRoad(){
         topTextNo.innerHTML = "Sydney Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sydney Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12053,6 +12863,8 @@ function RaynesParkLibrary(){
         topTextNo.innerHTML = "Raynes Park Library";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Raynes Park Library";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12075,6 +12887,8 @@ function RaynesParkStation(){
         topTextNo.innerHTML = "Raynes Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Raynes Park Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12097,6 +12911,8 @@ function BusheyRoadGrandDrive(){
         topTextNo.innerHTML = "Bushey Road / Grand Drive";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bushey Road / Grand Drive";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12119,6 +12935,8 @@ function CartersBridge(){
         topTextNo.innerHTML = "Carters Bridge";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Carters Bridge";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12141,6 +12959,8 @@ function RaynesParkHighSchool(){
         topTextNo.innerHTML = "Raynes Park High School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Raynes Park High School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12163,6 +12983,8 @@ function ShannonCornerSuperstores(){
         topTextNo.innerHTML = "Shannon Corner Superstores";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shannon Corner Superstores";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12185,6 +13007,8 @@ function ShannonCornerBeverleyWay(){
         topTextNo.innerHTML = "Shannon Corner / Beverley Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shannon Corner / Beverley Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12207,6 +13031,8 @@ function ShannonCornerRookwoodAvenue(){
         marquee.innerHTML = "Shannon Corner / Rookwood Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shannon Corner / Rookwood Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12229,6 +13055,8 @@ function QueensRoad(){
         topTextNo.innerHTML = "Queens Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Queens Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12251,6 +13079,8 @@ function WaltonAvenue(){
         topTextNo.innerHTML = "Walton Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Walton Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12273,6 +13103,8 @@ function ChristChurch(){
         topTextNo.innerHTML = "Christ Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Christ Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12295,6 +13127,8 @@ function EvelineRoad(){
         topTextNo.innerHTML = "Eveline Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Eveline Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12317,6 +13151,8 @@ function EastfieldsRdMitchamEastfieldsStn(){
         marquee.innerHTML = "Eastfields Rd / Mitcham Eastfields Stn";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Eastfields Rd / Mitcham Eastfields Stn";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12339,6 +13175,8 @@ function WarminsterWay(){
         topTextNo.innerHTML = "Warminster Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Warminster Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12361,6 +13199,8 @@ function StreathamParkCemetery(){
         topTextNo.innerHTML = "Streatham Park Cemetery";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Streatham Park Cemetery";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12383,6 +13223,8 @@ function RosemeadAvenue(){
         topTextNo.innerHTML = "Rosemead Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rosemead Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12405,6 +13247,8 @@ function StratfordInternationalStation(){
         topTextNo.innerHTML = "Stratford International Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stratford International Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12427,6 +13271,8 @@ function StratfordCityBusStation(){
         topTextNo.innerHTML = "Stratford City Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stratford City Bus Station";
         underground.style.display = "inline";
         overground.style.display = "inline";
@@ -12449,6 +13295,8 @@ function LondonAquaticsCentre(){
         topTextNo.innerHTML = "London Aquatics Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "London Aquatics Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12471,6 +13319,8 @@ function CarpentersPrimarySchool(){
         topTextNo.innerHTML = "Carpenters Primary School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Carpenters Primary School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12493,6 +13343,8 @@ function WartonRoad(){
         topTextNo.innerHTML = "Warton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Warton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12515,6 +13367,8 @@ function AbbeyLane(){
         topTextNo.innerHTML = "Abbey Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Abbey Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12537,6 +13391,8 @@ function BowFlyover(){
         topTextNo.innerHTML = "Bow Flyover";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bow Flyover";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12559,6 +13415,8 @@ function RountonRoad(){
         topTextNo.innerHTML = "Rounton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rounton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12581,6 +13439,8 @@ function DevonsRoadStation(){
         topTextNo.innerHTML = "Devons Road Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Devons Road Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12603,6 +13463,8 @@ function CranwellClose(){
         topTextNo.innerHTML = "Cranwell Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cranwell Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12625,6 +13487,8 @@ function FaweStreet(){
         topTextNo.innerHTML = "Fawe Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fawe Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12647,6 +13511,8 @@ function LangdonParkStation(){
         topTextNo.innerHTML = "Langdon Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Langdon Park Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12669,6 +13535,8 @@ function ChrispStreetMarket(){
         topTextNo.innerHTML = "Chrisp Street Market";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chrisp Street Market";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12691,6 +13559,8 @@ function BazelyStreet(){
         topTextNo.innerHTML = "Bazely Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bazely Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12713,6 +13583,8 @@ function BrunswickRoad(){
         topTextNo.innerHTML = "Brunswick Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brunswick Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12735,6 +13607,8 @@ function NutmegLane(){
         topTextNo.innerHTML = "Nutmeg Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Nutmeg Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12757,6 +13631,8 @@ function AbbottRoad(){
         topTextNo.innerHTML = "Abbott Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Abbott Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12779,6 +13655,8 @@ function StephensonStreet(){
         topTextNo.innerHTML = "Stephenson Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stephenson Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12801,6 +13679,8 @@ function CanningTownStation(){
         topTextNo.innerHTML = "Canning Town Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Canning Town Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -12823,6 +13703,8 @@ function BlackwallTunnelEastIndiaDockRoad(){
         marquee.innerHTML = "Blackwall Tunnel / East India Dock Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Blackwall Tunnel / East India Dock Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12845,6 +13727,8 @@ function BoordStreet(){
         topTextNo.innerHTML = "Boord Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Boord Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12867,6 +13751,8 @@ function NorthGreenwichStation(){
         topTextNo.innerHTML = "North Greenwich Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "North Greenwich Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -12889,6 +13775,8 @@ function MillenniumVillageOvalSquare(){
         topTextNo.innerHTML = "Millennium Village / Oval Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Millennium Village / Oval Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12911,6 +13799,8 @@ function MillenniumVillageSouth(){
         topTextNo.innerHTML = "Millennium Village South";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Millennium Village South";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12933,6 +13823,8 @@ function MillenniumLeisureParkWest(){
         topTextNo.innerHTML = "Millennium Leisure Park West";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Millennium Leisure Park West";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12955,6 +13847,8 @@ function MillenniumLeisureParkEast(){
         topTextNo.innerHTML = "Millennium Leisure Park East";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Millennium Leisure Park East";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12977,6 +13871,8 @@ function CombedaleRoad(){
         topTextNo.innerHTML = "Combedale Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Combedale Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -12999,6 +13895,8 @@ function WestcombeParkStation(){
         topTextNo.innerHTML = "Westcombe Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westcombe Park Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13021,6 +13919,8 @@ function KirksideRoad(){
         topTextNo.innerHTML = "Kirkside Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kirkside Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13043,6 +13943,8 @@ function BlackheathRoyalStandard(){
         topTextNo.innerHTML = "Blackheath / Royal Standard";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Blackheath / Royal Standard";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13065,6 +13967,8 @@ function StrathedenParade(){
         topTextNo.innerHTML = "Stratheden Parade";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stratheden Parade";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13087,6 +13991,8 @@ function StrathedenRoadShootersHillRoad(){
         marquee.innerHTML = "Stratheden Road / Shooters Hill Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stratheden Road / Shooters Hill Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13109,6 +14015,8 @@ function StGermansPlace(){
         topTextNo.innerHTML = "St Germans Place";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Germans Place";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13131,6 +14039,8 @@ function MontpelierRow(){
         topTextNo.innerHTML = "Montpelier Row";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Montpelier Row";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13153,6 +14063,8 @@ function BlackheathStation(){
         topTextNo.innerHTML = "Blackheath Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Blackheath Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13175,6 +14087,8 @@ function BlackheathHospital(){
         topTextNo.innerHTML = "Blackheath Hospital";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Blackheath Hospital";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13197,6 +14111,8 @@ function StMargaretsChurchBrandramRoad(){
         marquee.innerHTML = "St Margaret's Church / Brandram Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Margaret's Church / Brandram Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13219,6 +14135,8 @@ function TheSquirrels(){
         topTextNo.innerHTML = "The Squirrels";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Squirrels";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13241,6 +14159,8 @@ function LockmeadRoad(){
         topTextNo.innerHTML = "Lockmead Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lockmead Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13263,6 +14183,8 @@ function LewishamClockTower(){
         topTextNo.innerHTML = "Lewisham Clock Tower";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lewisham Clock Tower";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13285,6 +14207,8 @@ function LewishamStation(){
         topTextNo.innerHTML = "Lewisham Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lewisham Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13307,6 +14231,8 @@ function RoyalParade(){
         topTextNo.innerHTML = "Royal Parade";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Royal Parade";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13329,6 +14255,8 @@ function WesterdaleRoad(){
         topTextNo.innerHTML = "Westerdale Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westerdale Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13351,6 +14279,8 @@ function KemsingRoad(){
         topTextNo.innerHTML = "Kemsing Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kemsing Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13373,6 +14303,8 @@ function BlackwallLane(){
         topTextNo.innerHTML = "Blackwall Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Blackwall Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13395,6 +14327,8 @@ function MordenWharfRoad(){
         topTextNo.innerHTML = "Morden Wharf Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Morden Wharf Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13417,6 +14351,8 @@ function CanningTownBusStation(){
         topTextNo.innerHTML = "Canning Town Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Canning Town Bus Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -13439,6 +14375,8 @@ function BlackwallTunnel(){
         topTextNo.innerHTML = "Blackwall Tunnel";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Blackwall Tunnel";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13461,6 +14399,8 @@ function BowRoad(){
         topTextNo.innerHTML = "Bow Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bow Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13483,6 +14423,8 @@ function MarshgateLane(){
         topTextNo.innerHTML = "Marshgate Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Marshgate Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13505,6 +14447,8 @@ function GibbinsRoad(){
         topTextNo.innerHTML = "Gibbins Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gibbins Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13527,6 +14471,8 @@ function LewishamCentre(){
         topTextNo.innerHTML = "Lewisham Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lewisham Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13549,6 +14495,8 @@ function IsleofDogsPoliceStation(){
         topTextNo.innerHTML = "Isle of Dogs Police Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Isle of Dogs Police Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13571,6 +14519,8 @@ function IslandGardensStation(){
         topTextNo.innerHTML = "Island Gardens Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Island Gardens Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13593,6 +14543,8 @@ function EastFerryRoad(){
         topTextNo.innerHTML = "East Ferry Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "East Ferry Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13615,6 +14567,8 @@ function MudchuteStationSpindriftAve(){
         topTextNo.innerHTML = "Mudchute Station / Spindrift Ave";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mudchute Station / Spindrift Ave";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13637,6 +14591,8 @@ function MudchuteStation(){
         topTextNo.innerHTML = "Mudchute Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mudchute Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13659,6 +14615,8 @@ function CrossharbourAsda(){
         topTextNo.innerHTML = "Crossharbour Asda";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crossharbour Asda";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13681,6 +14639,8 @@ function CrossharbourStation(){
         topTextNo.innerHTML = "Crossharbour Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crossharbour Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13703,6 +14663,8 @@ function HarbourExchangeSquare(){
         topTextNo.innerHTML = "Harbour Exchange Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Harbour Exchange Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13725,6 +14687,8 @@ function SouthQuayStation(){
         topTextNo.innerHTML = "South Quay Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "South Quay Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13747,6 +14711,8 @@ function AdmiralsWay(){
         topTextNo.innerHTML = "Admirals Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Admirals Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13769,6 +14735,8 @@ function MastmakersRoad(){
         topTextNo.innerHTML = "Mastmakers Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mastmakers Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13791,6 +14759,8 @@ function HeronQuays(){
         topTextNo.innerHTML = "Heron Quays";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Heron Quays";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13813,6 +14783,8 @@ function CanaryWharfStation(){
         topTextNo.innerHTML = "Canary Wharf Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Canary Wharf Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -13835,6 +14807,8 @@ function CanadaSquareSouthCanaryWharfStn(){
         marquee.innerHTML = "Canada Square South / Canary Wharf Stn";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Canada Square South / Canary Wharf Stn";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13857,6 +14831,8 @@ function WestIndiaAvenue(){
         topTextNo.innerHTML = "West India Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "West India Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13879,6 +14855,8 @@ function WestferryCircusCanaryWharfPier(){
         marquee.innerHTML = "Westferry Circus / Canary Wharf Pier";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westferry Circus / Canary Wharf Pier";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13901,6 +14879,8 @@ function WestferryStation(){
         topTextNo.innerHTML = "Westferry Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westferry Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13923,6 +14903,8 @@ function SalterStreet(){
         topTextNo.innerHTML = "Salter Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Salter Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13945,6 +14927,8 @@ function LimehousePoliceStation(){
         topTextNo.innerHTML = "Limehouse Police Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Limehouse Police Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13967,6 +14951,8 @@ function LimehouseTownHall(){
         topTextNo.innerHTML = "Limehouse Town Hall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Limehouse Town Hall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -13989,6 +14975,8 @@ function LowellStreet(){
         topTextNo.innerHTML = "Lowell Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lowell Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14011,6 +14999,8 @@ function LimehouseStation(){
         topTextNo.innerHTML = "Limehouse Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Limehouse Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14033,6 +15023,8 @@ function StepneyMethodistChurch(){
         topTextNo.innerHTML = "Stepney Methodist Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stepney Methodist Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14055,6 +15047,8 @@ function MarionRichardsonSchool(){
         topTextNo.innerHTML = "Marion Richardson School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Marion Richardson School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14077,6 +15071,8 @@ function ExmouthEstate(){
         topTextNo.innerHTML = "Exmouth Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Exmouth Estate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14099,6 +15095,8 @@ function StMarysStMichaelsChurch(){
         topTextNo.innerHTML = "St Mary's & St Michael's Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Mary's & St Michael's Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14121,6 +15119,8 @@ function WatneyMarket(){
         topTextNo.innerHTML = "Watney Market";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Watney Market";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14143,6 +15143,8 @@ function NewRoad(){
         topTextNo.innerHTML = "New Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "New Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14165,6 +15167,8 @@ function HenriquesStreet(){
         topTextNo.innerHTML = "Henriques Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Henriques Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14187,6 +15191,8 @@ function AldgateEastStation(){
         topTextNo.innerHTML = "Aldgate East Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Aldgate East Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -14209,6 +15215,8 @@ function DruidStreet(){
         topTextNo.innerHTML = "Druid Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Druid Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14231,6 +15239,8 @@ function AbbeyStreet(){
         topTextNo.innerHTML = "Abbey Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Abbey Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14253,6 +15263,8 @@ function GrangeRoadCaledonianMarket(){
         topTextNo.innerHTML = "Grange Road / Caledonian Market";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Grange Road / Caledonian Market";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14275,6 +15287,8 @@ function BricklayersArmsTowerBridgeRoad(){
         marquee.innerHTML = "Bricklayer's Arms / Tower Bridge Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bricklayer's Arms / Tower Bridge Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14297,6 +15311,8 @@ function BricklayersArmsNewKentRoad(){
         topTextNo.innerHTML = "Bricklayer's Arms / New Kent Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bricklayer's Arms / New Kent Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14319,6 +15335,8 @@ function RodneyPlace(){
         topTextNo.innerHTML = "Rodney Place";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rodney Place";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14341,6 +15359,8 @@ function ElephantCastleNewKentRoad(){
         marquee.innerHTML = "Elephant & Castle / New Kent Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Elephant & Castle / New Kent Road";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -14363,6 +15383,8 @@ function WestmorelandRoad(){
         topTextNo.innerHTML = "Westmoreland Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westmoreland Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14385,6 +15407,8 @@ function CamberwellRoadAlbanyRoad(){
         topTextNo.innerHTML = "Camberwell Road / Albany Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Camberwell Road / Albany Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14407,6 +15431,8 @@ function BowyerPlace(){
         topTextNo.innerHTML = "Bowyer Place";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bowyer Place";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14429,6 +15455,8 @@ function MedlarStreet(){
         topTextNo.innerHTML = "Medlar Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Medlar Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14451,6 +15479,8 @@ function DenmarkHillCamberwellGreen(){
         topTextNo.innerHTML = "Denmark Hill / Camberwell Green";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Denmark Hill / Camberwell Green";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14473,6 +15503,8 @@ function ValmarRoad(){
         topTextNo.innerHTML = "Valmar Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Valmar Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14495,6 +15527,8 @@ function CaldecotRoad(){
         topTextNo.innerHTML = "Caldecot Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Caldecot Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14517,6 +15551,8 @@ function LilfordRoad(){
         topTextNo.innerHTML = "Lilford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lilford Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14539,6 +15575,8 @@ function LoughboroughJunctionStation(){
         topTextNo.innerHTML = "Loughborough Junction Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Loughborough Junction Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14561,6 +15599,8 @@ function ShakespeareRoad(){
         topTextNo.innerHTML = "Shakespeare Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shakespeare Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14583,6 +15623,8 @@ function MoorlandRoad(){
         topTextNo.innerHTML = "Moorland Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Moorland Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14605,6 +15647,8 @@ function ElectricLane(){
         topTextNo.innerHTML = "Electric Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Electric Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14627,6 +15671,8 @@ function LambethTownHall(){
         topTextNo.innerHTML = "Lambeth Town Hall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lambeth Town Hall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14649,6 +15695,8 @@ function BrixtonStation(){
         topTextNo.innerHTML = "Brixton Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brixton Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -14671,6 +15719,8 @@ function BrixtonStationNR(){
         topTextNo.innerHTML = "Brixton Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brixton Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14693,6 +15743,8 @@ function PomfretRoad(){
         topTextNo.innerHTML = "Pomfret Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Pomfret Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14715,6 +15767,8 @@ function CamberwellGreen(){
         topTextNo.innerHTML = "Camberwell Green";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Camberwell Green";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14737,6 +15791,8 @@ function WyndhamRoad(){
         topTextNo.innerHTML = "Wyndham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wyndham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14759,6 +15815,8 @@ function MansellStreet(){
         topTextNo.innerHTML = "Mansell Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mansell Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14781,6 +15839,8 @@ function ArbourSquare(){
         topTextNo.innerHTML = "Arbour Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Arbour Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14803,6 +15863,8 @@ function SalmonLane(){
         topTextNo.innerHTML = "Salmon Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Salmon Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14825,6 +15887,8 @@ function BurdettRoad(){
         topTextNo.innerHTML = "Burdett Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Burdett Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14847,6 +15911,8 @@ function MillwallPark(){
         topTextNo.innerHTML = "Millwall Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Millwall Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14869,6 +15935,8 @@ function GeorgeGreensSchool(){
         topTextNo.innerHTML = "George Green's School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "George Green's School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14891,6 +15959,8 @@ function SchoolRoad(){
         topTextNo.innerHTML = "School Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "School Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14913,6 +15983,8 @@ function FairfieldsRoad(){
         topTextNo.innerHTML = "Fairfields Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fairfields Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14935,6 +16007,8 @@ function TreatyCentre(){
         topTextNo.innerHTML = "Treaty Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Treaty Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14957,6 +16031,8 @@ function BellCornerHounslowCivicCentre(){
         marquee.innerHTML = "Bell Corner / Hounslow Civic Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bell Corner / Hounslow Civic Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -14979,6 +16055,8 @@ function StMichaelStMartinChurch(){
         topTextNo.innerHTML = "St Michael & St Martin Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Michael & St Martin Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15001,6 +16079,8 @@ function WellingtonRoadNorth(){
         topTextNo.innerHTML = "Wellington Road North";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wellington Road North";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15023,6 +16103,8 @@ function StPaulsChurch(){
         topTextNo.innerHTML = "St Paul's Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Paul's Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15045,6 +16127,8 @@ function HounslowWestStation(){
         topTextNo.innerHTML = "Hounslow West Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hounslow West Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -15067,6 +16151,8 @@ function GreatWestRoadBasildeneRoad(){
         topTextNo.innerHTML = "Great West Road / Basildene Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Great West Road / Basildene Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15089,6 +16175,8 @@ function HenlysRoundabout(){
         topTextNo.innerHTML = "Henlys Roundabout";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Henlys Roundabout";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15111,6 +16199,8 @@ function GrantleyRoad(){
         topTextNo.innerHTML = "Grantley Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Grantley Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15133,6 +16223,8 @@ function TheParkway(){
         topTextNo.innerHTML = "The Parkway";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Parkway";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15155,6 +16247,8 @@ function GirlingWay(){
         topTextNo.innerHTML = "Girling Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Girling Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15177,6 +16271,8 @@ function GreatSouthWestRoad(){
         topTextNo.innerHTML = "Great South West Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Great South West Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15199,6 +16295,8 @@ function HattonCrossStation(){
         topTextNo.innerHTML = "Hatton Cross Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hatton Cross Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -15221,6 +16319,8 @@ function MyrtleAvenue(){
         topTextNo.innerHTML = "Myrtle Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Myrtle Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15243,6 +16343,8 @@ function CainsLane(){
         topTextNo.innerHTML = "Cains Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cains Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15265,6 +16367,8 @@ function HazelmereClose(){
         topTextNo.innerHTML = "Hazelmere Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hazelmere Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15287,6 +16391,8 @@ function WestRoad(){
         topTextNo.innerHTML = "West Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "West Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15309,6 +16415,8 @@ function BedfontClose(){
         topTextNo.innerHTML = "Bedfont Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bedfont Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15331,6 +16439,8 @@ function SpinneyDrive(){
         topTextNo.innerHTML = "Spinney Drive";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Spinney Drive";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15353,6 +16463,8 @@ function BeaconRoad(){
         topTextNo.innerHTML = "Beacon Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Beacon Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15375,6 +16487,8 @@ function LongLane(){
         topTextNo.innerHTML = "Long Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Long Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15397,6 +16511,8 @@ function BedfontRoad(){
         topTextNo.innerHTML = "Bedfont Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bedfont Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15419,6 +16535,8 @@ function EverestRoad(){
         topTextNo.innerHTML = "Everest Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Everest Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15441,6 +16559,8 @@ function CordeliaRoad(){
         topTextNo.innerHTML = "Cordelia Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cordelia Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15463,6 +16583,8 @@ function ViscountRoad(){
         topTextNo.innerHTML = "Viscount Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Viscount Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15485,6 +16607,8 @@ function StAnnesAvenue(){
         topTextNo.innerHTML = "St Anne's Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Anne's Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15507,6 +16631,8 @@ function ScotsClose(){
         topTextNo.innerHTML = "Scots Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Scots Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15529,6 +16655,8 @@ function AshfordHospital(){
         topTextNo.innerHTML = "Ashford Hospital";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ashford Hospital";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15551,6 +16679,8 @@ function TownLane(){
         topTextNo.innerHTML = "Town Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Town Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15573,6 +16703,8 @@ function KenilworthRoad(){
         topTextNo.innerHTML = "Kenilworth Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kenilworth Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15595,6 +16727,8 @@ function ShortwoodAvenue(){
         topTextNo.innerHTML = "Shortwood Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shortwood Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15617,6 +16751,8 @@ function CrookedBilletRoundabout(){
         topTextNo.innerHTML = "Crooked Billet Roundabout";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crooked Billet Roundabout";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15639,6 +16775,8 @@ function KingstonRoad(){
         topTextNo.innerHTML = "Kingston Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kingston Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15661,6 +16799,8 @@ function StainesBusStation(){
         topTextNo.innerHTML = "Staines Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Staines Bus Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15683,6 +16823,8 @@ function GatewaySurgicalCentre(){
         topTextNo.innerHTML = "Gateway Surgical Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gateway Surgical Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15705,6 +16847,8 @@ function NewhamUniversityHospMainReception(){
         marquee.innerHTML = "Newham University Hosp Main Reception";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Newham University Hosp Main Reception";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15727,6 +16871,8 @@ function NewhamUniversityHospEmergencyDept(){
         marquee.innerHTML = "Newham University Hosp Emergency Dept";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Newham University Hosp Emergency Dept";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15749,6 +16895,8 @@ function NewhamUniversityHospNewVicCollege(){
         marquee.innerHTML = "Newham University Hosp / New Vic College";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Newham University Hosp / New Vic College";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15771,6 +16919,8 @@ function WigstonRoad(){
         topTextNo.innerHTML = "Wigston Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wigston Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15793,6 +16943,8 @@ function PlaistowPrinceRegentLane(){
         topTextNo.innerHTML = "Plaistow / Prince Regent Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Plaistow / Prince Regent Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15815,6 +16967,8 @@ function PlaistowPoliceStation(){
         topTextNo.innerHTML = "Plaistow Police Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Plaistow Police Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15837,6 +16991,8 @@ function BalaamStreet(){
         topTextNo.innerHTML = "Balaam Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Balaam Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15859,6 +17015,8 @@ function ChargeableLane(){
         topTextNo.innerHTML = "Chargeable Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chargeable Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15881,6 +17039,8 @@ function CroydonRoad(){
         topTextNo.innerHTML = "Croydon Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Croydon Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15903,6 +17063,8 @@ function RokebySchool(){
         topTextNo.innerHTML = "Rokeby School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rokeby School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15925,6 +17087,8 @@ function HermitRoad(){
         topTextNo.innerHTML = "Hermit Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hermit Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15947,6 +17111,8 @@ function MalmesburyTerrace(){
         topTextNo.innerHTML = "Malmesbury Terrace";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Malmesbury Terrace";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15969,6 +17135,8 @@ function StarPrimarySchool(){
         topTextNo.innerHTML = "Star Primary School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Star Primary School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -15991,6 +17159,8 @@ function StarLaneStation(){
         topTextNo.innerHTML = "Star Lane Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Star Lane Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16013,6 +17183,8 @@ function GodboldRoad(){
         topTextNo.innerHTML = "Godbold Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Godbold Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16035,6 +17207,8 @@ function WestHamStation(){
         topTextNo.innerHTML = "West Ham Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "West Ham Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -16057,6 +17231,8 @@ function LeywickStreet(){
         topTextNo.innerHTML = "Leywick Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Leywick Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16079,6 +17255,8 @@ function MitreRoad(){
         topTextNo.innerHTML = "Mitre Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mitre Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16101,6 +17279,8 @@ function ChurchStreet(){
         topTextNo.innerHTML = "Church Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Church Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16123,6 +17303,8 @@ function PaulStreet(){
         topTextNo.innerHTML = "Paul Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Paul Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16145,6 +17327,8 @@ function StratfordBusStation(){
         topTextNo.innerHTML = "Stratford Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stratford Bus Station";
         underground.style.display = "inline";
         overground.style.display = "inline";
@@ -16167,6 +17351,8 @@ function StratfordHighStCarpentersRoad(){
         marquee.innerHTML = "Stratford High St / Carpenters Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stratford High St / Carpenters Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16189,6 +17375,8 @@ function WatersideClose(){
         topTextNo.innerHTML = "Waterside Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Waterside Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16211,6 +17399,8 @@ function WickLane(){
         topTextNo.innerHTML = "Wick Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wick Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16233,6 +17423,8 @@ function WansbeckRoad(){
         topTextNo.innerHTML = "Wansbeck Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wansbeck Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16255,6 +17447,8 @@ function RothburyRoad(){
         topTextNo.innerHTML = "Rothbury Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rothbury Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16277,6 +17471,8 @@ function HackneyWickStation(){
         topTextNo.innerHTML = "Hackney Wick Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hackney Wick Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -16299,6 +17495,8 @@ function BerkshireRoad(){
         topTextNo.innerHTML = "Berkshire Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Berkshire Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16321,6 +17519,8 @@ function OsborneRoad(){
         topTextNo.innerHTML = "Osborne Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Osborne Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16343,6 +17543,8 @@ function TrowbridgeEstate(){
         topTextNo.innerHTML = "Trowbridge Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Trowbridge Estate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16365,6 +17567,8 @@ function CrowfootClose(){
         topTextNo.innerHTML = "Crowfoot Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crowfoot Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16387,6 +17591,8 @@ function PoplarClose(){
         topTextNo.innerHTML = "Poplar Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Poplar Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16409,6 +17615,8 @@ function KingsmeadEstate(){
         topTextNo.innerHTML = "Kingsmead Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kingsmead Estate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16431,6 +17639,8 @@ function MarshHill(){
         topTextNo.innerHTML = "Marsh Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Marsh Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16453,6 +17663,8 @@ function BrooksbysWalkHomertonStation(){
         marquee.innerHTML = "Brooksby's Walk / Homerton Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brooksby's Walk / Homerton Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16475,6 +17687,8 @@ function HomertonHospital(){
         topTextNo.innerHTML = "Homerton Hospital";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Homerton Hospital";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16497,6 +17711,8 @@ function BanisterHouse(){
         topTextNo.innerHTML = "Banister House";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Banister House";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16519,6 +17735,8 @@ function PonsfordStreet(){
         topTextNo.innerHTML = "Ponsford Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ponsford Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16541,6 +17759,8 @@ function TrelawneyEstate(){
         topTextNo.innerHTML = "Trelawney Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Trelawney Estate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16563,6 +17783,8 @@ function HackneyTownHall(){
         topTextNo.innerHTML = "Hackney Town Hall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hackney Town Hall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16585,6 +17807,8 @@ function HackneyCentralStation(){
         topTextNo.innerHTML = "Hackney Central Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hackney Central Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -16607,6 +17831,8 @@ function AmhurstRoadHackneyDownsStation(){
         marquee.innerHTML = "Amhurst Road / Hackney Downs Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Amhurst Road / Hackney Downs Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16629,6 +17855,8 @@ function AmhurstRoadDalstonLane(){
         topTextNo.innerHTML = "Amhurst Road / Dalston Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Amhurst Road / Dalston Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16651,6 +17879,8 @@ function SandringhamRoad(){
         topTextNo.innerHTML = "Sandringham Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sandringham Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16673,6 +17903,8 @@ function DownsParkRoad(){
         topTextNo.innerHTML = "Downs Park Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Downs Park Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16695,6 +17927,8 @@ function ShacklewellLane(){
         topTextNo.innerHTML = "Shacklewell Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shacklewell Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16717,6 +17951,8 @@ function RectoryRoadDownsRoad(){
         topTextNo.innerHTML = "Rectory Road / Downs Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rectory Road / Downs Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16739,6 +17975,8 @@ function ManseRoad(){
         topTextNo.innerHTML = "Manse Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Manse Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16761,6 +17999,8 @@ function StokeNewingtonPoliceStation(){
         topTextNo.innerHTML = "Stoke Newington Police Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stoke Newington Police Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16783,6 +18023,8 @@ function BrookeRoad(){
         topTextNo.innerHTML = "Brooke Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brooke Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16805,6 +18047,8 @@ function StokeNewingtonHighStGarnhamStreet(){
         marquee.innerHTML = "Stoke Newington High St / Garnham Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stoke Newington High St / Garnham Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16827,6 +18071,8 @@ function NorthwoldRoadStokeNewingtonCommon(){
         marquee.innerHTML = "Northwold Road / Stoke Newington Common";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Northwold Road / Stoke Newington Common";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16849,6 +18095,8 @@ function StokeNewingtonCommon(){
         topTextNo.innerHTML = "Stoke Newington Common";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stoke Newington Common";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16871,6 +18119,8 @@ function RectoryRoadBrookeRoad(){
         topTextNo.innerHTML = "Rectory Road / Brooke Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rectory Road / Brooke Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16893,6 +18143,8 @@ function DownsRoad(){
         topTextNo.innerHTML = "Downs Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Downs Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16915,6 +18167,8 @@ function HackneyDownsStation(){
         topTextNo.innerHTML = "Hackney Downs Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hackney Downs Station";
         underground.style.display = "none";
         overground.style.display = "inline";
@@ -16937,6 +18191,8 @@ function MorningLaneTrelawneyEstate(){
         topTextNo.innerHTML = "Morning Lane / Trelawney Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Morning Lane / Trelawney Estate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16959,6 +18215,8 @@ function HomertonTerrace(){
         topTextNo.innerHTML = "Homerton Terrace";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Homerton Terrace";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -16981,6 +18239,8 @@ function FennStreet(){
         topTextNo.innerHTML = "Fenn Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fenn Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17003,6 +18263,8 @@ function HomertonHospitalHomertonRow(){
         topTextNo.innerHTML = "Homerton Hospital / Homerton Row";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Homerton Hospital / Homerton Row";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17025,6 +18287,8 @@ function HomertonHospitalWardleStreet(){
         topTextNo.innerHTML = "Homerton Hospital / Wardle Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Homerton Hospital / Wardle Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17047,6 +18311,8 @@ function AdleyStreet(){
         topTextNo.innerHTML = "Adley Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Adley Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17069,6 +18335,8 @@ function LeeConservancyRoadPoplarClose(){
         marquee.innerHTML = "Lee Conservancy Road / Poplar Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lee Conservancy Road / Poplar Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17091,6 +18359,8 @@ function MonierRoad(){
         topTextNo.innerHTML = "Monier Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Monier Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17113,6 +18383,8 @@ function StratfordBroadway(){
         topTextNo.innerHTML = "Stratford Broadway";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Stratford Broadway";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17135,6 +18407,8 @@ function BarnbyStreet(){
         topTextNo.innerHTML = "Barnby Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Barnby Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17157,6 +18431,8 @@ function CorporationStreet(){
         topTextNo.innerHTML = "Corporation Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Corporation Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17179,6 +18455,8 @@ function StarLaneStnStarPrimarySch(){
         topTextNo.innerHTML = "Star Lane Stn / Star Primary Sch";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Star Lane Stn / Star Primary Sch";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17201,6 +18479,8 @@ function ExningRoad(){
         topTextNo.innerHTML = "Exning Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Exning Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17223,6 +18503,8 @@ function KhartoumRoad(){
         topTextNo.innerHTML = "Khartoum Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Khartoum Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17245,6 +18527,8 @@ function BeaumontRoad(){
         topTextNo.innerHTML = "Beaumont Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Beaumont Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17267,6 +18551,8 @@ function MilnerRoad(){
         topTextNo.innerHTML = "Milner Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Milner Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17289,6 +18575,8 @@ function WoodbinePlace(){
         topTextNo.innerHTML = "Woodbine Place";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Woodbine Place";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17311,6 +18599,8 @@ function WansteadHighStWansteadStation(){
         marquee.innerHTML = "Wanstead High St / Wanstead Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wanstead High St / Wanstead Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17333,6 +18623,8 @@ function WansteadStationGeorgeGreen(){
         topTextNo.innerHTML = "Wanstead Station / George Green";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wanstead Station / George Green";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -17355,6 +18647,8 @@ function FelsteadRoad(){
         topTextNo.innerHTML = "Felstead Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Felstead Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17377,6 +18671,8 @@ function BushRoad(){
         topTextNo.innerHTML = "Bush Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bush Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17399,6 +18695,8 @@ function CranbourneRoad(){
         topTextNo.innerHTML = "Cranbourne Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cranbourne Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17421,6 +18719,8 @@ function BerkeleyRoad(){
         topTextNo.innerHTML = "Berkeley Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Berkeley Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17443,6 +18743,8 @@ function RuskinAvenue(){
         topTextNo.innerHTML = "Ruskin Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ruskin Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17465,6 +18767,8 @@ function ShelleyAvenue(){
         topTextNo.innerHTML = "Shelley Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shelley Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17487,6 +18791,8 @@ function GladstoneAvenue(){
         topTextNo.innerHTML = "Gladstone Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Gladstone Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17509,6 +18815,8 @@ function EastHamStation(){
         topTextNo.innerHTML = "East Ham Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "East Ham Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -17531,6 +18839,8 @@ function BendishRoad(){
         topTextNo.innerHTML = "Bendish Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bendish Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17553,6 +18863,8 @@ function RonLeightonWay(){
         topTextNo.innerHTML = "Ron Leighton Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ron Leighton Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17575,6 +18887,8 @@ function NewhamTownHall(){
         topTextNo.innerHTML = "Newham Town Hall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Newham Town Hall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17597,6 +18911,8 @@ function MarketStreet(){
         topTextNo.innerHTML = "Market Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Market Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17619,6 +18935,8 @@ function EastHamCentralPark(){
         topTextNo.innerHTML = "East Ham / Central Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "East Ham / Central Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17641,6 +18959,8 @@ function VicarageLane(){
         topTextNo.innerHTML = "Vicarage Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Vicarage Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17663,6 +18983,8 @@ function EastHamFireStation(){
         topTextNo.innerHTML = "East Ham Fire Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "East Ham Fire Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17685,6 +19007,8 @@ function LonsdaleAvenue(){
         topTextNo.innerHTML = "Lonsdale Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lonsdale Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17707,6 +19031,8 @@ function AlbatrossClose(){
         topTextNo.innerHTML = "Albatross Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Albatross Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17729,6 +19055,8 @@ function TollgateRoad(){
         topTextNo.innerHTML = "Tollgate Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tollgate Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17751,6 +19079,8 @@ function BecktonBusStation(){
         topTextNo.innerHTML = "Beckton Bus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Beckton Bus Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17773,6 +19103,8 @@ function MortimerRoad(){
         topTextNo.innerHTML = "Mortimer Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Mortimer Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17795,6 +19127,8 @@ function MarlowRoad(){
         topTextNo.innerHTML = "Marlow Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Marlow Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17817,6 +19151,8 @@ function TilburyRoad(){
         topTextNo.innerHTML = "Tilbury Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tilbury Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17839,6 +19175,8 @@ function KemptonRoad(){
         topTextNo.innerHTML = "Kempton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Kempton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17861,6 +19199,8 @@ function CaledonRoad(){
         topTextNo.innerHTML = "Caledon Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Caledon Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17883,6 +19223,8 @@ function CambridgePark(){
         topTextNo.innerHTML = "Cambridge Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cambridge Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17905,6 +19247,8 @@ function WansteadStation(){
         topTextNo.innerHTML = "Wanstead Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wanstead Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -17927,6 +19271,8 @@ function CoveleesWall(){
         topTextNo.innerHTML = "Covelees Wall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Covelees Wall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17949,6 +19295,8 @@ function WinsorParkEstate(){
         topTextNo.innerHTML = "Winsor Park Estate";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Winsor Park Estate";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17971,6 +19319,8 @@ function HorseLeaze(){
         topTextNo.innerHTML = "Horse Leaze";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Horse Leaze";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -17993,6 +19343,8 @@ function DevallsClose(){
         topTextNo.innerHTML = "Devalls Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Devalls Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18015,6 +19367,8 @@ function CyprusStation(){
         topTextNo.innerHTML = "Cyprus Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cyprus Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18037,6 +19391,8 @@ function StraitRoadEastHamManorWay(){
         topTextNo.innerHTML = "Strait Road / East Ham Manor Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Strait Road / East Ham Manor Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18059,6 +19415,8 @@ function RenfrewClose(){
         topTextNo.innerHTML = "Renfrew Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Renfrew Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18081,6 +19439,8 @@ function BecktonParkStation(){
         topTextNo.innerHTML = "Beckton Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Beckton Park Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18103,6 +19463,8 @@ function StraitRoadStansfeldRoad(){
         topTextNo.innerHTML = "Strait Road / Stansfeld Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Strait Road / Stansfeld Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18125,6 +19487,8 @@ function JakeRussellWalk(){
         topTextNo.innerHTML = "Jake Russell Walk";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Jake Russell Walk";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18147,6 +19511,8 @@ function WillThornePavilion(){
         topTextNo.innerHTML = "Will Thorne Pavilion";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Will Thorne Pavilion";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18169,6 +19535,8 @@ function FulmerRoad(){
         topTextNo.innerHTML = "Fulmer Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fulmer Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18191,6 +19559,8 @@ function SullivanAvenue(){
         topTextNo.innerHTML = "Sullivan Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sullivan Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18213,6 +19583,8 @@ function ColmanRoad(){
         topTextNo.innerHTML = "Colman Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Colman Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18235,6 +19607,8 @@ function BennettRoad(){
         topTextNo.innerHTML = "Bennett Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bennett Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18257,6 +19631,8 @@ function BramptonManorSchool(){
         topTextNo.innerHTML = "Brampton Manor School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Brampton Manor School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18279,6 +19655,8 @@ function NewCityRoad(){
         topTextNo.innerHTML = "New City Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "New City Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18301,6 +19679,8 @@ function WilsonRoad(){
         topTextNo.innerHTML = "Wilson Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wilson Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18323,6 +19703,8 @@ function BarkingRoad(){
         topTextNo.innerHTML = "Barking Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Barking Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18345,6 +19727,8 @@ function UptonParkBoleyn(){
         topTextNo.innerHTML = "Upton Park / Boleyn";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Upton Park / Boleyn";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18367,6 +19751,8 @@ function TudorRoad(){
         topTextNo.innerHTML = "Tudor Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tudor Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18389,6 +19775,8 @@ function UptonParkStation(){
         topTextNo.innerHTML = "Upton Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Upton Park Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18411,6 +19799,8 @@ function PlashetRoad(){
         topTextNo.innerHTML = "Plashet Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Plashet Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18433,6 +19823,8 @@ function WashingtonRoad(){
         topTextNo.innerHTML = "Washington Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Washington Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18455,6 +19847,8 @@ function WalpoleRoad(){
         topTextNo.innerHTML = "Walpole Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Walpole Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18477,6 +19871,8 @@ function KatherineRoad(){
         topTextNo.innerHTML = "Katherine Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Katherine Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18499,6 +19895,8 @@ function ShrewsburyRoad(){
         topTextNo.innerHTML = "Shrewsbury Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shrewsbury Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18521,6 +19919,8 @@ function PlashetSchool(){
         topTextNo.innerHTML = "Plashet School";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Plashet School";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18543,6 +19943,8 @@ function WhitfieldRoad(){
         topTextNo.innerHTML = "Whitfield Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Whitfield Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18565,6 +19967,8 @@ function GreenStreet(){
         topTextNo.innerHTML = "Green Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Green Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18587,6 +19991,8 @@ function QueensMarket(){
         topTextNo.innerHTML = "Queens Market";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Queens Market";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18609,6 +20015,8 @@ function BensonAvenue(){
         topTextNo.innerHTML = "Benson Avenue";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Benson Avenue";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18631,6 +20039,8 @@ function BecktonOrPrinceRegent(){
         topTextNo.innerHTML = "Beckton Or Prince Regent";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Beckton Or Prince Regent";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18653,6 +20063,8 @@ function NewhamLeisureCentre(){
         topTextNo.innerHTML = "Newham Leisure Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Newham Leisure Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18675,6 +20087,8 @@ function CampionClose(){
         topTextNo.innerHTML = "Campion Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Campion Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18697,6 +20111,8 @@ function FerndaleStreet(){
         topTextNo.innerHTML = "Ferndale Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ferndale Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18719,6 +20135,8 @@ function EastHamManorWay(){
         topTextNo.innerHTML = "East Ham Manor Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "East Ham Manor Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18741,6 +20159,8 @@ function CrystalPalaceParadeCollegeRoad(){
         marquee.innerHTML = "Crystal Palace Parade / College Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crystal Palace Parade / College Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18763,6 +20183,8 @@ function WestwoodHill(){
         topTextNo.innerHTML = "Westwood Hill";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westwood Hill";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18785,6 +20207,8 @@ function DomeHillPark(){
         topTextNo.innerHTML = "Dome Hill Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Dome Hill Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18807,6 +20231,8 @@ function WellsParkRoad(){
         topTextNo.innerHTML = "Wells Park Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wells Park Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18829,6 +20255,8 @@ function DroitwichClose(){
         topTextNo.innerHTML = "Droitwich Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Droitwich Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18851,6 +20279,8 @@ function CrescentWoodRoad(){
         topTextNo.innerHTML = "Crescent Wood Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crescent Wood Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18873,6 +20303,8 @@ function SydenhamHillKirkdale(){
         topTextNo.innerHTML = "Sydenham Hill / Kirkdale";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sydenham Hill / Kirkdale";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18895,6 +20327,8 @@ function HornimanPark(){
         topTextNo.innerHTML = "Horniman Park";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Horniman Park";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18917,6 +20351,8 @@ function LordshipLaneWoodVale(){
         topTextNo.innerHTML = "Lordship Lane / Wood Vale";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lordship Lane / Wood Vale";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18939,6 +20375,8 @@ function UnderhillRoadMelfordRoad(){
         topTextNo.innerHTML = "Underhill Road / Melford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Underhill Road / Melford Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18961,6 +20399,8 @@ function MelfordRoad(){
         topTextNo.innerHTML = "Melford Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Melford Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -18983,6 +20423,8 @@ function LangtonRise(){
         topTextNo.innerHTML = "Langton Rise";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Langton Rise";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19005,6 +20447,8 @@ function WoodValeForestHillRoad(){
         topTextNo.innerHTML = "Wood Vale / Forest Hill Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wood Vale / Forest Hill Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19027,6 +20471,8 @@ function TherapiaRoad(){
         topTextNo.innerHTML = "Therapia Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Therapia Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19049,6 +20495,8 @@ function DunstansRoad(){
         topTextNo.innerHTML = "Dunstans Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Dunstans Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19071,6 +20519,8 @@ function FriernRoad(){
         topTextNo.innerHTML = "Friern Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Friern Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19093,6 +20543,8 @@ function PeckhamRyeBarryRoad(){
         topTextNo.innerHTML = "Friern Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Friern Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19115,6 +20567,8 @@ function TheGardens(){
         topTextNo.innerHTML = "The Gardens";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Gardens";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19137,6 +20591,8 @@ function BonarRoad(){
         topTextNo.innerHTML = "Bonar Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bonar Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19159,6 +20615,8 @@ function CommercialWay(){
         topTextNo.innerHTML = "Commercial Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Commercial Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19181,6 +20639,8 @@ function BirdInBushRoad(){
         topTextNo.innerHTML = "Bird In Bush Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bird In Bush Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19203,6 +20663,8 @@ function StGeorgesWay(){
         topTextNo.innerHTML = "St George's Way";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St George's Way";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19225,6 +20687,8 @@ function WaiteStreet(){
         topTextNo.innerHTML = "Waite Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Waite Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19247,6 +20711,8 @@ function NileTerrace(){
         topTextNo.innerHTML = "Nile Terrace";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Nile Terrace";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19269,6 +20735,8 @@ function DuntonRoad(){
         topTextNo.innerHTML = "Dunton Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Dunton Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19291,6 +20759,8 @@ function OldKentRoadEastStreet(){
         topTextNo.innerHTML = "Old Kent Road / East Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Old Kent Road / East Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19313,6 +20783,8 @@ function BricklayersArms(){
         topTextNo.innerHTML = "Bricklayer's Arms";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bricklayer's Arms";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19335,6 +20807,8 @@ function ElephantCastleLondonRoad(){
         topTextNo.innerHTML = "Elephant & Castle / London Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Elephant & Castle / London Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19357,6 +20831,8 @@ function LambethRoad(){
         topTextNo.innerHTML = "Lambeth Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Lambeth Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19379,6 +20855,8 @@ function PeckhamPostOffice(){
         topTextNo.innerHTML = "Peckham Post Office";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Peckham Post Office";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19401,6 +20879,8 @@ function UnderhillRoad(){
         topTextNo.innerHTML = "Underhill Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Underhill Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19423,6 +20903,8 @@ function SydenhamHillBluebellClose(){
         topTextNo.innerHTML = "Sydenham Hill / Bluebell Close";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sydenham Hill / Bluebell Close";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19445,6 +20927,8 @@ function CrystalPalaceParadeFountainDrive(){
         marquee.innerHTML = "Crystal Palace Parade / Fountain Drive";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Crystal Palace Parade / Fountain Drive";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19467,6 +20951,8 @@ function PrimroseStreet(){
         topTextNo.innerHTML = "Primrose Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Primrose Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19489,6 +20975,8 @@ function LiverpoolStreetStation(){
         topTextNo.innerHTML = "Liverpool Street Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Liverpool Street Station";
         underground.style.display = "inline";
         overground.style.display = "inline";
@@ -19511,6 +20999,8 @@ function CamomileStreet(){
         topTextNo.innerHTML = "Camomile Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Camomile Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19533,6 +21023,8 @@ function OldBroadStreet(){
         topTextNo.innerHTML = "Old Broad Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Old Broad Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19555,6 +21047,8 @@ function PoultryBankStation(){
         topTextNo.innerHTML = "Poultry / Bank Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Poultry / Bank Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19577,6 +21071,8 @@ function BreadStreet(){
         topTextNo.innerHTML = "Bread Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bread Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19599,6 +21095,8 @@ function NewChangeCannonStreet(){
         topTextNo.innerHTML = "New Change / Cannon Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "New Change / Cannon Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19621,6 +21119,8 @@ function StPaulsChurchyard(){
         topTextNo.innerHTML = "St Paul's Churchyard";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Paul's Churchyard";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19643,6 +21143,8 @@ function StPaulsCathedral(){
         topTextNo.innerHTML = "St Paul's Cathedral";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Paul's Cathedral";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19665,6 +21167,8 @@ function CityThameslinkStnLudgateCircus(){
         marquee.innerHTML = "City Thameslink Stn / Ludgate Circus";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "City Thameslink Stn / Ludgate Circus";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19687,6 +21191,8 @@ function ShoeLane(){
         topTextNo.innerHTML = "Shoe Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Shoe Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19709,6 +21215,8 @@ function FetterLane(){
         topTextNo.innerHTML = "Fetter Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fetter Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19731,6 +21239,8 @@ function ChanceryLane(){
         topTextNo.innerHTML = "Chancery Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chancery Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19753,6 +21263,8 @@ function TheRoyalCourtsofJustice(){
         topTextNo.innerHTML = "The Royal Courts of Justice";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "The Royal Courts of Justice";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19775,6 +21287,8 @@ function AldwychAustraliaHouse(){
         topTextNo.innerHTML = "Aldwych / Australia House";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Aldwych / Australia House";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19797,6 +21311,8 @@ function AldwychDruryLane(){
         topTextNo.innerHTML = "Aldwych / Drury Lane";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Aldwych / Drury Lane";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19819,6 +21335,8 @@ function SavoyStreet(){
         topTextNo.innerHTML = "Savoy Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Savoy Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19841,6 +21359,8 @@ function BedfordStreet(){
         topTextNo.innerHTML = "Bedford Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Bedford Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19863,6 +21383,8 @@ function TrafalgarSquareCharingCrossStn(){
         marquee.innerHTML = "Trafalgar Square / Charing Cross Stn";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Trafalgar Square / Charing Cross Stn";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -19885,6 +21407,8 @@ function WhitehallTrafalgarSquare(){
         topTextNo.innerHTML = "Whitehall / Trafalgar Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Whitehall / Trafalgar Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19907,6 +21431,8 @@ function HorseGuardsParade(){
         topTextNo.innerHTML = "Horse Guards Parade";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Horse Guards Parade";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19929,6 +21455,8 @@ function WestminsterStnParliamentSquare(){
         marquee.innerHTML = "Westminster Stn / Parliament Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westminster Stn / Parliament Square";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -19951,6 +21479,8 @@ function GreatSmithStreetWestminsterAbbey(){
         marquee.innerHTML = "Great Smith Street / Westminster Abbey";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Great Smith Street / Westminster Abbey";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -19973,6 +21503,8 @@ function StJamessParkStation(){
         topTextNo.innerHTML = "St James's Park Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St James's Park Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -19995,6 +21527,8 @@ function WestminsterCityHall(){
         topTextNo.innerHTML = "Westminster City Hall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westminster City Hall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20017,6 +21551,8 @@ function WestminsterCathedralVictoriaStn(){
         marquee.innerHTML = "Westminster Cathedral / Victoria Stn";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westminster Cathedral / Victoria Stn";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20039,6 +21575,8 @@ function VictoriaStation(){
         topTextNo.innerHTML = "Victoria Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Victoria Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -20061,6 +21599,8 @@ function VictoriaCoachStation(){
         topTextNo.innerHTML = "Victoria Coach Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Victoria Coach Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20083,6 +21623,8 @@ function PimlicoRoadEburyBridgeRoad(){
         topTextNo.innerHTML = "Pimlico Road / Ebury Bridge Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Pimlico Road / Ebury Bridge Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20105,6 +21647,8 @@ function RoyalHospitalRoad(){
         topTextNo.innerHTML = "Royal Hospital Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Royal Hospital Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20127,6 +21671,8 @@ function SloaneSquareStation(){
         topTextNo.innerHTML = "Sloane Square Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sloane Square Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -20149,6 +21695,8 @@ function DukeofYorkSquare(){
         topTextNo.innerHTML = "Duke of York Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Duke of York Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20171,6 +21719,8 @@ function WalpoleStreet(){
         topTextNo.innerHTML = "Walpole Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Walpole Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20193,6 +21743,8 @@ function MarkhamStreet(){
         topTextNo.innerHTML = "Markham Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Markham Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20215,6 +21767,8 @@ function ChelseaOldTownHall(){
         topTextNo.innerHTML = "Chelsea Old Town Hall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chelsea Old Town Hall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20237,6 +21791,8 @@ function CarlyleSquare(){
         topTextNo.innerHTML = "Carlyle Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Carlyle Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20259,6 +21815,8 @@ function BeaufortStreet(){
         topTextNo.innerHTML = "Beaufort Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Beaufort Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20281,6 +21839,8 @@ function EdithGroveWorldsEnd(){
         topTextNo.innerHTML = "Edith Grove / Worlds End";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Edith Grove / Worlds End";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20303,6 +21863,8 @@ function WorldsEndHealthCentre(){
         topTextNo.innerHTML = "Worlds End Health Centre";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Worlds End Health Centre";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20325,6 +21887,8 @@ function RumboldRoad(){
         topTextNo.innerHTML = "Rumbold Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Rumbold Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20347,6 +21911,8 @@ function TyrawleyRoad(){
         topTextNo.innerHTML = "Tyrawley Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Tyrawley Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20369,6 +21935,8 @@ function FulhamTownHall(){
         topTextNo.innerHTML = "Fulham Town Hall";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Fulham Town Hall";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20391,6 +21959,8 @@ function HoburyStreetWorldsEnd(){
         topTextNo.innerHTML = "Hobury Street / Worlds End";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Hobury Street / Worlds End";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20413,6 +21983,8 @@ function OldChurchStreet(){
         topTextNo.innerHTML = "Old Church Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Old Church Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20435,6 +22007,8 @@ function CadoganGardensSloaneSquare(){
         topTextNo.innerHTML = "Cadogan Gardens / Sloane Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Cadogan Gardens / Sloane Square";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20457,6 +22031,8 @@ function SloaneSquareStnLowerSloaneSt(){
         marquee.innerHTML = "Sloane Square Stn / Lower Sloane St";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Sloane Square Stn / Lower Sloane St";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20479,6 +22055,8 @@ function ChelseaBridgeRoad(){
         topTextNo.innerHTML = "Chelsea Bridge Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Chelsea Bridge Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20501,6 +22079,8 @@ function EcclestonBridge(){
         topTextNo.innerHTML = "Eccleston Bridge";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Eccleston Bridge";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20523,6 +22103,8 @@ function EburyBridgeRoad(){
         topTextNo.innerHTML = "Ebury Bridge Road";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ebury Bridge Road";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20545,6 +22127,8 @@ function WestminsterCathedral(){
         topTextNo.innerHTML = "Westminster Cathedral";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westminster Cathedral";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20567,6 +22151,8 @@ function WestminsterAbbey(){
         topTextNo.innerHTML = "Westminster Abbey";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Westminster Abbey";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20589,6 +22175,8 @@ function CharingCrossStnTrafalgarSquare(){
         marquee.innerHTML = "Charing Cross Stn / Trafalgar Square";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Charing Cross Stn / Trafalgar Square";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -20611,6 +22199,8 @@ function SouthamptonStreetCoventGarden(){
         marquee.innerHTML = "Southampton Street / Covent Garden";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Southampton Street / Covent Garden";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20633,6 +22223,8 @@ function Aldwych(){
         topTextNo.innerHTML = "Aldwych";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Aldwych";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20655,6 +22247,8 @@ function LudgateCircus(){
         topTextNo.innerHTML = "Ludgate Circus";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ludgate Circus";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20677,6 +22271,8 @@ function LudgateHillOldBailey(){
         topTextNo.innerHTML = "Ludgate Hill / Old Bailey";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Ludgate Hill / Old Bailey";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20699,6 +22295,8 @@ function StPaulsStation(){
         topTextNo.innerHTML = "St Paul's Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "St Paul's Station";
         underground.style.display = "inline";
         overground.style.display = "none";
@@ -20721,6 +22319,8 @@ function LittleBritain(){
         topTextNo.innerHTML = "Little Britain";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Little Britain";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20743,6 +22343,8 @@ function LondonWallMuseumofLondon(){
         topTextNo.innerHTML = "London Wall / Museum of London";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "London Wall / Museum of London";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20765,6 +22367,8 @@ function LondonWallMoorgateStation(){
         topTextNo.innerHTML = "London Wall / Moorgate Station";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "London Wall / Moorgate Station";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20787,6 +22391,8 @@ function AllHallowsChurch(){
         topTextNo.innerHTML = "All Hallows Church";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "All Hallows Church";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20809,6 +22415,8 @@ function WormwoodStreet(){
         topTextNo.innerHTML = "Wormwood Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Wormwood Street";
         underground.style.display = "none";
         overground.style.display = "none";
@@ -20831,6 +22439,8 @@ function AppoldStreet(){
         topTextNo.innerHTML = "Appold Street";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
+        newIbusDisplayDesText.style.display = "block";
+        newIbusDisplayDesTextMarquee.style.display = "none";
         newIbusDisplayDesText.innerHTML = "Appold Street";
         underground.style.display = "none";
         overground.style.display = "none";
