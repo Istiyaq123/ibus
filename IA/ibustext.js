@@ -27,7 +27,9 @@ function Diversion(){
         marquee.innerHTML = "Bus on diversion. Please listen for further announcements";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
-        newIbusDisplayDesText.innerHTML = "Bus on diversion. Please listen for further announcements";
+        newIbusDisplayDesText.style.display = "none";
+        newIbusDisplayDesTextMarquee.style.display = "block";
+        newIbusDisplayDesTextMarquee.innerHTML = "Bus on diversion. Please listen for further announcements";
         underground.style.display = "none";
         overground.style.display = "none";
         DLR.style.display = "none";
@@ -47,7 +49,9 @@ function DestinationChange(){
         marquee.innerHTML = "Destination Change - please listen for further instructions";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
-        newIbusDisplayDesText.innerHTML = "Destination Change - please listen for further instructions";
+        newIbusDisplayDesText.style.display = "none";
+        newIbusDisplayDesTextMarquee.style.display = "block";
+        newIbusDisplayDesTextMarquee.innerHTML = "Destination Change - please listen for further instructions";
         underground.style.display = "none";
         overground.style.display = "none";
         DLR.style.display = "none";
@@ -107,7 +111,9 @@ function Wait(){
         marquee.innerHTML = "Regulating service - please listen for further information";
     // topTextYes.style.animationName = "StGeorgesTownHallShadwellStn";
     } else if (ibusView === "new"){
-        newIbusDisplayDesText.innerHTML = "Regulating service - please listen for further information";
+        newIbusDisplayDesText.style.display = "none";
+        newIbusDisplayDesTextMarquee.style.display = "block";
+        newIbusDisplayDesTextMarquee.innerHTML = "Regulating service - please listen for further information";
         underground.style.display = "none";
         overground.style.display = "none";
         DLR.style.display = "none";
