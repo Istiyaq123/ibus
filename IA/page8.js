@@ -177,6 +177,18 @@ function LiverpoolStreet11btn(){
   showDestination.setAttribute( "onClick", "LiverpoolStreet11ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "11 to Liverpool Street";
 }
+function Debden20btn(){
+  routeDestination = "Debden20";
+  WalthamstowBusStation20()
+  showDestination.setAttribute( "onClick", "Debden20ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "20 to Debden";
+}
+function WalthamstowCentral20btn(){
+  routeDestination = "WalthamstowCentral20";
+  TheBroadway20()
+  showDestination.setAttribute( "onClick", "WalthamstowCentral20ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "20 to The Broadway";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -943,6 +955,68 @@ function LiverpoolStreet11btn(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_LIVERPOOL_STREET_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function Debden20btn(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "20 to Debden";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_20_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_DEBDEN_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function WalthamstowCentral20btn(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "20 to Walthamstow Central";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_20_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_WALTHAMSTOW_CENTRAL_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -12937,5 +13011,1026 @@ function FulhamTownHall11Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "LiverpoolStreet11") {
     NextDestination.setAttribute( "onClick", "TyrawleyRoad11();" );
+  }
+}
+
+function WalthamstowBusStation20(){
+  getRidOfDestination()
+  WalthamstowBusStation()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WalthamstowBusStation20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WalthamstowBusStation20Audio();" );
+  }
+}
+function WalthamstowBusStation20Audio(){
+  WalthamstowBusStationAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "GrosvenorParkRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function GrosvenorParkRoad20(){
+  getRidOfDestination()
+  GrosvenorParkRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "GrosvenorParkRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "GrosvenorParkRoad20Audio();" );
+  }
+}
+function GrosvenorParkRoad20Audio(){
+  GrosvenorParkRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "GroveRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function QueensRoad20(){
+  getRidOfDestination()
+  QueensRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "GroveRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "QueensRoad20Audio();" );
+  }
+}
+function QueensRoad20Audio(){
+  QueensRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "BakersAvenue20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WalthamstowBusStation20();" );
+  }
+}
+function GroveRoad20(){
+  getRidOfDestination()
+  GroveRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "GroveRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "GroveRoad20Audio();" );
+  }
+}
+function GroveRoad20Audio(){
+  GroveRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "BakersAvenue20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "QueensRoad20();" );
+  }
+}
+function BakersAvenue20(){
+  getRidOfDestination()
+  BakersAvenue()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "BakersAvenue20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "BakersAvenue20Audio();" );
+  }
+}
+function BakersAvenue20Audio(){
+  BakersAvenueAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "LeaBridgeRoadBakersArms20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HoeStreetBakersArms20(){
+  getRidOfDestination()
+  HoeStreetBakersArms()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "HoeStreetBakersArms20Audio();" );
+  }
+}
+function HoeStreetBakersArms20Audio(){
+  HoeStreetBakersArmsAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "GroveRoad20();" );
+  }
+}
+function LeaBridgeRoadBakersArms20(){
+  getRidOfDestination()
+  LeaBridgeRoadBakersArms()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "LeaBridgeRoadBakersArms20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "LeaBridgeRoadBakersArms20Audio();" );
+  }
+}
+function LeaBridgeRoadBakersArms20Audio(){
+  LeaBridgeRoadBakersArmsAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "LeytonGreenRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "HoeStreetBakersArms20();" );
+  }
+}
+function LeytonGreenRoad20(){
+  getRidOfDestination()
+  LeytonGreenRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "LeytonGreenRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "LeytonGreenRoad20Audio();" );
+  }
+}
+function LeytonGreenRoad20Audio(){
+  LeytonGreenRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ShernhallStreet20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "LeaBridgeRoadBakersArms20();" );
+  }
+}
+function ShernhallStreet20(){
+  getRidOfDestination()
+  ShernhallStreet()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ShernhallStreet20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ShernhallStreet20Audio();" );
+  }
+}
+function ShernhallStreet20Audio(){
+  ShernhallStreetAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "PeterboroughRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function EssexRoad20(){
+  getRidOfDestination()
+  EssexRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "PeterboroughRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "EssexRoad20Audio();" );
+  }
+}
+function EssexRoad20Audio(){
+  EssexRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WhippsCrossWoodStreet20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "LeytonGreenRoad20();" );
+  }
+}
+function PeterboroughRoad20(){
+  getRidOfDestination()
+  PeterboroughRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "PeterboroughRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "PeterboroughRoad20Audio();" );
+  }
+}
+function PeterboroughRoad20Audio(){
+  PeterboroughRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WhippsCrossWoodStreet20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "EssexRoad20();" );
+  }
+}
+function WhippsCrossWoodStreet20(){
+  getRidOfDestination()
+  WhippsCrossWoodStreet()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WhippsCrossWoodStreet20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WhippsCrossWoodStreet20Audio();" );
+  }
+}
+function WhippsCrossWoodStreet20Audio(){
+  WhippsCrossWoodStreetAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "HainaultCourt20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WhippsCrossBusStand20(){
+  getRidOfDestination()
+  WhippsCrossBusStand()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "HainaultCourt20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WhippsCrossBusStand20Audio();" );
+  }
+}
+function WhippsCrossBusStand20Audio(){
+  WhippsCrossBusStandAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "OakhurstGardens20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "PeterboroughRoad20();" );
+  }
+}
+function HainaultCourt20(){
+  getRidOfDestination()
+  HainaultCourt()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "HainaultCourt20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "HainaultCourt20Audio();" );
+  }
+}
+function HainaultCourt20Audio(){
+  HainaultCourtAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "OakhurstGardens20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WhippsCrossBusStand20();" );
+  }
+}
+function OakhurstGardens20(){
+  getRidOfDestination()
+  OakhurstGardens()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "OakhurstGardens20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "OakhurstGardens20Audio();" );
+  }
+}
+function OakhurstGardens20Audio(){
+  OakhurstGardensAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StPetersChurch20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function SnaresbrookRoad20(){
+  getRidOfDestination()
+  SnaresbrookRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "SnaresbrookRoad20Audio();" );
+  }
+}
+function SnaresbrookRoad20Audio(){
+  SnaresbrookRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "HainaultCourt20();" );
+  }
+}
+function StPetersChurch20(){
+  getRidOfDestination()
+  StPetersChurch()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StPetersChurch20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StPetersChurch20Audio();" );
+  }
+}
+function StPetersChurch20Audio(){
+  StPetersChurchAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ForestRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "SnaresbrookRoad20();" );
+  }
+}
+function ForestRoad20(){
+  getRidOfDestination()
+  ForestRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ForestRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ForestRoad20Audio();" );
+  }
+}
+function ForestRoad20Audio(){
+  ForestRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WaterworksCorner20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StPetersChurch20();" );
+  }
+}
+function WaterworksCorner20(){
+  getRidOfDestination()
+  WaterworksCorner()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WaterworksCorner20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WaterworksCorner20Audio();" );
+  }
+}
+function WaterworksCorner20Audio(){
+  WaterworksCornerAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChelmsfordRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ForestRoad20();" );
+  }
+}
+function ChelmsfordRoad20(){
+  getRidOfDestination()
+  ChelmsfordRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChelmsfordRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChelmsfordRoad20Audio();" );
+  }
+}
+function ChelmsfordRoad20Audio(){
+  ChelmsfordRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "OakHill20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WaterworksCorner20();" );
+  }
+}
+function OakHill20(){
+  getRidOfDestination()
+  OakHill()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "OakHill20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "OakHill20Audio();" );
+  }
+}
+function OakHill20Audio(){
+  OakHillAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StAubynsSchool20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function StAubynsSchool20(){
+  getRidOfDestination()
+  StAubynsSchool()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StAubynsSchool20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StAubynsSchool20Audio();" );
+  }
+}
+function StAubynsSchool20Audio(){
+  StAubynsSchoolAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChingfordLane20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChelmsfordRoad20();" );
+  }
+}
+function ChingfordLane20(){
+  getRidOfDestination()
+  ChingfordLane()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChingfordLane20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChingfordLane20Audio();" );
+  }
+}
+function ChingfordLane20Audio(){
+  ChingfordLaneAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WoodfordGreenBroadmeadRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StAubynsSchool20();" );
+  }
+}
+function WoodfordGreenBroadmeadRoad20(){
+  getRidOfDestination()
+  WoodfordGreenBroadmeadRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WoodfordGreenBroadmeadRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WoodfordGreenBroadmeadRoad20Audio();" );
+  }
+}
+function WoodfordGreenBroadmeadRoad20Audio(){
+  WoodfordGreenBroadmeadRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "MonkhamsLane20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChingfordLane20();" );
+  }
+}
+function MonkhamsLane20(){
+  getRidOfDestination()
+  MonkhamsLane()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "MonkhamsLane20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "MonkhamsLane20Audio();" );
+  }
+}
+function MonkhamsLane20Audio(){
+  MonkhamsLaneAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StThomasofCanterburyChurch20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WoodfordGreenBroadmeadRoad20();" );
+  }
+}
+function StThomasofCanterburyChurch20(){
+  getRidOfDestination()
+  StThomasofCanterburyChurch()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StThomasofCanterburyChurch20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StThomasofCanterburyChurch20Audio();" );
+  }
+}
+function StThomasofCanterburyChurch20Audio(){
+  StThomasofCanterburyChurchAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WhitehallRoadBancroftsSchool20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "MonkhamsLane20();" );
+  }
+}
+function WhitehallRoadBancroftsSchool20(){
+  getRidOfDestination()
+  WhitehallRoadBancroftsSchool()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "WhitehallRoadBancroftsSchool20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WhitehallRoadBancroftsSchool20Audio();" );
+  }
+}
+function WhitehallRoadBancroftsSchool20Audio(){
+  WhitehallRoadBancroftsSchoolAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "KnightonLane20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StThomasofCanterburyChurch20();" );
+  }
+}
+function KnightonLane20(){
+  getRidOfDestination()
+  KnightonLane()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "KnightonLane20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "KnightonLane20Audio();" );
+  }
+}
+function KnightonLane20Audio(){
+  KnightonLaneAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StagLane20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "WhitehallRoadBancroftsSchool20();" );
+  }
+}
+function StagLane20(){
+  getRidOfDestination()
+  StagLane()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "StagLane20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StagLane20Audio();" );
+  }
+}
+function StagLane20Audio(){
+  StagLaneAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "RussellRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "KnightonLane20();" );
+  }
+}
+function RussellRoad20(){
+  getRidOfDestination()
+  RussellRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "RussellRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "RussellRoad20Audio();" );
+  }
+}
+function RussellRoad20Audio(){
+  RussellRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "CricketGround20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "StagLane20();" );
+  }
+}
+function CricketGround20(){
+  getRidOfDestination()
+  CricketGround()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "CricketGround20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "CricketGround20Audio();" );
+  }
+}
+function CricketGround20Audio(){
+  CricketGroundAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "NorthFarm20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "RussellRoad20();" );
+  }
+}
+function NorthFarm20(){
+  getRidOfDestination()
+  NorthFarm()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "NorthFarm20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "NorthFarm20Audio();" );
+  }
+}
+function NorthFarm20Audio(){
+  NorthFarmAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "SpringGrove20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "CricketGround20();" );
+  }
+}
+function SpringGrove20(){
+  getRidOfDestination()
+  SpringGrove()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "SpringGrove20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "SpringGrove20Audio();" );
+  }
+}
+function SpringGrove20Audio(){
+  SpringGroveAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "UpperPark20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "NorthFarm20();" );
+  }
+}
+function UpperPark20(){
+  getRidOfDestination()
+  UpperPark()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "UpperPark20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "UpperPark20Audio();" );
+  }
+}
+function UpperPark20Audio(){
+  UpperParkAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheCrown20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TheCrescent20(){
+  getRidOfDestination()
+  TheCrescent()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheCrown20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCrescent20Audio();" );
+  }
+}
+function TheCrescent20Audio(){
+  TheCrescentAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "LoughtonStation20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "SpringGrove20();" );
+  }
+}
+function TheCrown20(){
+  getRidOfDestination()
+  TheCrown()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheCrown20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCrown20Audio();" );
+  }
+}
+function TheCrown20Audio(){
+  TheCrownAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "LoughtonStation20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCrescent20();" );
+  }
+}
+function LoughtonStation20(){
+  getRidOfDestination()
+  LoughtonStation()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "LoughtonStation20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "LoughtonStation20Audio();" );
+  }
+}
+function LoughtonStation20Audio(){
+  LoughtonStationAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "Sainsburys20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "Sainsburys20();" );
+  }
+}
+function Sainsburys20(){
+  getRidOfDestination()
+  Sainsburys()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "Sainsburys20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "Sainsburys20Audio();" );
+  }
+}
+function Sainsburys20Audio(){
+  SainsburysAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheCrowntwo20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCrown20();" );
+  }
+}
+function TheCrowntwo20(){
+  getRidOfDestination()
+  TheCrown()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheCrowntwo20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCrowntwo20Audio();" );
+  }
+}
+function TheCrowntwo20Audio(){
+  TheCrownAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ForestRoadtwo20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "LoughtonStation20();" );
+  }
+}
+function ForestRoadtwo20(){
+  getRidOfDestination()
+  ForestRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ForestRoadtwo20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ForestRoadtwo20Audio();" );
+  }
+}
+function ForestRoadtwo20Audio(){
+  ForestRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TrapsHill20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCrowntwo20();" );
+  }
+}
+function TrapsHill20(){
+  getRidOfDestination()
+  TrapsHill()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TrapsHill20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TrapsHill20Audio();" );
+  }
+}
+function TrapsHill20Audio(){
+  TrapsHillAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheUplands20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ForestRoadtwo20();" );
+  }
+}
+function TheUplands20(){
+  getRidOfDestination()
+  TheUplands()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheUplands20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheUplands20Audio();" );
+  }
+}
+function TheUplands20Audio(){
+  TheUplandsAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChurchClose20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TrapsHill20();" );
+  }
+}
+function ChurchClose20(){
+  getRidOfDestination()
+  ChurchClose()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChurchClose20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChurchClose20Audio();" );
+  }
+}
+function ChurchClose20Audio(){
+  ChurchCloseAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "SedleyRise20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheUplands20();" );
+  }
+}
+function SedleyRise20(){
+  getRidOfDestination()
+  SedleyRise()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "SedleyRise20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "SedleyRise20Audio();" );
+  }
+}
+function SedleyRise20Audio(){
+  SedleyRiseAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "MapleGate20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChurchClose20();" );
+  }
+}
+function MapleGate20(){
+  getRidOfDestination()
+  MapleGate()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "MapleGate20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "MapleGate20Audio();" );
+  }
+}
+function MapleGate20Audio(){
+  MapleGateAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "Hillyfields20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "SedleyRise20();" );
+  }
+}
+function Hillyfields20(){
+  getRidOfDestination()
+  Hillyfields()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "Hillyfields20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "Hillyfields20Audio();" );
+  }
+}
+function Hillyfields20Audio(){
+  HillyfieldsAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "Hillcroft20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "MapleGate20();" );
+  }
+}
+function Hillcroft20(){
+  getRidOfDestination()
+  Hillcroft()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "Hillcroft20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "Hillcroft20Audio();" );
+  }
+}
+function Hillcroft20Audio(){
+  HillcroftAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "PyrlesLane20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "Hillyfields20();" );
+  }
+}
+function PyrlesLane20(){
+  getRidOfDestination()
+  PyrlesLane()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "PyrlesLane20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "PyrlesLane20Audio();" );
+  }
+}
+function PyrlesLane20Audio(){
+  PyrlesLaneAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChandlerRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "Hillcroft20();" );
+  }
+}
+function ChandlerRoad20(){
+  getRidOfDestination()
+  ChandlerRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "ChandlerRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChandlerRoad20Audio();" );
+  }
+}
+function ChandlerRoad20Audio(){
+  ChandlerRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "CastellRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "PyrlesLane20();" );
+  }
+}
+function CastellRoad20(){
+  getRidOfDestination()
+  CastellRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "CastellRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "CastellRoad20Audio();" );
+  }
+}
+function CastellRoad20Audio(){
+  CastellRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "DavenantSchool20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ChandlerRoad20();" );
+  }
+}
+function DavenantSchool20(){
+  getRidOfDestination()
+  DavenantSchool()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "DavenantSchool20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "DavenantSchool20Audio();" );
+  }
+}
+function DavenantSchool20Audio(){
+  DavenantSchoolAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheCottageLoaf20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ColebrookLane20(){
+  getRidOfDestination()
+  ColebrookLane()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ColebrookLane20Audio();" );
+  }
+}
+function TheCottageLoaf20Audio(){
+  ColebrookLaneAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "CastellRoad20();" );
+  }
+}
+function TheCottageLoaf20(){
+  getRidOfDestination()
+  TheCottageLoaf()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheCottageLoaf20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCottageLoaf20Audio();" );
+  }
+}
+function TheCottageLoaf20Audio(){
+  TheCottageLoafAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "GoldinghamAvenue20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "ColebrookLane20();" );
+  }
+}
+function GoldinghamAvenue20(){
+  getRidOfDestination()
+  GoldinghamAvenue()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "GoldinghamAvenue20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "GoldinghamAvenue20Audio();" );
+  }
+}
+function GoldinghamAvenue20Audio(){
+  GoldinghamAvenueAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "MannockDrive20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheCottageLoaf20();" );
+  }
+}
+function MannockDrive20(){
+  getRidOfDestination()
+  MannockDrive()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "MannockDrive20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "MannockDrive20Audio();" );
+  }
+}
+function MannockDrive20Audio(){
+  MannockDriveAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "EtheridgeRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "GoldinghamAvenue20();" );
+  }
+}
+function EtheridgeRoad20(){
+  getRidOfDestination()
+  EtheridgeRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "EtheridgeRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "EtheridgeRoad20Audio();" );
+  }
+}
+function EtheridgeRoad20Audio(){
+  EtheridgeRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "VereRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "MannockDrive20();" );
+  }
+}
+function VereRoad20(){
+  getRidOfDestination()
+  VereRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "VereRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "VereRoad20Audio();" );
+  }
+}
+function VereRoad20Audio(){
+  VereRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "BurtonRoad20();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BurtonRoad20(){
+  getRidOfDestination()
+  BurtonRoad()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "BurtonRoad20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "BurtonRoad20Audio();" );
+  }
+}
+function BurtonRoad20Audio(){
+  BurtonRoadAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "EtheridgeRoad20();" );
+  }
+}
+function TorringtonDrive20(){
+  getRidOfDestination()
+  TorringtonDrive()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TorringtonDrive20Audio();" );
+  }
+}
+function TorringtonDrive20Audio(){
+  TorringtonDriveAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "BurtonRoad20();" );
+  }
+}
+function TheBroadway20(){
+  getRidOfDestination()
+  TheBroadway()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "TheBroadway20Audio();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TheBroadway20Audio();" );
+  }
+}
+function TheBroadway20Audio(){
+  TheBroadwayAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "TorringtonDrive20();" );
   }
 }
