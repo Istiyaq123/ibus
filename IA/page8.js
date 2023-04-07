@@ -915,7 +915,7 @@ function CrystalPalace363ibus(){
     } 
   };
 }
-function FulhamBroadway11btn(){
+function FulhamBroadway11ibus(){
   if (ibusView === "new"){
     shownewibusdestination();
     DestinationTextNewIbus();
@@ -946,7 +946,7 @@ function FulhamBroadway11btn(){
     } 
   };
 }
-function LiverpoolStreet11btn(){
+function LiverpoolStreet11ibus(){
   if (ibusView === "new"){
     shownewibusdestination();
     DestinationTextNewIbus();
@@ -977,7 +977,7 @@ function LiverpoolStreet11btn(){
     } 
   };
 }
-function Debden20btn(){
+function Debden20ibus(){
   if (ibusView === "new"){
     shownewibusdestination();
     DestinationTextNewIbus();
@@ -1008,7 +1008,7 @@ function Debden20btn(){
     } 
   };
 }
-function WalthamstowCentral20btn(){
+function WalthamstowCentral20ibus(){
   if (ibusView === "new"){
     shownewibusdestination();
     DestinationTextNewIbus();
@@ -1039,7 +1039,7 @@ function WalthamstowCentral20btn(){
     } 
   };
 }
-function HarrowH18btn(){
+function HarrowH18ibus(){
   if (ibusView === "new"){
     shownewibusdestination();
     DestinationTextNewIbus();
@@ -1070,7 +1070,7 @@ function HarrowH18btn(){
     } 
   };
 }
-function HarrowH19btn(){
+function HarrowH19ibus(){
   if (ibusView === "new"){
     shownewibusdestination();
     DestinationTextNewIbus();
