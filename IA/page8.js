@@ -13964,6 +13964,15 @@ function ColebrookLane20(){
     NextDestination.setAttribute( "onClick", "ColebrookLane20Audio();" );
   }
 }
+function ColebrookLane20Audio(){
+  getRidOfDestination()
+  ColebrookLaneAudio()
+  if (routeDestination === "Debden20"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "WalthamstowCentral20") {
+    NextDestination.setAttribute( "onClick", "CastellRoad20();" );
+  }
+}
 function TheCottageLoaf20Audio(){
   ColebrookLaneAudio()
   if (routeDestination === "Debden20"){
