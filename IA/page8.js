@@ -201,6 +201,18 @@ function HarrowH19btn(){
   showDestination.setAttribute( "onClick", "HarrowH19ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "H19 to Harrow, Bus Station";
 }
+function OxfordCircusN15btn(){
+  routeDestination = "OxfordCircusN15";
+  RomfordMarketN15()
+  showDestination.setAttribute( "onClick", "OxfordCircusN15ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "N15 to Oxford Circus";
+}
+function RomfordMarketN15btn(){
+  routeDestination = "RomfordMarketN15";
+  OxfordCircusStnMargaretStreetN15()
+  showDestination.setAttribute( "onClick", "RomfordMarketN15ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "N15 to Romford Market";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -1091,6 +1103,68 @@ function HarrowH19ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_HARROW_BUS_STATION_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function OxfordCircusN15ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "N15 to Oxford Circus";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_N15_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_OXFORD_CIRCUS_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function RomfordMarketN15ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "N15 to Romford Market";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_N15_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_ROMFORD_MARKET_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -14983,5 +15057,2029 @@ function HarrowBusStationlastH18H19Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "HarrowH19") {
     NextDestination.setAttribute( "onClick", "HarrowTownCentreH18H19();" );
+  }
+}
+
+function RomfordMarketN15(){
+  getRidOfDestination()
+  RomfordMarket()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RomfordMarketN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RomfordMarketN15Audio();" );
+  }
+}
+function RomfordMarketN15Audio(){
+  RomfordMarketAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MercuryGardensN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function MercuryGardensN15(){
+  getRidOfDestination()
+  MercuryGardens()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MercuryGardensN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MercuryGardensN15Audio();" );
+  }
+}
+function MercuryGardensN15Audio(){
+  MercuryGardensAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "WesternRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WesternRoadN15(){
+  getRidOfDestination()
+  WesternRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "WesternRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "WesternRoadN15Audio();" );
+  }
+}
+function WesternRoadN15Audio(){
+  WesternRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RomfordStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RomfordMarketN15();" );
+  }
+}
+function RomfordStationN15(){
+  getRidOfDestination()
+  RomfordStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RomfordStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RomfordStationN15Audio();" );
+  }
+}
+function RomfordStationN15Audio(){
+  RomfordStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ThurloeGardensN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "WesternRoadN15();" );
+  }
+}
+function ThurloeGardensN15(){
+  getRidOfDestination()
+  ThurloeGardens()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ThurloeGardensN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ThurloeGardensN15Audio();" );
+  }
+}
+function ThurloeGardensN15Audio(){
+  ThurloeGardensAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BrentwoodRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BrentwoodRoadN15(){
+  getRidOfDestination()
+  BrentwoodRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BrentwoodRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BrentwoodRoadN15Audio();" );
+  }
+}
+function BrentwoodRoadN15Audio(){
+  BrentwoodRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ClydesdaleRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RomfordStationN15();" );
+  }
+}
+function ClydesdaleRoadN15(){
+  getRidOfDestination()
+  ClydesdaleRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ClydesdaleRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ClydesdaleRoadN15Audio();" );
+  }
+}
+function ClydesdaleRoadN15Audio(){
+  ClydesdaleRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NorwoodAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BrentwoodRoadN15();" );
+  }
+}
+function NorwoodAvenueN15(){
+  getRidOfDestination()
+  NorwoodAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NorwoodAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NorwoodAvenueN15Audio();" );
+  }
+}
+function NorwoodAvenueN15Audio(){
+  NorwoodAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RushGreenRoadDagenhamRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ClydesdaleRoadN15();" );
+  }
+}
+function RushGreenRoadDagenhamRoadN15(){
+  getRidOfDestination()
+  RushGreenRoadDagenhamRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RushGreenRoadDagenhamRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RushGreenRoadDagenhamRoadN15Audio();" );
+  }
+}
+function RushGreenRoadDagenhamRoadN15Audio(){
+  RushGreenRoadDagenhamRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LeonardAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function DagenhamRoadN15(){
+  getRidOfDestination()
+  DagenhamRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "DagenhamRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "DagenhamRoadN15Audio();" );
+  }
+}
+function DagenhamRoadN15Audio(){
+  DagenhamRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ClaytonRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NorwoodAvenueN15();" );
+  }
+}
+function LeonardAvenueN15(){
+  getRidOfDestination()
+  LeonardAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LeonardAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LeonardAvenueN15Audio();" );
+  }
+}
+function LeonardAvenueN15Audio(){
+  LeonardAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ClaytonRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "DagenhamRoadN15();" );
+  }
+}
+function ClaytonRoadN15(){
+  getRidOfDestination()
+  ClaytonRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ClaytonRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ClaytonRoadN15Audio();" );
+  }
+}
+function ClaytonRoadN15Audio(){
+  ClaytonRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BartonAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LeonardAvenueN15();" );
+  }
+}
+function BartonAvenueN15(){
+  getRidOfDestination()
+  BartonAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BartonAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BartonAvenueN15Audio();" );
+  }
+}
+function BartonAvenueN15Audio(){
+  BartonAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CuLondonUniversityWoodLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ClaytonRoadN15();" );
+  }
+}
+function CuLondonUniversityWoodLaneN15(){
+  getRidOfDestination()
+  CuLondonUniversityWoodLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CuLondonUniversityWoodLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CuLondonUniversityWoodLaneN15Audio();" );
+  }
+}
+function CuLondonUniversityWoodLaneN15Audio(){
+  CuLondonUniversityWoodLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BecontreeHeathLeisureCentreN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BartonAvenueN15();" );
+  }
+}
+function BecontreeHeathLeisureCentreN15(){
+  getRidOfDestination()
+  BecontreeHeathLeisureCentre()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BecontreeHeathLeisureCentreN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BecontreeHeathLeisureCentreN15Audio();" );
+  }
+}
+function BecontreeHeathLeisureCentreN15Audio(){
+  BecontreeHeathLeisureCentreAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MorrisRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CuLondonUniversityWoodLaneN15();" );
+  }
+}
+function MorrisRoadN15(){
+  getRidOfDestination()
+  MorrisRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MorrisRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MorrisRoadN15Audio();" );
+  }
+}
+function MorrisRoadN15Audio(){
+  MorrisRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "FiveElmsSchoolN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BecontreeHeathLeisureCentreN15();" );
+  }
+}
+function FiveElmsSchoolN15(){
+  getRidOfDestination()
+  FiveElmsSchool()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "FiveElmsSchoolN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "FiveElmsSchoolN15Audio();" );
+  }
+}
+function FiveElmsSchoolN15Audio(){
+  FiveElmsSchoolAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BoxollRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BoxollRoadN15(){
+  getRidOfDestination()
+  BoxollRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BoxollRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BoxollRoadN15Audio();" );
+  }
+}
+function BoxollRoadN15Audio(){
+  BoxollRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BeverleyRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BeverleyRoadN15(){
+  getRidOfDestination()
+  BeverleyRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BeverleyRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BeverleyRoadN15Audio();" );
+  }
+}
+function BeverleyRoadN15Audio(){
+  BeverleyRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MartinsCornerValenceAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HeathwayN15(){
+  getRidOfDestination()
+  Heathway()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "WinmillRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HeathwayN15Audio();" );
+  }
+}
+function HeathwayN15Audio(){
+  HeathwayAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BennettsCastleLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MorrisRoadN15();" );
+  }
+}
+function WinmillRoadN15(){
+  getRidOfDestination()
+  WinmillRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "WinmillRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "WinmillRoadN15Audio();" );
+  }
+}
+function WinmillRoadN15Audio(){
+  WinmillRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BennettsCastleLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HeathwayN15();" );
+  }
+}
+function CharlecoteRoadN15(){
+  getRidOfDestination()
+  CharlecoteRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CharlecoteRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CharlecoteRoadN15Audio();" );
+  }
+}
+function CharlecoteRoadN15Audio(){
+  CharlecoteRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BennettsCastleLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "WinmillRoadN15();" );
+  }
+}
+function MartinsCornerValenceAvenueN15(){
+  getRidOfDestination()
+  MartinsCornerValenceAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MartinsCornerValenceAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MartinsCornerValenceAvenueN15Audio();" );
+  }
+}
+function MartinsCornerValenceAvenueN15Audio(){
+  MartinsCornerValenceAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BennettsCastleLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CharlecoteRoadN15();" );
+  }
+}
+function BennettsCastleLaneN15(){
+  getRidOfDestination()
+  BennettsCastleLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BennettsCastleLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BennettsCastleLaneN15Audio();" );
+  }
+}
+function BennettsCastleLaneN15Audio(){
+  BennettsCastleLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LindseyRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MartinsCornerValenceAvenueN15();" );
+  }
+}
+function LindseyRoadN15(){
+  getRidOfDestination()
+  LindseyRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LindseyRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LindseyRoadN15Audio();" );
+  }
+}
+function LindseyRoadN15Audio(){
+  LindseyRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LodgeAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BennettsCastleLaneN15();" );
+  }
+}
+function LodgeAvenueN15(){
+  getRidOfDestination()
+  LodgeAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LodgeAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LodgeAvenueN15Audio();" );
+  }
+}
+function LodgeAvenueN15Audio(){
+  LodgeAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StThomasMoreCatholicChurchN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BecontreeAvenueN15(){
+  getRidOfDestination()
+  BecontreeAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BecontreeAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BecontreeAvenueN15Audio();" );
+  }
+}
+function BecontreeAvenueN15Audio(){
+  BecontreeAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CapelGardensN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LindseyRoadN15();" );
+  }
+}
+function StThomasMoreCatholicChurchN15(){
+  getRidOfDestination()
+  StThomasMoreCatholicChurch()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StThomasMoreCatholicChurchN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StThomasMoreCatholicChurchN15Audio();" );
+  }
+}
+function StThomasMoreCatholicChurchN15Audio(){
+  StThomasMoreCatholicChurchAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CapelGardensN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BecontreeAvenueN15();" );
+  }
+}
+function CapelGardensN15(){
+  getRidOfDestination()
+  CapelGardens()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CapelGardensN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CapelGardensN15Audio();" );
+  }
+}
+function CapelGardensN15Audio(){
+  CapelGardensAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ThurlestoneAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StThomasMoreCatholicChurchN15();" );
+  }
+}
+function ThurlestoneAvenueN15(){
+  getRidOfDestination()
+  ThurlestoneAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ThurlestoneAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ThurlestoneAvenueN15Audio();" );
+  }
+}
+function ThurlestoneAvenueN15Audio(){
+  ThurlestoneAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingBusGarageN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CapelGardensN15();" );
+  }
+}
+function BarkingBusGarageN15(){
+  getRidOfDestination()
+  BarkingBusGarage()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingBusGarageN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BarkingBusGarageN15Audio();" );
+  }
+}
+function BarkingBusGarageN15Audio(){
+  BarkingBusGarageAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "FaircrossN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ThurlestoneAvenueN15();" );
+  }
+}
+function FaircrossN15(){
+  getRidOfDestination()
+  Faircross()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "FaircrossN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "FaircrossN15Audio();" );
+  }
+}
+function FaircrossN15Audio(){
+  FaircrossAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HulseAvenueBarkingParkN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BarkingBusGarageN15();" );
+  }
+}
+function HulseAvenueBarkingParkN15(){
+  getRidOfDestination()
+  HulseAvenueBarkingPark()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HulseAvenueBarkingParkN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HulseAvenueBarkingParkN15Audio();" );
+  }
+}
+function HulseAvenueBarkingParkN15Audio(){
+  HulseAvenueBarkingParkAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ParkAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "FaircrossN15();" );
+  }
+}
+function ParkAvenueN15(){
+  getRidOfDestination()
+  ParkAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ParkAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ParkAvenueN15Audio();" );
+  }
+}
+function ParkAvenueN15Audio(){
+  ParkAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HulseAvenueBarkingParkN15();" );
+  }
+}
+function BarkingStationN15(){
+  getRidOfDestination()
+  BarkingStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BarkingStationN15Audio();" );
+  }
+}
+function BarkingStationN15Audio(){
+  BarkingStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingTownCentreN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ParkAvenueN15();" );
+  }
+}
+function BarkingTownCentreN15(){
+  getRidOfDestination()
+  BarkingTownCentre()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingTownCentreN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BarkingTownCentreN15Audio();" );
+  }
+}
+function BarkingTownCentreN15Audio(){
+  BarkingTownCentreAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NorthStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BarkingStationN15();" );
+  }
+}
+function NorthStreetN15(){
+  getRidOfDestination()
+  NorthStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NorthStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NorthStreetN15Audio();" );
+  }
+}
+function NorthStreetN15Audio(){
+  NorthStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingTescoN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BarkingTownCentreN15();" );
+  }
+}
+function BarkingTescoN15(){
+  getRidOfDestination()
+  BarkingTesco()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BarkingTescoN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BarkingTescoN15Audio();" );
+  }
+}
+function BarkingTescoN15Audio(){
+  BarkingTescoAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BurgesRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BurgesRoadN15(){
+  getRidOfDestination()
+  BurgesRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BurgesRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BurgesRoadN15Audio();" );
+  }
+}
+function BurgesRoadN15Audio(){
+  BurgesRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StOlavesRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NorthStreetN15();" );
+  }
+}
+function StOlavesRoadN15(){
+  getRidOfDestination()
+  StOlavesRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StOlavesRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StOlavesRoadN15Audio();" );
+  }
+}
+function StOlavesRoadN15Audio(){
+  StOlavesRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AltmoreAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BurgesRoadN15();" );
+  }
+}
+function AltmoreAvenueN15(){
+  getRidOfDestination()
+  AltmoreAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AltmoreAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AltmoreAvenueN15Audio();" );
+  }
+}
+function AltmoreAvenueN15Audio(){
+  AltmoreAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NewhamTownHallN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StOlavesRoadN15();" );
+  }
+}
+function NewhamTownHallN15(){
+  getRidOfDestination()
+  NewhamTownHall()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NewhamTownHallN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NewhamTownHallN15Audio();" );
+  }
+}
+function NewhamTownHallN15Audio(){
+  NewhamTownHallAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BartleAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AltmoreAvenueN15();" );
+  }
+}
+function HighStreetNorthN15(){
+  getRidOfDestination()
+  HighStreetNorth()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HighStreetNorthN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HighStreetNorthN15Audio();" );
+  }
+}
+function HighStreetNorthN15Audio(){
+  HighStreetNorthAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AintreeAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NewhamTownHallN15();" );
+  }
+}
+function BartleAvenueN15(){
+  getRidOfDestination()
+  BartleAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BartleAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BartleAvenueN15Audio();" );
+  }
+}
+function BartleAvenueN15Audio(){
+  BartleAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AintreeAvenueN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HighStreetNorthN15();" );
+  }
+}
+function AintreeAvenueN15(){
+  getRidOfDestination()
+  AintreeAvenue()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AintreeAvenueN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AintreeAvenueN15Audio();" );
+  }
+}
+function AintreeAvenueN15Audio(){
+  AintreeAvenueAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "DickensRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function DickensRoadN15(){
+  getRidOfDestination()
+  DickensRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "DickensRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "DickensRoadN15Audio();" );
+  }
+}
+function DickensRoadN15Audio(){
+  DickensRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UptonParkPrioryRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function KatherineRoadN15(){
+  getRidOfDestination()
+  KatherineRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "KatherineRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "KatherineRoadN15Audio();" );
+  }
+}
+function KatherineRoadN15Audio(){
+  KatherineRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UptonParkGreenStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BartleAvenueN15();" );
+  }
+}
+function ArragonRoadN15(){
+  getRidOfDestination()
+  ArragonRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ArragonRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ArragonRoadN15Audio();" );
+  }
+}
+function ArragonRoadN15Audio(){
+  ArragonRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UptonParkGreenStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "KatherineRoadN15();" );
+  }
+}
+function UptonParkPrioryRoadN15(){
+  getRidOfDestination()
+  UptonParkPrioryRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UptonParkPrioryRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UptonParkPrioryRoadN15Audio();" );
+  }
+}
+function UptonParkPrioryRoadN15Audio(){
+  UptonParkPrioryRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UptonParkGreenStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ArragonRoadN15();" );
+  }
+}
+function UptonParkGreenStreetN15(){
+  getRidOfDestination()
+  UptonParkGreenStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UptonParkGreenStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UptonParkGreenStreetN15Audio();" );
+  }
+}
+function UptonParkGreenStreetN15Audio(){
+  UptonParkGreenStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NewCityRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UptonParkPrioryRoadN15();" );
+  }
+}
+function SamsonStreetN15(){
+  getRidOfDestination()
+  SamsonStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "SamsonStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "SamsonStreetN15Audio();" );
+  }
+}
+function SamsonStreetN15Audio(){
+  SamsonStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UptonParkGreenStreetN15();" );
+  }
+}
+function NewCityRoadN15(){
+  getRidOfDestination()
+  NewCityRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NewCityRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NewCityRoadN15Audio();" );
+  }
+}
+function NewCityRoadN15Audio(){
+  NewCityRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "SamsonStreetN15();" );
+  }
+}
+function PlaistowPrinceRegentLaneN15(){
+  getRidOfDestination()
+  PlaistowPrinceRegentLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLaneN15Audio();" );
+  }
+}
+function PlaistowPrinceRegentLaneN15Audio(){
+  PlaistowPrinceRegentLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NewCityRoadN15();" );
+  }
+}
+function PlaistowPoliceStationN15(){
+  getRidOfDestination()
+  PlaistowPoliceStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStationN15Audio();" );
+  }
+}
+function PlaistowPoliceStationN15Audio(){
+  PlaistowPoliceStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BalaamStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PlaistowPrinceRegentLaneN15();" );
+  }
+}
+function BalaamStreetN15(){
+  getRidOfDestination()
+  BalaamStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BalaamStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BalaamStreetN15Audio();" );
+  }
+}
+function BalaamStreetN15Audio(){
+  BalaamStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ChargeableLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PlaistowPoliceStationN15();" );
+  }
+}
+function ChargeableLaneN15(){
+  getRidOfDestination()
+  ChargeableLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ChargeableLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ChargeableLaneN15Audio();" );
+  }
+}
+function ChargeableLaneN15Audio(){
+  ChargeableLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CroydonRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CroydonRoadN15(){
+  getRidOfDestination()
+  CroydonRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CroydonRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CroydonRoadN15Audio();" );
+  }
+}
+function CroydonRoadN15Audio(){
+  CroydonRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RokebySchoolN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function KingStreetN15(){
+  getRidOfDestination()
+  KingStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "KingStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "KingStreetN15Audio();" );
+  }
+}
+function KingStreetN15Audio(){
+  KingStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HermitRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BalaamStreetN15();" );
+  }
+}
+function RokebySchoolN15(){
+  getRidOfDestination()
+  RokebySchool()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RokebySchoolN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RokebySchoolN15Audio();" );
+  }
+}
+function RokebySchoolN15Audio(){
+  RokebySchoolAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HermitRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "KingStreetN15();" );
+  }
+}
+function HermitRoadN15(){
+  getRidOfDestination()
+  HermitRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HermitRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HermitRoadN15Audio();" );
+  }
+}
+function HermitRoadN15Audio(){
+  HermitRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RathboneMarketN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RokebySchoolN15();" );
+  }
+}
+function RathboneMarketN15(){
+  getRidOfDestination()
+  RathboneMarket()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RathboneMarketN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RathboneMarketN15Audio();" );
+  }
+}
+function RathboneMarketN15Audio(){
+  RathboneMarketAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CanningTownBusStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HermitRoadN15();" );
+  }
+}
+function CanningTownBusStationN15(){
+  getRidOfDestination()
+  CanningTownBusStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CanningTownBusStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CanningTownBusStationN15Audio();" );
+  }
+}
+function CanningTownBusStationN15Audio(){
+  CanningTownBusStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AbbottRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RathboneMarketN15();" );
+  }
+}
+function StephensonStreetN15(){
+  getRidOfDestination()
+  StephensonStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StephensonStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StephensonStreetN15Audio();" );
+  }
+}
+function StephensonStreetN15Audio(){
+  StephensonStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BlackwallTunnelN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CanningTownBusStationN15();" );
+  }
+}
+function AbbottRoadN15(){
+  getRidOfDestination()
+  AbbottRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AbbottRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AbbottRoadN15Audio();" );
+  }
+}
+function AbbottRoadN15Audio(){
+  AbbottRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BlackwallTunnelN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StephensonStreetN15();" );
+  }
+}
+function BlackwallTunnelN15(){
+  getRidOfDestination()
+  BlackwallTunnel()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BlackwallTunnelN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BlackwallTunnelN15Audio();" );
+  }
+}
+function BlackwallTunnelN15Audio(){
+  BlackwallTunnelAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BazelyStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function NutmegLaneN15(){
+  getRidOfDestination()
+  NutmegLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NutmegLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NutmegLaneN15Audio();" );
+  }
+}
+function NutmegLaneN15Audio(){
+  NutmegLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PoplarRecreationGroundN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AbbottRoadN15();" );
+  }
+}
+function BrunswickRoadN15(){
+  getRidOfDestination()
+  BrunswickRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BrunswickRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BrunswickRoadN15Audio();" );
+  }
+}
+function BrunswickRoadN15Audio(){
+  BrunswickRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PoplarRecreationGroundN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NutmegLaneN15();" );
+  }
+}
+function BazelyStreetN15(){
+  getRidOfDestination()
+  BazelyStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BazelyStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BazelyStreetN15Audio();" );
+  }
+}
+function BazelyStreetN15Audio(){
+  BazelyStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PoplarRecreationGroundN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BrunswickRoadN15();" );
+  }
+}
+function ChrispStreetMarketAllSaintsDlrN15(){
+  getRidOfDestination()
+  ChrispStreetMarketAllSaintsDlr()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ChrispStreetMarketAllSaintsDlrN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ChrispStreetMarketAllSaintsDlrN15Audio();" );
+  }
+}
+function ChrispStreetMarketAllSaintsDlrN15Audio(){
+  ChrispStreetMarketAllSaintsDlrAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UpperNorthStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BazelyStreetN15();" );
+  }
+}
+function PoplarRecreationGroundN15(){
+  getRidOfDestination()
+  PoplarRecreationGround()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PoplarRecreationGroundN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PoplarRecreationGroundN15Audio();" );
+  }
+}
+function PoplarRecreationGroundN15Audio(){
+  PoplarRecreationGroundAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UpperNorthStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ChrispStreetMarketAllSaintsDlrN15();" );
+  }
+}
+function UpperNorthStreetN15(){
+  getRidOfDestination()
+  UpperNorthStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UpperNorthStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UpperNorthStreetN15Audio();" );
+  }
+}
+function UpperNorthStreetN15Audio(){
+  UpperNorthStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UniversityofCumbriaInLondonN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PoplarRecreationGroundN15();" );
+  }
+}
+function UniversityofCumbriaInLondonN15(){
+  getRidOfDestination()
+  UniversityofCumbriaInLondon()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "UniversityofCumbriaInLondonN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UniversityofCumbriaInLondonN15Audio();" );
+  }
+}
+function UniversityofCumbriaInLondonN15Audio(){
+  UniversityofCumbriaInLondonAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BurdettRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UpperNorthStreetN15();" );
+  }
+}
+function BurdettRoadN15(){
+  getRidOfDestination()
+  BurdettRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BurdettRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BurdettRoadN15Audio();" );
+  }
+}
+function BurdettRoadN15Audio(){
+  BurdettRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LimehouseTownHallN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "UniversityofCumbriaInLondonN15();" );
+  }
+}
+function LimehouseTownHallN15(){
+  getRidOfDestination()
+  LimehouseTownHall()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LimehouseTownHallN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LimehouseTownHallN15Audio();" );
+  }
+}
+function LimehouseTownHallN15Audio(){
+  LimehouseTownHallAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LowellStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function SalmonLaneN15(){
+  getRidOfDestination()
+  SalmonLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LowellStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "SalmonLaneN15Audio();" );
+  }
+}
+function SalmonLaneN15Audio(){
+  SalmonLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LimehouseStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BurdettRoadN15();" );
+  }
+}
+function LowellStreetN15(){
+  getRidOfDestination()
+  LowellStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LowellStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LowellStreetN15Audio();" );
+  }
+}
+function LowellStreetN15Audio(){
+  LowellStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LimehouseStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "SalmonLaneN15();" );
+  }
+}
+function LimehouseStationN15(){
+  getRidOfDestination()
+  LimehouseStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LimehouseStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LimehouseStationN15Audio();" );
+  }
+}
+function LimehouseStationN15Audio(){
+  LimehouseStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurchN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LowellStreetN15();" );
+  }
+}
+function StepneyMethodistChurchN15(){
+  getRidOfDestination()
+  StepneyMethodistChurch()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurchN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurchN15Audio();" );
+  }
+}
+function StepneyMethodistChurchN15Audio(){
+  StepneyMethodistChurchAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MarionRichardsonSchoolN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LimehouseStationN15();" );
+  }
+}
+function MarionRichardsonSchoolN15(){
+  getRidOfDestination()
+  MarionRichardsonSchool()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MarionRichardsonSchoolN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MarionRichardsonSchoolN15Audio();" );
+  }
+}
+function MarionRichardsonSchoolN15Audio(){
+  MarionRichardsonSchoolAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ExmouthEstateN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ExmouthEstateN15(){
+  getRidOfDestination()
+  ExmouthEstate()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ExmouthEstateN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ExmouthEstateN15Audio();" );
+  }
+}
+function ExmouthEstateN15Audio(){
+  ExmouthEstateAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurchN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ArbourSquareN15(){
+  getRidOfDestination()
+  ArbourSquare()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ArbourSquareN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ArbourSquareN15Audio();" );
+  }
+}
+function ArbourSquareN15Audio(){
+  ArbourSquareAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "WatneyMarketN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StepneyMethodistChurchN15();" );
+  }
+}
+function StMarysStMichaelsChurchN15(){
+  getRidOfDestination()
+  StMarysStMichaelsChurch()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurchN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurchN15Audio();" );
+  }
+}
+function StMarysStMichaelsChurchN15Audio(){
+  StMarysStMichaelsChurchAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "WatneyMarketN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ArbourSquareN15();" );
+  }
+}
+function WatneyMarketN15(){
+  getRidOfDestination()
+  WatneyMarket()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "WatneyMarketN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "WatneyMarketN15Audio();" );
+  }
+}
+function WatneyMarketN15Audio(){
+  WatneyMarketAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NewRoadN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StMarysStMichaelsChurchN15();" );
+  }
+}
+function NewRoadN15(){
+  getRidOfDestination()
+  NewRoad()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "NewRoadN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NewRoadN15Audio();" );
+  }
+}
+function NewRoadN15Audio(){
+  NewRoadAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HenriquesStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "WatneyMarketN15();" );
+  }
+}
+function HenriquesStreetN15(){
+  getRidOfDestination()
+  HenriquesStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "HenriquesStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HenriquesStreetN15Audio();" );
+  }
+}
+function HenriquesStreetN15Audio(){
+  HenriquesStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "NewRoadN15();" );
+  }
+}
+function AldgateEastStationN15(){
+  getRidOfDestination()
+  AldgateEastStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AldgateEastStationN15Audio();" );
+  }
+}
+function AldgateEastStationN15Audio(){
+  AldgateEastStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldgateStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HenriquesStreetN15();" );
+  }
+}
+function AldgateStationN15(){
+  getRidOfDestination()
+  AldgateStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldgateStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AldgateStationN15Audio();" );
+  }
+}
+function AldgateStationN15Audio(){
+  AldgateStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MinoriesN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MinoriesN15(){
+  getRidOfDestination()
+  Minories()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MinoriesN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MinoriesN15Audio();" );
+  }
+}
+function MinoriesN15Audio(){
+  MinoriesAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "TowerofLondonN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MansellStreetN15(){
+  getRidOfDestination()
+  MansellStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MansellStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MansellStreetN15Audio();" );
+  }
+}
+function MansellStreetN15Audio(){
+  MansellStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "GreatTowerStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AldgateEastStationN15();" );
+  }
+}
+function TowerofLondonN15(){
+  getRidOfDestination()
+  TowerofLondon()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "TowerofLondonN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "TowerofLondonN15Audio();" );
+  }
+}
+function TowerofLondonN15Audio(){
+  TowerofLondonAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "GreatTowerStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MansellStreetN15();" );
+  }
+}
+function GreatTowerStreetN15(){
+  getRidOfDestination()
+  GreatTowerStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "GreatTowerStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "GreatTowerStreetN15Audio();" );
+  }
+}
+function GreatTowerStreetN15Audio(){
+  GreatTowerStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MonumentStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "TowerofLondonN15();" );
+  }
+}
+function MonumentStationN15(){
+  getRidOfDestination()
+  MonumentStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MonumentStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MonumentStationN15Audio();" );
+  }
+}
+function MonumentStationN15Audio(){
+  MonumentStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CannonStreetStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "GreatTowerStreetN15();" );
+  }
+}
+function CannonStreetStationN15(){
+  getRidOfDestination()
+  CannonStreetStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CannonStreetStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CannonStreetStationN15Audio();" );
+  }
+}
+function CannonStreetStationN15Audio(){
+  CannonStreetStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StPaulsChurchyardN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MonumentStationN15();" );
+  }
+}
+function StPaulsChurchyardN15(){
+  getRidOfDestination()
+  StPaulsChurchyard()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StPaulsChurchyardN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StPaulsChurchyardN15Audio();" );
+  }
+}
+function StPaulsChurchyardN15Audio(){
+  StPaulsChurchyardAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StPaulsCathedralN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MansionHouseStationN15(){
+  getRidOfDestination()
+  MansionHouseStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MansionHouseStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MansionHouseStationN15Audio();" );
+  }
+}
+function MansionHouseStationN15Audio(){
+  MansionHouseStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CityThameslinkStnLudgateCircusN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CannonStreetStationN15();" );
+  }
+}
+function StPaulsCathedralN15(){
+  getRidOfDestination()
+  StPaulsCathedral()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "StPaulsCathedralN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StPaulsCathedralN15Audio();" );
+  }
+}
+function StPaulsCathedralN15Audio(){
+  StPaulsCathedralAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CityThameslinkStnLudgateCircusN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MansionHouseStationN15();" );
+  }
+}
+function CityThameslinkStnLudgateCircusN15(){
+  getRidOfDestination()
+  CityThameslinkStnLudgateCircus()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CityThameslinkStnLudgateCircusN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CityThameslinkStnLudgateCircusN15Audio();" );
+  }
+}
+function CityThameslinkStnLudgateCircusN15Audio(){
+  CityThameslinkStnLudgateCircusAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ShoeLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ShoeLaneN15(){
+  getRidOfDestination()
+  ShoeLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ShoeLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ShoeLaneN15Audio();" );
+  }
+}
+function ShoeLaneN15Audio(){
+  ShoeLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "FetterLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LudgateHillOldBaileyN15(){
+  getRidOfDestination()
+  LudgateHillOldBailey()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LudgateHillOldBaileyN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LudgateHillOldBaileyN15Audio();" );
+  }
+}
+function LudgateHillOldBaileyN15Audio(){
+  LudgateHillOldBaileyAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LudgateCircusN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "StPaulsCathedralN15();" );
+  }
+}
+function LudgateCircusN15(){
+  getRidOfDestination()
+  LudgateCircus()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LudgateCircusN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LudgateCircusN15Audio();" );
+  }
+}
+function LudgateCircusN15Audio(){
+  LudgateCircusAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "LudgateCircusN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LudgateHillOldBaileyN15();" );
+  }
+}
+function FetterLaneN15(){
+  getRidOfDestination()
+  FetterLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "FetterLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "FetterLaneN15Audio();" );
+  }
+}
+function FetterLaneN15Audio(){
+  FetterLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ChanceryLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "LudgateCircusN15();" );
+  }
+}
+function ChanceryLaneN15(){
+  getRidOfDestination()
+  ChanceryLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "ChanceryLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "ChanceryLaneN15Audio();" );
+  }
+}
+function ChanceryLaneN15Audio(){
+  ChanceryLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJusticeN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function TheRoyalCourtsofJusticeN15(){
+  getRidOfDestination()
+  TheRoyalCourtsofJustice()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJusticeN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJusticeN15Audio();" );
+  }
+}
+function TheRoyalCourtsofJusticeN15Audio(){
+  TheRoyalCourtsofJusticeAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldwychAustraliaHouseN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "FetterLaneN15();" );
+  }
+}
+function AldwychAustraliaHouseN15(){
+  getRidOfDestination()
+  AldwychAustraliaHouse()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldwychAustraliaHouseN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AldwychAustraliaHouseN15Audio();" );
+  }
+}
+function AldwychAustraliaHouseN15Audio(){
+  AldwychAustraliaHouseAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldwychDruryLaneN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AldwychDruryLaneN15(){
+  getRidOfDestination()
+  AldwychDruryLane()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldwychDruryLaneN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AldwychDruryLaneN15Audio();" );
+  }
+}
+function AldwychDruryLaneN15Audio(){
+  AldwychDruryLaneAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "SavoyStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function SavoyStreetN15(){
+  getRidOfDestination()
+  SavoyStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "SavoyStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "SavoyStreetN15Audio();" );
+  }
+}
+function SavoyStreetN15Audio(){
+  SavoyStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BedfordStreetN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BedfordStreetN15(){
+  getRidOfDestination()
+  BedfordStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BedfordStreetN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BedfordStreetN15Audio();" );
+  }
+}
+function BedfordStreetN15Audio(){
+  BedfordStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CharingCrossStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function CharingCrossStationN15(){
+  getRidOfDestination()
+  CharingCrossStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CharingCrossStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CharingCrossStationN15Audio();" );
+  }
+}
+function CharingCrossStationN15Audio(){
+  CharingCrossStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "TrafalgarSquareN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AldwychN15(){
+  getRidOfDestination()
+  Aldwych()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "AldwychN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AldwychN15Audio();" );
+  }
+}
+function AldwychN15Audio(){
+  AldwychAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RegentStreetStJamessN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "TheRoyalCourtsofJusticeN15();" );
+  }
+}
+function SouthamptonStreetCoventGardenN15(){
+  getRidOfDestination()
+  SouthamptonStreetCoventGarden()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "SouthamptonStreetCoventGardenN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "SouthamptonStreetCoventGardenN15Audio();" );
+  }
+}
+function SouthamptonStreetCoventGardenN15Audio(){
+  SouthamptonStreetCoventGardenAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RegentStreetStJamessN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "AldwychN15();" );
+  }
+}
+function CharingCrossStnTrafalgarSquareN15(){
+  getRidOfDestination()
+  CharingCrossStnTrafalgarSquare()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "CharingCrossStnTrafalgarSquareN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CharingCrossStnTrafalgarSquareN15Audio();" );
+  }
+}
+function CharingCrossStnTrafalgarSquareN15Audio(){
+  CharingCrossStnTrafalgarSquareAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RegentStreetStJamessN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "SouthamptonStreetCoventGardenN15();" );
+  }
+}
+function TrafalgarSquareN15(){
+  getRidOfDestination()
+  TrafalgarSquare()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "TrafalgarSquareN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "TrafalgarSquareN15Audio();" );
+  }
+}
+function TrafalgarSquareN15Audio(){
+  TrafalgarSquareAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RegentStreetStJamessN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "CharingCrossStnTrafalgarSquareN15();" );
+  }
+}
+function RegentStreetStJamessN15(){
+  getRidOfDestination()
+  RegentStreetStJamess()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "RegentStreetStJamessN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "RegentStreetStJamessN15Audio();" );
+  }
+}
+function RegentStreetStJamessN15Audio(){
+  RegentStreetStJamessAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PiccadillyCircusN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HaymarketJermynStreetN15(){
+  getRidOfDestination()
+  HaymarketJermynStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PiccadillyCircusN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HaymarketJermynStreetN15Audio();" );
+  }
+}
+function HaymarketJermynStreetN15Audio(){
+  HaymarketJermynStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BeakStreetHamleysToyStoreN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "TrafalgarSquareN15();" );
+  }
+}
+function PiccadillyCircusN15(){
+  getRidOfDestination()
+  PiccadillyCircus()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "PiccadillyCircusN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PiccadillyCircusN15Audio();" );
+  }
+}
+function PiccadillyCircusN15Audio(){
+  PiccadillyCircusAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BeakStreetHamleysToyStoreN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "HaymarketJermynStreetN15();" );
+  }
+}
+function BeakStreetHamleysToyStoreN15(){
+  getRidOfDestination()
+  BeakStreetHamleysToyStore()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BeakStreetHamleysToyStoreN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BeakStreetHamleysToyStoreN15Audio();" );
+  }
+}
+function BeakStreetHamleysToyStoreN15Audio(){
+  BeakStreetHamleysToyStoreAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "OxfordCircusStationN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "PiccadillyCircusN15();" );
+  }
+}
+function OxfordCircusStationN15(){
+  getRidOfDestination()
+  OxfordCircusStation()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "OxfordCircusStationN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "OxfordCircusStationN15Audio();" );
+  }
+}
+function OxfordCircusStationN15Audio(){
+  OxfordCircusStationAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MargaretStreetOxfordCircusN15();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "BeakStreetHamleysToyStoreN15();" );
+  }
+}
+function MargaretStreetOxfordCircusN15(){
+  getRidOfDestination()
+  MargaretStreetOxfordCircus()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "MargaretStreetOxfordCircusN15Audio();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "MargaretStreetOxfordCircusN15Audio();" );
+  }
+}
+function MargaretStreetOxfordCircusN15Audio(){
+  MargaretStreetOxfordCircusAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function OxfordCircusStnMargaretStreetN15(){
+  getRidOfDestination()
+  OxfordCircusStnMargaretStreet()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "OxfordCircusStnMargaretStreetN15Audio();" );
+  }
+}
+function OxfordCircusStnMargaretStreetN15Audio(){
+  OxfordCircusStnMargaretStreetAudio()
+  if (routeDestination === "OxfordCircusN15"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "RomfordMarketN15") {
+    NextDestination.setAttribute( "onClick", "OxfordCircusStationN15();" );
   }
 }
