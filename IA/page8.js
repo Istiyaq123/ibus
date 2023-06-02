@@ -213,6 +213,12 @@ function RomfordMarketN15btn(){
   showDestination.setAttribute( "onClick", "RomfordMarketN15ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "N15 to Romford Market";
 }
+function MarbleArch30btn(){
+  routeDestination = "MarbleArch30";
+  HackneyWickTrowbridgeRoad30()
+  showDestination.setAttribute( "onClick", "MarbleArch30ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "30 to Marble Arch";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -1165,6 +1171,37 @@ function RomfordMarketN15ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_ROMFORD_MARKET_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function MarbleArch30ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "30 to Marble Arch";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/R_30_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/IBus%20Announcements/D_MARBLE_ARCH_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -17081,5 +17118,108 @@ function OxfordCircusStnMargaretStreetN15Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "RomfordMarketN15") {
     NextDestination.setAttribute( "onClick", "OxfordCircusStationN15();" );
+  }
+}
+
+function HackneyWickTrowbridgeRoad30(){
+  getRidOfDestination()
+  HackneyWickTrowbridgeRoad()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "HackneyWickTrowbridgeRoad30Audio();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "HackneyWickTrowbridgeRoad30Audio();" );
+  }
+}
+function HackneyWickTrowbridgeRoad30Audio(){
+  HackneyWickTrowbridgeRoadAudio()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "WickRoadKenworthyRoad30();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WickRoadKenworthyRoad30(){
+  getRidOfDestination()
+  WickRoadKenworthyRoad()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "WickRoadKenworthyRoad30Audio();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "WickRoadKenworthyRoad30Audio();" );
+  }
+}
+function WickRoadKenworthyRoad30Audio(){
+  WickRoadKenworthyRoadAudio()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "BarnabasRoad30();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BarnabasRoad30(){
+  getRidOfDestination()
+  BarnabasRoad()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "BarnabasRoad30Audio();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "BarnabasRoad30Audio();" );
+  }
+}
+function BarnabasRoad30Audio(){
+  BarnabasRoadAudio()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "KentonRoadWellStreet30();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function KentonRoadWellStreet30(){
+  getRidOfDestination()
+  KentonRoadWellStreet()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "KentonRoadWellStreet30Audio();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "KentonRoadWellStreet30Audio();" );
+  }
+}
+function KentonRoadWellStreet30Audio(){
+  KentonRoadWellStreetAudio()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "MorningLaneRetreatPlace30();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MorningLaneRetreatPlace30(){
+  getRidOfDestination()
+  MorningLaneRetreatPlace()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "MorningLaneRetreatPlace30Audio();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "MorningLaneRetreatPlace30Audio();" );
+  }
+}
+function MorningLaneRetreatPlace30Audio(){
+  MorningLaneRetreatPlaceAudio()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "PonsfordStreet30();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function PonsfordStreet30(){
+  getRidOfDestination()
+  PonsfordStreet()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "MorningLaneRetreatPlace30Audio();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "PonsfordStreet30Audio();" );
+  }
+}
+function PonsfordStreet30Audio(){
+  PonsfordStreetAudio()
+  if (routeDestination === "MarbleArch30"){
+    NextDestination.setAttribute( "onClick", "PonsfordStreet30();" );
+  } else if (routeDestination === "HackneyWick30") {
+    NextDestination.setAttribute( "onClick", "();" );
   }
 }
