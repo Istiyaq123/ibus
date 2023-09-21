@@ -17995,7 +17995,7 @@ function StBarnabasChurch147Audio(){
     NextDestination.setAttribute( "onClick", "BrowningRoad147();" );
   }
 }
-function SheridanRoadh147(){
+function SheridanRoad147(){
   getRidOfDestination()
   SheridanRoad()
   if (routeDestination === "Ilford147"){
