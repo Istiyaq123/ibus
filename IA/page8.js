@@ -18228,7 +18228,7 @@ function HainaultStreet147(){
 function HainaultStreet147Audio(){
   HainaultStreetAudio()
   if (routeDestination === "Ilford147"){
-    NextDestination.setAttribute( "onClick", "HainaultStreet147();" );
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "CanningTown147") {
     NextDestination.setAttribute( "onClick", "RedbridgeCentralLibrary147();" );
   }
