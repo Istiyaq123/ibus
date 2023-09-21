@@ -17596,7 +17596,7 @@ function NewhamLeisureCentre147(){
     NextDestination.setAttribute( "onClick", "NewhamLeisureCentre147Audio();" );
   }
 }
-function BennettRoad147Audio(){
+function NewhamLeisureCentre147Audio(){
   NewhamLeisureCentreAudio()
   if (routeDestination === "Ilford147"){
     NextDestination.setAttribute( "onClick", "NewhamUniversityHospNewVicCollege147();" );
@@ -17939,7 +17939,7 @@ function EastHamStation147(){
 function EastHamStation147Audio(){
   EastHamStationAudio()
   if (routeDestination === "Ilford147"){
-    NextDestination.setAttribute( "onClick", "HighStreetNorth147();" );
+    NextDestination.setAttribute( "onClick", "HighStreetNorthtwo147();" );
   } else if (routeDestination === "CanningTown147") {
     NextDestination.setAttribute( "onClick", "BendishRoad147();" );
   }
