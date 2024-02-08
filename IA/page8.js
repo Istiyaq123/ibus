@@ -18735,7 +18735,7 @@ function CommercialWayP12Audio(){
 }
 function CarolineGardensP12(){
   getRidOfDestination()
-  CarolineGardensy()
+  CarolineGardens()
   if (routeDestination === "BrockleyRiseP12"){
     NextDestination.setAttribute( "onClick", "CarolineGardensP12Audio();" );
   } else if (routeDestination === "SurreyQuaysP12") {
