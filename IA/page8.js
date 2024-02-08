@@ -232,7 +232,7 @@ function Ilford147btn(){
   newIbusdisplayRouteDesibus.innerHTML = "147 to Ilford, Hainault Street";
 }
 function SurreyQuaysP12btn(){
-  routeDestination = "SurreySuaysP12";
+  routeDestination = "SurreyQuaysP12";
   BrockleyRiseChandosP12()
   showDestination.setAttribute( "onClick", "SurreyQuaysP12ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "P12 to Surrey Quays";
