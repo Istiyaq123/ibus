@@ -231,6 +231,18 @@ function Ilford147btn(){
   showDestination.setAttribute( "onClick", "Ilford147ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "147 to Ilford, Hainault Street";
 }
+function SurreyQuaysP12btn(){
+  routeDestination = "SurreySuaysP12";
+  BrockleyRiseChandosP12()
+  showDestination.setAttribute( "onClick", "SurreyQuaysP12ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "P12 to Surrey Quays";
+}
+function BrockleyRiseP12btn(){
+  routeDestination = "BrockleyRiseP12";
+  SurreyQuaysShoppingCentreP12()
+  showDestination.setAttribute( "onClick", "BrockleyRiseP12ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "P12 to Brockley Rise";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -1276,6 +1288,68 @@ function Ilford147ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/D_Ilford_Hainault_Street_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function BrockleyRiseP12ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "P12 to Brockley Rise";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/R_P12_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/D_Brockley_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function SurreyQuaysP12ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "P12 to Brockley Rise";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/R_P12_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/D_Brockley_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -18231,5 +18305,1026 @@ function HainaultStreet147Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "CanningTown147") {
     NextDestination.setAttribute( "onClick", "RedbridgeCentralLibrary147();" );
+  }
+}
+
+function SurreyQuaysShoppingCentreP12(){
+  getRidOfDestination()
+  SurreyQuaysShoppingCentre()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SurreyQuaysShoppingCentreP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SurreyQuaysShoppingCentreP12Audio();" );
+  }
+}
+function SurreyQuaysShoppingCentreP12Audio(){
+  SurreyQuaysShoppingCentreAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SurreyQuaysLeisureParkP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function SurreyQuaysLeisureParkP12(){
+  getRidOfDestination()
+  SurreyQuaysLeisurePark()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SurreyQuaysLeisureParkP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SurreyQuaysLeisureParkP12Audio();" );
+  }
+}
+function SurreyQuaysLeisureParkP12Audio(){
+  SurreyQuaysLeisureParkAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CanadaStreetP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "Canada StreetP12();" );
+  }
+}
+function CanadaStreetP12(){
+  getRidOfDestination()
+  CanadaStreet()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CanadaStreetP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaStreetP12Audio();" );
+  }
+}
+function CanadaStreetP12Audio(){
+  CanadaStreetAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function RotherhithePoliceStationP12(){
+  getRidOfDestination()
+  RotherhithePoliceStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "RotherhithePoliceStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "RotherhithePoliceStationP12Audio();" );
+  }
+}
+function RotherhithePoliceStationP12Audio(){
+  RotherhithePoliceStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SurreyQuaysShoppingCentreP12();" );
+  }
+}
+function CanadaWaterBusStationP12(){
+  getRidOfDestination()
+  CanadaWaterBusStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12Audio();" );
+  }
+}
+function CanadaWaterBusStationP12Audio(){
+  CanadaWaterBusStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NeptuneStreetStOlavesEstateP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "RotherhithePoliceStationP12();" );
+  }
+}
+function SurreyQuaysRoadP12(){
+  getRidOfDestination()
+  SurreyQuaysRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SurreyQuaysRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SurreyQuaysRoadP12Audio();" );
+  }
+}
+function SurreyQuaysRoadP12Audio(){
+  SurreyQuaysRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function NeptuneStreetStOlavesEstateP12(){
+  getRidOfDestination()
+  NeptuneStreetStOlavesEstate()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NeptuneStreetStOlavesEstateP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NeptuneStreetStOlavesEstateP12Audio();" );
+  }
+}
+function NeptuneStreetStOlavesEstateP12Audio(){
+  NeptuneStreetStOlavesEstateAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SouthwarkParkP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SurreyQuaysRoadP12();" );
+  }
+}
+function SouthwarkParkP12(){
+  getRidOfDestination()
+  SouthwarkPark()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SouthwarkParkP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SouthwarkParkP12Audio();" );
+  }
+}
+function SouthwarkParkP12Audio(){
+  SouthwarkParkAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "KirbyEstateP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NeptuneStreetStOlavesEstateP12();" );
+  }
+}
+function KirbyEstateP12(){
+  getRidOfDestination()
+  KirbyEstate()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "KirbyEstateP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "KirbyEstateP12Audio();" );
+  }
+}
+function KirbyEstateP12Audio(){
+  KirbyEstateAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "GatakerStreetP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SouthwarkParkP12();" );
+  }
+}
+function GatakerStreetP12(){
+  getRidOfDestination()
+  GatakerStreet()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "GatakerStreetP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "GatakerStreetP12Audio();" );
+  }
+}
+function GatakerStreetP12Audio(){
+  GatakerStreetAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "StalhamStreetP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function StalhamStreetP12(){
+  getRidOfDestination()
+  StalhamStreet()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "StalhamStreetP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "StalhamStreetP12Audio();" );
+  }
+}
+function StalhamStreetP12Audio(){
+  StalhamStreetAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "RaymouthRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "KirbyEstateP12();" );
+  }
+}
+function RaymouthRoadP12(){
+  getRidOfDestination()
+  RaymouthRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "RaymouthRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "RaymouthRoadP12Audio();" );
+  }
+}
+function RaymouthRoadP12Audio(){
+  RaymouthRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SouthwarkParkRoadStJamessRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "StalhamStreetP12();" );
+  }
+}
+function SouthwarkParkRoadStJamessRoadP12(){
+  getRidOfDestination()
+  SouthwarkParkRoadStJamessRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SouthwarkParkRoadStJamessRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SouthwarkParkRoadStJamessRoadP12Audio();" );
+  }
+}
+function SouthwarkParkRoadStJamessRoadP12Audio(){
+  SouthwarkParkRoadStJamessRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "EsmeraldaRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function AnchorStreetP12(){
+  getRidOfDestination()
+  AnchorStreet()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "AnchorStreetP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "AnchorStreetP12Audio();" );
+  }
+}
+function AnchorStreetP12Audio(){
+  AnchorStreetAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "RaymouthRoadP12();" );
+  }
+}
+function StJamessRoadSouthwarkParkRoadP12(){
+  getRidOfDestination()
+  StJamessRoadSouthwarkParkRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "StJamessRoadSouthwarkParkRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "StJamessRoadSouthwarkParkRoadP12Audio();" );
+  }
+}
+function StJamessRoadSouthwarkParkRoadP12Audio(){
+  StJamessRoadSouthwarkParkRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "AnchorStreetP12();" );
+  }
+}
+function EsmeraldaRoadP12(){
+  getRidOfDestination()
+  EsmeraldaRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "EsmeraldaRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "EsmeraldaRoadP12Audio();" );
+  }
+}
+function EsmeraldaRoadP12Audio(){
+  EsmeraldaRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CatlinStreetP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "StJamessRoadSouthwarkParkRoadP12();" );
+  }
+}
+function CatlinStreetP12(){
+  getRidOfDestination()
+  CatlinStreet()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CatlinStreetP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CatlinStreetP12Audio();" );
+  }
+}
+function CatlinStreetP12Audio(){
+  CatlinStreetAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SheppardDriveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "EsmeraldaRoadP12();" );
+  }
+}
+function SheppardDriveP12(){
+  getRidOfDestination()
+  SheppardDrive()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SheppardDriveP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SheppardDriveP12Audio();" );
+  }
+}
+function SheppardDriveP12Audio(){
+  SheppardDriveAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SouthBermondseyStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CatlinStreetP12();" );
+  }
+}
+function SouthBermondseyStationP12(){
+  getRidOfDestination()
+  SouthBermondseyStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "SouthBermondseyStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SouthBermondseyStationP12Audio();" );
+  }
+}
+function SouthBermondseyStationP12Audio(){
+  SouthBermondseyStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "MillwallFootballGroundP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SheppardDriveP12();" );
+  }
+}
+function MillwallFootballGroundP12(){
+  getRidOfDestination()
+  MillwallFootballGround()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "MillwallFootballGroundP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "MillwallFootballGroundP12Audio();" );
+  }
+}
+function MillwallFootballGroundP12Audio(){
+  MillwallFootballGroundAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "ManorGroveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "SouthBermondseyStationP12();" );
+  }
+}
+function PenarthStreetP12(){
+  getRidOfDestination()
+  PenarthStreet()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PenarthStreetP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PenarthStreetP12Audio();" );
+  }
+}
+function PenarthStreetP12Audio(){
+  PenarthStreetAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "WagnerStreetP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "MillwallFootballGroundP12();" );
+  }
+}
+function ManorGroveP12(){
+  getRidOfDestination()
+  ManorGrove()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "ManorGroveP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "ManorGroveP12Audio();" );
+  }
+}
+function ManorGroveP12Audio(){
+  ManorGroveAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "WagnerStreetP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PenarthStreetP12();" );
+  }
+}
+function WagnerStreetP12(){
+  getRidOfDestination()
+  WagnerStreet()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "WagnerStreetP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "WagnerStreetP12Audio();" );
+  }
+}
+function WagnerStreetP12Audio(){
+  WagnerStreetAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "OldKentRoadIldertonRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function OldKentRoadIldertonRoadP12(){
+  getRidOfDestination()
+  OldKentRoadIldertonRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "OldKentRoadIldertonRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "OldKentRoadIldertonRoadP12Audio();" );
+  }
+}
+function OldKentRoadIldertonRoadP12Audio(){
+  OldKentRoadIldertonRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CommercialWayP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "ManorGroveP12();" );
+  }
+}
+function CommercialWayP12(){
+  getRidOfDestination()
+  CommercialWay()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CommercialWayP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CommercialWayP12Audio();" );
+  }
+}
+function CommercialWayP12Audio(){
+  CommercialWayAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CarolineGardensP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function CarolineGardensP12(){
+  getRidOfDestination()
+  CarolineGardensy()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CarolineGardensP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CarolineGardensP12Audio();" );
+  }
+}
+function CarolineGardensP12Audio(){
+  CarolineGardensAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CliftonWayP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "OldKentRoadIldertonRoadP12();" );
+  }
+}
+function CliftonWayP12(){
+  getRidOfDestination()
+  CliftonWay()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CliftonWayP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CliftonWayP12Audio();" );
+  }
+}
+function CliftonWayP12Audio(){
+  CliftonWayAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "QueensRoadPeckhamStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CarolineGardensP12();" );
+  }
+}
+function QueensRoadPeckhamStationP12(){
+  getRidOfDestination()
+  QueensRoadPeckhamStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "QueensRoadPeckhamStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "QueensRoadPeckhamStationP12Audio();" );
+  }
+}
+function QueensRoadPeckhamStationP12Audio(){
+  QueensRoadPeckhamStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CarltonGroveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CliftonWayP12();" );
+  }
+}
+function CarltonGroveP12(){
+  getRidOfDestination()
+  CarltonGrove()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CarltonGroveP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CarltonGroveP12Audio();" );
+  }
+}
+function CarltonGroveP12Audio(){
+  CarltonGroveAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "ClaytonRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "QueensRoadPeckhamStationP12();" );
+  }
+}
+function ClaytonRoadP12(){
+  getRidOfDestination()
+  ClaytonRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "ClaytonRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "ClaytonRoadP12Audio();" );
+  }
+}
+function ClaytonRoadP12Audio(){
+  ClaytonRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "TheAyleshamCentreP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function PeckhamPostOfficeP12(){
+  getRidOfDestination()
+  PeckhamPostOffice()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamPostOfficeP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamPostOfficeP12Audio();" );
+  }
+}
+function PeckhamPostOfficeP12Audio(){
+  PeckhamPostOfficeAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CarltonGroveP12();" );
+  }
+}
+function PeckhamBusStationP12(){
+  getRidOfDestination()
+  PeckhamBusStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamBusStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamBusStationP12Audio();" );
+  }
+}
+function PeckhamBusStationP12Audio(){
+  PeckhamBusStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamPostOfficeP12();" );
+  }
+}
+function TheAyleshamCentreP12(){
+  getRidOfDestination()
+  TheAyleshamCentre()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "TheAyleshamCentreP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "TheAyleshamCentreP12Audio();" );
+  }
+}
+function TheAyleshamCentreP12Audio(){
+  TheAyleshamCentreAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamBusStationP12();" );
+  }
+}
+function PeckhamRyeStationP12(){
+  getRidOfDestination()
+  PeckhamRyeStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamRyeStationP12Audio();" );
+  }
+}
+function PeckhamRyeStationP12Audio(){
+  PeckhamRyeStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NigelRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "TheAyleshamCentreP12();" );
+  }
+}
+function HeatonRoadP12(){
+  getRidOfDestination()
+  HeatonRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NigelRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HeatonRoadP12Audio();" );
+  }
+}
+function HeatonRoadP12Audio(){
+  HeatonRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeNunheadLaneP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamRyeStationP12();" );
+  }
+}
+function NigelRoadP12(){
+  getRidOfDestination()
+  NigelRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NigelRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NigelRoadP12Audio();" );
+  }
+}
+function NigelRoadP12Audio(){
+  NigelRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeNunheadLaneP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HeatonRoadP12();" );
+  }
+}
+function PeckhamRyeNunheadLaneP12(){
+  getRidOfDestination()
+  PeckhamRyeNunheadLane()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeNunheadLaneP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamRyeNunheadLaneP12Audio();" );
+  }
+}
+function PeckhamRyeNunheadLaneP12Audio(){
+  PeckhamRyeNunheadLaneAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CardenRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function PeckhamRyeEastDulwichRoadP12(){
+  getRidOfDestination()
+  PeckhamRyeEastDulwichRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamRyeEastDulwichRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamRyeEastDulwichRoadP12Audio();" );
+  }
+}
+function PeckhamRyeEastDulwichRoadP12Audio(){
+  PeckhamRyeEastDulwichRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "LindenGroveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NigelRoadP12();" );
+  }
+}
+function CardenRoadP12(){
+  getRidOfDestination()
+  CardenRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CardenRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CardenRoadP12Audio();" );
+  }
+}
+function CardenRoadP12Audio(){
+  CardenRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "LindenGroveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamRyeEastDulwichRoadP12();" );
+  }
+}
+function LindenGroveP12(){
+  getRidOfDestination()
+  LindenGrove()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "LindenGroveP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "LindenGroveP12Audio();" );
+  }
+}
+function LindenGroveP12Audio(){
+  LindenGroveAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BarsetRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function NunheadGreenP12(){
+  getRidOfDestination()
+  NunheadGreen()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BarsetRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NunheadGreenP12Audio();" );
+  }
+}
+function NunheadGreenP12Audio(){
+  NunheadGreenAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "KimberleyAvenueP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CardenRoadP12();" );
+  }
+}
+function BarsetRoadP12(){
+  getRidOfDestination()
+  BarsetRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BarsetRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BarsetRoadP12Audio();" );
+  }
+}
+function BarsetRoadP12Audio(){
+  BarsetRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "KimberleyAvenueP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NunheadGreenP12();" );
+  }
+}
+function KimberleyAvenueP12(){
+  getRidOfDestination()
+  KimberleyAvenue()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "KimberleyAvenueP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "KimberleyAvenueP12Audio();" );
+  }
+}
+function KimberleyAvenueP12Audio(){
+  KimberleyAvenueAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NunheadStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function HollydaleRoadP12(){
+  getRidOfDestination()
+  HollydaleRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "StMarysRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HollydaleRoadP12Audio();" );
+  }
+}
+function HollydaleRoadP12Audio(){
+  HollydaleRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "IvydaleRoadLindenGroveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BarsetRoadP12();" );
+  }
+}
+function StMarysRoadP12(){
+  getRidOfDestination()
+  StMarysRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "StMarysRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "StMarysRoadP12Audio();" );
+  }
+}
+function StMarysRoadP12Audio(){
+  StMarysRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "IvydaleRoadLindenGroveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HollydaleRoadP12();" );
+  }
+}
+function NunheadStationP12(){
+  getRidOfDestination()
+  NunheadStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NunheadStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NunheadStationP12Audio();" );
+  }
+}
+function NunheadStationP12Audio(){
+  NunheadStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "IvydaleRoadLindenGroveP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "StMarysRoadP12();" );
+  }
+}
+function IvydaleRoadLindenGroveP12(){
+  getRidOfDestination()
+  IvydaleRoadLindenGrove()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "IvydaleRoadLindenGroveP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "IvydaleRoadLindenGroveP12Audio();" );
+  }
+}
+function IvydaleRoadLindenGroveP12Audio(){
+  IvydaleRoadLindenGroveAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamseventhDayAdventistChurchP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NunheadStationP12();" );
+  }
+}
+function PeckhamseventhDayAdventistChurchP12(){
+  getRidOfDestination()
+  PeckhamseventhDayAdventistChurch()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "PeckhamseventhDayAdventistChurchP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamseventhDayAdventistChurchP12Audio();" );
+  }
+}
+function PeckhamseventhDayAdventistChurchP12Audio(){
+  PeckhamseventhDayAdventistChurchAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "LimesfordRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "IvydaleRoadLindenGroveP12();" );
+  }
+}
+function LimesfordRoadP12(){
+  getRidOfDestination()
+  LimesfordRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "LimesfordRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "LimesfordRoadP12Audio();" );
+  }
+}
+function LimesfordRoadP12Audio(){
+  LimesfordRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BellwoodRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "PeckhamseventhDayAdventistChurchP12();" );
+  }
+}
+function BellwoodRoadP12(){
+  getRidOfDestination()
+  BellwoodRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BellwoodRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BellwoodRoadP12Audio();" );
+  }
+}
+function BellwoodRoadP12Audio(){
+  BellwoodRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "MerttinsRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "LimesfordRoadP12();" );
+  }
+}
+function MerttinsRoadP12(){
+  getRidOfDestination()
+  MerttinsRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "MerttinsRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "MerttinsRoadP12Audio();" );
+  }
+}
+function MerttinsRoadP12Audio(){
+  MerttinsRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BrockleyWayP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CanadaWaterBusStationP12();" );
+  }
+}
+function InvertonRoadP12(){
+  getRidOfDestination()
+  InvertonRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "InvertonRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "InvertonRoadP12Audio();" );
+  }
+}
+function InvertonRoadP12Audio(){
+  InvertonRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BellwoodRoadP12();" );
+  }
+}
+function BrockleyWayP12(){
+  getRidOfDestination()
+  BrockleyWay()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BrockleyWayP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BrockleyWayP12Audio();" );
+  }
+}
+function BrockleyWayP12Audio(){
+  BrockleyWayAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CamberwellNewCemeteryP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "InvertonRoadP12();" );
+  }
+}
+function CamberwellNewCemeteryP12(){
+  getRidOfDestination()
+  CamberwellNewCemetery()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "CamberwellNewCemeteryP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CamberwellNewCemeteryP12Audio();" );
+  }
+}
+function CamberwellNewCemeteryP12Audio(){
+  CamberwellNewCemeteryAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BuckstoneCloseP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BrockleyWayP12();" );
+  }
+}
+function BuckstoneCloseP12(){
+  getRidOfDestination()
+  BuckstoneClose()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BuckstoneCloseP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BuckstoneCloseP12Audio();" );
+  }
+}
+function BuckstoneCloseP12Audio(){
+  BuckstoneCloseAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NetherbyRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "CamberwellNewCemeteryP12();" );
+  }
+}
+function NetherbyRoadP12(){
+  getRidOfDestination()
+  NetherbyRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "NetherbyRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NetherbyRoadP12Audio();" );
+  }
+}
+function NetherbyRoadP12Audio(){
+  NetherbyRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "HengraveRoadP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BuckstoneCloseP12();" );
+  }
+}
+function HengraveRoadP12(){
+  getRidOfDestination()
+  HengraveRoad()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "HengraveRoadP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HengraveRoadP12Audio();" );
+  }
+}
+function HengraveRoadP12Audio(){
+  HengraveRoadAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "HonorOakParkStationP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "NetherbyRoadP12();" );
+  }
+}
+function HonorOakParkStationP12(){
+  getRidOfDestination()
+  HonorOakParkStation()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "HonorOakParkStationP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HonorOakParkStationP12Audio();" );
+  }
+}
+function HonorOakParkStationP12Audio(){
+  HonorOakParkStationAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BrockleyRiseChandosP12();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HengraveRoadP12();" );
+  }
+}
+function BrockleyRiseP12(){
+  getRidOfDestination()
+  BrockleyRise()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BrockleyRiseP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BrockleyRiseP12Audio();" );
+  }
+}
+function BrockleyRiseP12Audio(){
+  BrockleyRiseAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "HonorOakParkStationP12();" );
+  }
+}
+function BrockleyRiseChandosP12(){
+  getRidOfDestination()
+  BrockleyRiseChandos()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BrockleyRiseChandosP12Audio();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BrockleyRiseChandosP12Audio();" );
+  }
+}
+function BrockleyRiseChandosP12Audio(){
+  BrockleyRiseChandosAudio()
+  if (routeDestination === "BrockleyRiseP12"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "SurreyQuaysP12") {
+    NextDestination.setAttribute( "onClick", "BrockleyRiseP12();" );
   }
 }
