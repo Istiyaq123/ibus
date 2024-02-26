@@ -19430,7 +19430,7 @@ function BrooksbysWalkHomertonStation242(){
   }
 }
 function BrooksbysWalkHomertonStation242Audio(){
-  BrooksbysWalkHomertonStationtAudio()
+  BrooksbysWalkHomertonStationAudio()
   if (routeDestination === "Aldgate242"){
     NextDestination.setAttribute( "onClick", "ChatsworthRoadClifdenRoad242();" );
   } else if (routeDestination === "HomertonHospital242") {
