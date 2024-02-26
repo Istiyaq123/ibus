@@ -243,6 +243,18 @@ function BrockleyRiseP12btn(){
   showDestination.setAttribute( "onClick", "BrockleyRiseP12ibus();" );
   newIbusdisplayRouteDesibus.innerHTML = "P12 to Brockley Rise";
 }
+function Aldgate242btn(){
+  routeDestination = "Aldgate242";
+  HomertonHospitalWardleStreet242()
+  showDestination.setAttribute( "onClick", "Aldgate242ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "242 to Aldgate";
+}
+function HomertonHospital242btn(){
+  routeDestination = "HomertonHospital242";
+  AldgateBusStation242()
+  showDestination.setAttribute( "onClick", "HomertonHospital242ibus();" );
+  newIbusdisplayRouteDesibus.innerHTML = "242 to Homerton Hospital";
+}
 
 function ClaphamCommon417ibus(){
   if (ibusView === "new"){
@@ -1350,6 +1362,68 @@ function SurreyQuaysP12ibus(){
         audio = 3;
         if (audio == 3){
           iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/D_Brockley_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function Aldgate242ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "242 to Aldgate";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/R_243_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/D_Aldgate_001.mp3";
+          iBusAudio.play();
+          iBusAudio.onended = function() {
+            iBusAudio.src="hhjff.mp3";
+            iBusAudio.play();
+          }
+        }
+      }
+    } 
+  };
+}
+function HomertonHospital242ibus(){
+  if (ibusView === "new"){
+    shownewibusdestination();
+    DestinationTextNewIbus();
+  }
+  topTextYes.style.display ="none";
+  topTextNo.style.display ="block";
+  marquee.style.display = "none";
+  topTextNo.innerHTML = "242 to Homerton Hospital";
+  var audio = 1;
+  iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/R_243_001.mp3";
+  iBusAudio.play();
+  iBusAudio.onended = function() {
+    audio = 2;
+    if (audio === 2){
+      iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/SA_To_001_V03.mp3";
+      iBusAudio.play();
+      iBusAudio.onended = function() {
+        audio = 3;
+        if (audio == 3){
+          iBusAudio.src="https://transportforlondon.sharepoint.com/sites/ic-68268-j1v9/Ibus/Audio%20announcements/Buses/IBus%20Announcements/D_HOMERTON_HOSPITAL_001.mp3";
           iBusAudio.play();
           iBusAudio.onended = function() {
             iBusAudio.src="hhjff.mp3";
@@ -19326,5 +19400,856 @@ function BrockleyRiseChandosP12Audio(){
     NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
   } else if (routeDestination === "SurreyQuaysP12") {
     NextDestination.setAttribute( "onClick", "BrockleyRiseP12();" );
+  }
+}
+
+function HomertonHospitalWardleStreet242(){
+  getRidOfDestination()
+  HomertonHospitalWardleStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HomertonHospitalWardleStreet242Audio();" );
+  }
+}
+function HomertonHospitalWardleStreet242Audio(){
+  HomertonHospitalWardleStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BrooksbysWalkHomertonStation242(){
+  getRidOfDestination()
+  BrooksbysWalkHomertonStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "BrooksbysWalkHomertonStation242Audio();" );
+  }
+}
+function BrooksbysWalkHomertonStation242Audio(){
+  BrooksbysWalkHomertonStationtAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoadClifdenRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ChatsworthRoadClifdenRoad242(){
+  getRidOfDestination()
+  ChatsworthRoadClifdenRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoadClifdenRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ChatsworthRoadClifdenRoad242Audio();" );
+  }
+}
+function ChatsworthRoadClifdenRoad242Audio(){
+  ChatsworthRoadClifdenRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "RedwaldRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HomertonHospital242(){
+  getRidOfDestination()
+  HomertonHospital()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "RedwaldRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HomertonHospital242Audio();" );
+  }
+}
+function HomertonHospital242Audio(){
+  HomertonHospitalAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MandevilleStreetGilpinRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  }
+}
+function BrooksbysWalk242(){
+  getRidOfDestination()
+  BrooksbysWalk()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "RedwaldRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "BrooksbysWalk242Audio();" );
+  }
+}
+function BrooksbysWalk242Audio(){
+  BrooksbysWalkAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MandevilleStreetGilpinRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HomertonHospital242();" );
+  }
+}
+function RedwaldRoad242(){
+  getRidOfDestination()
+  RedwaldRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "RedwaldRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "RedwaldRoad242Audio();" );
+  }
+}
+function RedwaldRoad242Audio(){
+  RedwaldRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MandevilleStreetGilpinRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "BrooksbysWalk242();" );
+  }
+}
+function MandevilleStreetGilpinRoad242(){
+  getRidOfDestination()
+  MandevilleStreetGilpinRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MandevilleStreetGilpinRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MandevilleStreetGilpinRoad242Audio();" );
+  }
+}
+function MandevilleStreetGilpinRoad242Audio(){
+  MandevilleStreetGilpinRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MandevilleCommunityPrimarySchool242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MandevilleCommunityPrimarySchool242(){
+  getRidOfDestination()
+  MandevilleCommunityPrimarySchool()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MandevilleCommunityPrimarySchool242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MandevilleCommunityPrimarySchool242Audio();" );
+  }
+}
+function MandevilleCommunityPrimarySchool242Audio(){
+  MandevilleCommunityPrimarySchoolAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MillfieldsRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MillfieldsRoad242(){
+  getRidOfDestination()
+  MillfieldsRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MillfieldsRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MillfieldsRoad242Audio();" );
+  }
+}
+function MillfieldsRoad242Audio(){
+  MillfieldsRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function DaubeneyRoad242(){
+  getRidOfDestination()
+  DaubeneyRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "DaubeneyRoad242Audio();" );
+  }
+}
+function DaubeneyRoad242Audio(){
+  DaubeneyRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MedianRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "RedwaldRoad242();" );
+  }
+}
+function MandevilleStreet242(){
+  getRidOfDestination()
+  MandevilleStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MandevilleStreet242Audio();" );
+  }
+}
+function MandevilleStreet242Audio(){
+  MandevilleStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MedianRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "DaubeneyRoad242();" );
+  }
+}
+function OswaldStreet242(){
+  getRidOfDestination()
+  OswaldStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "OswaldStreet242Audio();" );
+  }
+}
+function OswaldStreet242Audio(){
+  OswaldStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MedianRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MandevilleStreet242();" );
+  }
+}
+function MillfieldsRoadClaptonPark242(){
+  getRidOfDestination()
+  MillfieldsRoadClaptonPark()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MillfieldsRoadClaptonPark242Audio();" );
+  }
+}
+function MillfieldsRoadClaptonPark242Audio(){
+  MillfieldsRoadClaptonParkAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MedianRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "OswaldStreet242();" );
+  }
+}
+function ChatsworthRoad242(){
+  getRidOfDestination()
+  ChatsworthRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242Audio();" );
+  }
+}
+function ChatsworthRoad242Audio(){
+  ChatsworthRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MedianRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MillfieldsRoadClaptonPark242();" );
+  }
+}
+function MedianRoad242(){
+  getRidOfDestination()
+  MedianRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MedianRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MedianRoad242Audio();" );
+  }
+}
+function MedianRoad242Audio(){
+  MedianRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "LowerClaptonRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function LowerClaptonRoad242(){
+  getRidOfDestination()
+  LowerClaptonRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "LowerClaptonRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "LowerClaptonRoad242Audio();" );
+  }
+}
+function LowerClaptonRoad242Audio(){
+  LowerClaptonRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HackneyBaths242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function PowerscroftRoadLowerClaptonRoad242(){
+  getRidOfDestination()
+  PowerscroftRoadLowerClaptonRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "PowerscroftRoadLowerClaptonRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "PowerscroftRoadLowerClaptonRoad242Audio();" );
+  }
+}
+function PowerscroftRoadLowerClaptonRoad242Audio(){
+  PowerscroftRoadLowerClaptonRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ClaptonSquare242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ChatsworthRoad242();" );
+  }
+}
+function HackneyBaths242(){
+  getRidOfDestination()
+  HackneyBaths()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HackneyBaths242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HackneyBaths242Audio();" );
+  }
+}
+function HackneyBaths242Audio(){
+  HackneyBathsAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ClaptonSquare242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "PowerscroftRoadLowerClaptonRoad242();" );
+  }
+}
+function ClaptonSquare242(){
+  getRidOfDestination()
+  ClaptonSquare()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ClaptonSquare242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ClaptonSquare242Audio();" );
+  }
+}
+function ClaptonSquare242Audio(){
+  ClaptonSquareAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "PemburyCircus242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function PemburyCircus242(){
+  getRidOfDestination()
+  PemburyCircus()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "PemburyCircus242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "PemburyCircus242Audio();" );
+  }
+}
+function PemburyCircus242Audio(){
+  PemburyCircusAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function ClarenceRoadNarrowWay242(){
+  getRidOfDestination()
+  ClarenceRoadNarrowWay()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ClarenceRoadNarrowWay242Audio();" );
+  }
+}
+function ClarenceRoadNarrowWay242Audio(){
+  ClarenceRoadNarrowWayAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "GrahamRoadHackneyCentral242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HackneyBaths242();" );
+  }
+}
+function AmhurstRoadHackneyDownsStation242(){
+  getRidOfDestination()
+  AmhurstRoadHackneyDownsStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "AmhurstRoadHackneyDownsStation242Audio();" );
+  }
+}
+function AmhurstRoadHackneyDownsStation242Audio(){
+  AmhurstRoadHackneyDownsStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "GrahamRoadHackneyCentral242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ClarenceRoadNarrowWay242();" );
+  }
+}
+function HackneyCentralStation242(){
+  getRidOfDestination()
+  HackneyCentralStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation242Audio();" );
+  }
+}
+function HackneyCentralStation242Audio(){
+  HackneyCentralStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "GrahamRoadHackneyCentral242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "AmhurstRoadHackneyDownsStation242();" );
+  }
+}
+function GrahamRoadHackneyCentral242(){
+  getRidOfDestination()
+  GrahamRoadHackneyCentral()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "GrahamRoadHackneyCentral242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "GrahamRoadHackneyCentral242Audio();" );
+  }
+}
+function GrahamRoadHackneyCentral242Audio(){
+  GrahamRoadHackneyCentralAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "RoyalOakRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function HackneyCentralMareStreet242(){
+  getRidOfDestination()
+  HackneyCentralMareStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "RoyalOakRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HackneyCentralMareStreet242Audio();" );
+  }
+}
+function HackneyCentralMareStreet242Audio(){
+  HackneyCentralMareStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "GreenwoodRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HackneyCentralStation242();" );
+  }
+}
+function RoyalOakRoad242(){
+  getRidOfDestination()
+  RoyalOakRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "RoyalOakRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "RoyalOakRoad242Audio();" );
+  }
+}
+function RoyalOakRoad242Audio(){
+  RoyalOakRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "GreenwoodRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HackneyCentralMareStreet242();" );
+  }
+}
+function GreenwoodRoad242(){
+  getRidOfDestination()
+  GreenwoodRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "GreenwoodRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "GreenwoodRoad242Audio();" );
+  }
+}
+function GreenwoodRoad242Audio(){
+  GreenwoodRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "StannardRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "RoyalOakRoad242();" );
+  }
+}
+function StannardRoad242(){
+  getRidOfDestination()
+  StannardRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "StannardRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "StannardRoad242Audio();" );
+  }
+}
+function StannardRoad242Audio(){
+  StannardRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "DalstonJunctionStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "GreenwoodRoad242();" );
+  }
+}
+function DalstonLaneDalstonJunctionStn242(){
+  getRidOfDestination()
+  DalstonLaneDalstonJunctionStn()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "DalstonJunctionStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "DalstonLaneDalstonJunctionStn242Audio();" );
+  }
+}
+function DalstonLaneDalstonJunctionStn242Audio(){
+  DalstonLaneDalstonJunctionStnAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ForestRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "StannardRoad242();" );
+  }
+}
+function DalstonJunctionStation242(){
+  getRidOfDestination()
+  DalstonJunctionStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "DalstonJunctionStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "DalstonJunctionStation242Audio();" );
+  }
+}
+function DalstonJunctionStation242Audio(){
+  DalstonJunctionStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ForestRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "DalstonLaneDalstonJunctionStn242();" );
+  }
+}
+function ForestRoad242(){
+  getRidOfDestination()
+  ForestRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ForestRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ForestRoad242Audio();" );
+  }
+}
+function ForestRoad242Audio(){
+  ForestRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MiddletonRoad242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function MiddletonRoad242(){
+  getRidOfDestination()
+  MiddletonRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "MiddletonRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MiddletonRoad242Audio();" );
+  }
+}
+function MiddletonRoad242Audio(){
+  MiddletonRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HaggerstonStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "DalstonJunctionStation242();" );
+  }
+}
+function HaggerstonStation242(){
+  getRidOfDestination()
+  HaggerstonStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HaggerstonStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HaggerstonStation242Audio();" );
+  }
+}
+function HaggerstonStation242Audio(){
+  HaggerstonStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "LaburnumStreet242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "MiddletonRoad242();" );
+  }
+}
+function LaburnumStreet242(){
+  getRidOfDestination()
+  LaburnumStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "LaburnumStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "LaburnumStreet242Audio();" );
+  }
+}
+function LaburnumStreet242Audio(){
+  LaburnumStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "StLeonardsHospital242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HaggerstonStation242();" );
+  }
+}
+function StLeonardsHospital242(){
+  getRidOfDestination()
+  StLeonardsHospital()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "StLeonardsHospital242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "StLeonardsHospital242Audio();" );
+  }
+}
+function StLeonardsHospital242Audio(){
+  StLeonardsHospitalAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HoxtonStationMuseumoftheHome242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "LaburnumStreet242();" );
+  }
+}
+function PearsonStreet242(){
+  getRidOfDestination()
+  PearsonStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "PearsonStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "PearsonStreet242Audio();" );
+  }
+}
+function PearsonStreet242Audio(){
+  PearsonStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "FalkirkStreet242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "StLeonardsHospital242();" );
+  }
+}
+function HoxtonStationMuseumoftheHome242(){
+  getRidOfDestination()
+  HoxtonStationMuseumoftheHome()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "HoxtonStationMuseumoftheHome242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HoxtonStationMuseumoftheHome242Audio();" );
+  }
+}
+function HoxtonStationMuseumoftheHome242Audio(){
+  HoxtonStationMuseumoftheHomeAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "FalkirkStreet242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "PearsonStreet242();" );
+  }
+}
+function FalkirkStreet242(){
+  getRidOfDestination()
+  FalkirkStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "FalkirkStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "FalkirkStreet242Audio();" );
+  }
+}
+function FalkirkStreet242Audio(){
+  FalkirkStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ShoreditchChurch242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function WatersonStreet242(){
+  getRidOfDestination()
+  WatersonStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "WatersonStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "WatersonStreet242Audio();" );
+  }
+}
+function WatersonStreet242Audio(){
+  WatersonStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStreetStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "HoxtonStationMuseumoftheHome242();" );
+  }
+}
+function ShoreditchChurch242(){
+  getRidOfDestination()
+  ShoreditchChurch()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ShoreditchChurch242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ShoreditchChurch242Audio();" );
+  }
+}
+function ShoreditchChurch242Audio(){
+  ShoreditchChurchAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStreetStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "WatersonStreet242();" );
+  }
+}
+function ShoreditchHighStreetStation242(){
+  getRidOfDestination()
+  ShoreditchHighStreetStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStreetStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStreetStation242Audio();" );
+  }
+}
+function ShoreditchHighStreetStation242Audio(){
+  ShoreditchHighStreetStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ElderStreet242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ElderStreet242();" );
+  }
+}
+function ShoreditchHighStBethnalGreenRoad242(){
+  getRidOfDestination()
+  ShoreditchHighStBethnalGreenRoad()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStBethnalGreenRoad242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStBethnalGreenRoad242Audio();" );
+  }
+}
+function ShoreditchHighStBethnalGreenRoad242Audio(){
+  ShoreditchHighStBethnalGreenRoadAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "FolgateStreet242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ShoreditchChurch242();" );
+  }
+}
+function ElderStreet242(){
+  getRidOfDestination()
+  ElderStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "ElderStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ElderStreet242Audio();" );
+  }
+}
+function ElderStreet242Audio(){
+  ElderStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "FolgateStreet242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStBethnalGreenRoad242();" );
+  }
+}
+function FolgateStreet242(){
+  getRidOfDestination()
+  FolgateStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "FolgateStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "FolgateStreet242Audio();" );
+  }
+}
+function FolgateStreet242Audio(){
+  FolgateStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "BrushfieldStreet242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function BrushfieldStreet242(){
+  getRidOfDestination()
+  BrushfieldStreet()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "BrushfieldStreet242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "BrushfieldStreet242Audio();" );
+  }
+}
+function BrushfieldStreet242Audio(){
+  BrushfieldStreetAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "LolesworthClose242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "ShoreditchHighStreetStation242();" );
+  }
+}
+function LolesworthClose242(){
+  getRidOfDestination()
+  LolesworthClose()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "LolesworthClose242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "LolesworthClose242Audio();" );
+  }
+}
+function LolesworthClose242Audio(){
+  LolesworthCloseAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "BrushfieldStreet242();" );
+  }
+}
+function AldgateEastStation242(){
+  getRidOfDestination()
+  AldgateEastStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "AldgateEastStation242Audio();" );
+  }
+}
+function AldgateEastStation242Audio(){
+  AldgateEastStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStationtwo242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "LolesworthClose242();" );
+  }
+}
+function AldgateEastStationtwo242(){
+  getRidOfDestination()
+  AldgateEastStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "AldgateEastStationtwo242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "AldgateEastStationtwo242Audio();" );
+  }
+}
+function AldgateEastStationtwo242Audio(){
+  AldgateEastStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "AldgateStation242();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AldgateStation242(){
+  getRidOfDestination()
+  AldgateStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "AldgateStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "AldgateStation242Audio();" );
+  }
+}
+function AldgateStation242Audio(){
+  AldgateStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "();" );
+  }
+}
+function AldgateBusStation242(){
+  getRidOfDestination()
+  AldgateBusStation()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "AldgateBusStation242Audio();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "AldgateBusStation242Audio();" );
+  }
+}
+function AldgateBusStation242Audio(){
+  AldgateBusStationAudio()
+  if (routeDestination === "Aldgate242"){
+    NextDestination.setAttribute( "onClick", "BusTerminatesHere();" );
+  } else if (routeDestination === "HomertonHospital242") {
+    NextDestination.setAttribute( "onClick", "AldgateEastStation242();" );
   }
 }
