@@ -29186,7 +29186,7 @@ function DalstonLaneDalstonJunctionStnAudio(){
     iBusAudio.src=firstAudio+"Dalston_Lane_Dalston_Junction_Stn"+lastAudio;
     iBusAudio.play();
 }
-function DalstonLaneDalstonJunctionStn(){
+function HackneyCentralMareStreet(){
     if (ibusView === "old"){
         topTextYes.style.display ="none";
         topTextNo.style.display ="block";
